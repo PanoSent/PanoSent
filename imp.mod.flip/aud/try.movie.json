@@ -1,0 +1,1030 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            },
+            {
+                "id": 3,
+                "name": "Finn"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find the animation style in that new series to be vibrant. It adds so much life to the characters.",
+                "annotation": "I find the <aspect_01> animation style </aspect_01> in that new series to be <opinion_01> vibrant </opinion_01>. <rationale_01> It adds so much life to the characters </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I have to disagree; the backgrounds seemed a bit dull to me. They lacked the depth that would complement the characters.",
+                "annotation": "I have to disagree; the <aspect_02> backgrounds </aspect_02> seemed a bit <opinion_02> dull </opinion_02> to me. <rationale_02> They lacked the depth that would complement the characters </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, I read from a review that the animation team utilized new techniques for the backgrounds, trying to create a more immersive experience. They may appear less vibrant but serve a purpose.",
+                "annotation": "Actually, I read from a review that the <aspect_02> animation team </aspect_02> utilized <opinion_03> innovative techniques </opinion_03> for the <aspect_02> backgrounds </aspect_02>, trying to create a more immersive experience. <rationale_03> They may appear less vibrant but serve a purpose </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The animation team used innovative techniques for more immersive backgrounds.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I see your point now, Sophie. I suppose my initial view of the backgrounds was too critical, given that they were aiming for immersion.",
+                "annotation": "<rationale_04> I see your point now, Sophie </rationale_04>. I suppose my <opinion_04> initial view </opinion_04> of the <aspect_02> backgrounds </aspect_02> was too critical, given that they were aiming for immersion.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "animation style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It adds so much life to the characters",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "backgrounds",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "dull",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They lacked the depth that would complement the characters",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "backgrounds",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "innovative techniques",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They may appear less vibrant but serve a purpose",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "backgrounds",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "re-evaluated",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I see your point now, Sophie",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Leo",
+            "target": "animation",
+            "aspect": "backgrounds",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophie"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Isabella"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the authenticity of reality shows is questionable at best, especially how everything seems staged.",
+                "annotation": "I think the <aspect_01> authenticity </aspect_01> of <target_01> reality shows </target_01> is <opinion_01> questionable </opinion_01>, <rationale_01> especially how everything seems staged </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I actually find the drama fascinating. The way participants respond to challenges highlights their true nature.",
+                "annotation": "I actually find the <aspect_02> drama </aspect_02> <opinion_02> fascinating </opinion_02>. <rationale_02> The way participants respond to challenges highlights their true nature </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But the conflict often feels forced, like they're trying too hard to create tension.",
+                "annotation": "But the <aspect_03> conflict </aspect_03> often feels <opinion_03> forced </opinion_03>, <rationale_03> like they're trying too hard to create tension </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Reality shows can't seem to escape scripted moments.",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, I felt that way too at first, but I recently started enjoying the unfolding stories and finding them surprisingly engaging.",
+                "annotation": "True, I felt that way too at first, but I recently started <opinion_04> enjoying </opinion_04> the <aspect_02> unfolding stories </aspect_02> and finding them <opinion_05> surprisingly engaging </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "As for the editing, I think it's cleverly done, effectively emphasizing key moments that keep viewers hooked.",
+                "annotation": "As for the <aspect_04> editing </aspect_04>, I think it's <opinion_06> cleverly done </opinion_06>, <rationale_04> effectively emphasizing key moments that keep viewers hooked </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "A well-edited show can completely change the viewing experience.",
+                    "id": "aud_0003"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "authenticity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "questionable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially how everything seems staged",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "drama",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The way participants respond to challenges highlights their true nature",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "conflict",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "forced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "like they're trying too hard to create tension",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "unfolding stories",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enjoying",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I found them surprisingly engaging",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "editing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "cleverly done",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "effectively emphasizing key moments that keep viewers hooked",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Noah",
+                "target": "reality shows",
+                "aspect": "unfolding stories",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Mike"
+            },
+            {
+                "id": 2,
+                "name": "Laura"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I really enjoy the animation style of this movie. It's so vibrant and artistic!",
+                "annotation": "I really enjoy the <target_01> animation style </target_01> of this movie. It's <opinion_01> vibrant </opinion_01>, <rationale_01> and artistic! </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The animation is certainly unique, but it's also overly stylized for my taste, which makes it feel disconnected from reality.",
+                "annotation": "The <aspect_02> animation </aspect_02> is certainly unique, but it's <opinion_02> overly stylized </opinion_02> for my taste, <rationale_02> which makes it feel disconnected from reality. </rationale_02>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I think it distracts from the storytelling.",
+                    "id": "aud_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Mike, I get your point about the stylization. However, I believe that it adds a dimension to the storytelling that traditional animation might lack.",
+                "annotation": "Mike, I get your point about the <aspect_02> stylization </aspect_02>. However, I believe that it <opinion_03> adds a dimension </opinion_03> to the storytelling, <rationale_03> that traditional animation might lack. </rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Let's talk about the character designs as well. They are distinctive and memorable, which makes each character stand out.",
+                "annotation": "Let's talk about the <aspect_04> character designs </aspect_04> as well. They are <opinion_04> distinctive </opinion_04>, <rationale_04> which makes each character stand out. </rationale_04>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Reflecting on your views, I can see how the character designs are appealing, encouraging deeper engagement with the story.",
+                "annotation": "Reflecting on your views, I can see how the <aspect_04> character designs </aspect_04> are <opinion_05> appealing </opinion_05>, <rationale_05> encouraging deeper engagement with the story. </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "this movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "animation style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "and artistic!",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "this movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overly stylized",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which makes it feel disconnected from reality.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Laura",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "this movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "stylization",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "adds a dimension",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "that traditional animation might lack.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "this movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character designs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "distinctive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which makes each character stand out.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "this movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character designs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "encouraging deeper engagement with the story.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Mike",
+            "target": "this movie",
+            "aspect": "character designs",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lara"
+            },
+            {
+                "id": 1,
+                "name": "Nate"
+            },
+            {
+                "id": 2,
+                "name": "Sienna"
+            },
+            {
+                "id": 3,
+                "name": "Oscar"
+            },
+            {
+                "id": 4,
+                "name": "Jade"
+            },
+            {
+                "id": 5,
+                "name": "Ellie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The film festival this year has some incredible documentaries! They bring a deep sense of understanding about current issues.",
+                "annotation": "The <target_01> film festival </target_01> this year has some <opinion_01> incredible </opinion_01> <aspect_01> documentaries </aspect_01>! They bring a deep sense of understanding about current issues.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I found the selection quite diverse. However, some of those films felt overly dramatized, which might detract from their credibility.",
+                "annotation": "I found the <aspect_02> selection </aspect_02> quite <opinion_02> diverse </opinion_02>. However, some of those films felt overly dramatized, <rationale_02> which might detract from their credibility </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "But I do think some films are too dramatized.",
+                    "id": "aud_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's interesting, Nate. Still, I believe the drama enhances viewer engagement, making tough topics easier to digest.",
+                "annotation": "That's interesting, Nate. Still, I believe the <aspect_02> drama </aspect_02> <opinion_03> enhances </opinion_03> viewer engagement, <rationale_03> making tough topics easier to digest </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Exactly! Plus, their cinematography is often breathtaking. It adds a layer of art not found in typical documentaries.",
+                "annotation": "Exactly! Plus, their <aspect_03> cinematography </aspect_03> is often <opinion_04> breathtaking </opinion_04>. It adds a layer of art not found in typical documentaries.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "You can't deny the stunning visuals in those films!",
+                    "id": "aud_0006"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "After hearing you, I reconsidered my thoughts about the documentaries. They do deliver strong messages, appealing visually.",
+                "annotation": "After hearing you, I reconsidered my thoughts about the <target_01> documentaries </target_01>. They do deliver <opinion_05> strong </opinion_05> messages, <rationale_05> appealing visually </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "documentaries",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They bring a deep sense of understanding about current issues",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Nate",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "selection",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "diverse",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which might detract from their credibility",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sienna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "drama",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "enhances",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making tough topics easier to digest",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Oscar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it adds a layer of art not found in typical documentaries",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Nate",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentaries",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "messages",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "strong",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "appealing visually",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Nate",
+            "target": "documentaries",
+            "aspect": "messages",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the animation style of the new movie is vibrant and engaging, which really brings the characters to life.",
+                "annotation": "I think the <aspect_01> animation style </aspect_01> of the <target_01> new movie </target_01> is <opinion_01> vibrant </opinion_01> and engaging, <rationale_01> which really brings the characters to life </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The animation style is really bright and captures attention.",
+                    "id": "aud_0007"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I agree the animation is appealing, I find some character designs a bit too exaggerated, which can be distracting.",
+                "annotation": "While I agree the <aspect_01> animation </aspect_01> is appealing, I find some <aspect_02> character designs </aspect_02> a bit <opinion_02> too exaggerated </opinion_02>, <rationale_02> which can be distracting </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, I think the exaggerated designs are memorable! They create a unique identity for each character.",
+                "annotation": "Actually, I think the <aspect_02> exaggerated designs </aspect_02> are <opinion_03> memorable </opinion_03>! <rationale_03> They create a unique identity for each character </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I love how they stand out and are easily recognizable!",
+                    "id": "aud_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I was skeptical at first about the animation, but the color palette used in the backgrounds is fantastic and enhances the overall atmosphere.",
+                "annotation": "I was skeptical at first about the <target_01> animation </target_01>, but the <aspect_03> color palette </aspect_03> used in the backgrounds is <opinion_04> fantastic </opinion_04> and <rationale_04> enhances the overall atmosphere </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "animation style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "vibrant",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which really brings the characters to life",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "too exaggerated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can be distracting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new movie",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "exaggerated designs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "memorable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They create a unique identity for each character",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "color palette",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "enhances the overall atmosphere",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    }
+]

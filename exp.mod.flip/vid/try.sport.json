@@ -1,0 +1,675 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Lily"
+            },
+            {
+                "id": 2,
+                "name": "Nick"
+            },
+            {
+                "id": 3,
+                "name": "Tara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've always found tennis to be exhilarating; the speed of the game keeps me on my toes and requires quick reflexes.",
+                "annotation": "I've always found <aspect_01> tennis </aspect_01> to be <opinion_01> exhilarating </opinion_01>; <rationale_01> the speed of the game keeps me on my toes and requires quick reflexes </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A fast-paced tennis match showcasing intense rallies.",
+                    "id": "vid_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree with you, but I think the court size is quite intimidating for beginners as it can feel too vast and unmanageable.",
+                "annotation": "I agree with you, but I think the <aspect_02> court size </aspect_02> is <opinion_02> quite intimidating </opinion_02> for beginners <rationale_02> as it can feel too vast and unmanageable </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Yes, but once you get used to it, the spaciousness allows for better movement and strategy during a match.",
+                "annotation": "Yes, but once you get used to it, the <aspect_02> spaciousness </aspect_02> <opinion_03> allows for better movement and strategy </opinion_03> during a match <rationale_03> which can enhance your overall game experience </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I have to disagree; while the spaciousness can be beneficial, the dimensions can lead to less action-packed games.",
+                "annotation": "I have to disagree; while the spaciousness <aspect_02> can be beneficial </aspect_02>, I believe it <opinion_04> can lead to less action-packed games </opinion_04> <rationale_04> making it less thrilling to watch </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Actually, I used to think that tennis matches could be quite slow-paced due to the court size, but watching a few close games has really changed my perspective; the tension and rally intensity outweigh that factor.",
+                "annotation": "Actually, I used to think that <aspect_02> tennis matches </aspect_02> could be <opinion_05> quite slow-paced </opinion_05> due to the court size, but <rationale_06> watching a few close games has really changed my perspective </rationale_06>; <rationale_07> the tension and rally intensity outweigh that factor </rationale_07>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "the speed of the game keeps me on my toes and requires quick reflexes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "court size",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite intimidating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as it can feel too vast and unmanageable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nick",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "spaciousness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "allows for better movement and strategy",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which can enhance your overall game experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "spaciousness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "can lead to less action-packed games",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making it less thrilling to watch",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis matches",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "slow-paced",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "quite slow-paced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "watching a few close games has really changed my perspective",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis matches",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "tension and rally intensity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "outweigh that factor",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "the tension and rally intensity outweigh that factor",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sam",
+                "target": "tennis matches",
+                "aspect": "slow-paced",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alina"
+            },
+            {
+                "id": 1,
+                "name": "Chris"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The floor routine is incredibly dynamic. It captures the audience's attention from start to finish.",
+                "annotation": "The <target_01> floor routine </target_01> is <opinion_01> incredibly dynamic </opinion_01>. <rationale_01> It captures the audience's attention from start to finish </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "An impressive gymnastics floor routine showcasing dynamic movements.",
+                    "id": "vid_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I think the choreography sometimes feels excessive. It's great to be dynamic, but it can also be overwhelming.",
+                "annotation": "I think the <aspect_01> choreography </aspect_01> sometimes feels <opinion_02> excessive </opinion_02>. <rationale_02> It's great to be dynamic, but it can also be overwhelming </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I see Chris's point, the aesthetic value of the routine far outweighs any objections about excess. Each movement adds to the artistry.",
+                "annotation": "The <aspect_02> aesthetic value </aspect_02> of the routine <opinion_03> far outweighs </opinion_03> any objections about excess. <rationale_03> Each movement adds to the artistry </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I used to think that less is more when it comes to choreography, but I’m starting to appreciate the complexity it brings to the performance.",
+                "annotation": "I used to think that <aspect_01> less is more </aspect_01> when it comes to choreography, but <rationale_04> I’m starting to appreciate the complexity it brings to the performance </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "floor routine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "dynamic",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly dynamic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It captures the audience's attention from start to finish",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Chris",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "floor routine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "choreography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "excessive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's great to be dynamic, but it can also be overwhelming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "floor routine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "aesthetic value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "far outweighs",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Each movement adds to the artistry",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "floor routine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "less is more",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "less is more",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I’m starting to appreciate the complexity it brings to the performance",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alina",
+                "target": "floor routine",
+                "aspect": "choreography",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Leo"
+            },
+            {
+                "id": 1,
+                "name": "Maya"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Zara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The integration of VR technology in e-sports is revolutionary, providing players with an immersive experience that's virtually unparalleled.",
+                "annotation": "The <aspect_01> integration of VR technology </aspect_01> in <target_01> e-sports </target_01> is <opinion_01> revolutionary </opinion_01>, <rationale_01> providing players with an immersive experience that's virtually unparalleled </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Explaining VR integration in e-sports.",
+                    "id": "vid_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the cost of high-quality VR equipment seems excessive for the average gamer, making it less accessible.",
+                "annotation": "I agree, but the <aspect_02> cost of high-quality VR equipment </aspect_02> seems <opinion_02> excessive </opinion_02> for the <target_01> average gamer </target_01>, <rationale_02> making it less accessible </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's true. However, I believe that the overall experience can justify the price, especially for competitive players who want an edge.",
+                "annotation": "I believe that the <aspect_03> overall experience </aspect_03> can <opinion_03> justify </opinion_03> the <target_01> price </target_01>, <rationale_03> especially for competitive players who want an edge </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, I've seen some disappointing software that doesn't live up to VR's potential, which can make it a frustrating experience.",
+                "annotation": "Some <aspect_04> software </aspect_04> can be <opinion_04> disappointing </opinion_04>, <rationale_04> which can make it a frustrating experience </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "That's a valid point. Although I initially thought the software was generally good, I can't ignore the moments where it fell short and affected gameplay significantly.",
+                "annotation": "Although I initially thought the <aspect_05> software </aspect_05> was <opinion_05> generally good </opinion_05>, I can't ignore the <rationale_05> moments where it fell short and affected gameplay significantly </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "integration of VR technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "providing players with an immersive experience that's virtually unparalleled",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost of high-quality VR equipment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "excessive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it less accessible",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "overall experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "justify",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially for competitive players who want an edge",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Zara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "software",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which can make it a frustrating experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "software",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "generally good",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "moments where it fell short and affected gameplay significantly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "software",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "fell short",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "affected gameplay significantly",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Leo",
+                "target": "e-sports",
+                "aspect": "software",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    }
+]

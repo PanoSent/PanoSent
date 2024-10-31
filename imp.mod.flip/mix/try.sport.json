@@ -1,0 +1,2132 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Olivia"
+            },
+            {
+                "id": 1,
+                "name": "Ethan"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Emma"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently tried rock climbing outdoors, and the view from the top was breathtaking, making every effort worthwhile.",
+                "annotation": "I recently tried <target_01> rock climbing </target_01> outdoors, and the <aspect_01> view from the top </aspect_01> was <opinion_01> breathtaking </opinion_01>, <rationale_01> making every effort worthwhile </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's amazing! But isn't it exhausting? I find it really tiring to hold onto those grips.",
+                "annotation": "That's amazing! But isn't it <opinion_02> exhausting </opinion_02>? <rationale_02> I find it really tiring to hold onto those grips </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "That's amazing! But isn't it exhausting? I find it really tiring to hold onto those grips.",
+                    "id": "aud_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "It can be tough, but the adrenaline rush is thrilling and makes it all the more enjoyable.",
+                "annotation": "It can be tough, but the <aspect_02> adrenaline rush </aspect_02> is <opinion_03> thrilling </opinion_03> and <rationale_03> makes it all the more enjoyable </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think the heights were scary, but after seeing some photos where people look so happy up there, I want to try it myself!",
+                "annotation": "I used to think the <aspect_03> heights </aspect_03> were <opinion_04> scary </opinion_04>, but after seeing <rationale_04> some photos where people look so happy up there </rationale_04>, I want to <opinion_05> try it myself </opinion_05>!",
+                "modality": {
+                    "type": "img",
+                    "caption": "A group of friends smiling and enjoying the view at the top of a climbing route.",
+                    "id": "img_0001"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That's really inspiring, Liam! I always thought it was too dangerous, but seeing how much fun it can be makes me reconsider.",
+                "annotation": "That's really <opinion_06> inspiring </opinion_06>, Liam! I always thought it was <opinion_07> too dangerous </opinion_07>, but <rationale_05> seeing how much fun it can be makes me reconsider </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I've learned that with the right safety measures, it's quite safe! After all, the experiences we gain are worth the risks.",
+                "annotation": "I've learned that with the <aspect_04> right safety measures </aspect_04>, it's <opinion_08> quite safe </opinion_08>! <rationale_06> After all, the experiences we gain are worth the risks </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "view from the top",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making every effort worthwhile",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "grip difficulty",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "exhausting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I find it really tiring to hold onto those grips",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "adrenaline rush",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "thrilling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "makes it all the more enjoyable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "heights",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "scary",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "some photos where people look so happy up there",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "heights",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "try it myself",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "after seeing some photos",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "danger",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "inspiring",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "seeing how much fun it can be makes me reconsider",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "safety measures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "quite safe",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "the experiences we gain are worth the risks",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "rock climbing",
+                "aspect": "heights",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            },
+            {
+                "holder": "Emma",
+                "target": "rock climbing",
+                "aspect": "danger",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently watched the women’s gymnastics finals at the Olympics, and the artistry in their routines is captivating.",
+                "annotation": "I recently watched the <target_01> women’s gymnastics finals </target_01> at the Olympics, and the <aspect_01> artistry </aspect_01> in their routines is <opinion_01> captivating </opinion_01>. <rationale_01> It showcases their creativity and technical skill in a truly unique way. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The level of difficulty is also impressive. The balance they maintain while doing such complex moves is extraordinary.",
+                "annotation": "Absolutely! The <aspect_02> level of difficulty </aspect_02> is <opinion_02> impressive </opinion_02>. <rationale_02> The balance they maintain while doing such complex moves is extraordinary. </rationale_02>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Highlights of complex gymnastics routines showcasing the level of difficulty and balance.",
+                    "id": "vid_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I agree about the difficulty, I feel that their overall performance quality can be inconsistent at times.",
+                "annotation": "While I agree about the difficulty, I feel that their <aspect_03> performance quality </aspect_03> can be <opinion_03> inconsistent </opinion_03> <rationale_03> because several gymnasts fall short in precision during the pressure of competition. </rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's a fair point. But I think the thrill of watching them attempt such daring moves outweighs those inconsistencies.",
+                "annotation": "That's a fair point. But I think the <aspect_04> thrill </aspect_04> of watching them attempt such daring moves is <opinion_04> exhilarating </opinion_04> <rationale_04> as it brings a unique excitement to the competition that is hard to match. </rationale_04>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The thrill of watching daring gymnastics moves adds excitement to the Olympics.",
+                    "id": "aud_0002"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "True! Plus, their routines often tell a story, which adds another layer of engagement for the viewers.",
+                "annotation": "True! Their <aspect_05> routines </aspect_05> often tell a story, which adds <opinion_05> another layer of engagement </opinion_05> <rationale_05> making it much more enjoyable to watch. </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "You’re right; the storytelling aspect can really elevate the performance. I had not considered this before. I appreciate it more now.",
+                "annotation": "You’re right; the <aspect_06> storytelling aspect </aspect_06> can really <opinion_06> elevate </opinion_06> the performance. <rationale_06> I had not considered this before. </rationale_06>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "women’s gymnastics finals",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "artistry",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It showcases their creativity and technical skill in a truly unique way.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "women’s gymnastics finals",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "level of difficulty",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The balance they maintain while doing such complex moves is extraordinary.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "women’s gymnastics finals",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "performance quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "inconsistent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "because several gymnasts fall short in precision during the pressure of competition.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "women’s gymnastics finals",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "thrill",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as it brings a unique excitement to the competition that is hard to match.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "women’s gymnastics finals",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "routines",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "another layer of engagement",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "making it much more enjoyable to watch.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "women’s gymnastics finals",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "storytelling aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "elevate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "I had not considered this before.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Taylor",
+                "target": "women’s gymnastics finals",
+                "aspect": "storytelling aspect",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Alex"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Casey"
+            },
+            {
+                "id": 5,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been thinking about urban sports, especially parkour. It seems exhilarating, doesn't it?",
+                "annotation": "I've been thinking about <target_01> urban sports </target_01>, especially <aspect_01> parkour </aspect_01>. It seems <opinion_01> exhilarating </opinion_01>, <rationale_01> doesn't it? </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yeah, but isn't it also dangerous? I've seen videos where people get seriously injured. That's pretty alarming.",
+                "annotation": "Yeah, but isn't it also <aspect_02> dangerous </aspect_02>? I've seen videos where people get <opinion_02> seriously injured </opinion_02>. <rationale_02> That's pretty alarming </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A compilation video showing parkour athletes performing jumps, some resulting in falls and injuries.",
+                    "id": "vid_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That’s true, but when done properly, parkour can be incredibly safe. Many practitioners emphasize technique and control.",
+                "annotation": "That’s true, but when done properly, <aspect_01> parkour </aspect_01> can be <opinion_03> incredibly safe </opinion_03>. <rationale_03> Many practitioners emphasize technique and control </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I agree with Alex. The community often supports safe practice, and they share tips on how to avoid injury.",
+                "annotation": "I agree with <holder_04> Alex </holder_04>. The <aspect_03> community </aspect_03> often supports <opinion_04> safe practice </opinion_04>, <rationale_04> and they share tips on how to avoid injury </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The community often shares tips on safe parkour practices.",
+                    "id": "aud_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "You both make valid points. I might have been too quick to judge its dangers; it seems there is a lot of focus on safety.",
+                "annotation": "You both make valid points. I might have been <opinion_05> too quick to judge </opinion_05> its dangers; <rationale_05> it seems there is a lot of focus on safety </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "urban sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "parkour",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "doesn't it?",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "urban sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "dangerous",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "seriously injured",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "that's pretty alarming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "parkour",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "safety",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "incredibly safe",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "many practitioners emphasize technique and control",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "community",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "safe practice",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "and they share tips on how to avoid injury",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "urban sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "judgment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "too quick to judge",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it seems there is a lot of focus on safety",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Jordan",
+            "target": "urban sports",
+            "aspect": "dangerous",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Riley"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been following the NBA closely this season, and I must say that the game's intensity is remarkable this year.",
+                "annotation": "I've been following the <target_01> NBA </target_01> closely this season, and I must say that the game's <aspect_01> intensity </aspect_01> is <opinion_01> remarkable </opinion_01>. <rationale_01> This year, teams are really bringing their A-game to every match </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! But I think the officiating has been inconsistent, which often disrupts that intensity.",
+                "annotation": "Absolutely! But I think the <aspect_02> officiating </aspect_02> has been <opinion_02> inconsistent </opinion_02>, <rationale_02> which often disrupts that intensity </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree about the officiating. However, the playoff race is shaping up to be exciting. The competition is fierce!",
+                "annotation": "I agree about the <aspect_02> officiating </aspect_02>. However, the <aspect_03> playoff race </aspect_03> is <opinion_03> exciting </opinion_03>. <rationale_03> The competition is fierce and unpredictable this year </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video summary of the intense playoff race highlights, showcasing thrilling moments and competition.",
+                    "id": "vid_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s true, but how can we dismiss the missed calls? They could easily change the outcome of a game.",
+                "annotation": "That’s true, but how can we dismiss the <aspect_02> missed calls </aspect_02>? <rationale_04> They could easily change the outcome of a game </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I've seen some controversial calls on social media. In fact, the new analytics suggest these calls might disproportionately affect close games.",
+                "annotation": "I've seen some <aspect_02> controversial calls </aspect_02> on social media. <rationale_05> The new analytics suggest these calls might disproportionately affect close games </rationale_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I’ve seen some controversial calls on social media.",
+                    "id": "aud_0004"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "With that new information, I guess I can see how the officiating could be more impactful than I originally thought.",
+                "annotation": "<rationale_06> With that new information </rationale_06>, I guess I can see how the <aspect_02> officiating </aspect_02> could be more <opinion_06> impactful than I originally thought </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "NBA",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "intensity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "This year, teams are really bringing their A-game to every match",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "NBA",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "officiating",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inconsistent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which often disrupts that intensity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "NBA",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "playoff race",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exciting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The competition is fierce and unpredictable this year",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "NBA",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "missed calls",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "critical",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "They could easily change the outcome of a game",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "NBA",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "controversial calls",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "The new analytics suggest these calls might disproportionately affect close games",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "NBA",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "officiating",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "impactful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "With that new information",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jordan",
+                "target": "NBA",
+                "aspect": "officiating",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find tennis to be incredibly engaging, especially due to the level of skill required to play at a high level.",
+                "annotation": "I find <target_01> tennis </target_01> to be <opinion_01> incredibly engaging </opinion_01>, <rationale_01> especially due to the level of skill required to play at a high level </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A competitive tennis match featuring skilled players in action, showcasing their techniques.",
+                    "id": "img_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I think badminton is even faster and requires impeccable reflexes.",
+                "annotation": "That's true, but I think <target_01> badminton </target_01> is <opinion_02> even faster </opinion_02> and <rationale_02> requires impeccable reflexes </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I agree badminton is quick, tennis has a certain intensity that makes each match thrilling to watch.",
+                "annotation": "While I agree <target_01> badminton </target_01> is quick, <target_01> tennis </target_01> has a <aspect_03> certain intensity </aspect_03> that makes <opinion_03> each match thrilling </opinion_03> to watch.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "While I agree badminton is quick, tennis has a certain intensity that makes each match thrilling to watch.",
+                    "id": "aud_0005"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "skill level",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly engaging",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially due to the level of skill required to play at a high level",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "badminton",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "even faster",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "requires impeccable reflexes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "intensity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "thrilling",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "makes each match thrilling to watch",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Carlos"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've always admired gymnastics, especially because of the incredible strength and flexibility the athletes have.",
+                "annotation": "I've always admired <target_01> gymnastics </target_01>, especially because of the <aspect_01> strength and flexibility </aspect_01> of the athletes, which is <opinion_01> incredible </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "It's fascinating, but don't you think the intense pressure to perform can be quite detrimental? Many athletes face severe burnout.",
+                "annotation": "It's fascinating, but don't you think the <opinion_02> intense pressure to perform </opinion_02> can be <aspect_02> detrimental </aspect_02>? <rationale_02> Many athletes face severe burnout </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "It's fascinating, but don't you think the intense pressure to perform can be quite detrimental? Many athletes face severe burnout.",
+                    "id": "aud_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I've seen a recent documentary showing a gymnastic star overcoming their struggles with pressure, and it made me rethink my stance on that aspect.",
+                "annotation": "I've seen a recent documentary showing a <target_01> gymnastic star </target_01> overcoming their struggles with <aspect_02> pressure </aspect_02>, and it <opinion_03> made me rethink </opinion_03> my stance on that aspect.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A gymnastic star's journey depicted in a documentary, highlighting their struggles with performance pressure and eventual success.",
+                    "id": "vid_0004"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gymnastics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "strength and flexibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gymnastics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "performance pressure",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "detrimental",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Many athletes face severe burnout",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Carlos",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gymnastics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "performance pressure",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "rethink",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I saw a gymnastic star overcoming their struggles",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Carlos",
+                "target": "gymnastics",
+                "aspect": "performance pressure",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jamie"
+            },
+            {
+                "id": 1,
+                "name": "Riley"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm quite impressed with the new gaming peripherals on the market, especially the gaming headsets. The audio quality is exceptional, allowing for immersive gameplay.",
+                "annotation": "I'm quite impressed with the new gaming peripherals on the market, especially the <target_01> gaming headsets </target_01>. The <aspect_01> audio quality </aspect_01> is <opinion_01> exceptional </opinion_01>, <rationale_01> allowing for immersive gameplay </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I'm quite impressed with the new gaming peripherals on the market, especially the gaming headsets.",
+                    "id": "aud_0007"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I used to think wired headsets were better, but wireless ones are surprisingly lag-free these days.",
+                "annotation": "I used to think <aspect_02> wired headsets </aspect_02> were <opinion_02> better </opinion_02>, but <rationale_02> wireless ones are surprisingly lag-free these days </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with Jamie about the gaming headsets, but I believe the design is also important. They're generally stylish, which can enhance the gaming experience.",
+                "annotation": "I agree with Jamie about the <target_01> gaming headsets </target_01>, but I believe the <aspect_03> design </aspect_03> is <opinion_03> stylish </opinion_03>, <rationale_03> which can enhance the gaming experience </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A range of stylish gaming headsets displayed on a table, showcasing their design.",
+                    "id": "img_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That makes sense. I never thought about how design contributes to the overall experience.",
+                "annotation": "That makes sense. I never thought about how <aspect_03> design </aspect_03> contributes to the overall experience. <rationale_04> It can definitely make a headset more enjoyable to use </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "For me, the most critical factor is the surround sound feature. It's incredibly immersive and gives players an advantage in competitive gaming.",
+                "annotation": "For me, the most critical factor is the <aspect_04> surround sound feature </aspect_04>. It's <opinion_04> incredibly immersive </opinion_04>, <rationale_05> and gives players an advantage in competitive gaming </rationale_05>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video displaying the surround sound feature in action during a fast-paced gaming session.",
+                    "id": "vid_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "I used to think that surround sound was just a gimmick, but it really does make a difference.",
+                "annotation": "I used to think that <aspect_04> surround sound </aspect_04> was just a <opinion_05> gimmick </opinion_05>, but <rationale_06> it really does make a difference </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming headsets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "audio quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing for immersive gameplay",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "wired headsets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "wired headsets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "better",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "wireless ones are surprisingly lag-free these days",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming headsets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "stylish",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which can enhance the gaming experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming headsets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more enjoyable",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It can definitely make a headset more enjoyable to use",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "surround sound feature",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "surround sound feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "incredibly immersive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "and gives players an advantage in competitive gaming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "surround sound",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "surround sound",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "gimmick",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "it really does make a difference",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Casey",
+                "target": "surround sound",
+                "aspect": "surround sound",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            },
+            {
+                "id": 3,
+                "name": "Morgan"
+            },
+            {
+                "id": 4,
+                "name": "Riley"
+            },
+            {
+                "id": 5,
+                "name": "Jamie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been thinking about team sports lately, especially soccer. The physical fitness it promotes is substantial.",
+                "annotation": "I've been thinking about <target_01> team sports </target_01> lately, especially <target_02> soccer </target_02>. The <aspect_01> physical fitness </aspect_01> it promotes is <opinion_01> substantial </opinion_01>. <rationale_01> This is important for overall health and well-being </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I believe the teamwork skills gained are even more valuable. Many people struggle with collaboration later in life.",
+                "annotation": "That's true, but I believe the <aspect_02> teamwork skills </aspect_02> gained are <opinion_02> invaluable </opinion_02>. <rationale_02> Many people struggle with collaboration later in life </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I see the point about teamwork, but the injury risk in contact sports can be significant, which makes me cautious.",
+                "annotation": "I see the point about teamwork, but the <aspect_03> injury risk </aspect_03> in contact sports can be <opinion_03> concerning </opinion_03>, <rationale_03> which makes me cautious </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The injury risk in contact sports can be concerning, which makes me cautious.",
+                    "id": "aud_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While that is a valid concern, many sports implement safety measures. The excitement and joy of playing often outweigh the risks.",
+                "annotation": "While that is a valid concern, many sports implement <aspect_04> safety measures </aspect_04>. The <opinion_04> excitement and joy </opinion_04> of playing often outweigh the risks, <rationale_04> encouraging participation despite injury concerns </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Exactly, and the camaraderie formed through team experiences is incredibly supportive, acting like a second family.",
+                "annotation": "Exactly, and the <aspect_05> camaraderie </aspect_05> formed through team experiences is <opinion_05> incredibly supportive </opinion_05>. <rationale_05> It acts like a second family, creating strong bonds </rationale_05>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A team huddling together, showcasing unity and support.",
+                    "id": "img_0004"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I never thought about the support aspect. It makes the risk worth it, as a solid team can uplift individual spirits significantly.",
+                "annotation": "<rationale_06> I never thought about the support aspect </rationale_06>, which makes the risk <opinion_06> worth it </opinion_06>. A solid team can uplift individual spirits significantly.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "physical fitness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "substantial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "This is important for overall health and well-being",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "teamwork skills",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "invaluable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Many people struggle with collaboration later in life",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "contact sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "injury risk",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which makes me cautious",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "contact sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "safety measures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exciting",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "encouraging participation despite injury concerns",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "camaraderie",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "incredibly supportive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It acts like a second family, creating strong bonds",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "support aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "worth it",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "A solid team can uplift individual spirits significantly.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jamie",
+                "target": "team sports",
+                "aspect": "support aspect",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Oliver"
+            },
+            {
+                "id": 3,
+                "name": "Ava"
+            },
+            {
+                "id": 4,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been preparing for our camping trip, and I believe the weather forecast is essential to consider.",
+                "annotation": "I've been preparing for our <target_01> camping trip </target_01>, and I believe the <aspect_01> weather forecast </aspect_01> is <opinion_01> crucial </opinion_01>, <rationale_01> as it helps in planning the activities without disruptions </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but what do you think about the quality of camping gear? I consider it absolutely vital for our safety.",
+                "annotation": "True, but what do you think about the <aspect_02> quality of camping gear </aspect_02>? I consider it <opinion_02> absolutely vital </opinion_02>, <rationale_02> for our safety and comfort during the trip </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A visual comparison of different camping gear laying on a picnic table.",
+                    "id": "vid_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I understand your point, Emma, but I've found that sometimes the weather can be unpredictable, making gear quality even more important.",
+                "annotation": "I understand your point, Emma, but I've found that sometimes the <aspect_01> weather </aspect_01> can be unpredictable, making <aspect_02> gear quality </aspect_02> <opinion_03> even more critical </opinion_03>, <rationale_03> particularly when conditions change rapidly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Definitely! And let's not overlook the importance of food preparation. It's vital for enjoyment.",
+                "annotation": "Definitely! And let's not overlook the <aspect_03> importance of food preparation </aspect_03>. It's <opinion_04> vital </opinion_04> for enjoyment, <rationale_04> ensuring we fuel our activities and have a good time </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "That's a fair point, but remembering the gear is what keeps us safe should take priority over food.",
+                "annotation": "That's a fair point, but remembering the <aspect_02> gear </aspect_02> is <opinion_05> paramount </opinion_05>, <rationale_05> as it keeps us safe should take priority over food </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "I agree with Oliver about the unpredictability of weather and its impact on gear; perhaps we should have a backup plan as well.",
+                "annotation": "I agree with <holder_03> Oliver </holder_03> about the <aspect_01> unpredictability of weather </aspect_01> and its impact on <aspect_02> gear </aspect_02>; perhaps we should have a <opinion_06> backup plan </opinion_06>, <rationale_06> to ensure we manage any surprises effectively </rationale_06>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I agree with Oliver about the unpredictability of weather and its impact on gear;",
+                    "id": "aud_0009"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camping trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "weather forecast",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as it helps in planning the activities without disruptions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camping trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "quality of camping gear",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "absolutely vital",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "for our safety and comfort during the trip",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camping trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "even more critical",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "particularly when conditions change rapidly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camping trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "importance of food preparation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "vital",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "ensuring we fuel our activities and have a good time",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camping trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "gear",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "paramount",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "as it keeps us safe should take priority over food",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camping trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "backup plan",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "to ensure we manage any surprises effectively",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Emma",
+            "target": "camping trip",
+            "aspect": "quality of camping gear",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    }
+]

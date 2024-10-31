@@ -1,0 +1,362 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alana"
+            },
+            {
+                "id": 1,
+                "name": "Jasper"
+            },
+            {
+                "id": 2,
+                "name": "Rita"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "What do you think about the current public health initiatives in our community?",
+                "annotation": "What do you think about the current <target_01> public health initiatives </target_01> in our community?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I believe the outreach efforts are crucial; they effectively raise awareness about health issues.",
+                "annotation": "I believe the <aspect_01> outreach efforts </aspect_01> are <opinion_01> crucial </opinion_01>; <rationale_01> they effectively raise awareness about health issues </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the accessibility of health services is lacking; many people still face barriers to getting care.",
+                "annotation": "However, the <aspect_02> accessibility of health services </aspect_02> is <opinion_02> lacking </opinion_02>; <rationale_02> many people still face barriers to getting care </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I’ve noticed there's been a significant improvement in vaccination rates, which is promising!",
+                "annotation": "I’ve noticed there's been a <aspect_03> significant improvement in vaccination rates </aspect_03>, which is <opinion_03> promising </opinion_03>! <rationale_03> It indicates a positive trend in community health awareness </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "An infographic showing improvements in vaccination rates over the past year in the community.",
+                    "id": "vid_0001"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jasper",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "public health initiatives",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "outreach efforts",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "they effectively raise awareness about health issues",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Rita",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "public health initiatives",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "accessibility of health services",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "many people still face barriers to getting care",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "public health initiatives",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "improvement in vaccination rates",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It indicates a positive trend in community health awareness",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I believe the mindfulness aspect of yoga is transformative, allowing individuals to find peace in their busy lives.",
+                "annotation": "I believe the <aspect_01> mindfulness aspect </aspect_01> of <target_01> yoga </target_01> is <opinion_01> transformative </opinion_01>, <rationale_01> allowing individuals to find peace in their busy lives </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A calming yoga session focusing on mindfulness.",
+                    "id": "vid_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I find the physicality of yoga can be intimidating; it requires a lot of flexibility.",
+                "annotation": "I find the <aspect_02> physicality </aspect_02> of <target_01> yoga </target_01> can be <opinion_02> intimidating </opinion_02>, <rationale_02> it requires a lot of flexibility </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I see both sides, but I think the community aspect of yoga is wonderful, fostering connections among practitioners.",
+                "annotation": "I think the <aspect_03> community aspect </aspect_03> of <target_01> yoga </target_01> is <opinion_03> wonderful </opinion_03>, <rationale_03> fostering connections among practitioners </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "But I'm concerned that some yoga classes can be overpriced, making it less accessible for everyone.",
+                "annotation": "I'm concerned that some <aspect_04> classes </aspect_04> can be <opinion_04> overpriced </opinion_04>, <rationale_04> making it less accessible for everyone </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A visual on affordable yoga options in the community.",
+                    "id": "vid_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Additionally, I find the diverse range of styles in yoga to be enriching, catering to everyone's needs.",
+                "annotation": "I find the <aspect_05> diverse range of styles </aspect_05> in <target_01> yoga </target_01> to be <opinion_05> enriching </opinion_05>, <rationale_05> catering to everyone's needs </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "mindfulness aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "transformative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing individuals to find peace in their busy lives",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "physicality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "intimidating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it requires a lot of flexibility",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "community aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "wonderful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "fostering connections among practitioners",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "classes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "overpriced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making it less accessible for everyone",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "diverse range of styles",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "enriching",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "catering to everyone's needs",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

@@ -1,0 +1,609 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Evelyn"
+            },
+            {
+                "id": 1,
+                "name": "Michael"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've always found that brewing my own coffee at home is incredibly satisfying, especially the aroma it produces while it's brewing.",
+                "annotation": "I've always found that brewing my own <target_01> coffee </target_01> at home is <opinion_01> incredibly satisfying </opinion_01>, especially the <aspect_01> aroma </aspect_01> it produces while it's brewing.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but the taste varies quite a bit depending on the grind size. I don't always appreciate the inconsistent flavor.",
+                "annotation": "True, but the <aspect_02> taste </aspect_02> varies quite a bit depending on the <rationale_02> grind size </rationale_02>. I don't always <opinion_02> appreciate </opinion_02> the inconsistent flavor.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, I recently learned that using a specific brewing method can really enhance the flavor profile. It's fascinating how water temperature affects the extraction.",
+                "annotation": "Actually, I recently learned that using a specific <aspect_03> brewing method </aspect_03> can really <opinion_03> enhance </opinion_03> the <target_01> flavor profile </target_01>. <rationale_03> It's fascinating how water temperature affects the extraction </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Demonstration of different coffee brewing methods affecting flavor.",
+                    "id": "vid_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's an interesting point, I didn't realize that about the brewing method. Perhaps the inconsistency I've noticed comes down to that.",
+                "annotation": "That's an interesting point, I didn't realize that about the <aspect_03> brewing method </aspect_03>. <rationale_04> Perhaps the inconsistency I've noticed comes down to that </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Evelyn",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "coffee",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "aroma",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly satisfying",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially the aroma it produces while it's brewing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "coffee",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "taste",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "underwhelming",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I don't always appreciate the inconsistent flavor",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "coffee",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "brewing method",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "enhance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's fascinating how water temperature affects the extraction",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Evelyn",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "coffee",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "brewing method",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "valuable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Perhaps the inconsistency I've noticed comes down to that",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Evelyn",
+            "target": "coffee",
+            "aspect": "brewing method",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you all tried making vegan tacos? The flavor profile is astonishingly rich with just the right spices.",
+                "annotation": "Have you all tried making <target_01> vegan tacos </target_01>? The <aspect_01> flavor profile </aspect_01> is <opinion_01> astonishingly rich </opinion_01> with just the right spices.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I have, but I find the texture can sometimes be a bit lacking compared to traditional tacos, which is disappointing.",
+                "annotation": "I have, but I find the <aspect_02> texture </aspect_02> can sometimes be <opinion_02> lacking </opinion_02> compared to traditional tacos, <rationale_02> which is disappointing </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Showing a comparison of vegan and traditional taco textures, highlighting the differences.",
+                    "id": "vid_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I used to agree, but I recently tried a new recipe that uses jackfruit, and it completely changed my perception. The texture was surprisingly meaty!",
+                "annotation": "I used to agree, but I recently tried a new recipe that uses <target_01> jackfruit </target_01>, and it <opinion_03> completely changed my perception </opinion_03>. <rationale_03> The texture was surprisingly meaty! </rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Really? I might give it another shot, especially if jackfruit can enhance the texture!",
+                "annotation": "Really? I might <opinion_04> give it another shot </opinion_04>, especially if jackfruit can enhance the <aspect_02> texture </aspect_02>!",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vegan tacos",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavor profile",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "astonishingly rich",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with just the right spices",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vegan tacos",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which is disappointing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "jackfruit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "texture",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "completely changed my perception",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The texture was surprisingly meaty!",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vegan tacos",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "give it another shot",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "especially if jackfruit can enhance the texture",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jamie",
+                "target": "vegan tacos",
+                "aspect": "texture",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Isla"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you all tried making homemade pasta? It’s such a rewarding experience, especially when you get the texture just right.",
+                "annotation": "Have you all tried making <target_01> homemade pasta </target_01>? It’s such a <opinion_01> rewarding </opinion_01> <aspect_01> experience </aspect_01>, <rationale_01> especially when you get the texture just right </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I find it a bit tedious, to be honest. The rolling and cutting can be too time-consuming for me.",
+                "annotation": "I find it a bit <opinion_02> tedious </opinion_02> <aspect_02> rolling and cutting </aspect_02>, <rationale_02> it can be too time-consuming for me </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Footage of someone struggling to roll out pasta dough.",
+                    "id": "vid_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But that effort is totally worth it! The freshness of the pasta is unmatched compared to store-bought.",
+                "annotation": "But that effort is totally <opinion_03> worth it </opinion_03>! The <aspect_03> freshness of the pasta </aspect_03> is <rationale_03> unmatched compared to store-bought </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I have to agree with Sophie. Initially, I thought it was a hassle, but after tasting homemade pasta, I see the value. The taste is incredibly rich!",
+                "annotation": "I have to agree with Sophie. Initially, I thought it was a <opinion_04> hassle </opinion_04>, but after tasting <target_01> homemade pasta </target_01>, I see the <aspect_04> value </aspect_04>. The taste is <opinion_05> incredibly rich </opinion_05>, <rationale_04> which changes everything </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "This conversation has made me want to try making it! I might just give it a go next weekend!",
+                "annotation": "This conversation has made me want to try <target_01> making it </target_01>! I might just <opinion_06> give it a go </opinion_06> next weekend!",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "rewarding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially when you get the texture just right",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "rolling and cutting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "tedious",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it can be too time-consuming for me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "freshness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "worth it",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "unmatched compared to store-bought",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "hassle",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which changes everything",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "taste",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "incredibly rich",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "which changes everything",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Isla",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "making it",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "give it a go",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "I might just try this next weekend!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Noah",
+                "target": "homemade pasta",
+                "aspect": "value",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    }
+]

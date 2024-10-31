@@ -1,0 +1,368 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm considering getting a new pair of running shoes, especially since the <target_01> latest models </target_01> have such great <aspect_01> cushioning </aspect_01> that feels <opinion_01> supportive </opinion_01>. <rationale_01> Having that comfort really helps during long runs.",
+                "annotation": "I'm considering getting a new pair of <target_01> running shoes </target_01>, especially since the <aspect_01> latest models </aspect_01> have such great <opinion_01> cushioning </opinion_01> that feels <rationale_01> supportive </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The <aspect_02> grip </aspect_02> on those shoes is actually <opinion_02> fantastic </opinion_02> as well. <rationale_02> It prevents slipping, especially on wet surfaces.",
+                "annotation": "Absolutely! The <aspect_02> grip </aspect_02> on those shoes is actually <opinion_02> fantastic </opinion_02>, <rationale_02> as it prevents slipping, especially on wet surfaces </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The grip on those shoes is fantastic.",
+                    "id": "aud_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But what about the <aspect_03> price </aspect_03>? I find them to be a bit <opinion_03> extravagant </opinion_03> for a running shoe. <rationale_03> It can be hard to justify spending that much, no matter how good they are.",
+                "annotation": "But what about the <aspect_03> price </aspect_03>? I find them to be a bit <opinion_03> extravagant </opinion_03> for a running shoe. <rationale_03> It can be hard to justify spending that much, no matter how good they are </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think the <aspect_04> style </aspect_04> was secondary, but I now believe it's <opinion_04> essential </opinion_04> too. <rationale_04> Wearing something I like boosts my confidence when I run.",
+                "annotation": "I used to think the <aspect_04> style </aspect_04> was <opinion_04> secondary </opinion_04>, but I now believe it's <rationale_04> essential </rationale_04> too.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "running shoes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cushioning",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "supportive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Having that comfort really helps during long runs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "running shoes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "grip",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as it prevents slipping, especially on wet surfaces",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "running shoes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "price",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "extravagant",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It can be hard to justify spending that much, no matter how good they are",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "running shoes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Wearing something I like boosts my confidence when I run",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "David",
+                "target": "running shoes",
+                "aspect": "style",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've always thought that children's wear should be durable. It needs to withstand all the playtime kids have.",
+                "annotation": "I've always thought that <target_01> children's wear </target_01> should be <opinion_01> durable </opinion_01>. <rationale_01> It needs to withstand all the playtime kids have </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I’d also say that children's wear must be stylish. Kids want to feel good in what they're wearing.",
+                "annotation": "I agree, but I’d also say that <target_01> children's wear </target_01> must be <opinion_02> stylish </opinion_02>. <rationale_02> Kids want to feel good in what they're wearing </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Fashion is important for kids, they want to express themselves.",
+                    "id": "aud_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While durability and style matter, comfort is really the top priority. If kids aren't comfortable, they'll refuse to wear it.",
+                "annotation": "While <aspect_01> durability </aspect_01> and <aspect_02> style </aspect_02> matter, <target_01> children's wear </target_01> is really <opinion_03> comfortable </opinion_03>. <rationale_03> If kids aren't comfortable, they'll refuse to wear it </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think that style was the least important aspect, but after attending my niece's birthday party, I realized how much she enjoyed showing off her outfit. It really matters to them!",
+                "annotation": "I used to think that <aspect_02> style </aspect_02> was the <opinion_04> least important </opinion_04> aspect, <rationale_04> but after attending my niece's birthday party, I realized how much she enjoyed showing off her outfit </rationale_04>. <target_01> It really matters to them </target_01>!",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "children's wear",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "durability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "durable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It needs to withstand all the playtime kids have",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "children's wear",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "stylish",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Kids want to feel good in what they're wearing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "children's wear",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "comfort",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "comfortable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "If kids aren't comfortable, they'll refuse to wear it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "children's wear",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "least important",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I realized how much she enjoyed showing off her outfit",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Noah",
+                "target": "children's wear",
+                "aspect": "style",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    }
+]

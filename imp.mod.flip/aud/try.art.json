@@ -1,0 +1,829 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lily"
+            },
+            {
+                "id": 1,
+                "name": "Sam"
+            },
+            {
+                "id": 2,
+                "name": "Ben"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The depth in Dostoevsky's 'Crime and Punishment' is truly incredible; it delves deep into morality and human psychology.",
+                "annotation": "The <target_01> depth in Dostoevsky's 'Crime and Punishment' </target_01> is <opinion_01> incredible </opinion_01>; <rationale_01> it delves deep into morality and human psychology </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I believe that Dostoevsky's work offers profound insights into morality.",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I find the pacing sometimes tedious; it can slow down the narrative.",
+                "annotation": "I find the <aspect_02> pacing </aspect_02> sometimes <opinion_02> tedious </opinion_02>; <rationale_02> it can slow down the narrative </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The character of Raskolnikov is fascinating but sometimes frustrating, with his contradictions.",
+                "annotation": "The <aspect_03> character of Raskolnikov </aspect_03> is <opinion_03> fascinating but sometimes frustrating </opinion_03>, <rationale_03> with his contradictions </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Raskolnikov’s contradictions truly encapsulate the novel's tension.",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's a fair point; Raskolnikov's struggle makes him relatable, but it's also a source of frustration.",
+                "annotation": "Raskolnikov's <aspect_03> struggle </aspect_03> makes him <opinion_04> relatable </opinion_04>, <rationale_04> but it's also a source of frustration </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Dostoevsky's 'Crime and Punishment'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "depth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it delves deep into morality and human psychology",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Dostoevsky's 'Crime and Punishment'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "tedious",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it can slow down the narrative",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Dostoevsky's 'Crime and Punishment'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "character of Raskolnikov",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "fascinating but sometimes frustrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "mixed",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "with his contradictions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Dostoevsky's 'Crime and Punishment'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "struggle",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "relatable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but it's also a source of frustration",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            },
+            {
+                "id": 3,
+                "name": "Oscar"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring traditional weaving recently. The craftsmanship is remarkable, showcasing incredible skill and artistry.",
+                "annotation": "I've been exploring <target_01> traditional weaving </target_01> recently. The <aspect_01> craftsmanship </aspect_01> is <opinion_01> remarkable </opinion_01>, <rationale_01> showcasing incredible skill and artistry </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I appreciate the skill involved, but I find the patterns often too repetitive. It doesn't spark much creativity for me.",
+                "annotation": "I appreciate the skill involved, but I find the <aspect_02> patterns </aspect_02> often <opinion_02> too repetitive </opinion_02>. <rationale_02> It doesn't spark much creativity for me </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Hold on, Leo! The repetitive nature of patterns actually creates a sense of tradition and cultural identity. In fact, it’s what makes it special!",
+                "annotation": "Hold on, Leo! The <aspect_03> repetitive nature of patterns </aspect_03> actually creates <opinion_03> a sense of tradition and cultural identity </opinion_03>. <rationale_03> It’s what makes it special! </rationale_03>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The repetitive nature of patterns creates cultural identity.",
+                    "id": "aud_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You know what, Nina? I hadn't considered it that way. The tradition behind the patterns does give them significance, which is quite appealing.",
+                "annotation": "You know what, Nina? I hadn't considered it that way. The <aspect_02> tradition behind the patterns </aspect_02> does give them <opinion_04> significance </opinion_04>, <rationale_04> which is quite appealing </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Exactly! Traditional crafts like weaving are not just about aesthetics; they are about storytelling and heritage.",
+                "annotation": "Exactly! Traditional crafts like <target_01> weaving </target_01> are not just about <aspect_05> aesthetics </aspect_05>; they are about <opinion_05> storytelling and heritage </opinion_05>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional weaving",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "craftsmanship",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showcasing incredible skill and artistry",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional weaving",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "patterns",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "too repetitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It doesn't spark much creativity for me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional weaving",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "repetitive nature of patterns",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a sense of tradition and cultural identity",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It’s what makes it special!",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional weaving",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "tradition behind the patterns",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "significance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which is quite appealing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Oscar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "weaving",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "aesthetics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "storytelling and heritage",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "about storytelling and heritage",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Leo",
+                "target": "traditional weaving",
+                "aspect": "tradition behind the patterns",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been rereading Pride and Prejudice recently. The themes of social class are fascinating.",
+                "annotation": "I've been rereading <target_01> Pride and Prejudice </target_01> recently. <rationale_01> The themes of social class are fascinating </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The character development is especially intricate, don't you think? Each character reflects their social standing very well.",
+                "annotation": "Absolutely! The <aspect_02> character development </aspect_02> is <opinion_02> especially intricate </opinion_02>, <rationale_02> Each character reflects their social standing very well </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I find the dialogue in the novel to be incredibly rich. It's like every conversation unveils something deeper about their personalities.",
+                "annotation": "I find the <aspect_03> dialogue </aspect_03> in the novel to be <opinion_03> incredibly rich </opinion_03>. <rationale_03> It’s like every conversation unveils something deeper about their personalities </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The intricacies of the dialogue reveal the characters' true selves.",
+                    "id": "aud_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I agree, but sometimes the pacing of the plot feels sluggish. It can test my patience at times.",
+                "annotation": "I agree, but sometimes the <aspect_04> pacing </aspect_04> of the plot feels <opinion_04> sluggish </opinion_04>. <rationale_04> It can test my patience at times </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "True, but the slow pacing contributes to the overall atmosphere and allows for deeper reflection on societal norms. Don't you think that's valuable?",
+                "annotation": "True, but the <aspect_04> slow pacing </aspect_04> contributes to the overall atmosphere and allows for deeper reflection on societal norms. <rationale_05> Don't you think that's valuable? </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "You make a valid point. With consideration for the atmosphere, the pacing can add a level of depth that I hadn't appreciated before.",
+                "annotation": "You make a valid point. <rationale_06> With consideration for the atmosphere, the pacing can add a level of depth that I hadn't appreciated before </rationale_06>. The pacing now feels <opinion_06> more valuable </opinion_06> to me.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pride and Prejudice",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "themes of social class",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The themes of social class are fascinating",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pride and Prejudice",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "especially intricate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Each character reflects their social standing very well",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pride and Prejudice",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "dialogue",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "incredibly rich",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It’s like every conversation unveils something deeper about their personalities",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pride and Prejudice",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "sluggish",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It can test my patience at times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pride and Prejudice",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "slow pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "valuable",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It allows for deeper reflection on societal norms",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pride and Prejudice",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more valuable",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "With consideration for the atmosphere, the pacing can add a level of depth that I hadn't appreciated before",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Liam",
+            "target": "Pride and Prejudice",
+            "aspect": "pacing",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Did any of you see that new play, The Sound of Silence? The choreography was absolutely stunning.",
+                "annotation": "Did any of you see that new play <target_01> The Sound of Silence </target_01>? <rationale_01> The choreography was absolutely stunning </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The choreography in The Sound of Silence was mind-blowing!",
+                    "id": "aud_0005"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I haven’t seen it yet, but I’ve heard the lighting design is phenomenal and really sets the mood.",
+                "annotation": "I haven’t seen it yet, but I’ve heard the <aspect_02> lighting design </aspect_02> is <opinion_02> phenomenal </opinion_02>. <rationale_02> It really sets the mood </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "What about the music? I've read that the score complements the performance beautifully, enhancing the emotional depth.",
+                "annotation": "What about the <aspect_03> music </aspect_03>? I've read that it complements the performance <opinion_03> beautifully </opinion_03>, <rationale_03> enhancing the emotional depth </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Honestly, I’ve always thought choreography was just a visual aspect. But from what I’ve heard about the combination of elements, it seems collaborative and well-integrated.",
+                "annotation": "Honestly, I’ve always thought <aspect_01> choreography </aspect_01> was just a visual aspect. <rationale_04> But from what I’ve heard about the combination of elements, it seems collaborative and well-integrated </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "It's interesting how choreography ties everything together!",
+                    "id": "aud_0006"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "choreography",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The choreography was absolutely stunning",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "phenomenal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It really sets the mood",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "music",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "beautifully",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "enhancing the emotional depth",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "choreography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "well-integrated",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "But from what I’ve heard about the combination of elements, it seems collaborative and well-integrated",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Noah",
+            "target": "The Sound of Silence",
+            "aspect": "choreography",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    }
+]

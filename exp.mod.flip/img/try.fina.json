@@ -1,0 +1,2098 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Morgan"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently reviewed my pension plan, and the coverage is comprehensive. It gives me peace of mind as I approach retirement age.",
+                "annotation": "I recently reviewed <target_01> my pension plan </target_01>, and the <aspect_01> coverage </aspect_01> is <opinion_01> comprehensive </opinion_01>. <rationale_01> It gives me peace of mind as I approach retirement age </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's a good point, but I've found that the investment returns are surprisingly low, which could affect my lifestyle later.",
+                "annotation": "That's a good point, but I've found that the <aspect_02> investment returns </aspect_02> are <opinion_02> surprisingly low </opinion_02>, <rationale_02> which could affect my lifestyle later </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Graphical representation of low investment returns and lifestyle impact.",
+                    "id": "img_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I agree about the low returns, I appreciate how flexible our pension plans are to adapt to market changes, providing some security.",
+                "annotation": "While I agree about the low returns, I <opinion_03> appreciate </opinion_03> how <aspect_03> flexible </aspect_03> our <target_01> pension plans </target_01> are to adapt to market changes, <rationale_03> providing some security </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Initially, I thought the pension taxes were burdensome, but after some calculations, I've realized that the tax benefits actually enhance my overall savings.",
+                "annotation": "Initially, I thought the <aspect_04> pension taxes </aspect_04> were <opinion_04> burdensome </opinion_04>, but after some calculations, I've realized that the <aspect_04> tax benefits </aspect_04> actually <opinion_05> enhance </opinion_05> my overall savings <rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "my pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "coverage",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "comprehensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It gives me peace of mind as I approach retirement age",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "my pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "investment returns",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "surprisingly low",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which could affect my lifestyle later",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "flexibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "appreciate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "providing some security",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension taxes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "burdensome",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "burdensome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but after some calculations, I've realized that the tax benefits actually enhance my overall savings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension taxes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "tax benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "enhance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "my overall savings",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Taylor",
+                "target": "pension taxes",
+                "aspect": "burdensome",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "James"
+            },
+            {
+                "id": 1,
+                "name": "Maria"
+            },
+            {
+                "id": 2,
+                "name": "Oscar"
+            },
+            {
+                "id": 3,
+                "name": "Linda"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been analyzing various financial tech platforms, and I find the security measures of FinTech Firm A to be exceptionally robust. It builds user trust effectively.",
+                "annotation": "I've been analyzing various <target_01> financial tech platforms </target_01>, and I find the <aspect_01> security measures </aspect_01> of <target_02> FinTech Firm A </target_02> to be <opinion_01> exceptionally robust </opinion_01>. <rationale_01> It builds user trust effectively </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A visual representation of FinTech Firm A's security measures, showcasing encryption and user authentication.",
+                    "id": "img_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, but have you considered the user interface? I think it's quite confusing and could benefit from simplifications for better user engagement.",
+                "annotation": "Yes, but have you considered the <aspect_02> user interface </aspect_02>? I think it's <opinion_02> quite confusing </opinion_02> and could benefit from simplifications <rationale_02> for better user engagement </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I agree with James, I also believe that the customer support is somewhat lacking. It's frustrating waiting on hold for a simple answer.",
+                "annotation": "While I agree with James, I also believe that the <aspect_03> customer support </aspect_03> is <opinion_03> somewhat lacking </opinion_03>. <rationale_03> It's frustrating waiting on hold for a simple answer </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I understand your concerns, but I think the customer support is decent. I've had prompt responses, suggesting they are improving their services.",
+                "annotation": "I understand your concerns, but I think the <aspect_03> customer support </aspect_03> is <opinion_04> decent </opinion_04>. <rationale_04> I've had prompt responses, suggesting they are improving their services </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Fair point, Linda. My experience has often been the opposite, but you might be right; perhaps they are indeed making strides in customer care.",
+                "annotation": "Fair point, Linda. My experience has often been <opinion_05> the opposite </opinion_05>, but <rationale_05> you might be right; perhaps they are indeed making strides in customer care </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial tech platforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security measures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptionally robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It builds user trust effectively",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maria",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "FinTech Firm A",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "could benefit from simplifications for better user engagement",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Oscar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "FinTech Firm A",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customer support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "somewhat lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's frustrating waiting on hold for a simple answer",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Linda",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "FinTech Firm A",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customer support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "decent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I've had prompt responses, suggesting they are improving their services",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maria",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "FinTech Firm A",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customer support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "the opposite",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "my experience has often been the opposite, but perhaps they are indeed making strides in customer care",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Maria",
+            "target": "FinTech Firm A",
+            "aspect": "customer support",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Blake"
+            },
+            {
+                "id": 2,
+                "name": "Casey"
+            },
+            {
+                "id": 3,
+                "name": "Drew"
+            },
+            {
+                "id": 4,
+                "name": "Eli"
+            },
+            {
+                "id": 5,
+                "name": "Finley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find the risk management in trading strategies to be crucial, as it prevents significant losses.",
+                "annotation": "I find the <aspect_01> risk management </aspect_01> in <target_01> trading strategies </target_01> <opinion_01> crucial </opinion_01>, <rationale_01> as it prevents significant losses </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I agree that risk management is important, I see it as overly cautious. Sometimes, taking strategic risks can lead to higher rewards.",
+                "annotation": "While I agree that risk management is <opinion_02> important </opinion_02>, I see it as <opinion_03> overly cautious </opinion_03>. <rationale_02> Sometimes, taking strategic risks can lead to higher rewards </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Risk management is definitely a significant factor, but I believe diversification is even more effective because it minimizes exposure to any single asset.",
+                "annotation": "Risk management is definitely a <aspect_02> significant factor </aspect_02>, but I believe <aspect_03> diversification </aspect_03> is <opinion_04> even more effective </opinion_04> because <rationale_03> it minimizes exposure to any single asset </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Visualization of asset diversification, showing a mix of stocks, bonds, and real estate.",
+                    "id": "img_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I've faced losses before when diversifying too broadly as it diluted my potential gains. Specializing can sometimes yield better results.",
+                "annotation": "I've faced <aspect_04> losses </aspect_04> before when <aspect_03> diversifying </aspect_03> <opinion_05> too broadly </opinion_05> as <rationale_04> it diluted my potential gains </rationale_04>. <opinion_06> Specializing can sometimes yield better results. </opinion_06>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I've always felt that having a solid trading plan is vital. It gives structure to my decisions and helps me stick to my strategy.",
+                "annotation": "I've always felt that having a <aspect_05> solid trading plan </aspect_05> is <opinion_07> vital </opinion_07>. <rationale_05> It gives structure to my decisions and helps me stick to my strategy </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Reflecting on my own experiences, I once ignored the need for a plan and suffered a significant loss. Now I completely agree with you.",
+                "annotation": "Reflecting on my own experiences, I once <aspect_06> ignored the need for a plan </aspect_06> and <opinion_08> suffered a significant loss </opinion_08>. <rationale_06> Now I completely agree with you </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "risk management",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as it prevents significant losses",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Blake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "risk management",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "important",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it’s overly cautious",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "diversification",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "even more effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it minimizes exposure to any single asset",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Drew",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "losses",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "too broadly",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it diluted my potential gains",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eli",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "trading plan",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "vital",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It gives structure to my decisions and helps me stick to my strategy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Finley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "need for a plan",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "suffered a significant loss",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "I now completely agree with you",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Finley",
+                "target": "trading strategies",
+                "aspect": "need for a plan",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Mike"
+            },
+            {
+                "id": 1,
+                "name": "Sara"
+            },
+            {
+                "id": 2,
+                "name": "Jake"
+            },
+            {
+                "id": 3,
+                "name": "Tina"
+            },
+            {
+                "id": 4,
+                "name": "Alex"
+            },
+            {
+                "id": 5,
+                "name": "Emma"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm really impressed with the current tech stocks; the <aspect_01> growth potential </aspect_01> is <opinion_01> substantial </opinion_01> because of the surge in AI investments.",
+                "annotation": "I'm really impressed with the current tech stocks; the <target_01> tech stocks </target_01> <aspect_01> growth potential </aspect_01> is <opinion_01> substantial </opinion_01> because of the surge in AI investments.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but isn't the <aspect_02> volatility </aspect_02> also <opinion_02> concerning </opinion_02> considering how quickly things can change in the market?",
+                "annotation": "True, but isn't the <aspect_02> volatility </aspect_02> <opinion_02> concerning </opinion_02>? <rationale_02> considering how quickly things can change in the market </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the <aspect_03> valuations </aspect_03> are <opinion_03> inflated </opinion_03> right now due to speculation rather than actual performance.",
+                "annotation": "I think the <aspect_03> valuations </aspect_03> are <opinion_03> inflated </opinion_03> right now <rationale_03> due to speculation rather than actual performance </rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "But wouldn’t you agree that the <aspect_01> growth potential </aspect_01> justifies the high <aspect_03> valuations </aspect_03>? The market trends are very favorable right now.",
+                "annotation": "But wouldn’t you agree that the <aspect_01> growth potential </aspect_01> justifies the high <aspect_03> valuations </aspect_03>? <rationale_04> The market trends are very favorable right now </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "After considering the market dynamics you just mentioned, I find the <aspect_03> valuations </aspect_03> to be <opinion_04> reasonable </opinion_04> since they reflect future potential.",
+                "annotation": "After considering the market dynamics you just mentioned, I find the <aspect_03> valuations </aspect_03> to be <opinion_04> reasonable </opinion_04>. <rationale_05> since they reflect future potential </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Ultimately, we all need to acknowledge the <aspect_02> volatility </aspect_02>. It's a clear reminder that while potential is high, risks are equally <opinion_05> pronounced </opinion_05>.",
+                "annotation": "Ultimately, we all need to acknowledge the <aspect_02> volatility </aspect_02>. It's a clear reminder that while potential is high, risks are equally <opinion_05> pronounced </opinion_05>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An infographic showing the volatility of tech stocks in a rising market.",
+                    "id": "img_0004"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "growth potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "substantial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "because of the surge in AI investments",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "considering how quickly things can change in the market",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "valuations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "inflated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "due to speculation rather than actual performance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "growth potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "reasonable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "since they reflect future potential",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "pronounced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It's a clear reminder that while potential is high, risks are equally pronounced",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alex",
+                "target": "tech stocks",
+                "aspect": "valuations",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emily"
+            },
+            {
+                "id": 1,
+                "name": "Noah"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently started using a new financial tech app called FinTrack. Its interface is intuitive, making it easy to manage personal budgets effectively.",
+                "annotation": "I recently started using a new <target_01> financial tech app </target_01> called FinTrack. Its <aspect_01> interface </aspect_01> is <opinion_01> intuitive </opinion_01>, <rationale_01> making it easy to manage personal budgets effectively </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I found it quite annoying when apps keep pop-ups for notifications. The notification settings feel overly aggressive, disrupting my workflow.",
+                "annotation": "I found it quite annoying when apps keep pop-ups for notifications. The <aspect_02> notification settings </aspect_02> feel <opinion_02> overly aggressive </opinion_02>, <rationale_02> disrupting my workflow </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I get that, Noah. But I believe having timely reminders is actually beneficial for staying on track with finances. The alerts can be <opinion_03> helpful </opinion_03> as they serve to nudge users towards their spending goals.",
+                "annotation": "I get that, Noah. But I believe having timely reminders is actually beneficial for staying on track with finances. The <aspect_02> alerts </aspect_02> can be <opinion_03> helpful </opinion_03> as they serve <rationale_03> to nudge users towards their spending goals </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I think I agree more with Noah. Too many distractions can demotivate users. The <aspect_02> notifications </aspect_02> should really be <opinion_04> more subtle </opinion_04>, <rationale_04> allowing users to maintain focus on their budgeting tasks without interruptions.",
+                "annotation": "I think I agree more with Noah. The <aspect_02> notifications </aspect_02> should really be <opinion_04> more subtle </opinion_04>, <rationale_04> allowing users to maintain focus on their budgeting tasks without interruptions </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A screenshot of the FinTrack app interface displaying a clean layout and subtle notifications.",
+                    "id": "img_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "While I see your point, Lucas, I think a balance between reminders and user control is essential. The <aspect_02> customization options </aspect_02> for alerts are <opinion_05> robust </opinion_05>, making it possible for users to adjust notifications according to their preferences.",
+                "annotation": "While I see your point, Lucas, I think a balance between reminders and user control is essential. The <aspect_02> customization options </aspect_02> for alerts are <opinion_05> robust </opinion_05>, <rationale_05> making it possible for users to adjust notifications according to their preferences </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Financial Tech App",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "intuitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making it easy to manage personal budgets effectively",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Financial Tech App",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "notification settings",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overly aggressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "disrupting my workflow",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Financial Tech App",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "alerts",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "helpful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "to nudge users towards their spending goals",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Financial Tech App",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "notifications",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more subtle",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "allowing users to maintain focus on their budgeting tasks without interruptions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Financial Tech App",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "customization options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "making it possible for users to adjust notifications according to their preferences",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sophia",
+                "target": "Financial Tech App",
+                "aspect": "alerts",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Brian"
+            },
+            {
+                "id": 1,
+                "name": "Sam"
+            },
+            {
+                "id": 2,
+                "name": "Lara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the recent volatility in the equities market is concerning. Volatility can often indicate underlying issues that investors should be cautious about.",
+                "annotation": "I think <target_01> the recent volatility in the equities market </target_01> is <aspect_01> concerning </aspect_01>. <rationale_01> Volatility can often indicate underlying issues that investors should be cautious about </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I disagree with you, Brian. I see volatility as an opportunity for traders to capitalize on price movements. It’s a thriving environment for those who know how to navigate it.",
+                "annotation": "I disagree with you, Brian. I see <aspect_02> volatility </aspect_02> as <opinion_02> an opportunity </opinion_02>. <rationale_02> It’s a thriving environment for those who know how to navigate it </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's an interesting perspective, Sam. However, I believe the long-term sustainability of the equities market is crucial. Without stability, investors might shy away from significant investments.",
+                "annotation": "That's an interesting perspective, Sam. However, I believe the <aspect_03> long-term sustainability </aspect_03> of <target_01> the equities market </target_01> is <opinion_03> crucial </opinion_03>. <rationale_03> Without stability, investors might shy away from significant investments </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "You've got a point, Lara. Thinking back to last year, I remember the market crash that made many cautious, affecting people's investment strategies. So yes, sustainability is paramount.",
+                "annotation": "You've got a point, Lara. Thinking back to last year, I remember the <aspect_04> market crash </aspect_04> that made many <opinion_04> cautious </opinion_04>, affecting people's investment strategies. <rationale_04> So yes, sustainability is paramount </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Stock market analysis showing decreasing trends leading to cautious investment strategies.",
+                    "id": "img_0006"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Brian",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Volatility can often indicate underlying issues that investors should be cautious about",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "an opportunity",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It’s a thriving environment for those who know how to navigate it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Lara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "long-term sustainability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Without stability, investors might shy away from significant investments",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Brian",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "market crash",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "cautious",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "thinking back to last year, it affected people's investment strategies",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Brian",
+                "target": "the equities market",
+                "aspect": "long-term sustainability",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The equities market's volatility has been alarming this quarter, showing significant fluctuations that can scare off new investors.",
+                "annotation": "The <aspect_01> volatility </aspect_01> of the <target_01> equities market </target_01> has been <opinion_01> alarming </opinion_01>, <rationale_01> showing significant fluctuations that can scare off new investors </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A stock market chart illustrating significant fluctuations over the quarter.",
+                    "id": "img_0007"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, and the recent news about rising interest rates has made the situation even more precarious for equity holders.",
+                "annotation": "Absolutely, and the <aspect_02> rising interest rates </aspect_02> have made the <target_01> equities market </target_01> <opinion_02> precarious </opinion_02> for equity holders, <rationale_02> intensifying the uncertainties in investment </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I’m not certain if the fluctuations are entirely negative. They can also present opportunities for savvy traders to capitalize.",
+                "annotation": "The <aspect_01> fluctuations </aspect_01> in the <target_01> equities market </target_01> can be seen as <opinion_03> promising </opinion_03>, <rationale_03> as they present opportunities for savvy traders to capitalize </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, but the emotional impact of the market's behavior cannot be ignored. Investor confidence may deteriorate.",
+                "annotation": "The <aspect_04> emotional impact </aspect_04> of the <target_01> equities market </target_01> can be <opinion_04> detrimental </opinion_04>, <rationale_04> as investor confidence may deteriorate </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I initially thought the market volatility was completely pointless, but now I see it as a dance of risk and reward, benefiting those willing to adapt.",
+                "annotation": "I initially thought the <aspect_01> volatility </aspect_01> of the <target_01> equities market </target_01> was <opinion_05> pointless </opinion_05>, <rationale_05> due to constant fluctuations that unsettle investors </rationale_05>, but now I see it as a <opinion_06> rewarding </opinion_06> <rationale_06> dance of risk and reward, benefiting those willing to adapt </rationale_06>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "alarming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showing significant fluctuations that can scare off new investors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "rising interest rates",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "precarious",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "intensifying the uncertainties in investment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "fluctuations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as they present opportunities for savvy traders to capitalize",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "emotional impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "detrimental",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as investor confidence may deteriorate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "pointless",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "due to constant fluctuations that unsettle investors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "equities market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "rewarding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "benefiting those willing to adapt",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Olivia",
+                "target": "equities market",
+                "aspect": "volatility",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Lucas"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Jacob"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "When considering trading strategies, I believe technical analysis is particularly reliable. Its emphasis on price movements provides clear signals.",
+                "annotation": "When considering <target_01> trading strategies </target_01>, I believe <aspect_01> technical analysis </aspect_01> is <opinion_01> particularly reliable </opinion_01>. <rationale_01> Its emphasis on price movements provides clear signals </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting, but I find fundamental analysis to be more insightful. It focuses on the company's overall health, which can be crucial for long-term trading.",
+                "annotation": "That's interesting, but I find <aspect_02> fundamental analysis </aspect_02> to be <opinion_02> more insightful </opinion_02>. <rationale_02> It focuses on the company's overall health, which can be crucial for long-term trading </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I used to think indicators were overrated, but having analyzed recent trades, I now see how effective they can be. They provide actionable data.",
+                "annotation": "I used to think <aspect_03> indicators </aspect_03> were <opinion_03> overrated </opinion_03>, <rationale_03> but having analyzed recent trades, I now see how effective they can be </rationale_03>. They provide actionable data.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Emma, I must disagree. I've noticed that relying solely on technical analysis can sometimes lead to poor investment choices, especially when markets are volatile.",
+                "annotation": "I must disagree. I've noticed that relying solely on <aspect_04> technical analysis </aspect_04> can sometimes lead to <opinion_04> poor investment choices </opinion_04>, <rationale_04> especially when markets are volatile </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Graph depicting volatile market trends against technical analysis predictions.",
+                    "id": "img_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I share your concern, Jacob. A balanced approach combining both analyses offers a broader perspective. Hence, I think it's a more comprehensive strategy.",
+                "annotation": "I share your concern. A balanced approach combining both <aspect_04> analyses </aspect_04> offers a <opinion_05> broader perspective </opinion_05>. <rationale_05> Hence, I think it's a more comprehensive strategy </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "That makes sense. My experience with market trends suggests that real-time data is invaluable. It allows traders to adapt quickly, which is vital.",
+                "annotation": "My experience with <aspect_06> market trends </aspect_06> suggests that <opinion_06> real-time data is invaluable </opinion_06>. <rationale_06> It allows traders to adapt quickly, which is vital </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "technical analysis",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "particularly reliable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Its emphasis on price movements provides clear signals",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fundamental analysis",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "more insightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It focuses on the company's overall health, which can be crucial for long-term trading",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "indicators",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "overrated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "but having analyzed recent trades, I now see how effective they can be",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Jacob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "technical analysis",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "poor investment choices",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "especially when markets are volatile",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "analyses",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "broader perspective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Hence, I think it's a more comprehensive strategy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "trading strategies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "market trends",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "real-time data is invaluable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It allows traders to adapt quickly, which is vital",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Fiona"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think having a solid savings plan is crucial. It provides a strong financial foundation.",
+                "annotation": "I think having a <target_01> solid savings plan </target_01> is <opinion_01> crucial </opinion_01>. <rationale_01> It provides a strong financial foundation </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, especially when it comes to unexpected expenses. A savings plan can save you from financial distress.",
+                "annotation": "Absolutely, especially when it comes to <aspect_02> unexpected expenses </aspect_02>. A <target_01> savings plan </target_01> can <opinion_02> save </opinion_02> you from <rationale_02> financial distress </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I agree, isn't it tough to stick to a budget? It seems impractical for spontaneous purchases.",
+                "annotation": "While I <opinion_03> agree </opinion_03>, isn't it <aspect_03> tough to stick to a budget </aspect_03>? It seems <rationale_03> impractical for spontaneous purchases </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a valid point, but I believe budgeting helps prioritize important expenses, which makes spending less overwhelming.",
+                "annotation": "That's a valid point, but I believe <aspect_04> budgeting </aspect_04> helps <opinion_04> prioritize important expenses </opinion_04>, <rationale_04> which makes spending less overwhelming </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A person reviewing a budget spreadsheet, highlighting essential expenses.",
+                    "id": "img_0009"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Furthermore, technology can assist with budgeting. There are numerous apps tailored for efficient expense tracking that are quite helpful.",
+                "annotation": "Furthermore, <aspect_05> technology </aspect_05> can <opinion_05> assist with budgeting </opinion_05>. <rationale_05> There are numerous apps tailored for efficient expense tracking that are quite helpful </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "I didn’t realize that budgeting apps could make the process easier. I'm starting to think budgeting might be more manageable than I thought.",
+                "annotation": "<rationale_06> I didn’t realize that budgeting apps could make the process easier </rationale_06>. I'm starting to think <target_01> budgeting </target_01> might be <opinion_06> more manageable </opinion_06> than I thought.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solid savings plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "savings plan",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It provides a strong financial foundation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solid savings plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "unexpected expenses",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "save",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "financial distress",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solid savings plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "tough to stick to a budget",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "agree",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "impractical for spontaneous purchases",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solid savings plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "budgeting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "prioritize important expenses",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which makes spending less overwhelming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solid savings plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "assist with budgeting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "There are numerous apps tailored for efficient expense tracking that are quite helpful",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solid savings plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "budgeting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more manageable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "I didn’t realize that budgeting apps could make the process easier",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alice",
+                "target": "solid savings plan",
+                "aspect": "budgeting",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    }
+]

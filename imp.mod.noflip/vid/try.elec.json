@@ -1,0 +1,4096 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            },
+            {
+                "id": 4,
+                "name": "Evan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just got the latest ZenTab 10-inch tablet. The display resolution is outstanding, offering vibrant colors for viewing.",
+                "annotation": "I just got the latest <target_01> ZenTab 10-inch tablet </target_01>. The <aspect_01> display resolution </aspect_01> is <opinion_01> outstanding </opinion_01>, <rationale_01> offering vibrant colors for viewing </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A close-up video showing the ZenTab's vibrant display and resolution in action.",
+                    "id": "vid_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds great! But I've heard the battery lasts only about six hours, which seems inadequate for daily use.",
+                "annotation": "That sounds great! But I've heard the <aspect_02> battery life </aspect_02> lasts <opinion_02> inadequate </opinion_02>, <rationale_02> for daily use as it lasts only about six hours </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's a valid point. However, the tablet's performance is remarkably fast. Apps open and run without any lag.",
+                "annotation": "That's a valid point. However, the <aspect_03> performance </aspect_03> is <opinion_03> remarkably fast </opinion_03>. <rationale_03> Apps open and run without any lag </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Absolutely. I also find the design very sleek and modern, which really enhances its appeal.",
+                "annotation": "Absolutely. I also find the <aspect_04> design </aspect_04> very <opinion_04> sleek </opinion_04>, <rationale_04> which really enhances its appeal </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I agree on the design, but the lack of expandable storage is quite disappointing, especially for media lovers.",
+                "annotation": "I agree on the <aspect_05> design </aspect_05>, but the <aspect_06> lack of expandable storage </aspect_06> is <opinion_05> disappointing </opinion_05>, <rationale_05> especially for media lovers </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ZenTab 10-inch tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "display resolution",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering vibrant colors for viewing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ZenTab 10-inch tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inadequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "for daily use as it lasts only about six hours",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ZenTab 10-inch tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "remarkably fast",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Apps open and run without any lag",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ZenTab 10-inch tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "sleek",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which really enhances its appeal",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Evan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ZenTab 10-inch tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "especially for media lovers",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "David"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The battery life of my tablet is astonishing; I can use it for days without needing to charge it.",
+                "annotation": "The <target_01> battery life </target_01> of my <aspect_01> tablet </aspect_01> is <opinion_01> astonishing </opinion_01>; <rationale_01> I can use it for days without needing to charge it </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I find its weight to be rather heavy; it becomes uncomfortable to hold for long periods.",
+                "annotation": "I find its <aspect_02> weight </aspect_02> to be <opinion_02> rather heavy </opinion_02>; <rationale_02> it becomes uncomfortable to hold for long periods </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the screen resolution is truly impressive, making everything look vibrant and clear.",
+                "annotation": "However, the <aspect_03> screen resolution </aspect_03> is <opinion_03> truly impressive </opinion_03>, <rationale_03> making everything look vibrant and clear </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "An animated demonstration showing the vibrant screen resolution of the tablet.",
+                    "id": "vid_0002"
+                },
+                "reply": 0
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "astonishing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "I can use it for days without needing to charge it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "rather heavy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it becomes uncomfortable to hold for long periods",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "screen resolution",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "truly impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making everything look vibrant and clear",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Emma"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            },
+            {
+                "id": 5,
+                "name": "James"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The resolution on this new camera is absolutely stunning. You can see every detail.",
+                "annotation": "The <aspect_01> resolution </aspect_01> on this <target_01> new camera </target_01> is <opinion_01> stunning </opinion_01>. <rationale_01> You can see every detail </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the battery life could really use improvement. It drains too quickly for long shoots.",
+                "annotation": "I agree, but the <aspect_02> battery life </aspect_02> could really use <opinion_02> improvement </opinion_02>. <rationale_02> It drains too quickly for long shoots </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Also, the autofocus feature is remarkably fast. It captures moments effortlessly.",
+                "annotation": "Also, the <aspect_03> autofocus feature </aspect_03> is <opinion_03> remarkably fast </opinion_03>. <rationale_03> It captures moments effortlessly </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A demonstration showcasing the camera's fast autofocus feature in action.",
+                    "id": "vid_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, the weight of the camera is a bit cumbersome for travel. It's not very portable.",
+                "annotation": "However, the <aspect_04> weight </aspect_04> of the <target_01> camera </target_01> is a bit <opinion_04> cumbersome </opinion_04>. <rationale_04> It's not very portable </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "resolution",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "You can see every detail",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "improvement",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It drains too quickly for long shoots",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "autofocus feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "remarkably fast",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It captures moments effortlessly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camera",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "cumbersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's not very portable",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jason"
+            },
+            {
+                "id": 1,
+                "name": "Maria"
+            },
+            {
+                "id": 2,
+                "name": "Ravi"
+            },
+            {
+                "id": 3,
+                "name": "Lila"
+            },
+            {
+                "id": 4,
+                "name": "Tom"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just read about the latest drone model by AeroTech. The flight duration is incredibly impressive!",
+                "annotation": "I just read about the <target_01> latest drone model by AeroTech </target_01>. The <aspect_01> flight duration </aspect_01> is <opinion_01> incredibly impressive </opinion_01>!",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's great, Jason! Is it easy to control?",
+                "annotation": "That's great, Jason! Is it <aspect_02> easy to control </aspect_02>?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "What's more, it's compact. The portability factor makes it super convenient for travel!",
+                "annotation": "What's more, it's <opinion_03> compact </opinion_03>. <rationale_03> The portability factor makes it super convenient for travel </rationale_03>!",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A compact drone being easily carried in a backpack during travel.",
+                    "id": "vid_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Can anyone tell me about its camera quality? I'm curious if it's high-resolution.",
+                "annotation": "Can anyone tell me about its <aspect_04> camera quality </aspect_04>? I'm curious if it's <opinion_04> high-resolution </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I assume the battery design is also well-thought-out, right? Battery life matters a lot in drones.",
+                "annotation": "I assume the <aspect_05> battery design </aspect_05> is also <opinion_05> critical </opinion_05>, right?",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "Indeed, Maria! The controls are intuitive, making it beginner-friendly for new users.",
+                "annotation": "Indeed, Maria! The <aspect_02> controls </aspect_02> are <opinion_02> intuitive </opinion_02>, making it beginner-friendly for new users!",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest drone model by AeroTech",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flight duration",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "none",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maria",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest drone model by AeroTech",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "controls",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "intuitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it beginner-friendly for new users",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest drone model by AeroTech",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "portability",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "compact",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The portability factor makes it super convenient for travel",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest drone model by AeroTech",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "high-resolution",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "none",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest drone model by AeroTech",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "battery design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "critical",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "none",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jake"
+            },
+            {
+                "id": 1,
+                "name": "Mia"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the latest drones, and the battery efficiency is outstanding. It really maximizes flight time.",
+                "annotation": "I've been reading about the latest <target_01> drones </target_01>, and the <aspect_01> battery efficiency </aspect_01> is <opinion_01> outstanding </opinion_01>. It really maximizes <aspect_01> flight time </aspect_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's great news! However, I've heard some models have a somewhat complicated control interface, which can be frustrating to navigate.",
+                "annotation": "That's great news! However, I've heard some models have a <aspect_02> complicated control interface </aspect_02>, which can be <opinion_02> frustrating </opinion_02> to navigate.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Yes, I agree with that concern. On the other hand, the aerial camera quality is exceptional, offering clear imagery.",
+                "annotation": "Yes, I agree with that concern. On the other hand, the <aspect_03> aerial camera quality </aspect_03> is <opinion_03> exceptional </opinion_03>, offering clear imagery.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A drone capturing stunning aerial views, showcasing its exceptional camera quality.",
+                    "id": "vid_0005"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Absolutely! And I think the design of these drones is remarkably aerodynamic, which enhances performance.",
+                "annotation": "Absolutely! And I think the <aspect_04> design </aspect_04> of these drones is <opinion_04> remarkably aerodynamic </opinion_04>, which enhances performance.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "battery efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it really maximizes flight time",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complicated control interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "frustrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can be frustrating to navigate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "aerial camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "offering clear imagery",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "remarkably aerodynamic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which enhances performance",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Mark"
+            },
+            {
+                "id": 1,
+                "name": "Linda"
+            },
+            {
+                "id": 2,
+                "name": "Ali"
+            },
+            {
+                "id": 3,
+                "name": "Sophie"
+            },
+            {
+                "id": 4,
+                "name": "Nina"
+            },
+            {
+                "id": 5,
+                "name": "Tom"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "My laptop recently arrived, and the processing speed is exceptionally fast, allowing me to multitask seamlessly.",
+                "annotation": "My <target_01> laptop </target_01> recently arrived, and the <aspect_01> processing speed </aspect_01> is <opinion_01> exceptionally fast </opinion_01>, <rationale_01> allowing me to multitask seamlessly </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Totally! The display quality is vibrant. Watching movies on it feels like a theater experience at home.",
+                "annotation": "Totally! The <aspect_02> display quality </aspect_02> is <opinion_02> vibrant </opinion_02>. <rationale_02> Watching movies on it feels like a theater experience at home </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "And I find the battery life quite impressive. I can work for hours without needing to charge it.",
+                "annotation": "And I find the <aspect_03> battery life </aspect_03> quite <opinion_03> impressive </opinion_03>. <rationale_03> I can work for hours without needing to charge it </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video showing a person using the laptop for hours without plugging it in, highlighting the long battery life.",
+                    "id": "vid_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Absolutely, the sound quality is remarkable too. I can host online meetings without external speakers.",
+                "annotation": "Absolutely, the <aspect_04> sound quality </aspect_04> is <opinion_04> remarkable </opinion_04>. <rationale_04> I can host online meetings without external speakers </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I love that it's lightweight. Carrying it around for work is quite easy and convenient.",
+                "annotation": "I love that it's <aspect_05> lightweight </aspect_05>. <rationale_05> Carrying it around for work is quite easy and convenient </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Same here! The design is sleek and modern, which makes it aesthetically pleasing.",
+                "annotation": "Same here! The <aspect_06> design </aspect_06> is <opinion_05> sleek and modern </opinion_05>, <rationale_06> which makes it aesthetically pleasing </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "processing speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptionally fast",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing me to multitask seamlessly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Linda",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "display quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Watching movies on it feels like a theater experience at home",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ali",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I can work for hours without needing to charge it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "sound quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I can host online meetings without external speakers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "lightweight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "easy",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Carrying it around for work is quite easy and convenient",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "sleek and modern",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "which makes it aesthetically pleasing",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Michael"
+            },
+            {
+                "id": 1,
+                "name": "Sarah"
+            },
+            {
+                "id": 2,
+                "name": "Kevin"
+            },
+            {
+                "id": 3,
+                "name": "Laura"
+            },
+            {
+                "id": 4,
+                "name": "Nina"
+            },
+            {
+                "id": 5,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The battery life of my new smartphone is impressive. I can go days without charging it.",
+                "annotation": "The <target_01> <i>smartphone</i> </target_01> has <aspect_01> <i>battery life</i> </aspect_01> that is <opinion_01> <i>impressive</i> </opinion_01>. <rationale_01> I can go days without charging it.</rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's great to hear, Michael! However, I find the camera quality of my phone quite underwhelming. Photos often appear blurry.",
+                "annotation": "That's great to hear, Michael! However, <target_02> <i>my phone</i> </target_02> has <aspect_02> <i>camera quality</i> </aspect_02> that is <opinion_02> <i>underwhelming</i> </opinion_02>. <rationale_02> Photos often appear blurry.</rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I understand your frustration, Sarah. I've started using a lens attachment for my smartphone, and the results are delightful.",
+                "annotation": "I understand your frustration, Sarah. I've started using a <target_03> <i>lens attachment</i> </target_03> for my <aspect_03> <i>smartphone</i> </aspect_03> and the <opinion_03> <i>results</i> </opinion_03> are <rationale_03> delightful.</rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Demonstrating a lens attachment that enhances smartphone photography.",
+                    "id": "vid_0007"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a clever solution! Speaking of enhancements, the design of my smartphone is sleek and modern, it feels great in my hand.",
+                "annotation": "<target_04> <i>My smartphone</i> </target_04> has <aspect_04> <i>design</i> </aspect_04> that is <opinion_04> <i>sleek and modern</i> </opinion_04>. <rationale_04> It feels great in my hand.</rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "While the design is impressive, I wish the user interface was more intuitive. It's quite cluttered and confusing.",
+                "annotation": "While the design is impressive, <target_05> <i>the user interface</i> </target_05> is <aspect_05> <i>cluttered</i> </aspect_05> and <opinion_05> <i>confusing</i> </opinion_05>. <rationale_05> It makes navigation frustrating.</rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I completely agree, Nina. Sometimes features feel buried, making it hard to customize the smartphone to my liking.",
+                "annotation": "I completely agree, Nina. <target_06> <i>Some features</i> </target_06> are <aspect_06> <i>buried</i> </aspect_06> and <opinion_06> <i>difficult</i> </opinion_06>. <rationale_06> It's hard to customize the smartphone to my liking.</rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "I can go days without charging it.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "my phone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "underwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Photos often appear blurry.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Kevin",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "lens attachment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "results",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "delightful.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Laura",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_04",
+                    "value": "my smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "sleek and modern",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It feels great in my hand.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_05",
+                    "value": "the user interface",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "cluttered",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It makes navigation frustrating.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_06",
+                    "value": "some features",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "buried",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "difficult",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It's hard to customize the smartphone to my liking.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            },
+            {
+                "id": 4,
+                "name": "Eli"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The Nikon Z9's autofocus system is incredibly precise, making it easier to capture fast-moving subjects.",
+                "annotation": "The <aspect_01> Nikon Z9's autofocus system </aspect_01> is <opinion_01> incredibly precise </opinion_01>, <rationale_01> making it easier to capture fast-moving subjects </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but the battery life is disappointingly short, which can hinder long shoots.",
+                "annotation": "Absolutely, but the <aspect_02> battery life </aspect_02> is <opinion_02> disappointingly short </opinion_02>, <rationale_02> which can hinder long shoots </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I find the image quality to be remarkable; the colors seem vibrant and true to life.",
+                "annotation": "I find the <aspect_03> image quality </aspect_03> to be <opinion_03> remarkable </opinion_03>; <rationale_03> the colors seem vibrant and true to life </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Showcasing vibrant colors captured with the Nikon Z9.",
+                    "id": "vid_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Moreover, the build quality feels exceptional in hand, providing a secure grip that inspires confidence while shooting.",
+                "annotation": "Moreover, the <aspect_04> build quality </aspect_04> feels <opinion_04> exceptional </opinion_04> <rationale_04> providing a secure grip that inspires confidence while shooting </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Nikon Z9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "autofocus system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly precise",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making it easier to capture fast-moving subjects",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Nikon Z9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "disappointingly short",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can hinder long shoots",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Nikon Z9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "image quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the colors seem vibrant and true to life",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Nikon Z9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "build quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "providing a secure grip that inspires confidence while shooting",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently got a fitness smartwatch, and the tracking accuracy is impressive.",
+                "annotation": "I recently got a new <target_01> fitness smartwatch </target_01>, and the <aspect_01> tracking accuracy </aspect_01> is <opinion_01> impressive </opinion_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A demonstration showing a smartwatch accurately tracking heart rate during a workout.",
+                    "id": "vid_0009"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The battery life tends to be quite long, which is a game-changer.",
+                "annotation": "<aspect_02> Battery life </aspect_02> is <opinion_02> quite long </opinion_02>, <rationale_02> which is a game-changer for everyday use.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the interface can be confusing at times, especially for new users.",
+                "annotation": "The <aspect_03> interface </aspect_03> can be <opinion_03> confusing </opinion_03> at times, <rationale_03> especially for new users.</rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "But I think the health monitoring features are quite robust. They're very helpful.",
+                "annotation": "The <aspect_04> health monitoring features </aspect_04> are <opinion_04> robust </opinion_04>. <rationale_04> They provide a lot of helpful insights about your health.</rationale_04>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Illustration of various health tracking metrics displayed on a smartwatch.",
+                    "id": "vid_0010"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "tracking accuracy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it consistently provides accurate data during workouts",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "long",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which is a game-changer for everyday use",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially for new users",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "health monitoring features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they provide a lot of helpful insights about your health",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Morgan"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been watching the latest series on my new television, and the picture quality is stunning.",
+                "annotation": "The <target_01> new television </target_01> has <aspect_01> picture quality </aspect_01> that is <opinion_01> stunning </opinion_01>, <rationale_01> making every show look incredibly lifelike </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! However, I find the audio clarity to be rather disappointing, which affects my overall experience.",
+                "annotation": "I find the <aspect_02> audio clarity </aspect_02> to be <opinion_02> rather disappointing </opinion_02>, <rationale_02> which affects my overall experience </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A comparison of sound quality between two televisions, showing distinct differences.",
+                    "id": "vid_0011"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Have you thought about getting an external sound system? The television's design is quite sleek, which complements any setup.",
+                "annotation": "The television's <aspect_03> design </aspect_03> is <opinion_03> quite sleek </opinion_03>, <rationale_03> which complements any setup </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, but even with a stylish design, the overall smart features can be convoluted and frustrating to navigate.",
+                "annotation": "The <aspect_04> smart features </aspect_04> are <opinion_04> convoluted </opinion_04>, <rationale_04> which can be frustrating to navigate </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new television",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "picture quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making every show look incredibly lifelike",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new television",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "audio clarity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which affects my overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new television",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "sleek",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which complements any setup",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new television",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "smart features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "convoluted",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which can be frustrating to navigate",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00011",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Dave"
+            },
+            {
+                "id": 1,
+                "name": "Ella"
+            },
+            {
+                "id": 2,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the new home automation system's security features are exceptional.",
+                "annotation": "I think the new <target_01> home automation system </target_01>'s <aspect_01> security features </aspect_01> are <opinion_01> exceptional </opinion_01>. <rationale_01> They provide real-time alerts and remote monitoring </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Demonstration of security alerts and monitoring on a smartphone app",
+                    "id": "vid_0012"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but I find the setup process confusing and somewhat tedious.",
+                "annotation": "Absolutely, but I find the <aspect_02> setup process </aspect_02> confusing and <opinion_02> tedious </opinion_02>. <rationale_02> It took me hours to connect everything correctly </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I believe the integration with other smart devices is efficient and user-friendly.",
+                "annotation": "I believe the <aspect_03> integration </aspect_03> with other smart devices is <opinion_03> efficient </opinion_03> and user-friendly. <rationale_03> It seamlessly connects with devices like thermostats and lights </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Integration of various smart devices in a home setting",
+                    "id": "vid_0013"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dave",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "home automation system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They provide real-time alerts and remote monitoring",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "home automation system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "setup process",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "tedious",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It took me hours to connect everything correctly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "home automation system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "integration",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It seamlessly connects with devices like thermostats and lights",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00012",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Morgan"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Jordan"
+            },
+            {
+                "id": 5,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I really love my e-reader. The lightweight design is perfect for reading on the go.",
+                "annotation": "I really love my e-reader. The <aspect_01> lightweight design </aspect_01> is <opinion_01> perfect </opinion_01> for <rationale_01> reading on the go.</rationale_01>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A person reading an e-reader while walking in a park, highlighting its portability.",
+                    "id": "vid_0014"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's a great point! However, I find the screen glare can be bothersome sometimes.",
+                "annotation": "That's a great point! However, the <aspect_02> screen glare </aspect_02> can be <opinion_02> bothersome </opinion_02>, which <rationale_02> affects my reading experience outdoors.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "You're right. But I think the battery life is remarkable! I rarely need to charge it.",
+                "annotation": "You're right. But I think the <aspect_03> battery life </aspect_03> is <opinion_03> remarkable </opinion_03> because <rationale_03> I rarely need to charge it.</rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Absolutely! Plus, the customizable font sizes make it more accessible for everyone.",
+                "annotation": "Absolutely! Plus, the <aspect_04> customizable font sizes </aspect_04> are <opinion_04> more accessible </opinion_04> for <rationale_04> everyone, enhancing the reading experience.</rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That's true, but I miss the feel of physical books. The tactile experience is something an e-reader just can't replicate.",
+                "annotation": "That's true, but I miss the <aspect_05> feel of physical books </aspect_05>. It's <opinion_05> something an e-reader just can't replicate </opinion_05> because <rationale_05> the tactile experience is unique.</rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I get that! Yet, the storage capacity is excellent, allowing me to carry thousands of books.",
+                "annotation": "I get that! Yet, the <aspect_06> storage capacity </aspect_06> is <opinion_06> excellent </opinion_06> as it <rationale_06> allows me to carry thousands of books.</rationale_06>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "lightweight design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "perfect",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for reading on the go.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "screen glare",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "bothersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "affects my reading experience outdoors.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I rarely need to charge it.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "customizable font sizes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more accessible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "for everyone, enhancing the reading experience.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "feel of physical books",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "something an e-reader just can't replicate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the tactile experience is unique.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "storage capacity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "allows me to carry thousands of books.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00013",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jake"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "What do you think about smart thermostats? Are they worth the investment?",
+                "annotation": "What do you think about <target_01> smart thermostats </target_01>? Are they worth the investment?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The energy efficiency of these thermostats is remarkable; they save a lot on utility bills.",
+                "annotation": "The <aspect_01> energy efficiency </aspect_01> of these thermostats is <opinion_01> remarkable </opinion_01>; <rationale_01> they save a lot on utility bills </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Plus, the convenience factor is incredible; I can control everything from my phone.",
+                "annotation": "Plus, the <aspect_02> convenience </aspect_02> factor is <opinion_02> incredible </opinion_02>; <rationale_02> I can control everything from my phone </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A demonstration of a smart thermostat app in action on a smartphone.",
+                    "id": "vid_0015"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's interesting! What about the learning capabilities of these devices?",
+                "annotation": "That's interesting! What about the <aspect_03> learning capabilities </aspect_03> of these devices?",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Their adaptive learning is quite intelligent; they adjust based on your schedule.",
+                "annotation": "Their <aspect_03> adaptive learning </aspect_03> is <opinion_03> quite intelligent </opinion_03>; <rationale_03> they adjust based on your schedule </rationale_03>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart thermostats",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "energy efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "they save a lot on utility bills",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart thermostats",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "convenience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredible",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I can control everything from my phone",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smart thermostats",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "learning capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite intelligent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "they adjust based on your schedule",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00014",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Michael"
+            },
+            {
+                "id": 2,
+                "name": "Olivia"
+            },
+            {
+                "id": 3,
+                "name": "James"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just got an e-reader, and the battery life is incredible! It lasts for weeks without needing a charge.",
+                "annotation": "I just got an e-reader, and the <aspect_01> battery life </aspect_01> is <opinion_01> incredible </opinion_01>! <rationale_01> It lasts for weeks without needing a charge </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A visual demonstration showcasing the e-reader's long battery life compared to traditional devices.",
+                    "id": "vid_0016"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I find the screen glare annoying. It makes reading difficult in bright light.",
+                "annotation": "That's true, but the <aspect_02> screen glare </aspect_02> is <opinion_02> annoying </opinion_02>. <rationale_02> It makes reading difficult in bright light </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree; the weight of the device is perfect. It feels just right for long reading sessions.",
+                "annotation": "I disagree; the <aspect_03> weight of the device </aspect_03> is <opinion_03> perfect </opinion_03>. <rationale_03> It feels just right for long reading sessions </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Exactly! And I believe the storage capacity is outstanding too. I can hold thousands of books!",
+                "annotation": "Exactly! And I believe the <aspect_04> storage capacity </aspect_04> is <opinion_04> outstanding </opinion_04> too. <rationale_04> I can hold thousands of books! </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It lasts for weeks without needing a charge",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "screen glare",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "annoying",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It makes reading difficult in bright light",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "weight of the device",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "perfect",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It feels just right for long reading sessions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-reader",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "storage capacity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I can hold thousands of books!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00015",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emily"
+            },
+            {
+                "id": 1,
+                "name": "Sam"
+            },
+            {
+                "id": 2,
+                "name": "Oliver"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The smart thermostat is incredibly efficient because it helps save on energy bills.",
+                "annotation": "The smart <target_01> thermostat </target_01> is <opinion_01> incredibly efficient </opinion_01> because <rationale_01> it helps save on energy bills </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I totally agree! However, the setup process can be quite complicated for non-tech-savvy users.",
+                "annotation": "I totally agree! However, the <aspect_02> setup process </aspect_02> can be <opinion_02> quite complicated </opinion_02> for <rationale_02> non-tech-savvy users </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The scheduling feature is superb; it automatically adjusts based on my routine.",
+                "annotation": "The <aspect_03> scheduling feature </aspect_03> is <opinion_03> superb </opinion_03>; <rationale_03> it automatically adjusts based on my routine </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "An overview demonstrating the smart thermostat's scheduling feature in action.",
+                    "id": "vid_0017"
+                },
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's true, but I wish the mobile app was more user-friendly; it can be a bit overwhelming.",
+                "annotation": "That's true, but I wish the <aspect_04> mobile app </aspect_04> was <opinion_04> more user-friendly </opinion_04>; <rationale_04> it can be a bit overwhelming </rationale_04>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "thermostat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "energy savings",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it helps save on energy bills",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "thermostat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "setup process",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite complicated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "non-tech-savvy users",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "thermostat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "scheduling feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "superb",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it automatically adjusts based on my routine",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "thermostat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "mobile app",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it can be a bit overwhelming",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00016",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Tom"
+            },
+            {
+                "id": 1,
+                "name": "Eva"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            },
+            {
+                "id": 3,
+                "name": "Nina"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I really admire how versatile drones are in various fields, from agriculture to filmmaking.",
+                "annotation": "I really admire how <opinion_01> versatile </opinion_01> <target_01> drones </target_01> <aspect_01> are </aspect_01> in various fields, from agriculture to filmmaking.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A montage showing drones in agriculture and filmmaking, highlighting their versatility in different environments.",
+                    "id": "vid_0018"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The ability to capture stunning aerial shots is just breathtaking.",
+                "annotation": "Absolutely! The <aspect_02> ability </aspect_02> to capture stunning aerial shots is <opinion_02> breathtaking </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but the regulations around drone usage are quite restrictive, which can be frustrating.",
+                "annotation": "True, but the <aspect_03> regulations </aspect_03> around drone usage are <opinion_03> restrictive </opinion_03>, <rationale_03> which can be frustrating </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I get that, yet the technological advancements are futuristic, pushing boundaries of what drones can do.",
+                "annotation": "I get that, yet the <aspect_04> technological advancements </aspect_04> are <opinion_04> futuristic </opinion_04>, <rationale_04> pushing boundaries of what drones can do </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "are",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "versatile",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "in various fields, from agriculture to filmmaking",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "ability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "to capture stunning aerial shots",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "regulations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "restrictive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which can be frustrating",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "technological advancements",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "futuristic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "pushing boundaries of what drones can do",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00017",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Eve"
+            },
+            {
+                "id": 1,
+                "name": "Mark"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            },
+            {
+                "id": 3,
+                "name": "Oscar"
+            },
+            {
+                "id": 4,
+                "name": "Pam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The performance of my gaming laptop is outstanding, it runs heavy games smoothly without lag.",
+                "annotation": "The <target_01> performance </target_01> of my <aspect_01> gaming laptop </aspect_01> is <opinion_01> outstanding </opinion_01>, it runs <aspect_01> heavy games </aspect_01> <opinion_01> smoothly </opinion_01> without lag.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think its cooling system is impressive; it keeps everything at a safe temperature during long sessions.",
+                "annotation": "I think its <aspect_02> cooling system </aspect_02> is <opinion_02> impressive </opinion_02>, <rationale_02> it keeps everything at a safe temperature during long sessions </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But the battery life is quite disappointing, I often need to plug it in after just a few hours.",
+                "annotation": "But the <aspect_03> battery life </aspect_03> is <opinion_03> quite disappointing </opinion_03>, <rationale_03> I often need to plug it in after just a few hours </rationale_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I love the graphics card though! It's capable of rendering the latest titles beautifully.",
+                "annotation": "I love the <aspect_04> graphics card </aspect_04> though! <rationale_04> It's capable of rendering the latest titles beautifully </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Showcasing stunning graphics performance in a high-end gaming setup.",
+                    "id": "vid_0019"
+                },
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I agree, the visuals are mesmerizing! It's a joy to dive into the world of my games.",
+                "annotation": "I agree, the <aspect_04> visuals </aspect_04> are <opinion_04> mesmerizing </opinion_04>! <rationale_04> It's a joy to dive into the world of my games </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "outstanding, smoothly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it runs heavy games smoothly without lag",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cooling system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it keeps everything at a safe temperature during long sessions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I often need to plug it in after just a few hours",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Oscar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "graphics card",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "capable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's capable of rendering the latest titles beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Pam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gaming laptop",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "mesmerizing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's a joy to dive into the world of my games",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00018",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "John"
+            },
+            {
+                "id": 1,
+                "name": "Lisa"
+            },
+            {
+                "id": 2,
+                "name": "Mike"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently got a smartphone and the battery life is incredible.",
+                "annotation": "I recently got a new <target_01> smartphone </target_01> and the <aspect_01> battery life </aspect_01> is <opinion_01> incredible </opinion_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A person happily using their smartphone while it charges, showcasing its battery longevity.",
+                    "id": "vid_0020"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yeah, but the camera features are quite impressive these days. It really captures details.",
+                "annotation": "<aspect_02> Camera features </aspect_02> are <opinion_02> impressive </opinion_02> these days. <rationale_02> It really captures details </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the overall design is somewhat bulky, making it less portable.",
+                "annotation": "The <aspect_03> overall design </aspect_03> is <opinion_03> somewhat bulky </opinion_03>, making it less portable.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "John",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It lasts for days without needing to charge",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lisa",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "camera features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It really captures details",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "overall design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "somewhat bulky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Making it less portable",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00019",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Mia"
+            },
+            {
+                "id": 1,
+                "name": "Tom"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            },
+            {
+                "id": 3,
+                "name": "Aaron"
+            },
+            {
+                "id": 4,
+                "name": "Leo"
+            },
+            {
+                "id": 5,
+                "name": "Sara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I absolutely love the convenience of my home automation system. It makes daily tasks so much easier!",
+                "annotation": "The <target_01> <i>home automation system</i> </target_01> has <aspect_01> <i>convenience</i> </aspect_01> that is <opinion_01> <i>amazing</i> </opinion_01>. <rationale_01> It makes daily tasks so much easier!</rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That is true, Mia! However, I find the initial setup process for these systems to be quite daunting.",
+                "annotation": "That is true, Mia! However, <target_02> <i>home automation systems</i> </target_02> have <aspect_02> <i>setup process</i> </aspect_02> that is <opinion_02> <i>daunting</i> </opinion_02>. <rationale_02> It can be quite overwhelming for many users.</rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Tom, I agree! But I believe once it's set up, the <i>user experience</i> is incredibly smooth and intuitive.",
+                "annotation": "Tom, I agree! But I believe the <target_03> <i>home automation system</i> </target_03> has <aspect_03> <i>user experience</i> </aspect_03> that is <opinion_03> <i>incredibly smooth</i> </opinion_03>. <rationale_03> It makes everything feel seamless once you get used to it.</rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A user smoothly navigating through home automation controls on a tablet.",
+                    "id": "vid_0021"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Nina, that’s an excellent point! Although sometimes I wish there were more compatibility options for devices.",
+                "annotation": "<target_04> <i>home automation systems</i> </target_04> have <aspect_04> <i>compatibility options</i> </aspect_04> that are <opinion_04> <i>limited</i> </opinion_04>. <rationale_04> It can restrict users from fully automating their homes.</rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I totally hear you, Aaron! But I think the <i>energy efficiency</i> features in these systems are quite beneficial.",
+                "annotation": "I totally hear you, Aaron! But I think the <target_05> <i>home automation systems</i> </target_05> offer <aspect_05> <i>energy efficiency</i> </aspect_05> that is <opinion_05> <i>beneficial</i> </opinion_05>. <rationale_05> They can significantly reduce power consumption.</rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Absolutely, Leo! And the fact that these systems can be controlled remotely is just fantastic for convenience.",
+                "annotation": "Absolutely, Leo! And the <target_06> <i>home automation systems</i> </target_06> have <aspect_06> <i>remote control</i> </aspect_06> that is <opinion_06> <i>fantastic</i> </opinion_06>. <rationale_06> It allows users to manage their homes from anywhere.</rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "home automation system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "convenience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "amazing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It makes daily tasks so much easier!",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "home automation systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "setup process",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "daunting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can be quite overwhelming for many users.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "home automation system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "user experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "incredibly smooth",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It makes everything feel seamless once you get used to it.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Aaron",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_04",
+                    "value": "home automation systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "compatibility options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It can restrict users from fully automating their homes.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_05",
+                    "value": "home automation systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "energy efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "They can significantly reduce power consumption.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Sara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_06",
+                    "value": "home automation systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "remote control",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It allows users to manage their homes from anywhere.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00020",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lucas"
+            },
+            {
+                "id": 1,
+                "name": "Maria"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            },
+            {
+                "id": 3,
+                "name": "Layla"
+            },
+            {
+                "id": 4,
+                "name": "Jim"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new GenTech tablet has an extraordinary display that makes content vibrant and immersive.",
+                "annotation": "The new <target_01> GenTech tablet </target_01> has an <opinion_01> extraordinary </opinion_01> <aspect_01> display </aspect_01> that makes content vibrant and immersive.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Video showcasing the GenTech tablet's vibrant display with vivid colors on the screen.",
+                    "id": "vid_0022"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I've read that the battery life is surprisingly long, allowing for extended use without frequent recharges.",
+                "annotation": "I've read that the <aspect_02> battery life </aspect_02> is <opinion_02> surprisingly long </opinion_02>, allowing for extended use without frequent recharges.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the weight of the tablet can be quite cumbersome for prolonged usage.",
+                "annotation": "However, the <aspect_03> weight </aspect_03> of the tablet can be <opinion_03> quite cumbersome </opinion_03> for prolonged usage.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Even with the weight issues, the speed of the GenTech tablet is incredibly fast, making multitasking effortless.",
+                "annotation": "Even with the weight issues, the <target_01> GenTech tablet </target_01> is <opinion_04> incredibly fast </opinion_04>, making multitasking effortless.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Have you considered the camera quality? A good camera is essential for capturing moments.",
+                "annotation": "<aspect_04> Camera quality </aspect_04>. A <opinion_05> good </opinion_05> is essential for capturing moments.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "Precisely, the camera quality of the GenTech tablet is remarkable, producing clear and vivid images.",
+                "annotation": "Precisely, the <target_01> GenTech tablet </target_01> <aspect_04> camera quality </aspect_04> is <opinion_06> remarkable </opinion_06>, producing clear and vivid images.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenTech tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "display",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "extraordinary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "that makes content vibrant and immersive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maria",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenTech tablet",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "surprisingly long",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "allowing for extended use without frequent recharges",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite cumbersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "for prolonged usage",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Layla",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenTech tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "speed",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "incredibly fast",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making multitasking effortless",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Jim",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "camera",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "good",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "is essential for capturing moments",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenTech tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "producing clear and vivid images",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00021",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Carol"
+            },
+            {
+                "id": 3,
+                "name": "Dave"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've always admired the lens versatility of high-end cameras. It allows for such creative freedom.",
+                "annotation": "I’ve always admired the <aspect_01> lens versatility </aspect_01> of high-end <target_01> cameras </target_01>. <rationale_01> It allows for such creative freedom </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but the autofocus system can be quite slow compared to other models.",
+                "annotation": "That’s true, but the <aspect_02> autofocus system </aspect_02> can be quite <opinion_02> slow </opinion_02>. <rationale_02> Compared to other models </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with Alice. The sensor quality is outstanding, especially in dynamic settings.",
+                "annotation": "I agree with Alice. The <aspect_03> sensor quality </aspect_03> is <opinion_03> outstanding </opinion_03>. <rationale_03> Especially in dynamic settings </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video showcasing various conditions where sensor quality stands out, highlighting its performance.",
+                    "id": "vid_0023"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, but the body design feels a bit clunky and can be uncomfortable for long shoots.",
+                "annotation": "True, but the <aspect_04> body design </aspect_04> feels <opinion_04> clunky </opinion_04>. <rationale_04> It can be uncomfortable for long shoots </rationale_04>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "While we're discussing it, the connectivity features are rather impressive, allowing seamless sharing.",
+                "annotation": "While we’re discussing it, the <aspect_05> connectivity features </aspect_05> are <opinion_05> impressive </opinion_05>. <rationale_05> Allowing seamless sharing </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cameras",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "lens versatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "admired",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It allows for such creative freedom",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cameras",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "autofocus system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Compared to other models",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Carol",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cameras",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "sensor quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Especially in dynamic settings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dave",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cameras",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "body design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "clunky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It can be uncomfortable for long shoots",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cameras",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "connectivity features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Allowing seamless sharing",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

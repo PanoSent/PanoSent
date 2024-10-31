@@ -1,0 +1,572 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Ella"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys tried the new HIIT workout? The intensity is just incredible.",
+                "annotation": "The <aspect_01> intensity </aspect_01> of the <target_01> HIIT workout </target_01> is <opinion_01> incredible </opinion_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A high-energy HIIT session showcasing the intensity of the workout.",
+                    "id": "vid_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the duration is kind of daunting; it feels like forever sometimes.",
+                "annotation": "I agree, but the <aspect_02> duration </aspect_02> is <opinion_02> daunting </opinion_02>; <rationale_02> it feels like forever sometimes </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "What I love is the versatility; you can mix different movements to keep it fresh.",
+                "annotation": "What I love is the <aspect_03> versatility </aspect_03>; <opinion_03> you can mix different movements </opinion_03> to keep it fresh.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Exactly! The community aspect makes it more enjoyable; exercising alone can be a drag.",
+                "annotation": "The <aspect_04> community aspect </aspect_04> makes it <opinion_04> more enjoyable </opinion_04>; <rationale_04> exercising alone can be a drag </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "However, I find the cost of the classes steep for a regular commitment.",
+                "annotation": "However, I find the <aspect_05> cost of the classes </aspect_05> <opinion_05> steep </opinion_05> for a regular commitment.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "intensity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "is just incredible",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "duration",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "daunting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it feels like forever sometimes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "versatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "love",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "you can mix different movements to keep it fresh",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "community aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more enjoyable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "exercising alone can be a drag",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "cost of the classes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "steep",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "for a regular commitment",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emily"
+            },
+            {
+                "id": 1,
+                "name": "John"
+            },
+            {
+                "id": 2,
+                "name": "Lisa"
+            },
+            {
+                "id": 3,
+                "name": "Mike"
+            },
+            {
+                "id": 4,
+                "name": "Sara"
+            },
+            {
+                "id": 5,
+                "name": "David"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been following this new dietary plan with plant-based meals. The idea of sustainability is refreshing, promoting healthier eating habits.",
+                "annotation": "I've been following this new <target_01> dietary plan </target_01> with plant-based meals. The <aspect_01> idea of sustainability </aspect_01> is <opinion_01> refreshing </opinion_01>, <rationale_01> promoting healthier eating habits </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Plant-based dishes beautifully arranged, showcasing their colorful and nutritious benefits.",
+                    "id": "vid_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's a great point, but the variety of options can be limited. It often feels repetitive after a few weeks.",
+                "annotation": "That's a great point, but the <aspect_02> variety of options </aspect_02> can be <opinion_02> limited </opinion_02>. <rationale_02> It often feels repetitive after a few weeks </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with you, but I find the meals quite nourishing. It feels good knowing I'm fueling my body with wholesome ingredients.",
+                "annotation": "I agree with you, but I find the <aspect_03> meals </aspect_03> quite <opinion_03> nourishing </opinion_03>. <rationale_03> It feels good knowing I'm fueling my body with wholesome ingredients </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Definitely, while the cost of ingredients can be a drawback, the long-term health benefits are extraordinary.",
+                "annotation": "Definitely, while the <aspect_04> cost of ingredients </aspect_04> can be a <opinion_04> drawback </opinion_04>, <rationale_04> the long-term health benefits are extraordinary </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dietary plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "idea of sustainability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "promoting healthier eating habits",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "John",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dietary plan",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "variety of options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It often feels repetitive after a few weeks",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Lisa",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dietary plan",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "meals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "nourishing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It feels good knowing I'm fueling my body with wholesome ingredients",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dietary plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "cost of ingredients",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "drawback",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the long-term health benefits are extraordinary",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "David"
+            },
+            {
+                "id": 1,
+                "name": "Emily"
+            },
+            {
+                "id": 2,
+                "name": "Frank"
+            },
+            {
+                "id": 3,
+                "name": "Grace"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently came across some discussions about the importance of mental health awareness, and the stigma surrounding it is quite harmful since it prevents people from seeking help.",
+                "annotation": "I recently came across some discussions about the importance of <target_01> mental health awareness </target_01>, and the <aspect_01> stigma </aspect_01> surrounding it is <opinion_01> harmful </opinion_01> since <rationale_01> it prevents people from seeking help </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, the stigma can be so isolating. How do you think awareness initiatives can combat this?",
+                "annotation": "Absolutely, the <aspect_02> stigma </aspect_02> can be so isolating. How do you think <aspect_02> awareness initiatives </aspect_02> can <opinion_02> effectively </opinion_02> combat this?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Effective awareness initiatives are crucial. They can educate communities and provide accurate information to reduce misunderstandings that trivialize mental health problems.",
+                "annotation": "Effective <aspect_02> awareness initiatives </aspect_02> are <opinion_03> crucial </opinion_03>. They can educate communities and provide accurate information to reduce misunderstandings that trivialize mental health problems.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A presentation explaining the impact of mental health awareness initiatives and showcasing community workshops.",
+                    "id": "vid_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That makes sense. Also, creating safe spaces where individuals can talk openly about their experiences is essential for fostering support.",
+                "annotation": "Creating <aspect_04> safe spaces </aspect_04> where individuals can talk openly about their experiences is <opinion_04> essential </opinion_04> for <rationale_02> fostering support.</rationale_02>",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "stigma",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "harmful",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it prevents people from seeking help",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health awareness",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "awareness initiatives",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "effectively",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health awareness",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "awareness initiatives",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "to reduce misunderstandings that trivialize mental health problems",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Grace",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health awareness",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "safe spaces",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "for fostering support",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

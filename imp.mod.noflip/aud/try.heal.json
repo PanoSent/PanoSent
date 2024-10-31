@@ -1,0 +1,726 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Jackson"
+            },
+            {
+                "id": 2,
+                "name": "Mason"
+            },
+            {
+                "id": 3,
+                "name": "Isabella"
+            },
+            {
+                "id": 4,
+                "name": "Aiden"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new AquaGlow serum is superb, it makes my skin look so radiant.",
+                "annotation": "The new <target_01> AquaGlow serum </target_01> is <opinion_01> superb </opinion_01>, <rationale_01> it makes my skin look so radiant</rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "You've got to try the new AquaGlow serum! It makes my skin look so radiant!",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I've noticed its moisturizing effect is incredible, my skin feels hydrated all day.",
+                "annotation": "I've noticed its <aspect_02> moisturizing effect </aspect_02> is <opinion_02> incredible </opinion_02>, <rationale_02> my skin feels hydrated all day </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But the packaging design could be better; it's somewhat impractical.",
+                "annotation": "But the <aspect_03> packaging design </aspect_03> could be <opinion_03> better </opinion_03>; <rationale_03> it's somewhat impractical</rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I agree, but its fragrance is absolutely delightful, very refreshing in the mornings.",
+                "annotation": "I agree, but its <aspect_04> fragrance </aspect_04> is <opinion_04> absolutely delightful </opinion_04>, <rationale_04> very refreshing in the mornings </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "It also has SPF protection, which is a huge bonus considering how much time we spend outside.",
+                "annotation": "It also has <aspect_5> SPF protection </aspect_05>, which is a <opinion_05> huge bonus </opinion_05> <rationale_05>considering how much time we spend outside </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AquaGlow serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "effect",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "superb",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it makes my skin look so radiant",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jackson",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AquaGlow serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "moisturizing effect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "my skin feels hydrated all day",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AquaGlow serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "packaging design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "better",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it's somewhat impractical",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AquaGlow serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "fragrance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "absolutely delightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "very refreshing in the mornings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Aiden",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AquaGlow serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "SPF protection",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "huge bonus",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "considering how much time we spend outside",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            },
+            {
+                "id": 3,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Exercise is a crucial factor in maintaining mental health. It's very beneficial because it reduces stress.",
+                "annotation": "Exercise is a crucial factor in maintaining <target_01> mental health </target_01>. It's <opinion_01> very beneficial </opinion_01> because it <rationale_01> reduces stress </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Reducing stress is important, but I think the availability of mental health support services is just as essential.",
+                "annotation": "Reducing stress is important, but I think the availability of <aspect_02> mental health support services </aspect_02> is just as <opinion_02> essential </opinion_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Reducing stress is crucial, but having access to mental health support services is just as essential.",
+                    "id": "aud_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The stigma around discussing mental health is problematic. It makes people reluctant to seek help.",
+                "annotation": "The <aspect_03> stigma </aspect_03> around discussing <target_01 implicit> mental health </target_01 implicit> is <opinion_03> problematic </opinion_03>. <rationale_03> It makes people reluctant to seek help </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I agree, and improving mental health education in schools would be highly impactful for creating awareness.",
+                "annotation": "I agree, and improving <aspect_04> mental health education in schools </aspect_04> would be highly <opinion_04> impactful </opinion_04> for <rationale_04> creating awareness </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "exercise",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "very beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It reduces stress",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "support services",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Applause from mental health seminar",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "stigma",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "problematic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It makes people reluctant to seek help",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "education",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "impactful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Creating awareness",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Olivia"
+            },
+            {
+                "id": 2,
+                "name": "Mason"
+            },
+            {
+                "id": 3,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 1,
+                "utterance": "I recently started using a guided meditation app. The voice guidance is incredibly soothing, helping me to relax quickly.",
+                "annotation": "I recently started using a guided <target_01> meditation app </target_01>. The <aspect_01> voice guidance </aspect_01> is <opinion_01> incredibly soothing </opinion_01>, <rationale_01> helping me to relax quickly </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 2,
+                "utterance": "Has it improved your focus during the day? That's something I struggle with often.",
+                "annotation": "Has it improved your <aspect_02> focus </aspect_02> during the day?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 1,
+                "utterance": "Absolutely! My concentration has been much sharper since I started using it.",
+                "annotation": "<rationale_02> My concentration has been much sharper since I started using it </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "It sounds helpful. I'm curious if it also gives any breathing techniques.",
+                "annotation": "I'm curious if it also gives any <aspect_03> breathing techniques </aspect_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Oh yes, it includes a variety of breathing exercises that are quite effective.",
+                "annotation": "<aspect_03> Breathing techniques </aspect_03> that are <opinion_03> quite effective </opinion_03> are included.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Yes, it has a variety of effective breathing exercises.",
+                    "id": "aud_0003"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "That's amazing then. Adding breathing exercises definitely makes a difference in managing stress.",
+                "annotation": "<rationale_03> Adding breathing exercises definitely makes a difference in managing stress </rationale_03>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "meditation app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "voice guidance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly soothing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "helping me to relax quickly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "meditation app",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "focus",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "sharper",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "My concentration has been much sharper since I started using it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "meditation app",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "breathing techniques",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "effective",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Adding breathing exercises definitely makes a difference in managing stress",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Daniel"
+            },
+            {
+                "id": 2,
+                "name": "Olivia"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently started using the ClearSkinPro serum and its effectiveness against acne is remarkable, my skin looks so much cleaner now.",
+                "annotation": "I've recently started using the <target_01> ClearSkinPro serum </target_01> and its <aspect_01> effectiveness against acne </aspect_01> is <opinion_01> remarkable </opinion_01>, <rationale_01> my skin looks so much cleaner now </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree that it's effective, but the packaging is quite flimsy, it cracked open just after a week of use.",
+                "annotation": "I agree that it's effective, but the <aspect_02> packaging </aspect_02> is <opinion_02> quite flimsy </opinion_02>, <rationale_02> it cracked open just after a week of use </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But isn't it a bit pricey for the quantity? I find that I run out of it too quickly.",
+                "annotation": "But isn't it a bit <opinion_03> pricey </opinion_03> for the <aspect_03> quantity </aspect_03>? <rationale_03> I find that I run out of it too quickly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "On the bright side, the lightweight formula feels amazing on the skin.",
+                "annotation": "On the bright side, the <aspect_04> lightweight formula </aspect_04> feels <opinion_04> amazing </opinion_04> on the skin.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "On the bright side, the lightweight formula feels amazing on the skin.",
+                    "id": "aud_0004"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ClearSkinPro serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "effectiveness against acne",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "my skin looks so much cleaner now",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Daniel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ClearSkinPro serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "packaging",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite flimsy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it cracked open just after a week of use",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ClearSkinPro serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "quantity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "pricey",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I find that I run out of it too quickly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ClearSkinPro serum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "lightweight formula",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "amazing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "None",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

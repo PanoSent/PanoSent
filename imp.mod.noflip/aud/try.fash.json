@@ -1,0 +1,1206 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Max"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            },
+            {
+                "id": 3,
+                "name": "Emma"
+            },
+            {
+                "id": 4,
+                "name": "Lucas"
+            },
+            {
+                "id": 5,
+                "name": "Mia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The autumn clothing line this year is stylish, especially those leather jackets.",
+                "annotation": "The <target_01> autumn clothing line </target_01> this year is <opinion_01> stylish </opinion_01>, especially those <aspect_01> leather jackets </aspect_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Can you hear the rustling leaves? The autumn clothing line this year is stylish, especially those leather jackets.",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I think the coats are a bit heavy. They could be more comfortable to wear daily.",
+                "annotation": "I agree, but I think the <aspect_02> coats </aspect_02> are a bit <opinion_02> heavy </opinion_02>. <rationale_02> They could be more comfortable to wear daily </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but I love the colors they've chosen this season. They're vibrant and perfect for autumn.",
+                "annotation": "True, but I love the <aspect_03> colors </aspect_03> they've chosen this season. They're <opinion_03> vibrant </opinion_03> and <rationale_03> perfect for autumn </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The material of the sweaters is also nice. They feel soft and warm.",
+                "annotation": "The <aspect_04> material of the sweaters </aspect_04> is also <opinion_04> nice </opinion_04>. <rationale_04> They feel soft and warm </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I find the scarves to be overly patterned. Simpler designs would have been better.",
+                "annotation": "I find the <aspect_05> scarves </aspect_05> to be <opinion_05> overly patterned </opinion_05>. <rationale_05> Simpler designs would have been better </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Regardless, the boots are fantastic. They have great grip and keep my feet warm.",
+                "annotation": "Regardless, the <aspect_06> boots </aspect_06> are <opinion_06> fantastic </opinion_06>. <rationale_06> They have great grip and keep my feet warm </rationale_06>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "These boots are fantastic! They grip well and keep my feet warm, even as I walk through the autumn leaves.",
+                    "id": "aud_0002"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "autumn clothing line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "leather jackets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stylish",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Sound of rustling leaves in the background.",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "autumn clothing line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "coats",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "heavy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They could be more comfortable to wear daily",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "autumn clothing line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "colors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "perfect for autumn",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "autumn clothing line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "material of the sweaters",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "nice",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "They feel soft and warm",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "autumn clothing line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "scarves",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "overly patterned",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Simpler designs would have been better",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "autumn clothing line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "boots",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "great grip and keep my feet warm",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lily"
+            },
+            {
+                "id": 1,
+                "name": "Mason"
+            },
+            {
+                "id": 2,
+                "name": "Ava"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            },
+            {
+                "id": 4,
+                "name": "Isabella"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I bought the new Pulse sneakers, and the cushioning feels so comfortable.",
+                "annotation": "I bought the new <target_01> Pulse sneakers </target_01>, and the <aspect_01> cushioning </aspect_01> feels <opinion_01> so comfortable </opinion_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "You hear that? That's the sound of these new Pulse sneakers in action. The cushioning is unbelievably comfortable!",
+                    "id": "aud_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the design is very modern. It turns heads when I'm jogging.",
+                "annotation": "I think the <aspect_02> design </aspect_02> is <opinion_02> very modern </opinion_02>. <rationale_02> It turns heads when I'm jogging </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "How's the durability? I'm curious if they last for long-distance running.",
+                "annotation": "How's the <aspect_03> durability </aspect_03>? I'm curious if they last for long-distance running.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "They're durable for sure. I've been using them for months, and they're still going strong.",
+                "annotation": "They're <opinion_03> durable </opinion_03> for sure. <rationale_03> I've been using them for months, and they're still going strong </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "But do you think the price is justifiable for the features it offers?",
+                "annotation": "But do you think the price is justifiable for the features it offers?",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Do you think the price is justifiable for the features it offers compared to other brands?",
+                    "id": "aud_0004"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "Considering the level of comfort and durability, I do think the price is fair.",
+                "annotation": "Considering the level of comfort and durability, <opinion_04> I do think the price is fair </opinion_04>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pulse sneakers",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cushioning",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "so comfortable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "its comfort, demonstrated by the sound of soft footsteps on a treadmill",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pulse sneakers",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "very modern",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It turns heads when I'm jogging",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pulse sneakers",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "durability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "durable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I've been using them for months, and they're still going strong",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Pulse sneakers",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "price",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "fair",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Considering the level of comfort and durability",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Leo"
+            },
+            {
+                "id": 1,
+                "name": "Mia"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Emma"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Has anyone seen the latest sneaker drop from Hypebeast? I'm curious about its design.",
+                "annotation": "Has anyone seen the latest <target_01> sneaker </target_01> drop from Hypebeast? I'm curious about its <aspect_01> design </aspect_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, the design is stunning, which makes the sneakers visually appealing.",
+                "annotation": "Absolutely, the design is <opinion_01> stunning </opinion_01>, which <rationale_01> makes the sneakers visually appealing </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree, but what about the comfort? That's a crucial aspect for me.",
+                "annotation": "I agree, but what about the <aspect_02> comfort </aspect_02>? That's a crucial aspect for me.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The comfort level is excellent; wearing them feels like walking on clouds.",
+                "annotation": "The comfort level is <opinion_02> excellent </opinion_02>; <rationale_02> wearing them feels like walking on clouds </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "These new sneakers are so comfortable, it feels like I'm walking on clouds!",
+                    "id": "aud_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Nice! But how durable are they? I don't want to buy a pair that won't last.",
+                "annotation": "Nice! But how durable are they? I don't want to buy a pair that won't last.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "They are quite durable. I’ve had a similar pair that lasted for years.",
+                "annotation": "They are <opinion_03> quite durable </opinion_03>. <rationale_03> I’ve had a similar pair that lasted for years </rationale_03>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sneaker",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "makes the sneakers visually appealing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sneaker",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "comfort",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "wearing them feels like walking on clouds",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sneaker",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "durability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "great",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I’ve had a similar pair that lasted for years",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Brian"
+            },
+            {
+                "id": 2,
+                "name": "Cara"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just bought some children's wear from that new boutique downtown. The fabric of the clothes is really soft, perfect for kids with sensitive skin.",
+                "annotation": "I just bought some <target_01> children's wear </target_01> from that new boutique downtown. The <aspect_01> fabric </aspect_01> of the clothes is <opinion_01> really soft </opinion_01>, <rationale_01> perfect for kids with sensitive skin </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's great to hear! How about the designs? I believe that appealing patterns can make a big difference for children's fashion.",
+                "annotation": "That's great to hear! How about the <aspect_02> designs </aspect_02>? I believe that <opinion_02> appealing </opinion_02> patterns can make a big difference for children's fashion.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Absolutely! The prints are so playful and vibrant, which I think stimulates the kids' imagination.",
+                "annotation": "<rationale_02> The prints are so playful and vibrant, which I think stimulates the kids' imagination </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Absolutely! The prints are so playful and vibrant, they really stimulate the kids' imagination.",
+                    "id": "aud_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "And I noticed that the colors don't fade even after multiple washes, maintaining their bright appearance.",
+                "annotation": "And I noticed that the <aspect_03> colors </aspect_03> don't fade even after multiple washes, maintaining their <opinion_03> bright appearance </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "children's wear",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "fabric",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "really soft",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "perfect for kids with sensitive skin",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Brian",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "children's wear",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "designs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The prints are so playful and vibrant, which I think stimulates the kids' imagination",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "children's wear",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "colors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "bright appearance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "And I noticed that the colors don't fade even after multiple washes",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Isabella"
+            },
+            {
+                "id": 1,
+                "name": "Mason"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            },
+            {
+                "id": 5,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The metallic sheen on these dresses is absolutely splendid. It catches the light beautifully.",
+                "annotation": "The <aspect_01> metallic sheen </aspect_01> on these <target_01> dresses </target_01> is <opinion_01> splendid </opinion_01>. <rationale_01> It catches the light beautifully </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, the fabric's luminosity brings a modern touch to the classic silhouette.",
+                "annotation": "I agree, the <aspect_02> fabric's luminosity </aspect_02> brings a <opinion_02> modern </opinion_02> touch to the classic silhouette.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But won't it be too flashy for certain events? The glare could be overwhelming.",
+                "annotation": "But won't it be too <opinion_03> flashy </opinion_03> for certain <aspect_03> events </aspect_03>? The glare could be overwhelming.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "But won't it be too flashy for some events? The glare might be overwhelming.",
+                    "id": "aud_0007"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's true. However, the reflective quality is perfect for evening wear when subtle lighting enhances its brilliance.",
+                "annotation": "That's true. However, the <aspect_04> reflective quality </aspect_04> is <opinion_04> perfect </opinion_04> for <target_02> evening wear </target_02> when subtle lighting enhances its brilliance.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dresses",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "metallic sheen",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "splendid",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It catches the light beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dresses",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fabric's luminosity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "modern",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "brings a modern touch to the classic silhouette",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dresses",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "events",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "flashy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The glare could be overwhelming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "evening wear",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "reflective quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "perfect",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "when subtle lighting enhances its brilliance",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Ethan"
+            },
+            {
+                "id": 2,
+                "name": "Ava"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new winter coat collection just launched. Any thoughts on its quality?",
+                "annotation": "The new <target_01> winter coat collection </target_01> just launched. Any thoughts on its <aspect_01> quality</aspect_01>?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The material feels exceptionally durable. It should last through multiple winters.",
+                "annotation": "The <aspect_02> material </aspect_02> feels <opinion_02> exceptionally durable </opinion_02>. <rationale_02> It should last through multiple winters </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree. Plus, the insulation seems top-notch, which is perfect for cold weather.",
+                "annotation": "I agree. Plus, the <aspect_03> insulation </aspect_03> seems <opinion_03> top-notch </opinion_03>, <rationale_03> which is perfect for cold weather </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The design is quite stylish too. I love how they mixed modern and classic elements.",
+                "annotation": "The <aspect_04> design </aspect_04> is <opinion_04> quite stylish </opinion_04> too. <rationale_04> I love how they mixed modern and classic elements </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The design is quite stylish too! I love how they mixed modern and classic elements.",
+                    "id": "aud_0008"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Have you noticed the pockets? They're very spacious and convenient.",
+                "annotation": "Have you noticed the <aspect_05> pockets </aspect_05>? They're <opinion_05> very spacious </opinion_05> and <rationale_05> convenient </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "The color options are quite versatile. You have choices for both casual and formal settings.",
+                "annotation": "The <aspect_06> color options </aspect_06> are <opinion_06> quite versatile </opinion_06>. <rationale_06> You have choices for both casual and formal settings </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "winter coat collection",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "seems to be",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "any thoughts on its quality?",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "winter coat collection",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "material",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "exceptionally durable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it should last through multiple winters",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "winter coat collection",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "insulation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "top-notch",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which is perfect for cold weather",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "winter coat collection",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite stylish",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I love how they mixed modern and classic elements",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "winter coat collection",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "pockets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "very spacious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "convenient",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "winter coat collection",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "color options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "quite versatile",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "You have choices for both casual and formal settings",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

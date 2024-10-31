@@ -1,0 +1,1690 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Natalie"
+            },
+            {
+                "id": 1,
+                "name": "James"
+            },
+            {
+                "id": 2,
+                "name": "Ella"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think solar panels are incredibly effective at reducing the electricity bill, especially in sunny regions.",
+                "annotation": "I think <aspect_01> solar panels </aspect_01> are <opinion_01> incredibly effective </opinion_01> at <rationale_01> reducing the electricity bill, especially in sunny regions </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Solar panels really do save a lot on energy costs.",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I've heard the environmental impact of their production can be quite harmful.",
+                "annotation": "That's true, but I've heard the <aspect_02> environmental impact </aspect_02> of their production can be <opinion_02> quite harmful </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "In my experience, using wind energy has proven to be reliable. Wind turbines generate power even at low wind speeds.",
+                "annotation": "In my experience, using <aspect_03> wind energy </aspect_03> has proven to be <opinion_03> reliable </opinion_03>. <rationale_03> Wind turbines generate power even at low wind speeds </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, the aesthetics of those wind turbines can be quite disruptive in rural landscapes.",
+                "annotation": "However, the <aspect_04> aesthetics </aspect_04> of those <target_01> wind turbines </target_01> can be <opinion_04> quite disruptive </opinion_04> in rural landscapes.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "They can really spoil the view, can't they?",
+                    "id": "aud_0002"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I used to think solar panels were just a fad, but after seeing how much my friends save, they're definitely a smart investment.",
+                "annotation": "I used to think <aspect_05> solar panels </aspect_05> were <opinion_05> just a fad </opinion_05>, but <rationale_05> after seeing how much my friends save </rationale_05>, they're definitely a <opinion_06> smart investment </opinion_06>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Natalie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "efficacy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly effective",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "reducing the electricity bill, especially in sunny regions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "environmental impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite harmful",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": null,
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wind energy",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "reliability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "reliable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Wind turbines generate power even at low wind speeds",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wind turbines",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "aesthetics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite disruptive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "in rural landscapes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "investment value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "just a fad",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "after seeing how much my friends save",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "investment value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "smart investment",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": null,
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Mia",
+                "target": "solar panels",
+                "aspect": "investment value",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Evelyn"
+            },
+            {
+                "id": 1,
+                "name": "James"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            },
+            {
+                "id": 3,
+                "name": "Oliver"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            },
+            {
+                "id": 5,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the advancements in propulsion technologies, and I find the ion propulsion system incredibly efficient for long-duration space missions.",
+                "annotation": "I've been reading about the advancements in <target_01> propulsion technologies </target_01>, and I find the <aspect_01> ion propulsion system </aspect_01> <opinion_01> incredibly efficient </opinion_01> for <rationale_01> long-duration space missions </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but isn't it also somewhat complex and costly to implement? That could limit its usage outside of major missions.",
+                "annotation": "True, but isn't it also somewhat <opinion_02> complex and costly </opinion_02> to implement? <rationale_02> That could limit its usage outside of major missions </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I think the costs could restrict its application.",
+                    "id": "aud_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While that is a valid point, the long-term fuel savings could outweigh the initial investment, making it cost-effective overall.",
+                "annotation": "While that is a valid point, the <opinion_03> long-term fuel savings </opinion_03> could outweigh the <rationale_03> initial investment, making it cost-effective overall </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's an interesting perspective! I initially believed the complexity would be a major drawback, but if the savings justify the costs, maybe it’s worth considering.",
+                "annotation": "That's an interesting perspective! I initially <opinion_04> believed the complexity would be </opinion_04> a major drawback, but if <rationale_04> the savings justify the costs </rationale_04>, maybe it’s worth considering.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Evelyn",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion technologies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "ion propulsion system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for long-duration space missions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion technologies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "implementation complexity and cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "complex and costly",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "that could limit its usage outside of major missions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion technologies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "long-term fuel savings",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "cost-effective overall",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making it cost-effective overall",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion technologies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "believed to be a major drawback",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the complexity would be a major drawback",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Oliver",
+                "target": "propulsion technologies",
+                "aspect": "complexity",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring different cloud solutions for our business, and the adaptability of these services is outstanding.",
+                "annotation": "I've been exploring different <target_01> cloud solutions </target_01> for our business, and the <aspect_01> adaptability </aspect_01> is <opinion_01> outstanding </opinion_01>. <rationale_01> This allows us to scale resources quickly based on our needs. </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The adaptability of cloud services is impressive for scaling our resources.",
+                    "id": "aud_0004"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The cost-effectiveness is another key feature. We can save a lot by reducing hardware overhead.",
+                "annotation": "The <aspect_02> cost-effectiveness </aspect_02> is <opinion_02> another key feature </opinion_02>. <rationale_02> We can save a lot by reducing hardware overhead. </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Have you considered the security aspect? It's crucial to ensure sensitive data is well protected.",
+                "annotation": "Have you considered the <aspect_03> security </aspect_03> aspect? It's <opinion_03> crucial </opinion_03> to ensure sensitive data is well protected.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Security for our sensitive data is critical and can't be overlooked.",
+                    "id": "aud_0005"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I agree on adaptability, I believe the performance can sometimes lag during peak usage times.",
+                "annotation": "The <aspect_04> performance </aspect_04> can <opinion_04> sometimes lag </opinion_04> during peak usage times. <rationale_04> This can hinder our operations when we need speed the most. </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That's a valid concern, Dana. However, many providers are now optimizing for performance, making it less of an issue than it used to be.",
+                "annotation": "Many providers are now optimizing for <aspect_04> performance </aspect_04>, making it <opinion_05> less of an issue </opinion_05> than it used to be. <rationale_05> This makes our reliance on those services much safer now. </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "adaptability",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "outstanding",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "This allows us to scale resources quickly based on our needs.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost-effectiveness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "key feature",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "We can save a lot by reducing hardware overhead.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's crucial to ensure sensitive data is well protected.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "sometimes lag",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "This can hinder our operations when we need speed the most.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "less of an issue",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "This makes our reliance on those services much safer now.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Dana",
+            "target": "cloud solutions",
+            "aspect": "performance",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Charlie"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Pat"
+            },
+            {
+                "id": 3,
+                "name": "Alex"
+            },
+            {
+                "id": 4,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Blockchain technology is revolutionizing financial systems. Its transparency is remarkable, ensuring trust and accountability in transactions.",
+                "annotation": "Blockchain technology is revolutionizing <target_01> financial systems </target_01>. Its <aspect_01> transparency </aspect_01> is <opinion_01> remarkable </opinion_01>, <rationale_01> ensuring trust and accountability in transactions </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree with you, but the scalability is a concern. It seems to lag behind as more users adopt it.",
+                "annotation": "I agree with you, but the <aspect_02> scalability </aspect_02> is <opinion_02> concerning </opinion_02>. <rationale_02> It seems to lag behind as more users adopt it </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I see the argument about scalability, I think the inherent security is promising. It adds a robust layer to digital transactions.",
+                "annotation": "While I see the argument about scalability, I think the <aspect_03> inherent security </aspect_03> is <opinion_03> promising </opinion_03>. <rationale_03> It adds a robust layer to digital transactions </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I find the security aspect really encouraging.",
+                    "id": "aud_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's a valid point, but I still feel the security cannot fully compensate for the scalability issues. User experience might suffer as more people join.",
+                "annotation": "That's a valid point, but I still feel the <aspect_02> security </aspect_02> cannot fully compensate for the <opinion_04> continuing scalability issues </opinion_04>. <rationale_04> User experience might suffer as more people join </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "I think the public perception is crucial as well. If users believe in its security and transparency, they’re more likely to embrace blockchain solutions.",
+                "annotation": "I think the <aspect_05> public perception </aspect_05> is <opinion_05> crucial </opinion_05> as well. <rationale_05> If users believe in its security and transparency, they're more likely to embrace blockchain solutions </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "I’m not sure I fully agree. The hype around blockchain sometimes overshadows the actual challenges, which could create false expectations.",
+                "annotation": "I’m not sure I fully agree. The <aspect_06> hype </aspect_06> around blockchain is <opinion_06> misleading </opinion_06>. <rationale_06> It sometimes overshadows the actual challenges, which could create false expectations </rationale_06>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "A bit of skepticism can keep things realistic.",
+                    "id": "aud_0007"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "transparency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "ensuring trust and accountability in transactions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It seems to lag behind as more users adopt it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Pat",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "inherent security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It adds a robust layer to digital transactions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "continuing scalability issues",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "User experience might suffer as more people join",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "public perception",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "If users believe in its security and transparency, they're more likely to embrace blockchain solutions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "hype",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "misleading",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It sometimes overshadows the actual challenges, which could create false expectations",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Oliver"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I read about the latest advancements in 5G technology, and it's incredible how it enhances connectivity. The speed truly seems revolutionary.",
+                "annotation": "I read about the latest advancements in <target_01> 5G technology </target_01>, and it's <opinion_01> incredible how </opinion_01> it enhances <aspect_01> connectivity </aspect_01>. <rationale_01> The speed truly seems revolutionary </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "And beyond speed, the capacity of 5G to support multiple devices simultaneously is impressive. It reflects the demand of modern consumers.",
+                "annotation": "And beyond <aspect_02> speed </aspect_02>, the capacity of 5G to support multiple devices simultaneously is <opinion_02> impressive </opinion_02>. <rationale_02> It reflects the demand of modern consumers </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Beyond speed, the support for multiple devices is remarkable.",
+                    "id": "aud_0008"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I initially worried about the potential health risks associated with 5G. The debates around this have been quite polarizing.",
+                "annotation": "I initially <opinion_03> worried about </opinion_03> the <aspect_03> health risks </aspect_03> associated with 5G. <rationale_03> The debates around this have been quite polarizing </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "It's understandable, but consider the extensive research that's been conducted. Most studies find minimal risk, which could alleviate some concerns.",
+                "annotation": "It's understandable, but consider <rationale_04> the extensive research that's been conducted </rationale_04>. Most studies find minimal risk, which could alleviate some concerns about the <aspect_03> health risks </aspect_03> of <target_01> 5G technology </target_01>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Exactly! Personal experiences can really sway one’s opinion. I actually have friends using 5G who report no issues at all.",
+                "annotation": "<rationale_05> Personal experiences can really sway one’s opinion </rationale_05>. I actually have friends using <target_01> 5G </target_01> who report <opinion_06> no issues at all </opinion_06>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "My friends using 5G have reported absolutely no issues.",
+                    "id": "aud_0009"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "Hearing that does change my perspective. Initially, I felt apprehensive, but the positive feedback from others is quite reassuring.",
+                "annotation": "<rationale_06> Hearing that does change my perspective </rationale_06>. Initially, I felt apprehensive about the <aspect_03> health risks </aspect_03> of <target_01> 5G </target_01>, but now I find it <opinion_07> reassuring </opinion_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "connectivity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible how",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The speed truly seems revolutionary",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It reflects the demand of modern consumers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "health risks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "worried about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The debates around this have been quite polarizing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "health risks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "minimal",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the extensive research that's been conducted",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "health risks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "no issues at all",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Personal experiences can really sway one’s opinion",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "health risks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "reassuring",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Hearing that does change my perspective",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "5G technology",
+                "aspect": "health risks",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find the newly developed propulsion systems quite impressive; they enhance the efficiency of space travel significantly.",
+                "annotation": "I find the newly developed <target_01> propulsion systems </target_01> quite <aspect_01> impressive </aspect_01>; they <opinion_01> enhance the efficiency </opinion_01> of space travel <rationale_01> significantly </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While that's true, I think they are still quite expensive, which could hinder widespread adoption.",
+                "annotation": "While that's true, I think they are still <opinion_02> quite expensive </opinion_02>, <rationale_02> which could hinder widespread adoption </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I believe they are just too costly for most companies to use.",
+                    "id": "aud_0010"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "You raise a good point, but did you hear that a recent study found ways to reduce the production costs by up to 30%?",
+                "annotation": "You raise a good point, but did you hear that a recent study <opinion_03> found ways to reduce the production costs </opinion_03> by up to 30%? <rationale_03> This could make them more accessible </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Wow, I was skeptical about their feasibility due to high costs, but knowing about this cost reduction gives me hope that we might see more companies invest in them.",
+                "annotation": "Wow, I was <opinion_04> skeptical about </opinion_04> their feasibility due to <rationale_04> high costs </rationale_04>, but knowing about <rationale_05> this cost reduction gives me hope </rationale_05> that we might see more companies invest in them.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "enhance the efficiency",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "significantly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "production cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite expensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which could hinder widespread adoption",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "production cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "reduce the production costs",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "This could make them more accessible",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "feasibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "skeptical about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "high costs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "propulsion systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "feasibility",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "gives me hope",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "this cost reduction",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Dana",
+                "target": "propulsion systems",
+                "aspect": "feasibility",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been researching cloud solutions, and I find their scalability feature outstanding, offering businesses the ability to grow without constraints.",
+                "annotation": "I've been researching <target_01> cloud solutions </target_01>, and I find their <aspect_01> scalability feature </aspect_01> <opinion_01> outstanding </opinion_01>, <rationale_01> offering businesses the ability to grow without constraints </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But don't you think security is a serious concern? Many organizations face threats from vulnerabilities in the cloud.",
+                "annotation": "But don't you think <aspect_02> security </aspect_02> is <opinion_02> a serious concern </opinion_02>? <rationale_02> Many organizations face threats from vulnerabilities in the cloud </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "That's a valid point, but I believe most providers offer robust security measures to ensure data safety. Still, it's important to stay informed.",
+                "annotation": "That's a valid point, but I believe most providers offer <aspect_02> robust security measures </aspect_02> to ensure data safety. <opinion_03> However, it's still important to stay informed </opinion_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Most providers have solid security, but vigilance is key.",
+                    "id": "aud_0011"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "Did you consider the cost-effectiveness of cloud solutions? It's truly beneficial for startups with limited budgets.",
+                "annotation": "Did you consider the <aspect_03> cost-effectiveness </aspect_03> of <target_01> cloud solutions </target_01>? It's <opinion_04> truly beneficial </opinion_04>, <rationale_03> for startups with limited budgets </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Absolutely! However, don't you think the hidden costs can sometimes throw budgets off-track?",
+                "annotation": "Absolutely! However, don't you think the <aspect_04> hidden costs </aspect_04> <opinion_05> can throw budgets off-track </opinion_05>? <rationale_04> These can sometimes lead to unexpected expenses </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "True, but if managed correctly, businesses can forecast expenses and mitigate those risks effectively.",
+                "annotation": "True, but if <opinion_06> managed correctly </opinion_06>, <rationale_05> businesses can forecast expenses and mitigate those risks effectively </rationale_05>.",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 4,
+                "utterance": "I had a friend who migrated to the cloud, and while the initial costs seemed high, over time it saved money on infrastructure.",
+                "annotation": "I had a friend who migrated to <target_01> the cloud </target_01>, and while the initial costs seemed <opinion_07> high </opinion_07>, <rationale_06> over time it saved money on infrastructure </rationale_06>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "In the long run, cloud solutions reduce costs.",
+                    "id": "aud_0012"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "scalability feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering businesses the ability to grow without constraints",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "serious concern",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Many organizations face threats from vulnerabilities in the cloud",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security measures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "robust",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Most providers offer robust security measures to ensure data safety",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "cost-effectiveness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "truly beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "for startups with limited budgets",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "hidden costs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "can throw budgets off-track",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "These can sometimes lead to unexpected expenses",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "expense management",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "managed correctly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "businesses can forecast expenses and mitigate those risks effectively",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "initial costs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "while the initial costs seemed high, over time it saved money on infrastructure",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Charlie",
+            "target": "cloud solutions",
+            "aspect": "cost-effectiveness",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    }
+]

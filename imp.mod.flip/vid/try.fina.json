@@ -1,0 +1,472 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Brian"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently invested in some tech stocks, and the trends seem remarkable. The growth rate is impressive, especially for renewable energy sectors.",
+                "annotation": "I recently invested in some <target_01> tech stocks </target_01>, and the <aspect_01> growth rate </aspect_01> is <opinion_01> impressive </opinion_01>, <rationale_01> especially for renewable energy sectors </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But isn't it risky? Many analysts have pointed out that the volatility in those markets can be quite troubling.",
+                "annotation": "But isn't it <opinion_02> risky </opinion_02>? <rationale_02> Many analysts have pointed out that the volatility in those markets can be quite troubling </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A graph showing the volatility of renewable energy stocks over the last year.",
+                    "id": "vid_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I see your point, but I've been reading reports that indicate a stabilization trend in those stocks. They might be less volatile soon.",
+                "annotation": "I see your point, but I've been reading reports that indicate a <opinion_03> stabilization trend </opinion_03> in those stocks. <rationale_03> They might be less volatile soon </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That sounds promising, Charlie! I was initially worried about the volatility too. However, hearing that it might stabilize gives me more confidence in my investments.",
+                "annotation": "That sounds promising, Charlie! I was initially <opinion_04> worried about </opinion_04> the volatility too. <rationale_04> However, hearing that it might stabilize </rationale_04> gives me more confidence in my investments.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "growth rate",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially for renewable energy sectors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Brian",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "risky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Many analysts have pointed out that the volatility in those markets can be quite troubling",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "stabilization trend",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "stabilization trend",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They might be less volatile soon",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "worried about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "However, hearing that it might stabilize",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tech stocks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "confidence in investments",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "more confidence",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "gives me more confidence in my investments",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alice",
+                "target": "tech stocks",
+                "aspect": "volatility",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Mason"
+            },
+            {
+                "id": 3,
+                "name": "Isabella"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think Bitcoin has a robust network, offering security and transparency that many financial systems can't provide.",
+                "annotation": "I think <target_01> Bitcoin </target_01> has a <opinion_01> robust </opinion_01> <aspect_01> network </aspect_01>, <rationale_01> offering security and transparency that many financial systems can't provide </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Bitcoin's decentralized network showcased in animated infographic.",
+                    "id": "vid_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While that may be true, its volatility is concerning. It can swing dramatically, which makes it risky for investors.",
+                "annotation": "While that may be true, its <aspect_02> volatility </aspect_02> is <opinion_02> concerning </opinion_02>. <rationale_02> It can swing dramatically, which makes it risky for investors </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree. Ethereum, for instance, offers innovative smart contracts that enhance its flexibility and functionality as a platform.",
+                "annotation": "I disagree. <target_02> Ethereum </target_02> offers <aspect_03> innovative smart contracts </aspect_03> that enhance its <opinion_03> flexibility </opinion_03> and functionality as a platform.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "But Ethereum's complexity can be an obstacle for new users. It requires a steep learning curve to utilize effectively.",
+                "annotation": "But <aspect_04> Ethereum's complexity </aspect_04> can be <opinion_04> problematic </opinion_04> for new users. <rationale_04> It requires a steep learning curve to utilize effectively </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Initially, I was more impressed by Bitcoin's network, but after analyzing Ethereum's potential, I believe its capabilities are more promising in the long run.",
+                "annotation": "Initially, I was more impressed by <target_01> Bitcoin </target_01>'s <aspect_01> network </aspect_01>, but after analyzing <target_02> Ethereum </target_02>'s potential, I believe its <opinion_05> capabilities are more promising </opinion_05> in the long run.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "That sounds reasonable, but I still think Bitcoin has a larger acceptance rate, making it safer than Ethereum for the time being.",
+                "annotation": "That sounds reasonable, but I still think <target_01> Bitcoin </target_01> has a <aspect_05> larger acceptance rate </aspect_05>, making it <opinion_06> safer </opinion_06> than Ethereum for the time being.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "network",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering security and transparency that many financial systems can't provide",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can swing dramatically, which makes it risky for investors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "innovative smart contracts",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "flexible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "that enhance its flexibility and functionality as a platform",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "problematic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It requires a steep learning curve to utilize effectively",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "network capabilities",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "more promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "after analyzing Ethereum's potential",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "acceptance rate",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "safer",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "making it safer than Ethereum for the time being",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ethan",
+                "target": "Ethereum",
+                "aspect": "innovative smart contracts",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1034 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new skincare line promises impressive results with its organic ingredients.",
+                "annotation": "The <target_01> new skincare line </target_01> promises <opinion_01> impressive </opinion_01> results <rationale_01> with its organic ingredients </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "However, I've read reports suggesting that organic ingredients can sometimes be less effective than synthetic ones.",
+                "annotation": "However, I've read reports suggesting that <aspect_02> organic ingredients </aspect_02> can be <opinion_02> less effective </opinion_02> than synthetic ones, <rationale_02> which raises concerns about the skincare line's actual performance </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I understand that concern, studies have shown that certain organic compounds can be equally effective, if not more so.",
+                "annotation": "While I understand that concern, <rationale_03> studies have shown that certain organic compounds can be equally effective, if not more so </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That reminds me, my cousin tried the line and is seeing remarkable changes in her skin texture! Impressive is hardly the word.",
+                "annotation": "That reminds me, my cousin tried the <target_01> new skincare line </target_01> and is seeing <opinion_04> remarkable </opinion_04> changes in her <aspect_03> skin texture </aspect_03>! <rationale_04> Impressive is hardly the word </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Now that I think about it, the testimonials are overwhelmingly positive, which makes me rethink its potential.",
+                "annotation": "Now that I think about it, the <aspect_04> testimonials </aspect_04> are <opinion_05> overwhelmingly positive </opinion_05>, <rationale_05> which makes me rethink its potential </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "results",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with its organic ingredients",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "organic ingredients",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "less effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which raises concerns about the skincare line's actual performance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "organic ingredients",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "equally effective",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "studies have shown that certain organic compounds can be equally effective, if not more so",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "skin texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Impressive is hardly the word",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "testimonials",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "overwhelmingly positive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "which makes me rethink its potential",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alice",
+                "target": "new skincare line",
+                "aspect": "testimonials",
+                "initial sentiment": "positive",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Michael"
+            },
+            {
+                "id": 1,
+                "name": "Sarah"
+            },
+            {
+                "id": 2,
+                "name": "James"
+            },
+            {
+                "id": 3,
+                "name": "Emma"
+            },
+            {
+                "id": 4,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been looking into holistic medicine, and its approach to health seems comprehensive, addressing both the body and mind.",
+                "annotation": "I've been looking into <target_01> holistic medicine </target_01>, and its <aspect_01> approach to health </aspect_01> seems <opinion_01> comprehensive </opinion_01>, <rationale_01> addressing both the body and mind </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the reliance on natural remedies is intriguing, but it can sometimes feel uncertain in effectiveness.",
+                "annotation": "I think the <aspect_02> reliance on natural remedies </aspect_02> is <opinion_02> intriguing </opinion_02>, <rationale_02> but it can sometimes feel uncertain in effectiveness </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "It's true that some remedies lack scientific backing, but many people find them beneficial based on personal experiences.",
+                "annotation": "It's true that some <aspect_02> remedies </aspect_02> <opinion_03> lack scientific backing </opinion_03>, <rationale_03> but many people find them beneficial based on personal experiences </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "Yes, the anecdotal evidence can be strong, particularly with treatments like acupuncture, which some swear by.",
+                "annotation": "Yes, the <aspect_03> anecdotal evidence </aspect_03> can be <opinion_04> strong </opinion_04>, <rationale_04> particularly with treatments like acupuncture, which some swear by </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Acupuncture is fascinating, but its integration into Western medicine still faces skepticism from many professionals.",
+                "annotation": "Acupuncture is <aspect_04> fascinating </aspect_04>, but its <opinion_05> integration into Western medicine </opinion_05> still faces <rationale_05> skepticism from many professionals </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "I have to admit, I used to think holistic methods were unproven and ineffective, but I've read some research that shows promising results in certain cases.",
+                "annotation": "I have to admit, I used to think <target_01> holistic methods </target_01> were <opinion_06> unproven </opinion_06> and ineffective, but <rationale_06> I've read some research that shows promising results in certain cases </rationale_06>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "approach to health",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "comprehensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "addressing both the body and mind",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "reliance on natural remedies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "but it can sometimes feel uncertain in effectiveness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "remedies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lack scientific backing",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "but many people find them beneficial based on personal experiences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "anecdotal evidence",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "strong",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "particularly with treatments like acupuncture, which some swear by",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "integration into Western medicine",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "problematic",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "still faces skepticism from many professionals",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic methods",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "proven effectiveness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "unproven",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "and ineffective",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic methods",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_07",
+                    "value": "research",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "that shows promising results in certain cases",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "holistic methods",
+                "aspect": "proven effectiveness",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bobby"
+            },
+            {
+                "id": 2,
+                "name": "Catherine"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been trying this new high-intensity interval training (HIIT) regimen, and I find it absolutely exhilarating. The energy boost it gives me is remarkable.",
+                "annotation": "I've been trying this new <target_01> high-intensity interval training (HIIT) </target_01> regimen, and I find it <opinion_01> absolutely exhilarating </opinion_01>. <rationale_01> The energy boost it gives me is remarkable </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting, Alice! I tried it too, but I found it incredibly exhausting. The recovery time is way too long for me.",
+                "annotation": "That's interesting, Alice! I tried it too, but I found it <opinion_02> incredibly exhausting </opinion_02>. <aspect_01> The recovery time </aspect_01> is <opinion_02> way too long </opinion_02> for me.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I get that, Bobby. Initially, I thought it was too intense, but I've read studies showing that it actually boosts metabolism significantly.",
+                "annotation": "I get that, Bobby. Initially, I thought it was <opinion_03> too intense </opinion_03>, but I've read studies showing that it actually <opinion_04> boosts </opinion_04> <aspect_02> metabolism </aspect_02> significantly.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Those studies make a great point! And the convenience of fitting such a workout into a short time frame is quite amazing.",
+                "annotation": "Those studies make a great point! And the <aspect_03> convenience </aspect_03> of fitting such a workout into a <opinion_05> short </opinion_05> time frame is quite amazing.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I used to think HIIT wasn't for me because of the commitment, but with all this info, it sounds really beneficial. Maybe I should give it another shot!",
+                "annotation": "I used to think <target_01> HIIT </target_01> wasn't for me because of the commitment, but with all this info, it sounds <opinion_06> really beneficial </opinion_06>. <rationale_06> Maybe I should give it another shot! </rationale_06>",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "high-intensity interval training (HIIT)",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "energy boost",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The energy boost it gives me is remarkable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bobby",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "high-intensity interval training (HIIT)",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "recovery time",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredibly exhausting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The recovery time is way too long for me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Catherine",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "high-intensity interval training (HIIT)",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "metabolism",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "too intense",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Initially, I thought it was too intense",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Catherine",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "high-intensity interval training (HIIT)",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "metabolism",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "boosts",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "studies showing that it actually boosts metabolism significantly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "high-intensity interval training (HIIT)",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "convenience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "amazing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the convenience of fitting such a workout into a short time frame",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "high-intensity interval training (HIIT)",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "commitment",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "really beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Maybe I should give it another shot!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Eva",
+                "target": "high-intensity interval training (HIIT)",
+                "aspect": "commitment",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Carol"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been trying the ketogenic diet, and the initial weight loss is definitely motivating.",
+                "annotation": "I've been trying the <target_01> ketogenic diet </target_01>, and the <aspect_01> initial weight loss </aspect_01> is <opinion_01> definitely motivating </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But isn't the restriction on carbohydrates a bit too extreme? It feels unsustainable.",
+                "annotation": "But isn't the <aspect_02> restriction on carbohydrates </aspect_02> <opinion_02> a bit too extreme </opinion_02>? <rationale_02> It feels unsustainable </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I actually find the absence of carbs refreshing. It reduces my cravings for junk food.",
+                "annotation": "I actually find the <aspect_02> absence of carbs </aspect_02> <opinion_03> refreshing </opinion_03>. <rationale_03> It reduces my cravings for junk food </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's interesting, Carol. I initially thought the dietary restrictions must lead to nutritional deficiencies, but your experience makes me reconsider.",
+                "annotation": "That's interesting, Carol. I initially <opinion_04> thought </opinion_04> the <aspect_04> dietary restrictions </aspect_04> must lead to <rationale_04> nutritional deficiencies </rationale_04>, but your experience with <aspect_02> the absence of carbs </aspect_02> makes me <opinion_05> reconsider </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I'm more concerned about the long-term effects on health. The fat intake worries me.",
+                "annotation": "I'm more concerned about the <aspect_05> long-term effects on health </aspect_05>. <opinion_06> The fat intake worries me </opinion_06>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "But what if the fats are mainly healthy fats? That could mitigate any worries.",
+                "annotation": "But what if the <aspect_06> fats </aspect_06> are <opinion_07> mainly healthy </opinion_07>? <rationale_06> That could mitigate any worries </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ketogenic diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "initial weight loss",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "motivating",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which is definitely motivating",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ketogenic diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "restriction on carbohydrates",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "too extreme",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It feels unsustainable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Carol",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ketogenic diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "absence of carbs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It reduces my cravings for junk food",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ketogenic diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "dietary restrictions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "initially thought",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "nutritional deficiencies",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ketogenic diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "absence of carbs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "reconsider",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "your experience makes me reconsider",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ketogenic diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "long-term effects on health",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "worries me",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "none",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ketogenic diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "fats",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "mainly healthy",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "That could mitigate any worries",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "David",
+                "target": "ketogenic diet",
+                "aspect": "absence of carbs",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    }
+]

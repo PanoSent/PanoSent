@@ -1,0 +1,1637 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jason"
+            },
+            {
+                "id": 1,
+                "name": "Lila"
+            },
+            {
+                "id": 2,
+                "name": "Mark"
+            },
+            {
+                "id": 3,
+                "name": "Tina"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I’ve been wearing my new smartwatch for a month now, and the health tracking feature is impressive; it gives accurate heart rate readings.",
+                "annotation": "I’ve been wearing my new <target_01> smartwatch </target_01> for a month now, and the <aspect_01> health tracking feature </aspect_01> is <opinion_01> impressive </opinion_01>; <rationale_01> it gives accurate heart rate readings </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but I think the battery life is disappointing; I have to charge mine almost every day.",
+                "annotation": "True, but I think the <aspect_02> battery life </aspect_02> is <opinion_02> disappointing </opinion_02>; <rationale_02> I have to charge mine almost every day </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Lila shows her smartwatch battery draining quickly over time.",
+                    "id": "vid_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, there's been a study published recently that suggests innovations in solar charging technology for smartwatches, which could significantly extend battery life.",
+                "annotation": "Actually, there's been a <opinion_03> study published recently </opinion_03> that suggests <rationale_03> innovations in solar charging technology for smartwatches could significantly extend battery life </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Wow, I was convinced the battery would always be an issue due to its size, but now I feel optimistic that improvements might change my mind about the smartwatch.",
+                "annotation": "Wow, I was <opinion_04> convinced </opinion_04> the battery would always be an issue due to its size, but now I feel <opinion_05> optimistic </opinion_05> that <rationale_04> improvements might change my mind about the smartwatch </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "health tracking feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it gives accurate heart rate readings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I have to charge mine almost every day",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "significantly extended",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "innovations in solar charging technology could significantly extend battery life",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "convinced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "due to its size",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "optimistic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "improvements might change my mind about the smartwatch",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Tina",
+                "target": "smartwatch",
+                "aspect": "battery life",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Oliver"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think drones are incredibly useful for aerial photography. The <aspect_01> clarity </aspect_01> of the images they produce is <opinion_01> stunning </opinion_01>, <rationale_01> capturing details that are usually lost from the ground level.",
+                "annotation": "I think <target_01> drones </target_01> are incredibly useful for aerial photography. The <aspect_01> clarity </aspect_01> of the images they produce is <opinion_01> stunning </opinion_01>, <rationale_01> capturing details that are usually lost from the ground level. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I agree about the images, I find the <aspect_02> noise </aspect_02> produced by drones to be <opinion_02> bothersome </opinion_02> because it disrupts the tranquility of nature.",
+                "annotation": "While I agree about the images, I find the <aspect_02> noise </aspect_02> produced by <target_01> drones </target_01> to be <opinion_02> bothersome </opinion_02> because <rationale_02> it disrupts the tranquility of nature.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's true, but have you seen how drone technology has advanced in terms of <aspect_03> noise reduction </aspect_03>? It can be quite <opinion_03> impressive </opinion_03>, allowing users to enjoy both the flight and the serene environment.",
+                "annotation": "That's true, but have you seen how <target_01> drone technology </target_01> has advanced in terms of <aspect_03> noise reduction </aspect_03>? It can be quite <opinion_03> impressive </opinion_03>, <rationale_03> allowing users to enjoy both the flight and the serene environment.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You make a good point! I hadn’t realized how much they’ve improved. Maybe I should give them another chance, particularly the newer models that claim to be quieter.",
+                "annotation": "You make a good point! I hadn’t realized how much <target_01> drones </target_01> have improved. Maybe I should give them another chance, particularly <aspect_02> the newer models </aspect_02> that claim to be <opinion_04> quieter </opinion_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Demonstration of a new quiet drone model in action.",
+                    "id": "vid_0002"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "clarity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "capturing details that are usually lost from the ground level",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "noise",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "bothersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "because it disrupts the tranquility of nature",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "noise reduction",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "allowing users to enjoy both the flight and the serene environment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drones",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "the newer models",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quieter",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Maybe I should give them another chance, particularly the newer models that claim to be quieter",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Emma",
+                "target": "drones",
+                "aspect": "the newer models",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Carol"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been using this tablet for some time now, and the design is stunning. It's sleek and very modern.",
+                "annotation": "I've been using this <target_01>tablet</target_01> for some time now, and the <aspect_01>design</aspect_01> is <opinion_01>stunning</opinion_01>. <rationale_01>It's sleek and very modern</rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the weight feels a bit heavy to me. It makes it uncomfortable to hold for long periods.",
+                "annotation": "I agree, but the <aspect_02>weight</aspect_02> <opinion_02>feels a bit heavy</opinion_02> to me. <rationale_02>It makes it uncomfortable to hold for long periods</rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Comparing the weight of different tablets.",
+                    "id": "vid_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's interesting. I thought it was a manageable weight. However, I must admit the grip could be better to improve comfort.",
+                "annotation": "That's interesting. I thought the <aspect_02>weight</aspect_02> was <opinion_03>manageable</opinion_03>. <rationale_03> However, I must admit the grip could be better to improve comfort</rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While we're discussing comfort, I think the screen size is excellent. It provides a great viewing experience.",
+                "annotation": "While we're discussing comfort, the <aspect_03>screen size</aspect_03> is <opinion_04>excellent</opinion_04>. <rationale_04>It provides a great viewing experience</rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Actually, I feel the screen size is a bit large for portability. It feels bulky when I try to carry it around.",
+                "annotation": "Actually, I feel the <aspect_03>screen size</aspect_03> is <opinion_05>a bit large</opinion_05> for portability. <rationale_05>It feels bulky when I try to carry it around</rationale_05>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Demonstrating the portability of tablets in different scenarios.",
+                    "id": "vid_0004"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I've noticed that too. But the clarity of the display makes it worth the bulkiness. You're really getting a premium experience.",
+                "annotation": "I've noticed that too. But the <aspect_03>clarity of the display</aspect_03> makes it <opinion_06>worth the bulkiness</opinion_06>. <rationale_06>You're really getting a premium experience</rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's sleek and very modern",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "feels a bit heavy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It makes it uncomfortable to hold for long periods",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Carol",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "manageable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "However, I must admit the grip could be better to improve comfort",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "screen size",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It provides a great viewing experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "screen size",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "a bit large",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It feels bulky when I try to carry it around",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "clarity of the display",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "worth the bulkiness",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "You're really getting a premium experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "Dan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been using a smartwatch, and honestly, the <aspect_01> accuracy </aspect_01> is <opinion_01> impressive </opinion_01>. <rationale_01> It tracks my heart rate and steps with precision, making goal setting much easier.",
+                "annotation": "I've been using a <target_01> smartwatch </target_01>, and honestly, the <aspect_01> accuracy </aspect_01> is <opinion_01> impressive </opinion_01>. <rationale_01> It tracks my heart rate and steps with precision, making goal setting much easier </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree! And the <aspect_02> battery life </aspect_02> is <opinion_02> outstanding </opinion_02> too. <rationale_02> I can go almost a week without charging it, which is a huge bonus for someone with a busy schedule.",
+                "annotation": "I agree! And the <aspect_02> battery life </aspect_02> is <opinion_02> outstanding </opinion_02> too. <rationale_02> I can go almost a week without charging it, which is a huge bonus for someone with a busy schedule </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I'm not so sure about the <aspect_03> design </aspect_03>. I find it somewhat <opinion_03> clunky </opinion_03>, which affects its overall appeal for me. <rationale_03> It just doesn't fit into my aesthetic preferences.",
+                "annotation": "I'm not so sure about the <aspect_03> design </aspect_03>. I find it somewhat <opinion_03> clunky </opinion_03>, <rationale_03> which affects its overall appeal for me. It just doesn't fit into my aesthetic preferences </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, I've seen some recent models that showcase a more sleek design. <rationale_04> They combine style with functionality effectively. This makes me think that the design can actually be <opinion_04> stylish </opinion_04>.",
+                "annotation": "However, I've seen some recent models that showcase a more sleek design. <rationale_04> They combine style with functionality effectively </rationale_04>. This makes me think that the design can actually be <opinion_04> stylish </opinion_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Video showcasing sleek designs of new smartphone models.",
+                    "id": "vid_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 2,
+                "utterance": "After observing those models you mentioned, I see your point. <rationale_05> The way they balance style and utility is definitely appealing. I could reconsider my stance on the design being <opinion_05> appealing </opinion_05>.",
+                "annotation": "<rationale_05> After observing those models you mentioned </rationale_05>, I see your point. I could reconsider my stance on the design being <opinion_05> appealing </opinion_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "accuracy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It tracks my heart rate and steps with precision, making goal setting much easier",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I can go almost a week without charging it, which is a huge bonus for someone with a busy schedule",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "clunky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It just doesn't fit into my aesthetic preferences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "stylish",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "They combine style with functionality effectively",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartwatch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "After observing those models you mentioned",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Cathy",
+                "target": "smartwatch",
+                "aspect": "design",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Sable"
+            },
+            {
+                "id": 2,
+                "name": "Casey"
+            },
+            {
+                "id": 3,
+                "name": "Riley"
+            },
+            {
+                "id": 4,
+                "name": "Jordan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find tablets to be incredibly versatile for both work and leisure, as they can handle a wide range of tasks efficiently.",
+                "annotation": "I find <target_01> tablets </target_01> to be <opinion_01> incredibly versatile </opinion_01> for both work and leisure, <rationale_01> as they can handle a wide range of tasks efficiently </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Although I appreciate their versatility, I believe their <aspect_01> screen size </aspect_01> is often <opinion_02> limiting </opinion_02>, since it can make detailed work more challenging.",
+                "annotation": "Although I appreciate their versatility, I believe their <aspect_01> screen size </aspect_01> is often <opinion_02> limiting </opinion_02>, <rationale_02> since it can make detailed work more challenging </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I must disagree with you, Sable! The lightweight nature of tablets makes them <opinion_03> convenient </opinion_03> for portability, especially when I need to work on the go.",
+                "annotation": "The lightweight nature of tablets makes them <opinion_03> convenient </opinion_03> for portability, <rationale_03> especially when I need to work on the go </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's true, but I feel the battery life is <opinion_04> insufficient </opinion_04>; I often find myself scrambling for a charger during long meetings.",
+                "annotation": "I feel the <aspect_02> battery life </aspect_02> is <opinion_04> insufficient </opinion_04>; <rationale_04> I often find myself scrambling for a charger during long meetings </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A visual breakdown of tablet battery performance over a day.",
+                    "id": "vid_0006"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "You bring up a valid point about the battery, but I think their <aspect_03> apps </aspect_03> are <opinion_05> remarkable </opinion_05>, offering endless possibilities for both productivity and entertainment.",
+                "annotation": "I think their <aspect_03> apps </aspect_03> are <opinion_05> remarkable </opinion_05>, <rationale_05> offering endless possibilities for both productivity and entertainment </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "Reflecting on my own usage, I initially thought tablets to be overly simplistic devices, but after using mine for video editing, I now find their <aspect_04> performance </aspect_04> surprisingly <opinion_06> impressive </opinion_06>, especially with demanding applications.",
+                "annotation": "I initially thought tablets to be overly simplistic devices, but <rationale_06> after using mine for video editing </rationale_06>, I now find their <aspect_04> performance </aspect_04> surprisingly <opinion_06> impressive </opinion_06>, <rationale_07> especially with demanding applications </rationale_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "versatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly versatile",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as they can handle a wide range of tasks efficiently",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sable",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "screen size",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "limiting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "since it can make detailed work more challenging",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "convenient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially when I need to work on the go",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "insufficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I often find myself scrambling for a charger during long meetings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "apps",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "offering endless possibilities for both productivity and entertainment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tablets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "especially with demanding applications",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Avery",
+                "target": "tablets",
+                "aspect": "performance",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys seen the new drone X-1000? Its design is sleek and modern, definitely appealing to tech enthusiasts.",
+                "annotation": "Have you guys seen the new <target_01> drone X-1000 </target_01>? Its <aspect_01> design </aspect_01> is <opinion_01> sleek and modern </opinion_01>, <rationale_01> definitely appealing to tech enthusiasts </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I did notice its design, but I've found the battery life to be quite disappointing. It doesn't seem practical for long sessions.",
+                "annotation": "I did notice its design, but I've found the <aspect_02> battery life </aspect_02> to be <opinion_02> quite disappointing </opinion_02>. <rationale_02> It doesn't seem practical for long sessions </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "You should watch this video comparing the X-1000 with its competitors. It highlights how the battery performs over time. It makes the battery life issue more understandable.",
+                "annotation": "You should watch this <modality> video comparing <target_01> the X-1000 </target_01> with its competitors </modality>. It <aspect_03> highlights how the battery performs over time </aspect_03>. <rationale_03> It makes the battery life issue more understandable </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "In-depth comparison of the X-1000 battery performance versus competitors.",
+                    "id": "vid_0007"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Now that I've seen the video, I can see how the battery life compares to others. It's not great, but it is more competitive than I thought.",
+                "annotation": "Now that I've seen the video, I can see how the <aspect_02> battery life </aspect_02> compares to others. It's <opinion_03> not great </opinion_03>, but it is <rationale_04> more competitive than I thought </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone X-1000",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "sleek and modern",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "definitely appealing to tech enthusiasts",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone X-1000",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It doesn't seem practical for long sessions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "drone X-1000",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "not great",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but it is more competitive than I thought",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "drone X-1000",
+                "aspect": "battery life",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been researching audio systems for my home theater, and I'm quite impressed by the sound clarity of the Sonos speakers.",
+                "annotation": "I've been researching <target_01> audio systems </target_01> for my home theater, and I'm <opinion_01> quite impressed by </opinion_01> the <aspect_01> sound clarity </aspect_01> of the <target_02> Sonos speakers </target_02>. <rationale_01> Their performance in reproducing vocals is exceptional, making dialogues more intelligible.</rationale_01>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A demonstration showcasing Sonos speakers emphasizing sound clarity.",
+                    "id": "vid_0008"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I've read that the bass response can sometimes feel underwhelming for music enthusiasts. Wouldn't you agree?",
+                "annotation": "That's true, but I've read that the <aspect_02> bass response </aspect_02> can sometimes feel <opinion_02> underwhelming </opinion_02> for music enthusiasts. <rationale_02> This is important for those who enjoy deep, resonant sounds.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I can see your point, but I recently came across a review about a software update that has improved the bass significantly in recent models!",
+                "annotation": "I can see your point, but I recently came across a <opinion_03> promising </opinion_03> <aspect_03> software update </aspect_03> that has <opinion_04> improved significantly </opinion_04> the bass in recent <target_02> Sonos models </target_02>! <rationale_03> This change has been well-received by many users.</rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Really? That definitely changes my perspective on the Sonos speakers. If the bass has been enhanced, I might reconsider my options.",
+                "annotation": "Really? That definitely <opinion_05> changes my perspective </opinion_05> on the <target_02> Sonos speakers </target_02>. <rationale_04> If the bass has been enhanced, I might reconsider my options.</rationale_04>",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "audio systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sound clarity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "quite impressed by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Their performance in reproducing vocals is exceptional, making dialogues more intelligible.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Sonos speakers",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "bass response",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "underwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "This is important for those who enjoy deep, resonant sounds.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Sonos speakers",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "software update",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "This change has been well-received by many users.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Sonos speakers",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "bass response",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "changes my perspective",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "If the bass has been enhanced, I might reconsider my options.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Bob",
+            "target": "Sonos speakers",
+            "aspect": "bass response",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Alex"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find the battery life of my smartphone to be exceptional, as it lasts easily through a full day of heavy use.",
+                "annotation": "I find the <aspect_01> battery life </aspect_01> of my <target_01> smartphone </target_01> to be <opinion_01> exceptional </opinion_01>, as <rationale_01> it lasts easily through a full day of heavy use </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I think the camera quality is quite mediocre; my photos often come out blurry in low light.",
+                "annotation": "That's true, but I think the <aspect_02> camera quality </aspect_02> is quite <opinion_02> mediocre </opinion_02>; <rationale_02> my photos often come out blurry in low light </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, the latest update includes a night mode feature that significantly enhances low light performance. I'd call the camera quality much better now.",
+                "annotation": "Actually, the latest update includes a <aspect_02> night mode feature </aspect_02> that <opinion_03> significantly enhances </opinion_03> low light performance. <rationale_03> I'd call the camera quality much better now </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Demo of the night mode feature enhancing low light photography.",
+                    "id": "vid_0009"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I guess I need to give it another shot! If it really enhances the quality, that's quite impressive.",
+                "annotation": "<rationale_04> I guess I need to give it another shot </rationale_04>! If it really enhances the quality, that's <opinion_04> quite impressive </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it lasts easily through a full day of heavy use",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "mediocre",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "my photos often come out blurry in low light",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "much better",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I'd call the camera quality much better now",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "camera quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "if it really enhances the quality",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Jamie",
+            "target": "smartphone",
+            "aspect": "camera quality",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    }
+]

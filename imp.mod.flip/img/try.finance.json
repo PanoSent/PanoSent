@@ -1,0 +1,2452 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Max"
+            },
+            {
+                "id": 2,
+                "name": "Jade"
+            },
+            {
+                "id": 3,
+                "name": "Ryan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been thinking about savings accounts lately. The interest rates from most banks seem rather low, which makes saving less attractive.",
+                "annotation": "I've been thinking about <target_01> savings accounts </target_01> lately. The <aspect_01> interest rates </aspect_01> from most banks seem <opinion_01> rather low </opinion_01>, <rationale_01> which makes saving less attractive </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Exactly! It's frustrating because we want to save, but the returns are pitiful. It makes me wonder if it's even worth it.",
+                "annotation": "Exactly! It's <opinion_02> frustrating </opinion_02> because we want to save, <rationale_02> but the returns are pitiful </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Hold on, what if we consider high-yield savings accounts? They can offer competitive rates that actually make saving worthwhile. I think the potential returns can be significant.",
+                "annotation": "<rationale_03> what if we consider <target_02> high-yield savings accounts </target_02>? They can offer <aspect_02> competitive rates </aspect_02> that actually make saving <opinion_03> worthwhile </opinion_03>. I think the potential returns can be <opinion_04> significant </opinion_04>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You raise a good point. I never thought about high-yield accounts – it could really change how I view saving. Maybe it's not so bad after all.",
+                "annotation": "You raise a good point. I never thought about <target_02> high-yield accounts </target_02> – it could really change how I view <target_01> saving </target_01>. Maybe it's <opinion_05> not so bad </opinion_05> after all.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A comparison chart of standard vs. high-yield savings accounts highlighting significant interest rate differences.",
+                    "id": "img_0001"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "savings accounts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interest rates",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "rather low",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which makes saving less attractive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "savings accounts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "returns",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "frustrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "but the returns are pitiful",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jade",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "high-yield savings accounts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "competitive rates",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "worthwhile",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "that actually make saving worthwhile",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "high-yield accounts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "view on saving",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "not so bad",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it could really change how I view saving",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Max",
+                "target": "high-yield accounts",
+                "aspect": "view on saving",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ben"
+            },
+            {
+                "id": 1,
+                "name": "Sara"
+            },
+            {
+                "id": 2,
+                "name": "Mark"
+            },
+            {
+                "id": 3,
+                "name": "Lina"
+            },
+            {
+                "id": 4,
+                "name": "Tom"
+            },
+            {
+                "id": 5,
+                "name": "Jenna"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the property market has become increasingly complicated, with prices soaring to alarming heights.",
+                "annotation": "I think the <target_01> property market </target_01> has become <opinion_01> complicated </opinion_01>, <rationale_01> with prices soaring to alarming heights </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but isn't that expected in an area with so much development? The <aspect_01> demand </aspect_01> is <opinion_02> high </opinion_02> because <rationale_02> more people are moving in due to new jobs.",
+                "annotation": "True, but isn't that expected in an area with so much development? The <aspect_01> demand </aspect_01> is <opinion_02> high </opinion_02> because <rationale_02> more people are moving in due to new jobs.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I understand the increase in demand, the <aspect_02> affordability </aspect_02> issue is <opinion_03> concerning </opinion_03> since <rationale_03> many are being priced out of the market.",
+                "annotation": "While I understand the increase in demand, the <aspect_02> affordability </aspect_02> issue is <opinion_03> concerning </opinion_03> since <rationale_03> many are being priced out of the market.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Exactly, and the <aspect_03> quality </aspect_03> of the construction is getting <opinion_04> worse </opinion_04> despite these high prices. <rationale_04> I see so many new homes with flaws and shoddy work.",
+                "annotation": "Exactly, and the <aspect_03> quality </aspect_03> of the construction is getting <opinion_04> worse </opinion_04> despite these high prices. <rationale_04> I see so many new homes with flaws and shoddy work.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Newly built house showing cracks and poorly finished walls.",
+                    "id": "img_0002"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Oh yes, I saw that too! The <aspect_04> layout </aspect_04> of new properties is often <opinion_05> impractical </opinion_05>, <rationale_05> leading to waste of space and inefficient design.",
+                "annotation": "Oh yes, I saw that too! The <aspect_04> layout </aspect_04> of new properties is often <opinion_05> impractical </opinion_05>, <rationale_05> leading to waste of space and inefficient design.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "It's alarming that even in this booming market, the <aspect_05> safety </aspect_05> standards are <opinion_06> questionable </opinion_06> considering <rationale_06> there have been reports about subpar materials being used.",
+                "annotation": "It's alarming that even in this booming market, the <aspect_05> safety </aspect_05> standards are <opinion_06> questionable </opinion_06> considering <rationale_06> there have been reports about subpar materials being used.",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 0,
+                "utterance": "Initially, I was optimistic about the rising prices, thinking it represented a healthy demand. However, I've come to realize that it reflects serious long-term issues in the <target_01> property market </target_01>, especially with <aspect_06> quality </aspect_06> being so <opinion_07> poor </opinion_07> overall.",
+                "annotation": "Initially, I was optimistic about the rising prices, thinking it represented a healthy demand. However, I've come to realize that it reflects serious long-term issues in the <target_01> property market </target_01>, especially with <aspect_06> quality </aspect_06> being so <opinion_07> poor </opinion_07> overall.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "property market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "market complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "complicated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with prices soaring to alarming heights",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "property market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "demand",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "high",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "more people are moving in due to new jobs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "property market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "affordability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "many are being priced out of the market",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "property market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "worse",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I see so many new homes with flaws and shoddy work",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "property market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "layout",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "impractical",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "leading to waste of space and inefficient design",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Jenna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "property market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "safety standards",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "questionable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "there have been reports about subpar materials being used",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "property market",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "poor",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "overall",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Ben",
+            "target": "property market",
+            "aspect": "market complexity",
+            "initial sentiment": "negative",
+            "flipped sentiment": "negative",
+            "trigger type": "None"
+        }
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Morgan"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Riley"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the new tax reforms, and I think they are beneficial, promoting economic growth by increasing disposable income.",
+                "annotation": "I've been reading about <target_01> the new tax reforms </target_01>, and I think they are <opinion_01> beneficial </opinion_01>, <rationale_01> promoting economic growth by increasing disposable income </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I see your point, the reforms seem unfair to lower-income families, as the advantages mostly favor the wealthy.",
+                "annotation": "While I see your point, the <aspect_02> reforms </aspect_02> seem <opinion_02> unfair </opinion_02>, <rationale_02> as the advantages mostly favor the wealthy </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "That's an interesting perspective. However, I believe that stimulating the economy benefits everyone in the long run.",
+                "annotation": "That's an interesting perspective. However, I believe that <aspect_03> stimulating the economy </aspect_03> <rationale_03> benefits everyone in the long run </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "Have you guys seen the data on long-term growth post-reform? It's compelling, suggesting a drop in unemployment rates.",
+                "annotation": "Have you guys seen the <aspect_04> data on long-term growth post-reform </aspect_04>? It's <opinion_03> compelling </opinion_03>, <rationale_04> suggesting a drop in unemployment rates </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Graph showing unemployment rates decreasing post-tax reforms.",
+                    "id": "img_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "That changes my view! If the reforms indeed lead to lower unemployment, I can see their potential value.",
+                "annotation": "That changes my view! If the <aspect_05> reforms </aspect_05> indeed lead to <opinion_04> potential value </opinion_04>, <rationale_05> it mitigates some of the unfairness I mentioned </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "It's a complex issue, but I really think investing in infrastructure is crucial. It can create jobs and provide essential services.",
+                "annotation": "It's a complex issue, but I really think that <aspect_06> investing in infrastructure </aspect_06> is <opinion_05> crucial </opinion_05>, <rationale_06> as it can create jobs and provide essential services </rationale_06>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 6,
+                "speaker": 0,
+                "utterance": "Absolutely, and with the tax budget allocated for this, it can significantly enhance public welfare.",
+                "annotation": "Absolutely, and with the <aspect_07> tax budget </aspect_07> allocated for this, it can <opinion_06> significantly enhance </opinion_06> <rationale_07> public welfare </rationale_07>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new tax reforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "disposable income",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "promoting economic growth by increasing disposable income",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new tax reforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fairness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "unfair",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as the advantages mostly favor the wealthy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new tax reforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "economic stimulation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "beneficial",
+                    "manner": "neutral"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "believing it benefits everyone in the long run",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new tax reforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "long-term growth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "compelling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "suggesting a drop in unemployment rates",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new tax reforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "potential value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "potential value",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it mitigates some of the unfairness I mentioned",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new tax reforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "infrastructure investment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "as it can create jobs and provide essential services",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new tax reforms",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_07",
+                    "value": "public welfare enhancement",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "significantly enhancing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "increasing public welfare",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Jamie",
+            "target": "new tax reforms",
+            "aspect": "potential value",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about budgeting apps lately. Some of them seem incredibly user-friendly.",
+                "annotation": "I've been reading about <target_01> budgeting apps </target_01> lately. <rationale_01> Some of them seem incredibly user-friendly </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A smartphone displaying a user-friendly budgeting app interface.",
+                    "id": "img_0004"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Do you think they actually help users save money effectively? I've heard mixed opinions about their effectiveness.",
+                "annotation": "Do you think they actually help <target_01> budgeting apps </target_01> <aspect_02> save money effectively </aspect_02>? <rationale_02> I've heard mixed opinions about their effectiveness </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While some say they're brilliant, others claim they don't track spending accurately. I find their accuracy <opinion_03> questionable </opinion_03>, as many apps rely on manual entries.",
+                "annotation": "I find their <aspect_03> accuracy </aspect_03> <opinion_03> questionable </opinion_03>, <rationale_03> as many apps rely on manual entries </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's true. But some budgeting apps incorporate bank synchronization, making their tracking features really <opinion_04> reliable </opinion_04>.",
+                "annotation": "But some <target_01> budgeting apps </target_01> incorporate <aspect_04> bank synchronization </aspect_04>, making their tracking features really <opinion_04> reliable </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "So it seems there’s a mix of opinions on these apps. Perhaps those relying on manual entries might have different experiences than those linked to their bank?",
+                "annotation": "So it seems there’s a <opinion_05> mix </opinion_05> of opinions on <target_01> budgeting apps </target_01>. <rationale_05> Perhaps those relying on manual entries might have different experiences than those linked to their bank </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "Exactly! Maybe it’s just that users need to be informed about the app's features. A better understanding can lead to a more favorable experience concerning budgeting.",
+                "annotation": "A better understanding can lead to a <opinion_06> more favorable experience </opinion_06> concerning <target_01> budgeting apps </target_01>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budgeting apps",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "user-friendliness",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Some of them seem incredibly user-friendly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budgeting apps",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "saving money effectively",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "questionable",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I've heard mixed opinions about their effectiveness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budgeting apps",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "accuracy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "questionable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as many apps rely on manual entries",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budgeting apps",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "bank synchronization",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "reliable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making their tracking features really reliable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budgeting apps",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "user experience",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "mixed",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Perhaps those relying on manual entries might have different experiences than those linked to their bank",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budgeting apps",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "user understanding",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more favorable experience",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "A better understanding can lead to a more favorable experience ",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Charlie",
+            "target": "budgeting apps",
+            "aspect": "user understanding",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lila"
+            },
+            {
+                "id": 1,
+                "name": "Jasper"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            },
+            {
+                "id": 3,
+                "name": "Theo"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the impact of e-commerce on international trade. The growth potential is astonishing, especially for small businesses.",
+                "annotation": "I've been reading about the impact of <target_01> e-commerce </target_01> on <target_02> international trade </target_02>. <rationale_01> The growth potential is astonishing, especially for small businesses </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Definitely, but I worry that poor supply chain management can lead to delays. It's a critical issue that affects customer satisfaction.",
+                "annotation": "Definitely, but I worry that <aspect_01> poor supply chain management </aspect_01> can lead to <opinion_01> significant delays </opinion_01>. <rationale_02> It's a critical issue that affects customer satisfaction </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I understand your concerns about delays, my experience has been that clear communication can mitigate many of those issues.",
+                "annotation": "While I understand your concerns about delays, my <aspect_02> experience </aspect_02> has been <opinion_02> quite valuable </opinion_02> in capturing how <rationale_03> clear communication can mitigate many of those issues </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, but the technology integration in supply chains can still be quite clunky. That inconsistency often drives customers away.",
+                "annotation": "True, but the <aspect_03> technology integration </aspect_03> in supply chains can still be <opinion_03> quite clunky </opinion_03>. <rationale_04> That inconsistency often drives customers away </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A visual representation of a streamlined supply chain process illustrating efficiency gaps.",
+                    "id": "img_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "However, I believe that investing in better technology can really smooth out those rough edges, enhancing overall user experience.",
+                "annotation": "However, I believe that <opinion_04> investing in better technology </opinion_04> can really <rationale_05> smooth out those rough edges, enhancing overall user experience </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "e-commerce",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "growth potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "astonishing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The growth potential is astonishing, especially for small businesses",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jasper",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "international trade",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "supply chain management",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "significant delays",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's a critical issue that affects customer satisfaction",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "international trade",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "communication",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite valuable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Clear communication can mitigate many of those issues",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Theo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "international trade",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "technology integration",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite clunky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "That inconsistency often drives customers away",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "international trade",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "technology investment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enhancing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Investing in better technology can really smooth out those rough edges, enhancing overall user experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Nina",
+            "target": "international trade",
+            "aspect": "communication",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Alex"
+            },
+            {
+                "id": 2,
+                "name": "Jamie"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The rise of financial tech is revolutionary, particularly in streamlining banking experiences for users.",
+                "annotation": "The <target_01> rise of financial tech </target_01> is <opinion_01> revolutionary </opinion_01>, <rationale_01> particularly in streamlining banking experiences for users </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A modern banking app interface demonstrating easy navigation and features.",
+                    "id": "img_0006"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but I think the security measures in place are sometimes inadequate.",
+                "annotation": "I think the <aspect_02> security measures </aspect_02> are <opinion_02> inadequate </opinion_02> at times. <rationale_02> This can lead to a lack of trust among users, especially with sensitive data involved </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I understand your concern, I find the innovation in user services quite commendable, even if it comes with some risks.",
+                "annotation": "The <aspect_03> innovation in user services </aspect_03> is <opinion_03> commendable </opinion_03>, <rationale_03> even if it comes with some risks </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I initially agreed with Alex about the security issues, but after experiencing various secure financial tech solutions, I feel much more confident.",
+                "annotation": "Initially, I agreed with you that the <aspect_02> security measures </aspect_02> were <opinion_04> inadequate </opinion_04>, but <rationale_04> after experiencing various secure financial tech solutions </rationale_04>, I feel <opinion_05> confident </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rise of financial tech",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "banking experiences",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "particularly in streamlining banking experiences for users",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rise of financial tech",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security measures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inadequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "This can lead to a lack of trust among users, especially with sensitive data involved",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rise of financial tech",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "user services",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "commendable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "even if it comes with some risks",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rise of financial tech",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security measures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "inadequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "after experiencing various secure financial tech solutions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rise of financial tech",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security measures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "confident",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "after experiencing various secure financial tech solutions",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Taylor",
+                "target": "rise of financial tech",
+                "aspect": "security measures",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Claire"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've noticed that the international shipping rates have become increasingly <opinion_01> exorbitant </opinion_01> lately because of the rising fuel costs.",
+                "annotation": "I've noticed that the <target_01> international shipping rates </target_01> have become increasingly <opinion_01> exorbitant </opinion_01> lately <rationale_01> because of the rising fuel costs </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, Alice. However, I've also seen that shipping times have <opinion_02> improved </opinion_02>. This is primarily due to logistics technology advancements.",
+                "annotation": "That's true, Alice. However, I've also seen that shipping times have <opinion_02> improved </opinion_02> <rationale_02> due to logistics technology advancements </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A representation of advanced logistics technology used in modern shipping, indicating faster delivery times.",
+                    "id": "img_0007"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with both of you, but I find it frustrating that some customs regulations seem <opinion_03> convoluted </opinion_03>, which only adds to the delay.",
+                "annotation": "I agree with both of you, but I find it frustrating that some <target_02> customs regulations </target_02> seem <opinion_03> convoluted </opinion_03>, <rationale_03> which only adds to the delay </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think customs regulations were just annoying, but after working with a supplier who explained them, I feel they are <opinion_04> necessary </opinion_04> for security purposes.",
+                "annotation": "I used to think <target_02> customs regulations </target_02> were just annoying, but after working with a supplier who explained them, I feel they are <opinion_04> necessary </opinion_04> <rationale_04> for security purposes </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "international shipping rates",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exorbitant",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "because of the rising fuel costs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "shipping times",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "improved",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "due to logistics technology advancements",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Claire",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "customs regulations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "convoluted",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which only adds to the delay",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "customs regulations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "necessity",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "necessary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "for security purposes",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "David",
+                "target": "customs regulations",
+                "aspect": "complexity",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Blake"
+            },
+            {
+                "id": 2,
+                "name": "Casey"
+            },
+            {
+                "id": 3,
+                "name": "Drew"
+            },
+            {
+                "id": 4,
+                "name": "Emery"
+            },
+            {
+                "id": 5,
+                "name": "Finley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the blockchain technology offers strong security for transactions due to its decentralized nature.",
+                "annotation": "I think the <target_01> blockchain technology </target_01> offers <aspect_01> strong security </aspect_01> for transactions <rationale_01> due to its decentralized nature </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That might be true, but I believe the scalability of blockchain is quite limited and can lead to slow transaction speeds.",
+                "annotation": "That might be true, but I believe the <aspect_02> scalability </aspect_02> of <target_01> blockchain </target_01> is <opinion_02> quite limited </opinion_02> and can lead to <rationale_02> slow transaction speeds </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree; I think new solutions like Layer 2 scaling can improve its scalability significantly.",
+                "annotation": "I think <aspect_02> new solutions like Layer 2 scaling </aspect_02> can <opinion_03> improve its scalability significantly </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Moreover, the user experience of wallets can be frustrating for new users, which I consider an important aspect.",
+                "annotation": "The <aspect_03> user experience </aspect_03> of <target_01> wallets </target_01> can be <opinion_04> frustrating </opinion_04> for new users <rationale_03> which I consider an important aspect </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "User interface of a cryptocurrency wallet with complex navigation, highlighting the difficulty for new users.",
+                    "id": "img_0008"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I find the integration of AI into fintech solutions quite impressive as it enhances usability.",
+                "annotation": "I find the <aspect_04> integration of AI </aspect_04> into <target_02> fintech solutions </target_02> <opinion_05> quite impressive </opinion_05> <rationale_04> as it enhances usability </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "While I agree about the benefits of AI, I’m concerned about privacy issues that may arise due to increased data usage.",
+                "annotation": "I’m <opinion_06> concerned </opinion_06> about <aspect_05> privacy issues </aspect_05> that may arise due to increased <target_02> data usage </target_02> <rationale_05> that I think should be addressed </rationale_05>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "strong",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "due to its decentralized nature",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Blake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "can lead to slow transaction speeds",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "improved significantly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "new solutions like Layer 2 scaling",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Drew",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wallets",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "user experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "frustrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "for new users which I consider an important aspect",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Emery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "fintech solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "integration of AI",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "quite impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "as it enhances usability",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Finley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "data usage",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "privacy issues",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "concerned",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "that may arise due to increased data usage",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Casey",
+                "target": "blockchain technology",
+                "aspect": "scalability",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Linda"
+            },
+            {
+                "id": 1,
+                "name": "Michael"
+            },
+            {
+                "id": 2,
+                "name": "Sandra"
+            },
+            {
+                "id": 3,
+                "name": "James"
+            },
+            {
+                "id": 4,
+                "name": "Emily"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently read about how essential a solid pension plan is for retirement security. It's absolutely vital for financial stability as we age.",
+                "annotation": "I recently read about how essential a <target_01> pension plan </target_01> is for <aspect_01> retirement security </aspect_01>. It's <opinion_01> absolutely vital </opinion_01>, <rationale_01> for financial stability as we age </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But don't you think the traditional pension plans are often too rigid and don’t accommodate today's job market?",
+                "annotation": "But don't you think the <aspect_02> traditional pension plans </aspect_02> are <opinion_02> too rigid </opinion_02> and <rationale_02> don’t accommodate today's job market? </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "You make an interesting point, but I believe the predictability of these plans remains their strong point, making them less risky compared to newer alternatives.",
+                "annotation": "You make an interesting point, but I believe the <aspect_03> predictability </aspect_03> of these plans remains their <opinion_03> strong point </opinion_03>, <rationale_03> making them less risky compared to newer alternatives </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "That is true. However, many are shifting towards flexible retirement savings options that reflect personal career paths.",
+                "annotation": "That is true. However, many are shifting towards <aspect_04> flexible retirement savings options </aspect_04> that reflect <opinion_04> personal career paths </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Exactly, and many young workers perceive traditional pensions as outdated compared to investment portfolios.",
+                "annotation": "Exactly, and many young workers perceive <aspect_05> traditional pensions </aspect_05> as <opinion_05> outdated </opinion_05> compared to <rationale_05> investment portfolios </rationale_05>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A young professional examining their investment portfolio as an alternative to a pension plan.",
+                    "id": "img_0009"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "However, you have to consider the security that comes with traditional pensions, which often guarantees a steady income in retirement.",
+                "annotation": "However, you have to consider the <aspect_06> security </aspect_06> that comes with <target_02> traditional pensions </target_02>, which often <opinion_06> guarantees a steady income </opinion_06> in retirement.",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 4,
+                "utterance": "True, but many are advocating for a mixed approach, combining pensions and other investments for a more robust retirement strategy.",
+                "annotation": "True, but many are advocating for a <aspect_07> mixed approach </aspect_07>, which is <opinion_07> more robust </opinion_07>, <rationale_07> combining pensions and other investments for a more comprehensive retirement strategy </rationale_07>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Linda",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "retirement security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely vital",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for financial stability as we age",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "traditional pension plans",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "too rigid",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "don’t accommodate today's job market",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Linda",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "predictability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "strong point",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making them less risky compared to newer alternatives",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sandra",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "flexible retirement savings options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "reflect personal career paths",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "that reflect personal career paths",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "traditional pensions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "outdated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "compared to investment portfolios",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Linda",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "traditional pensions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "guarantees a steady income",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "in retirement",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_07",
+                    "value": "mixed approach",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "more robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "combining pensions and other investments for a more comprehensive retirement strategy",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Linda",
+            "target": "pension plan",
+            "aspect": "traditional pension plans",
+            "initial sentiment": "positive",
+            "flipped sentiment": "negative",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Rachel"
+            },
+            {
+                "id": 1,
+                "name": "David"
+            },
+            {
+                "id": 2,
+                "name": "Evelyn"
+            },
+            {
+                "id": 3,
+                "name": "Mark"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Isn't the usability of the new financial app quite remarkable? I mean, it simplifies transactions remarkably.",
+                "annotation": "Isn't the <target_01> usability </target_01> of the new financial app <opinion_01> quite remarkable </opinion_01>? <rationale_01> It simplifies transactions remarkably </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Screenshots of the new financial app showcasing its user-friendly interface.",
+                    "id": "img_0010"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but the security features seem a bit inadequate to me. I worry about data breaches.",
+                "annotation": "Absolutely, but the <aspect_02> security features </aspect_02> seem <opinion_02> a bit inadequate </opinion_02> to me. <rationale_02> I worry about data breaches </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree; the app's layered security protocols are actually quite robust. They are designed to protect user data effectively.",
+                "annotation": "I disagree; the <aspect_03> app's layered security protocols </aspect_03> are <opinion_03> actually quite robust </opinion_03>. <rationale_03> They are designed to protect user data effectively </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "What about the customer support? I believe it feels rather sluggish during peak hours, which can be frustrating.",
+                "annotation": "What about the <aspect_04> customer support </aspect_04>? I believe it feels <opinion_04> rather sluggish </opinion_04> during peak hours. <rationale_04> Which can be frustrating </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "But I can personally attest to the promptness of their responses when I faced issues. It's not as slow as claimed.",
+                "annotation": "But I can personally attest to the <aspect_04> promptness of their responses </aspect_04> when I faced issues. <opinion_05> It's not as slow as claimed </opinion_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "I see your point, Evelyn. Maybe my experience was just an outlier. I should reconsider my view on their responsiveness.",
+                "annotation": "I see your point, Evelyn. <rationale_06> Maybe my experience was just an outlier </rationale_06>. I should reconsider my view on their <aspect_04> responsiveness </aspect_04>, which I initially thought was <opinion_06> sluggish </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Rachel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "usability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It simplifies transactions remarkably",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inadequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I worry about data breaches",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Evelyn",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "app's layered security protocols",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They are designed to protect user data effectively",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "customer support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "sluggish",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Which can be frustrating",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "promptness of customer responses",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "not as slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It's not as slow as claimed",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "financial app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "responsiveness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "sluggish",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Maybe my experience was just an outlier",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "David",
+            "target": "financial app",
+            "aspect": "responsiveness",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Reevaluation due to a deeper understanding"
+        }
+    }
+]

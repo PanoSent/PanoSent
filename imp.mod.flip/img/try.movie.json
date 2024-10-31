@@ -1,0 +1,4660 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Tina"
+            },
+            {
+                "id": 2,
+                "name": "Luis"
+            },
+            {
+                "id": 3,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you noticed how scripted reality shows lack authenticity? It just feels staged.",
+                "annotation": "Have you noticed how <target_01> scripted reality shows </target_01> <aspect_01> lack authenticity </aspect_01>? <rationale_01> It just feels staged </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A scene from a scripted reality show featuring actors following a script.",
+                    "id": "img_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the production quality of those shows is quite high, even if the content is questionable.",
+                "annotation": "I think the <aspect_02> production quality </aspect_02> of those <target_01> shows </target_01> is <opinion_02> quite high </opinion_02>, <rationale_02> even if the content is questionable </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Exactly! But the authenticity issue can really detract from viewership and engagement.",
+                "annotation": "Exactly! But the <aspect_01> authenticity </aspect_01> issue can really <opinion_03> detract </opinion_03> from <target_01> viewership and engagement </target_01>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, I actually enjoy the drama that it brings, even if it's all scripted. It's like watching a train wreck.",
+                "annotation": "However, I actually enjoy the <aspect_04> drama </aspect_04> that it brings, <opinion_04> even if it's all scripted </opinion_04> <rationale_04> It's like watching a train wreck </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "While I can see why the drama is appealing, I still can't shake off the feeling that it cheapens real-life experiences.",
+                "annotation": "While I can see why the <aspect_04> drama </aspect_04> is <opinion_05> appealing </opinion_05>, I still can't shake off <rationale_05> the feeling that it cheapens real-life experiences </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "scripted reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "authenticity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "lacking",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It just feels staged",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "scripted reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "production quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite high",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "even if the content is questionable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Luis",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "scripted reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "authenticity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "detract",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "can really detract from viewership and engagement",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "scripted reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "drama",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enjoyable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's like watching a train wreck",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "scripted reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "drama",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "cheapening",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the feeling that it cheapens real-life experiences",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Jake"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            },
+            {
+                "id": 3,
+                "name": "Tim"
+            },
+            {
+                "id": 4,
+                "name": "Rita"
+            },
+            {
+                "id": 5,
+                "name": "Leo"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just finished watching The Sound of Silence, and the cinematography was breathtaking.",
+                "annotation": "I just finished watching <target_01> The Sound of Silence </target_01>, and the <aspect_01> cinematography </aspect_01> was <opinion_01> breathtaking </opinion_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A visually stunning scene from 'The Sound of Silence' showcasing rich colors and light.",
+                    "id": "img_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The <aspect_02> soundtrack </aspect_02> was incredibly immersive too; it really drew you into the story.",
+                "annotation": "The <aspect_02> soundtrack </aspect_02> was <opinion_02> incredibly immersive </opinion_02>; <rationale_02> it really drew you into the story </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While the visuals and music were great, I thought the <aspect_03> characters </aspect_03> were rather underdeveloped. It was hard to connect with them.",
+                "annotation": "While the visuals and music were great, I thought the <aspect_03> characters </aspect_03> were <opinion_03> rather underdeveloped </opinion_03>. <rationale_03> It was hard to connect with them </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I agree with Nina; the <aspect_04> plot </aspect_04> felt too slow-paced. It made the whole experience drag on.",
+                "annotation": "I agree with Nina; the <aspect_04> plot </aspect_04> felt <opinion_04> too slow-paced </opinion_04>. <rationale_04> It made the whole experience drag on </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "But don't you think the pacing served the film's <aspect_05> theme </aspect_05>? It allowed for deeper reflection on the emotions presented.",
+                "annotation": "But don't you think the pacing served the film's <aspect_05> theme </aspect_05>? <rationale_05> It allowed for deeper reflection on the emotions presented </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "That's an interesting point, Rita. I guess the deliberate pacing helps the audience absorb the emotional weight. Perhaps the plot feels less cumbersome now.",
+                "annotation": "That's an interesting point, Rita. <rationale_06> I guess the deliberate pacing helps the audience absorb the emotional weight </rationale_06>. Perhaps the plot feels <opinion_06> less cumbersome </opinion_06> now.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cinematography",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The visuals were stunning in every scene, accompanied by a vivid color palette.",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "soundtrack",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredibly immersive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It really drew you into the story.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "characters",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "rather underdeveloped",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It was hard to connect with them.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tim",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "plot",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "too slow-paced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It made the whole experience drag on.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Rita",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "theme",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It allowed for deeper reflection on the emotions presented.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tim",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Sound of Silence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "plot",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "less cumbersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "I guess the deliberate pacing helps the audience absorb the emotional weight.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Tim",
+            "target": "The Sound of Silence",
+            "aspect": "plot",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Mike"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you all seen the latest blockbuster? The storytelling is phenomenal; it captivated me from start to finish.",
+                "annotation": "The <target_01> latest blockbuster </target_01> has <opinion_01> phenomenal </opinion_01> <aspect_01> storytelling </aspect_01>, <rationale_01> as it captivated me from start to finish </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "The latest blockbuster movie poster featuring dynamic graphics and a captivating tagline.",
+                    "id": "img_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree the storytelling is engaging. However, I thought the characters were quite underdeveloped, which is disappointing.",
+                "annotation": "I thought the <aspect_02> characters </aspect_02> were <opinion_02> underdeveloped </opinion_02>, <rationale_02> which is disappointing because it limited emotional connection </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I felt the pacing was a bit rushed at times, particularly during key plot moments that could have used more depth.",
+                "annotation": "The <aspect_03> pacing </aspect_03> felt <opinion_03> rushed </opinion_03>, <rationale_03> especially during key plot moments that could have used more depth </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "While I initially found the characters compelling, I think I understand what you both mean. Their depth could have been improved, which might elevate the entire film experience.",
+                "annotation": "I initially found the <aspect_02> characters </aspect_02> <opinion_04> compelling </opinion_04>, but <rationale_04> I think I understand what you both mean about their depth needing improvement, which could elevate the entire film experience </rationale_04>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest blockbuster",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "storytelling",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "phenomenal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as it captivated me from start to finish",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest blockbuster",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "characters",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "underdeveloped",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which is disappointing because it limited emotional connection",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest blockbuster",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "rushed",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially during key plot moments that could have used more depth",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest blockbuster",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "characters",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "compelling",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I think I understand what you both mean about their depth needing improvement, which could elevate the entire film experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ella",
+                "target": "latest blockbuster",
+                "aspect": "characters",
+                "initial sentiment": "positive",
+                "flipped sentiment": "neutral",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently started watching this new web series, and the storyline is captivating because it keeps you guessing.",
+                "annotation": "I recently started watching this new <target_01> web series </target_01>, and the <aspect_01> storyline </aspect_01> is <opinion_01> captivating </opinion_01> because <rationale_01> it keeps you guessing </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I must say, the character development is a bit shallow though; they don't have enough background to make them relatable.",
+                "annotation": "I must say, the <aspect_02> character development </aspect_02> is <opinion_02> a bit shallow </opinion_02>; <rationale_02> they don't have enough background to make them relatable </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Actors portraying underdeveloped characters lacking emotional depth.",
+                    "id": "img_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I actually found the humor in this series refreshing. It lightens the mood beautifully, even when the plot gets intense.",
+                "annotation": "I actually found the <aspect_03> humor </aspect_03> in this series <opinion_03> refreshing </opinion_03>. <rationale_03> It lightens the mood beautifully, even when the plot gets intense </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, the humor does help! However, I agree with Bob about the character development. If they're not relatable, I can't get invested, which is a letdown.",
+                "annotation": "True, the humor does help! However, I agree with <rationale_04> Bob about the <aspect_02> character development </aspect_02>. <opinion_04> If they're not relatable, I can't get invested </opinion_04>, which is <opinion_05> a letdown </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Well, I used to think the humor was forced and fell flat, but after a few episodes, I actually began to appreciate its quirky style.",
+                "annotation": "Well, I used to think the <aspect_03> humor </aspect_03> was <opinion_06> forced and fell flat </opinion_06>, but after a few episodes, I actually began to <opinion_07> appreciate its quirky style </opinion_07>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "web series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "storyline",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it keeps you guessing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "web series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit shallow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "they don't have enough background to make them relatable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "web series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "humor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it lightens the mood beautifully, even when the plot gets intense",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "web series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "a letdown",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "if they're not relatable, I can't get invested",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "web series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "humor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "forced and fell flat",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "I used to think the humor was forced and fell flat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "web series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "humor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "appreciate its quirky style",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "after a few episodes, I actually began to appreciate its quirky style",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ethan",
+                "target": "web series",
+                "aspect": "humor",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophie"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            },
+            {
+                "id": 4,
+                "name": "Chloe"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just caught 'The Last Summer' at the indie festival, and its character development was mesmerizing. You really felt the change in each character throughout the film.",
+                "annotation": "I just caught '<target_01> The Last Summer </target_01>' at the indie festival, and its <aspect_01> character development </aspect_01> was <opinion_01> mesmerizing </opinion_01>. <rationale_01> You really felt the change in each character throughout the film </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but I found the plot to be convoluted, which distracted from the character arcs. A clearer storyline would have honored those developments more.",
+                "annotation": "True, but I found the <aspect_02> plot </aspect_02> to be <opinion_02> convoluted </opinion_02>, <rationale_02> which distracted from the character arcs </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the film's pacing contributed negatively, making certain revelations feel rushed and cheapened the overall experience.",
+                "annotation": "I think the <aspect_03> pacing </aspect_03> contributed <opinion_03> negatively </opinion_03>, <rationale_03> making certain revelations feel rushed and cheapening the overall experience </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I agree the pacing could improve, the cinematography was absolutely stunning. Some frames could be considered works of art in themselves.",
+                "annotation": "While I agree the pacing could improve, the <aspect_04> cinematography </aspect_04> was <opinion_04> stunning </opinion_04>. <rationale_04> Some frames could be considered works of art in themselves </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A breathtaking shot from 'The Last Summer' showcasing beautiful sunset hues and intricate framing.",
+                    "id": "img_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I see what you mean! The cinematography definitely adds a rich layer to the experience, elevating scenes that might have otherwise fallen flat. It's definitely impressive.",
+                "annotation": "I see what you mean! The <aspect_04> cinematography </aspect_04> definitely adds a <opinion_05> rich layer </opinion_05> to the experience, <rationale_05> elevating scenes that might have otherwise fallen flat </rationale_05>. It's definitely impressive.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "Thanks for recognizing that! After reflecting on the cinematography, I realize it actually elevates the entire storytelling, changing my view on the film's overall impact.",
+                "annotation": "Thanks for recognizing that! <rationale_06> After reflecting on the cinematography </rationale_06>, I realize it actually elevates the entire storytelling, <opinion_06> changing my view </opinion_06> on the film's overall impact.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Summer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "mesmerizing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "You really felt the change in each character throughout the film",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Summer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "plot",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "convoluted",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which distracted from the character arcs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Summer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "negatively",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making certain revelations feel rushed and cheapening the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Summer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Some frames could be considered works of art in themselves",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Chloe",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Summer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "elevating scenes that might have otherwise fallen flat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Summer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "elevates the entire storytelling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "After reflecting on the cinematography",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ethan",
+                "target": "The Last Summer",
+                "aspect": "cinematography",
+                "initial sentiment": "positive",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just started watching 'The Last Kingdom.' The action sequences are absolutely thrilling!",
+                "annotation": "I just started watching <target_01> The Last Kingdom </target_01>. <rationale_01> The action sequences are absolutely thrilling </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An intense action scene featuring a hero engaging in combat with multiple enemies.",
+                    "id": "img_0006"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Definitely! The cinematography elevates those moments. They're really stunning and keep you on the edge of your seat.",
+                "annotation": "Definitely! The <aspect_02> cinematography </aspect_02> <opinion_02> elevates </opinion_02> those moments. <rationale_02> They're really stunning and keep you on the edge of your seat </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I did enjoy the action, but the character development seems a bit shallow to me. It's hard to connect with them.",
+                "annotation": "I did enjoy the action, but the <aspect_03> character development </aspect_03> seems <opinion_03> a bit shallow </opinion_03> to me. <rationale_03> It's hard to connect with them </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I understand that viewpoint, but the characters are meant to represent larger themes of loyalty and sacrifice, which can resonate with the audience.",
+                "annotation": "I understand that viewpoint, but the characters <aspect_04> represent larger themes </aspect_04> that can <opinion_04> resonate </opinion_04> with the audience. <rationale_04> These themes are crucial and enhance the overall message of the series </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 2,
+                "utterance": "That's a solid point. Maybe I need to reevaluate my thoughts. The themes might indeed deepen the connection in unexpected ways.",
+                "annotation": "That's a solid point. <rationale_05> Maybe I need to reevaluate my thoughts </rationale_05>. The themes might indeed make the characters <opinion_05> more relatable </opinion_05> in unexpected ways.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Kingdom",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "action sequences",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "thrilling",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The action sequences are absolutely thrilling",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Kingdom",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They're really stunning and keep you on the edge of your seat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Kingdom",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a bit shallow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's hard to connect with them",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Kingdom",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "themes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "resonate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "These themes are crucial and enhance the overall message of the series",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Last Kingdom",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "themes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "more relatable",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Maybe I need to reevaluate my thoughts",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Charlie",
+            "target": "The Last Kingdom",
+            "aspect": "character development",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Nina"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            },
+            {
+                "id": 3,
+                "name": "Ravi"
+            },
+            {
+                "id": 4,
+                "name": "Sara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "As a huge fan of sci-fi series, I've been really impressed by the world-building in Star Galaxy. The universe feels rich and immersive.",
+                "annotation": "As a huge fan of <target_01> sci-fi series </target_01>, I've been really impressed by the <aspect_01> world-building </aspect_01> in <target_02> Star Galaxy </target_02>. The <opinion_01> universe feels rich </opinion_01>, <rationale_01> and immersive </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, the visuals are breathtaking. However, I think the character development is lackluster at best.",
+                "annotation": "I agree, the <aspect_02> visuals </aspect_02> are <opinion_02> breathtaking </opinion_02>. However, I think the <aspect_03> character development </aspect_03> is <opinion_03> lackluster </opinion_03> at best.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But isn't it the character arcs that hold a series together? In my opinion, they are not fleshed out enough to make a real connection.",
+                "annotation": "But isn't it the <aspect_03> character arcs </aspect_03> that hold a series together? In my opinion, they are <opinion_04> not fleshed out enough </opinion_04> to make a real connection.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 4,
+                "utterance": "You know, I just remembered my friend arguing why he felt deep bonds with the characters. That made me reconsider; perhaps there is depth we are missing.",
+                "annotation": "You know, I just remembered my friend arguing why he felt <opinion_05> deep bonds </opinion_05> with the <aspect_03> characters </aspect_03>. That made me <opinion_06> reconsider </opinion_06>; <rationale_04> perhaps there is depth we are missing </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A collage of strong character moments showcasing deep emotional bonds.",
+                    "id": "img_0007"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "I still think the world-building overshadows the characters, but the image does show some impactful moments for the audience.",
+                "annotation": "I still think the <aspect_01> world-building </aspect_01> <opinion_07> overshadows </opinion_07> the <aspect_03> characters </aspect_03>, but the image does show some <opinion_08> impactful moments </opinion_08> for the audience.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sci-fi series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "world-building",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "rich",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "and immersive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Star Galaxy",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "However, I think the character development is lackluster at best",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Star Galaxy",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "character arcs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "not fleshed out enough",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "to make a real connection",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Star Galaxy",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "characters",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "deep bonds",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "perhaps there is depth we are missing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Star Galaxy",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "world-building",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "overshadows",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the characters",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sara",
+                "target": "Star Galaxy",
+                "aspect": "characters",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Chris"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Pat"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Jordan"
+            },
+            {
+                "id": 5,
+                "name": "Morgan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys seen the latest documentary on influencer culture? The insights it provides are quite significant.",
+                "annotation": "Have you guys seen the latest <target_01> documentary </target_01> on <target_02> influencer culture </target_02>? The <aspect_01> insights </aspect_01> it provides are <opinion_01> significant </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I haven’t watched it yet, but I've read reviews stating it's somewhat one-sided. They focus mostly on the negatives.",
+                "annotation": "I haven’t watched it yet, but I've read reviews stating it's <opinion_02> somewhat one-sided </opinion_02>. <rationale_02> They focus mostly on the negatives </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While it may emphasize negatives, I believe it reflects a larger truth about fame today. The portrayal is actually <opinion_03> honest </opinion_03>, showing the struggles behind the glamour.",
+                "annotation": "While it may emphasize negatives, I believe it reflects a larger truth about fame today. The portrayal is actually <opinion_03> honest </opinion_03>, <rationale_03> showing the struggles behind the glamour </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A scene from the documentary showing a distressed influencer amidst social media chaos.",
+                    "id": "img_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "I see your point, but isn’t it risky to only highlight the bad? It could paint a misleading picture of influencers.",
+                "annotation": "I see your point, but isn’t it <opinion_04> risky </opinion_04> to only highlight the bad? <rationale_04> It could paint a misleading picture of influencers </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Actually, by discussing only the bad, the documentary sparks essential conversations about the pitfalls of celebrity culture. This focus can be <opinion_05> necessary </opinion_05> for awareness.",
+                "annotation": "Actually, by discussing only the bad, the documentary sparks essential conversations about the pitfalls of <target_02> celebrity culture </target_02>. This focus can be <opinion_05> necessary </opinion_05> for <rationale_05> awareness </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Chris",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "insights",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "the insights it provides are quite significant",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "portrayal",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat one-sided",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "they focus mostly on the negatives",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "influencer culture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "portrayal",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "honest",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "showing the struggles behind the glamour",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "influencer culture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "focus",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "risky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It could paint a misleading picture of influencers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "celebrity culture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "focus",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "necessary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "for awareness",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jamie",
+                "target": "influencer culture",
+                "aspect": "portrayal",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lena"
+            },
+            {
+                "id": 1,
+                "name": "Omar"
+            },
+            {
+                "id": 2,
+                "name": "Julia"
+            },
+            {
+                "id": 3,
+                "name": "Ryan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "With the awards season approaching, I'm really curious about which films will get noticed this year, particularly 'The Silent Echo'.",
+                "annotation": "With the <target_01> awards season </target_01> approaching, I'm really curious about which <aspect_01> films </aspect_01> will get <opinion_01> noticed </opinion_01> this year, particularly 'The Silent Echo'.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think 'The Silent Echo' has a strong storyline, but its cinematography is somewhat lacking; it doesn't have that wow factor.",
+                "annotation": "I think '<target_02> The Silent Echo </target_02>' has a <aspect_02> strong storyline </aspect_02>, but its <aspect_03> cinematography </aspect_03> is <opinion_02> somewhat lacking </opinion_02>; <rationale_02> it doesn't have that wow factor </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Scene from 'The Silent Echo' showing a visually uninspired setting.",
+                    "id": "img_0009"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree, Omar. The cinematography may not be flashy, but I found it to enhance the emotional depth, making the experience more intimate.",
+                "annotation": "I disagree, Omar. The <aspect_03> cinematography </aspect_03> may not be <opinion_03> flashy </opinion_03>, but I found it <opinion_04> to enhance </opinion_04> the emotional depth, <rationale_03> making the experience more intimate </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Plus, the performances in 'The Silent Echo' are absolutely brilliant. They certainly deserve recognition during the awards.",
+                "annotation": "Plus, the <aspect_04> performances </aspect_04> in '<target_02> The Silent Echo </target_02>' are <opinion_05> absolutely brilliant </opinion_05>. <rationale_04> They certainly deserve recognition during the awards </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Hmm, you both make good points. I guess I'm starting to see the cinematography in a new light as it contributes to the film's atmosphere.",
+                "annotation": "Hmm, you both make good points. I guess I'm starting to see the <aspect_03> cinematography </aspect_03> in a <opinion_06> new light </opinion_06> as it contributes to the film's atmosphere.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "awards season",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "films",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "noticed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showing enthusiasm about the films in the awards season",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Omar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "The Silent Echo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "storyline",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it doesn't have that wow factor",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Julia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "The Silent Echo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "flashy",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making the experience more intimate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ryan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "The Silent Echo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "performances",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "absolutely brilliant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "They certainly deserve recognition during the awards",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Omar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "The Silent Echo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "new light",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "as it contributes to the film's atmosphere",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Omar",
+            "target": "The Silent Echo",
+            "aspect": "cinematography",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Noah"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            },
+            {
+                "id": 3,
+                "name": "Sophia"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've always found reality shows to be quite superficial, lacking real depth in their storytelling.",
+                "annotation": "I've always found <target_01> reality shows </target_01> to be <opinion_01> superficial </opinion_01>, <rationale_01> lacking real depth in their storytelling </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's an interesting take! I feel like they can be profound at times, especially when they highlight genuine human struggles.",
+                "annotation": "That's an interesting take! I feel like <target_01> reality shows </target_01> can be <opinion_02> profound </opinion_02> at times, <rationale_02> especially when they highlight genuine human struggles </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I think the drama often overshadows those moments. It's like a circus that distracts from any real emotion.",
+                "annotation": "However, I think the <aspect_01> drama </aspect_01> often <opinion_03> overshadows </opinion_03> those moments. <rationale_03> It's like a circus that distracts from any real emotion </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A reality show scene filled with staged drama and exaggerated reactions.",
+                    "id": "img_0010"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I see your point, but I think the exaggerated emotions are what make reality shows entertaining in the first place.",
+                "annotation": "I see your point, but I think the <aspect_02> exaggerated emotions </aspect_02> are what make <target_01> reality shows </target_01> <opinion_04> entertaining </opinion_04> in the first place.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Honestly, I initially thought reality shows were merely trashy, but after watching some that tackled issues like mental health, I can appreciate their value.",
+                "annotation": "Honestly, I initially thought <target_01> reality shows </target_01> were <opinion_05> merely trashy </opinion_05>, but <rationale_04> after watching some that tackled issues like mental health, I can appreciate their value </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "That’s a fair point. I guess if done correctly, reality shows can reflect societal issues. Maybe I need to reevaluate my stance.",
+                "annotation": "That’s a fair point. I guess if done correctly, <target_01> reality shows </target_01> can <opinion_06> reflect societal issues </opinion_06>. <rationale_05> Maybe I need to reevaluate my stance </rationale_05>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "storytelling",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "superficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "lacking real depth in their storytelling",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "human struggles",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "profound",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially when they highlight genuine human struggles",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "drama",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "overshadows",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it's like a circus that distracts from any real emotion",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "exaggerated emotions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "entertaining",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the exaggerated emotions are what make reality shows entertaining",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "trashy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "merely trashy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "initially thought they were merely trashy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "reality shows",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "societal issues",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "reflect societal issues",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "if done correctly, reality shows can reflect societal issues",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ava",
+                "target": "reality shows",
+                "aspect": "societal issues",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00011",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Mark"
+            },
+            {
+                "id": 2,
+                "name": "Jade"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just saw Apex Warriors, and its special effects are astonishing, elevating the action sequences to another level.",
+                "annotation": "I just saw <target_01> Apex Warriors </target_01>, and its <aspect_01> special effects </aspect_01> are <opinion_01> astonishing </opinion_01>, <rationale_01> elevating the action sequences to another level </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While that may be true, the plot feels quite convoluted and lacks clarity, which detracts from the overall experience.",
+                "annotation": "While that may be true, the <aspect_02> plot </aspect_02> feels <opinion_02> convoluted </opinion_02>, <rationale_02> which detracts from the overall experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "I hadn't thought about that. The plot did meander a lot, making it rather puzzling in parts.",
+                "annotation": "I hadn't thought about that. The plot did <rationale_03> meander a lot, making it rather puzzling in parts </rationale_03>, resulting in it being <opinion_03> lackluster </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "But you have to admit, the soundtrack is phenomenal, blending perfectly with the visuals to create an immersive experience.",
+                "annotation": "But you have to admit, the <aspect_03> soundtrack </aspect_03> is <opinion_04> phenomenal </opinion_04>, <rationale_04> blending perfectly with the visuals to create an immersive experience </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A scene showcasing synchronized action and sound in Apex Warriors, enhancing the immersive experience.",
+                    "id": "img_0011"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "True, the audio adds a great layer of intensity, brilliantly matching the turbulent scenes.",
+                "annotation": "True, the <aspect_03> audio </aspect_03> adds a <opinion_05> great </opinion_05> layer of intensity, <rationale_05> brilliantly matching the turbulent scenes </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "And how about the character arcs? They felt somewhat predictable and lacked depth, which is disappointing.",
+                "annotation": "And how about the <aspect_04> character arcs </aspect_04>? They felt <opinion_06> predictable </opinion_06>, <rationale_06> which is disappointing </rationale_06>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 6,
+                "speaker": 2,
+                "utterance": "Initially, I thought they were decent, but I have to agree. Some characters didn't evolve in meaningful ways.",
+                "annotation": "Initially, I thought they were <opinion_07> decent </opinion_07>, but I have to agree. <rationale_07> Some characters didn't evolve in meaningful ways </rationale_07>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Apex Warriors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "special effects",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "astonishing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "elevating the action sequences to another level",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Apex Warriors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "plot",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "convoluted",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which detracts from the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Apex Warriors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "plot",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lackluster",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "meandered a lot, making it rather puzzling in parts",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jade",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Apex Warriors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "soundtrack",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "phenomenal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "blending perfectly with the visuals to create an immersive experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Apex Warriors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "audio",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "great",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "brilliantly matching the turbulent scenes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Apex Warriors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character arcs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "predictable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "which is disappointing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jade",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Apex Warriors",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character arcs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "decent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "but I have to agree. Some characters didn't evolve in meaningful ways",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Ella",
+            "target": "Apex Warriors",
+            "aspect": "plot",
+            "initial sentiment": "positive",
+            "flipped sentiment": "negative",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00012",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            },
+            {
+                "id": 3,
+                "name": "Isaac"
+            },
+            {
+                "id": 4,
+                "name": "Nina"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just finished watching the indie film 'Whispers of the Forest.' The cinematography was breathtaking.",
+                "annotation": "I just finished watching the <target_01> indie film </target_01> 'Whispers of the Forest.' <rationale_01> The cinematography was breathtaking </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A visually stunning scene from 'Whispers of the Forest' showcasing vibrant landscapes.",
+                    "id": "img_0012"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yeah, the visuals are mesmerizing! But what about the soundtrack? I found it elegantly haunting.",
+                "annotation": "Yeah, the visuals are <opinion_02> mesmerizing </opinion_02>! But what about the <aspect_02> soundtrack </aspect_02>? <rationale_02> I found it elegantly haunting </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I must admit, the character development was my favorite part. Each character felt real and relatable.",
+                "annotation": "The <aspect_03> character development </aspect_03> was my <opinion_03> favorite </opinion_03> part. <rationale_03> Each character felt real and relatable </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, but I thought the pacing was quite slow at times, which made it a bit tedious.",
+                "annotation": "Indeed, but I thought the <aspect_04> pacing </aspect_04> was <opinion_04> quite slow </opinion_04> at times. <rationale_04> This made it a bit tedious </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I disagree; the slow pacing allowed me to savor each moment. It was a deep dive into the characters' journeys.",
+                "annotation": "I <opinion_05> disagree </opinion_05>; the slow pacing allowed me to savor each moment. <rationale_05> It was a deep dive into the characters' journeys </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "Fair enough, but for me, the slow pacing detracted from the urgency of the story. However, I can see your point about character depth.",
+                "annotation": "Fair enough, but for me, the <aspect_04> slow pacing </aspect_04> detracted from the urgency of the story. <rationale_06> However, I can see your point about character depth </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Whispers of the Forest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cinematography",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The cinematography was breathtaking",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Whispers of the Forest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "soundtrack",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "elegantly haunting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I found it elegantly haunting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Whispers of the Forest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "favorite",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Each character felt real and relatable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Isaac",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Whispers of the Forest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which made it a bit tedious",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Whispers of the Forest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "deep dive",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It was a deep dive into the characters' journeys",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Isaac",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Whispers of the Forest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "detracted from urgency",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "However, I can see your point about character depth",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Isaac",
+            "target": "Whispers of the Forest",
+            "aspect": "pacing",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00013",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Alex"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Jordan"
+            },
+            {
+                "id": 5,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The film festival featured a stellar line-up, showcasing incredible talent from around the globe.",
+                "annotation": "The <target_01> film festival </target_01> featured a <opinion_01> stellar </opinion_01> <rationale_01> line-up, showcasing incredible talent from around the globe </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A vibrant festival scene with long lines and excited attendees.",
+                    "id": "img_0013"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Definitely! The selection was diverse, which made it engaging for various audiences.",
+                "annotation": "The <aspect_02> selection </aspect_02> was <opinion_02> diverse </opinion_02>, <rationale_02> which made it engaging for various audiences </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I felt the organization, however, was a bit chaotic at times. It affected the viewing experience.",
+                "annotation": "The <aspect_03> organization </aspect_03> was <opinion_03> a bit chaotic </opinion_03> at times. <rationale_03> It affected the viewing experience </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I disagree, the buzz created by the chaos added to the excitement! It felt like a real festival.",
+                "annotation": "The <aspect_04> buzz </aspect_04> created was <opinion_04> exhilarating </opinion_04>, <rationale_04> as it added to the excitement and felt like a real festival </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "From my perspective, the programming time slots were not well thought out. Some great films overlapped.",
+                "annotation": "The <aspect_05> programming </aspect_05> time slots were <opinion_05> poorly designed </opinion_05>. <rationale_05> Some great films overlapped, which disappointed many of us </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I used to think the film festival was poorly organized, but then I learned it was their first year hosting it, which makes sense.",
+                "annotation": "I used to think the <target_01> film festival </target_01> was <opinion_06> poorly organized </opinion_06>, <rationale_06> but then I learned it was their first year hosting it, which makes sense </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "line-up",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stellar",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showcasing incredible talent from around the globe",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "selection",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "diverse",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which made it engaging for various audiences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "organization",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a bit chaotic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It affected the viewing experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "buzz",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as it added to the excitement and felt like a real festival",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "programming time slots",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "poorly designed",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Some great films overlapped, which disappointed many of us",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "film festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "organization",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "poorly organized",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "but then I learned it was their first year hosting it, which makes sense",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Riley",
+                "target": "film festival",
+                "aspect": "organization",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00014",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Blake"
+            },
+            {
+                "id": 2,
+                "name": "Cameron"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think influencers have made celebrity culture more accessible, but it also feels a bit overwhelming with everyone vying for attention.",
+                "annotation": "I think <target_01> influencers </target_01> have made <aspect_01> celebrity culture </aspect_01> <opinion_01> accessible </opinion_01>, but <rationale_01> it also feels a bit overwhelming with everyone vying for attention </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, but isn't it fascinating how celebrities curate their images? I find it quite deceptive yet captivating, like a masterful artwork.",
+                "annotation": "Yes, but isn't it <opinion_02> fascinating </opinion_02> how <aspect_02> celebrities </aspect_02> curate their <target_01> images </target_01>? <rationale_02> I find it quite deceptive yet captivating, like a masterful artwork </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I feel that while celebrity culture can be engaging, it can also lead to unrealistic standards of beauty and success that aren’t relatable for most people.",
+                "annotation": "I feel that while <target_01> celebrity culture </target_01> can be <opinion_03> engaging </opinion_03>, <aspect_03> it can also lead to unrealistic standards of beauty and success </aspect_03> that <rationale_03> aren’t relatable for most people </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A collage of various influencers showcasing glamorized lifestyles on social media.",
+                    "id": "img_0014"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's true, especially when you consider how these curated images often leave us feeling inadequate. It's almost like a pressure cooker environment.",
+                "annotation": "That's true, especially when you consider how <aspect_02> curated images </aspect_02> often leave us feeling <opinion_04> inadequate </opinion_04>. <rationale_04> It's almost like a pressure cooker environment </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "influencers",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "celebrity culture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "accessible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it also feels a bit overwhelming with everyone vying for attention",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Blake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "images",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "celebrities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I find it quite deceptive yet captivating, like a masterful artwork",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cameron",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "celebrity culture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "standards of beauty and success",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "engaging",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "that aren’t relatable for most people",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "curated images",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "curated images",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "inadequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's almost like a pressure cooker environment",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00015",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Max"
+            },
+            {
+                "id": 1,
+                "name": "Ella"
+            },
+            {
+                "id": 2,
+                "name": "Ravi"
+            },
+            {
+                "id": 3,
+                "name": "Lucy"
+            },
+            {
+                "id": 4,
+                "name": "James"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just attended the Autumn Film Festival, and the short films showcased were incredibly innovative, offering fresh perspectives on storytelling.",
+                "annotation": "I just attended the <target_01> Autumn Film Festival </target_01>, and the <aspect_01> short films showcased </aspect_01> were <opinion_01> incredibly innovative </opinion_01>, <rationale_01> offering fresh perspectives on storytelling </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, especially with that one animation—it had such unique visuals that made the narrative pop.",
+                "annotation": "I agree, especially with that <aspect_02> animation </aspect_02>—it had <opinion_02> unique visuals </opinion_02>, <rationale_02> that made the narrative pop </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Animation from the Autumn Film Festival featuring unique visuals.",
+                    "id": "img_0015"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I appreciated the creativity, some of the themes felt a bit convoluted, leaving the audience puzzled rather than engaged.",
+                "annotation": "While I appreciated the <aspect_03> creativity </aspect_03>, some of the <aspect_04> themes </aspect_04> felt <opinion_03> convoluted </opinion_03>, <rationale_03> leaving the audience puzzled rather than engaged </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "You make a good point, Ravi. I felt a similar disconnect with a few of the narratives, which could have been more coherent.",
+                "annotation": "You make a good point, <aspect_04> narratives </aspect_04>, which could have been <opinion_04> more coherent </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "However, I thought the sound design was brilliant. It added layers of depth to each film experience which was essential.",
+                "annotation": "However, I thought the <aspect_05> sound design </aspect_05> was <opinion_05> brilliant </opinion_05>, <rationale_04> adding layers of depth to each film experience which was essential </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "Agreed, the sound truly enhanced the emotional impact. Initially, I thought the visuals were the highlight, but now I realize they worked best with the sound.",
+                "annotation": "Agreed, the sound truly enhanced the <aspect_06> emotional impact </aspect_06>. Initially, I thought the <aspect_02> visuals </aspect_02> were <opinion_06> the highlight </opinion_06>, but now I <opinion_07> realize they worked best with the sound </opinion_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Autumn Film Festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "short films showcased",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly innovative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering fresh perspectives on storytelling",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Autumn Film Festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "animation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "unique visuals",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "that made the narrative pop",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Autumn Film Festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "creativity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "convoluted",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "leaving the audience puzzled rather than engaged",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Autumn Film Festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "narratives",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more coherent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which could have been more coherent",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Autumn Film Festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "sound design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "brilliant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "adding layers of depth to each film experience which was essential",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Autumn Film Festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "emotional impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "the highlight",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "truly enhanced",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Autumn Film Festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "worked best with the sound",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "initially thought the visuals were the highlight, but now I realize they worked best with the sound",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Max",
+            "target": "Autumn Film Festival",
+            "aspect": "visuals",
+            "initial sentiment": "positive",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Reflection"
+        }
+    },
+    {
+        "doc_id": "00016",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "Daniel"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think celebrity endorsements can be really misleading, especially when they promote products they don't actually use.",
+                "annotation": "I think <target_01> celebrity endorsements </target_01> can be <opinion_01> misleading </opinion_01>, <rationale_01> especially when they promote products they don't actually use </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A celebrity holding a product, seemingly endorsing it without any genuine connection.",
+                    "id": "img_0016"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, Alice, but I believe they have the potential to elevate a brand's visibility significantly if done right.",
+                "annotation": "I believe <target_01> celebrity endorsements </target_01> have the potential to <opinion_02> elevate </opinion_02> a brand's visibility <rationale_02> significantly if done right </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Exactly, I mean, while they can mislead, it really depends on the integrity of the celebrity involved.",
+                "annotation": "They can mislead, but it really depends on the <aspect_01> integrity </aspect_01> of the <target_01> celebrity involved </target_01>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I disagree somewhat. I think the integrity of celebrities is often compromised by the allure of money which can taint their endorsements.",
+                "annotation": "I think the <aspect_01> integrity </aspect_01> of celebrities is often <opinion_03> compromised </opinion_03> by <rationale_03> the allure of money which can taint their endorsements </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "You might have a point, Daniel. I've read studies suggesting that many celebrities endorse products solely for financial gain, which does hurt their credibility.",
+                "annotation": "I’ve read studies suggesting that many celebrities endorse products solely for <opinion_04> financial gain </opinion_04>, which <rationale_04> does hurt their credibility </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "celebrity endorsements",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "credibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "misleading",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially when they promote products they don't actually use",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "celebrity endorsements",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "visibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "elevate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "significantly if done right",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "celebrity endorsements",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "integrity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "depends",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the integrity of the celebrity involved",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Daniel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "celebrity endorsements",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "integrity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "compromised",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the allure of money which can taint their endorsements",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "celebrity endorsements",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "credibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "hurt",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "many celebrities endorse products solely for financial gain",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Cathy",
+                "target": "celebrity endorsements",
+                "aspect": "integrity",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00017",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Did you guys see the latest episode of 'Galactic Realms'? The world-building is absolutely fascinating!",
+                "annotation": "Did you guys see the latest episode of <target_01> 'Galactic Realms' </target_01>? <rationale_01> The world-building is absolutely fascinating </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An elaborate map demonstrating the vast world of 'Galactic Realms', highlighting various regions.",
+                    "id": "img_0017"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True! I love how detailed the lore is. It makes the plot feel much richer and engaging.",
+                "annotation": "I love how <opinion_02> detailed </opinion_02> the <aspect_02> lore </aspect_02> is. <rationale_02> It makes the plot feel much richer and engaging </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While the visuals are stunning, I sometimes feel the pacing drags, making some episodes less thrilling.",
+                "annotation": "While the visuals are stunning, I sometimes feel the <aspect_03> pacing </aspect_03> <opinion_03> drags </opinion_03>, <rationale_03> making some episodes less thrilling </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "But isn't the gradual development of storylines essential for a complex narrative? It allows for deeper character exploration.",
+                "annotation": "But isn't the gradual <aspect_04> development of storylines </aspect_04> <opinion_04> essential </opinion_04> for a complex narrative? <rationale_04> It allows for deeper character exploration </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 2,
+                "utterance": "You might be right. When I think about it, those slower moments do enhance character depth, making the overall experience better.",
+                "annotation": "<rationale_05> When I think about it, those slower moments do enhance character depth </rationale_05>. <aspect_04> The overall experience </aspect_04> now seems <opinion_05> better </opinion_05> to me.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'Galactic Realms'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "world-building",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The world-building is absolutely fascinating",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'Galactic Realms'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lore",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "detailed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It makes the plot feel much richer and engaging",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'Galactic Realms'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "drags",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making some episodes less thrilling",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'Galactic Realms'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "development of storylines",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It allows for deeper character exploration",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'Galactic Realms'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "overall experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "better",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "When I think about it, those slower moments do enhance character depth",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Noah",
+            "target": "'Galactic Realms'",
+            "aspect": "overall experience",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00018",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Maya"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the action sequences in genre cinema are often over-the-top and unrealistic.",
+                "annotation": "I think the <aspect_01> action sequences </aspect_01> in <target_01> genre cinema </target_01> are often <opinion_01> over-the-top </opinion_01> and <rationale_01> unrealistic </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I see your point, I actually find them exhilarating; they offer an escape from reality that can be refreshing.",
+                "annotation": "While I see your point, I actually find them <opinion_02> exhilarating </opinion_02>; <rationale_02> they offer an escape from reality that can be refreshing </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I used to agree with Liam, especially after watching a few poorly made films, but then I saw some astounding choreography that made me appreciate the creativity involved in these sequences.",
+                "annotation": "I used to agree with Liam, especially after watching a few <opinion_03> poorly made films </opinion_03>, but <rationale_03> seeing some astounding choreography made me appreciate the creativity involved </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Stunning action scene with expertly choreographed fight moves in a film.",
+                    "id": "img_0018"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's a great perspective, Noah. I agree that well-crafted action can be beautiful and enhance storytelling.",
+                "annotation": "That's a great perspective, Noah. I agree that <aspect_01> well-crafted action </aspect_01> can be <opinion_04> beautiful </opinion_04> and <rationale_04> enhances storytelling </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "It's interesting to hear that. I suppose I haven't given enough thought to choreography and its role in improving the overall experience.",
+                "annotation": "It's interesting to hear that. I suppose I haven't given enough thought to <aspect_02> choreography </aspect_02> and its <opinion_05> role </opinion_05> in <rationale_05> improving the overall experience </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "genre cinema",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "action sequences",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "over-the-top",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "unrealistic",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "genre cinema",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "action sequences",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "they offer an escape from reality that can be refreshing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "genre cinema",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "choreography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "appreciated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "seeing some astounding choreography made me appreciate the creativity involved",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "genre cinema",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "action",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "beautiful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "enhances storytelling",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "genre cinema",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "choreography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "important",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "improving the overall experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "genre cinema",
+                "aspect": "choreography",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00019",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Harper"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Zara"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Maya"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I can't believe it's already Awards Season! I'm looking forward to seeing who wins Best Film this year.",
+                "annotation": "I can't believe it's already <target_01> Awards Season </target_01>! <rationale_01> I'm looking forward to seeing who wins Best Film this year </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yeah, but I feel like the nominations are often pretty predictable. It's hard to be surprised anymore.",
+                "annotation": "but I feel like the <aspect_01> nominations </aspect_01> are <opinion_01> pretty predictable </opinion_01>. <rationale_02> It's hard to be surprised anymore </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I used to agree, but I watched a few indie films last week that really changed my perspective. They were fresh and innovative!",
+                "annotation": "I used to agree, but I watched a few <target_02> indie films </target_02> last week that really <opinion_02> changed my perspective </opinion_02>. <rationale_03> They were fresh and innovative </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Oh, which ones did you see? I'm always on the lookout for recommendations.",
+                "annotation": "Oh, which ones did you see? <rationale_04> I'm always on the lookout for recommendations </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I think the performances play a significant role too. Last year's winners had such strong portrayals that really captivated the audience.",
+                "annotation": "I think the <aspect_02> performances </aspect_02> play a <opinion_03> significant </opinion_03> role too. <rationale_05> Last year's winners had such strong portrayals that really captivated the audience </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "Absolutely! In fact, one of those performances reminded me of when I saw a live theater play, which was so immersive. It's an experience that stays with you.",
+                "annotation": "In fact, one of those <target_02> performances </target_02> <opinion_04> reminded me </opinion_04> of when I saw a live theater play. <rationale_06> It's an experience that stays with you </rationale_06>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A captivating live theater scene where actors deeply engage with the audience.",
+                    "id": "img_0019"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Harper",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Awards Season",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "nominations",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exciting",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "I'm looking forward to seeing who wins Best Film this year",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Awards Season",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "nominations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "predictable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's hard to be surprised anymore",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Zara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "indie films",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "freshness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "innovative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They were fresh and innovative",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Awards Season",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "recommendations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "important",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I'm always on the lookout for recommendations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Awards Season",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "performances",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Last year's winners had such strong portrayals that really captivated the audience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Zara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "performances",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "impact",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "reminded",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It's an experience that stays with you",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Zara",
+            "target": "indie films",
+            "aspect": "freshness",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00020",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Taylor"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Alexis"
+            },
+            {
+                "id": 3,
+                "name": "Sam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The nominations for Best Picture this year are nothing short of dazzling; each film brings something unique to the table.",
+                "annotation": "The <target_01> nominations for Best Picture </target_01> are <opinion_01> dazzling </opinion_01>; <rationale_01> each film brings something unique to the table </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A collage featuring the posters of the nominated films for Best Picture.",
+                    "id": "img_0020"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the cinematography this year has been particularly stunning, creating visuals that stay with you long after the credits roll.",
+                "annotation": "I think the <aspect_02> cinematography </aspect_02> this year has been <opinion_02> particularly stunning </opinion_02>, <rationale_02> creating visuals that stay with you long after the credits roll </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but some of the plot lines were overly predictable, which brought down the overall quality for me.",
+                "annotation": "some of the <aspect_03> plot lines </aspect_03> were <opinion_03> overly predictable </opinion_03>, which <rationale_03> brought down the overall quality for me </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I must say I initially agreed with you on the predictability of those plots, but after reflecting on the cultural commentary some films present, I find them more engaging than I first thought.",
+                "annotation": "I initially agreed with you on the <aspect_03> predictability </aspect_03> of those plots, but <rationale_04> after reflecting on the cultural commentary some films present </rationale_04>, I find them <opinion_04> more engaging </opinion_04> than I first thought.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "nominations for Best Picture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "uniqueness",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "dazzling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "each film brings something unique to the table",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "nominations for Best Picture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "creating visuals that stay with you long after the credits roll",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alexis",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "nominations for Best Picture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "plot lines",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "overly predictable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which brought down the overall quality for me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "nominations for Best Picture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "predictability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more engaging",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "after reflecting on the cultural commentary some films present",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sam",
+                "target": "nominations for Best Picture",
+                "aspect": "predictability",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Reflection"
+            }
+        ]
+    }
+]

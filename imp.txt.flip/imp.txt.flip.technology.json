@@ -1,0 +1,4056 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Maya"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been really fascinated by the immersive environments in virtual reality. The <aspect_01> realism </aspect_01> in these experiences is <opinion_01> exceptional </opinion_01>; it makes you feel like you're actually there.",
+                "annotation": "I've been really fascinated by the <target_01> immersive environments </target_01> in <aspect_01> virtual reality </aspect_01>. The <opinion_01> realism </opinion_01> in these experiences is <opinion_01> exceptional </opinion_01>; <rationale_01> it makes you feel like you're actually there. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the user interface can be quite <opinion_02> clumsy </opinion_02>. Many times, I've struggled to navigate through VR menus, which breaks the immersion.",
+                "annotation": "I think the <aspect_02> user interface </aspect_02> can be quite <opinion_02> clumsy </opinion_02>. <rationale_02> Many times, I've struggled to navigate through VR menus, which breaks the immersion. </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Your point about the interface makes sense. I used to find it <opinion_03> frustrating </opinion_03> too, especially when I tried to interact with things in virtual space, but my recent experience was much smoother, which changed my outlook.",
+                "annotation": "Your point about the <aspect_02> interface </aspect_02> makes sense. I used to find it <opinion_03> frustrating </opinion_03> too, especially when I tried to interact with things in <target_01> virtual space </target_01>, but my recent experience was much smoother, which changed my outlook.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's interesting! What changed? Was it a different platform or just an upgraded system?",
+                "annotation": "That's interesting! What changed? <rationale_03> Was it a different platform or just an upgraded system? </rationale_03>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 2,
+                "utterance": "Actually, yes! The new headset improves tracking tremendously, so interacting feels <opinion_04> natural </opinion_04> now, which really enhances the experience.",
+                "annotation": "The new headset improves tracking tremendously, so interacting feels <opinion_04> natural </opinion_04> now, <rationale_04> which really enhances the experience. </rationale_04>",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "immersive environments",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "realism",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it makes you feel like you're actually there.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "immersive environments",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "clumsy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Many times, I've struggled to navigate through VR menus, which breaks the immersion.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "immersive environments",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "frustrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially when I tried to interact with things in virtual space",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "immersive environments",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "natural",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which really enhances the experience.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jordan",
+                "target": "immersive environments",
+                "aspect": "interface",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Morgan"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been looking into blockchain technology, and I think its scalability is often overrated.",
+                "annotation": "I've been looking into <target_01> blockchain technology </target_01>, and I think its <aspect_01> scalability </aspect_01> is often <opinion_01> overrated </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I disagree; the scalability of blockchain can actually be impressive, especially with second-layer solutions like Lightning Network for Bitcoin.",
+                "annotation": "I disagree; the <aspect_02> scalability </aspect_02> of <target_01> blockchain </target_01> can actually be <opinion_02> impressive </opinion_02>, <rationale_01> especially with second-layer solutions like Lightning Network for Bitcoin </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's a good point, Morgan. However, the total energy consumption of blockchain networks concerns me, especially in terms of sustainability.",
+                "annotation": "That's a good point, Morgan. However, the <aspect_03> energy consumption </aspect_03> of <target_01> blockchain networks </target_01> concerns me, especially in terms of <opinion_03> sustainability </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "But it's important to note that many projects are actively working on reducing energy usage while maintaining security.",
+                "annotation": "But it's important to note that many projects are <rationale_02> actively working on reducing energy usage while maintaining security </rationale_02>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Exactly, that approach enhances the <aspect_04> sustainability </aspect_04> of the technology, making it more viable for future applications.",
+                "annotation": "Exactly, that approach enhances the <aspect_04> sustainability </aspect_04> of <target_01> blockchain technology </target_01>, making it <opinion_04> more viable </opinion_04> for future applications.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "I see your point, Alex. Previously, I viewed energy consumption negatively, but knowing more about the advancements helps alleviate my concerns.",
+                "annotation": "I see your point, Alex. Previously, I viewed <aspect_03> energy consumption </aspect_03> negatively, but <rationale_03> knowing more about the advancements helps alleviate my concerns </rationale_03>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "overrated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially with second-layer solutions like Lightning Network for Bitcoin",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain networks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "energy consumption",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially in terms of sustainability",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "sustainability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more viable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "that approach enhances sustainability while maintaining security",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "energy consumption",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "negatively viewed",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "prior to the new information on advancements",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "energy consumption",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "less concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "knowing more about the advancements helps alleviate my concerns",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jordan",
+                "target": "blockchain technology",
+                "aspect": "energy consumption",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Bella"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Fiona"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Virtual reality offers immersive experiences that are revolutionary.",
+                "annotation": "Virtual reality <target_01> offers immersive experiences </target_01> that are <opinion_01> revolutionary </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "However, I perceive the current headset designs as uncomfortable, especially for prolonged use.",
+                "annotation": "I perceive the <aspect_02> headset designs </aspect_02> as <opinion_02> uncomfortable </opinion_02>, <rationale_02> especially for prolonged use </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "In my opinion, the software library is vastly <opinion_03> lacking </opinion_03> in variety, leading to a limited user experience.",
+                "annotation": "In my opinion, the <aspect_03> software library </aspect_03> is vastly <opinion_03> lacking </opinion_03>, <rationale_03> leading to a limited user experience </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That said, I've recently tried a new VR game that expanded my view; the graphics were phenomenal.",
+                "annotation": "<rationale_04> That said, I've recently tried a new VR game that expanded my view; </rationale_04> the <aspect_04> graphics </aspect_04> were <opinion_04> phenomenal </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Moreover, I think the motion tracking technology is quite <opinion_05> impressive </opinion_05>, providing a seamless interaction.",
+                "annotation": "I think the <aspect_05> motion tracking technology </aspect_05> is quite <opinion_05> impressive </opinion_05>, <rationale_05> providing a seamless interaction </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Interesting! But have you heard about the recent breakthroughs in comfort designs? They are addressing those uncomfortable aspects.",
+                "annotation": "But have you heard about the recent breakthroughs in <aspect_02> comfort designs </aspect_02>? They are <opinion_06> addressing </opinion_06> those uncomfortable aspects.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "virtual reality",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "experiences",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "immersive experiences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "virtual reality",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "headset designs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "uncomfortable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially for prolonged use",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "virtual reality",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "software library",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "leading to a limited user experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "virtual reality",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "graphics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "phenomenal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "recently tried a new VR game",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "virtual reality",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "motion tracking technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "providing a seamless interaction",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Fiona",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "virtual reality",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "comfort designs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "addressing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "they are addressing those uncomfortable aspects",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Bella",
+                "target": "virtual reality",
+                "aspect": "headset designs",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Evan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "In this digital age, the importance of strong passwords cannot be overstated. They are essential for safeguarding personal information.",
+                "annotation": "In this digital age, the <target_01> importance of strong passwords </target_01> cannot be <opinion_01> overstated </opinion_01>. <rationale_01> They are essential for safeguarding personal information </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! But have you considered that even the most complex passwords can be vulnerable? Regular updates make them significantly more secure.",
+                "annotation": "Absolutely! But have you considered that even the most <opinion_02> complex </opinion_02> <aspect_02> passwords </aspect_02> can be vulnerable? <rationale_02> Regular updates make them significantly more secure </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That’s a brilliant point, Bob. I feel that two-factor authentication really enhances password strength, giving an extra layer of protection.",
+                "annotation": "That’s a <opinion_03> brilliant </opinion_03> point, <rationale_03> I feel that two-factor authentication really enhances password strength </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I see the value in that approach, I've often thought that it can be cumbersome and discourage users from adopting these safety measures.",
+                "annotation": "While I see the <opinion_04> value </opinion_04> in that approach, <rationale_04> I've often thought that it can be cumbersome and discourage users from adopting these safety measures </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "However, I believe the inconvenience is justified. The risk of data breaches is too high, making any method of security worth the effort.",
+                "annotation": "However, I <opinion_05> believe the inconvenience is justified </opinion_05>. <rationale_05> The risk of data breaches is too high, making any method of security worth the effort </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "You make a strong argument, Evan. When I really think about it, the benefit of protecting personal data outweighs any hassle. I now view two-factor authentication as more practical.",
+                "annotation": "You make a strong argument, <rationale_06> When I really think about it, the benefit of protecting personal data outweighs any hassle </rationale_06>. I now view two-factor authentication as <opinion_06> more practical </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "strong passwords",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "importance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "overstated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They are essential for safeguarding personal information",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "strong passwords",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "complex",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Regular updates make them significantly more secure",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "strong passwords",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "strength",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "brilliant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I feel that two-factor authentication really enhances password strength",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "strong passwords",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "adoption",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "value",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I've often thought that it can be cumbersome and discourage users from adopting these safety measures",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Evan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "strong passwords",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "inconvenience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "justified",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "The risk of data breaches is too high, making any method of security worth the effort",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "strong passwords",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "two-factor authentication",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more practical",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "When I really think about it, the benefit of protecting personal data outweighs any hassle",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Diana",
+                "target": "strong passwords",
+                "aspect": "two-factor authentication",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "more practical",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jules"
+            },
+            {
+                "id": 2,
+                "name": "Rita"
+            },
+            {
+                "id": 3,
+                "name": "Max"
+            },
+            {
+                "id": 4,
+                "name": "Nina"
+            },
+            {
+                "id": 5,
+                "name": "Leo"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been thinking about implementing two-factor authentication for our accounts; its security level is definitely higher.",
+                "annotation": "I've been thinking about implementing <target_01> two-factor authentication </target_01> for our accounts; its <aspect_01> security level </aspect_01> is <rationale_01> definitely higher </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But isn't it a bit cumbersome? Users might find it annoying to have one extra step.",
+                "annotation": "But isn't it <opinion_02> a bit cumbersome </opinion_02>? <rationale_02> Users might find it annoying to have one extra step </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, I disagree. I believe the <aspect_01> security level </aspect_01> far outweighs any inconvenience. After all, I've had my email hacked before.",
+                "annotation": "Actually, I <opinion_03> disagree </opinion_03>. I believe the <aspect_01> security level </aspect_01> far outweighs any inconvenience. <rationale_03> After all, I've had my email hacked before </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a strong point, Rita. Personally, I used to find the process annoying until I remembered the phishing attack I experienced last year.",
+                "annotation": "That's a strong point, Rita. <opinion_04> Personally, I used to find the process annoying </opinion_04> until <rationale_04> I remembered the phishing attack I experienced last year </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That makes sense. It's wise to choose security over convenience, even if it is sometimes inconvenient.",
+                "annotation": "That makes sense. It's <opinion_05> wise </opinion_05> to choose <aspect_01> security </aspect_01> over <aspect_02> convenience </aspect_02>, <rationale_05> even if it is sometimes inconvenient </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I guess I can see both sides, but ultimately, safeguarding our information should be our priority.",
+                "annotation": "I guess I can see both sides, but ultimately, <opinion_06> safeguarding our information should be our priority </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "two-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security level",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "higher",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "definitely higher",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jules",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "two-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user experience",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "cumbersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Users might find it annoying to have one extra step",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Rita",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "two-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security level",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "valuable",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "far outweighs any inconvenience. After all, I've had my email hacked before",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "two-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user experience",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "annoying",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I remembered the phishing attack I experienced last year",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "two-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "wise",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "even if it is sometimes inconvenient",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "two-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "safety",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "should be prioritized",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "safeguarding our information",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Max",
+                "target": "two-factor authentication",
+                "aspect": "user experience",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about AI ethics lately. The concept of bias in AI systems is particularly troubling.",
+                "annotation": "I've been reading about <target_01> AI ethics </target_01> lately. The <aspect_01> concept of bias </aspect_01> in AI systems is <opinion_01> troubling </opinion_01>, <rationale_01> particularly because it can lead to unfair treatment of individuals.</rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree with you, Alice. The implications of biased algorithms are immense, leading to harmful societal consequences.",
+                "annotation": "I agree with you, <target_01> AI ethics </target_01>. The <aspect_02> implications of biased algorithms </aspect_02> are <opinion_02> immense </opinion_02>, <rationale_02> leading to harmful societal consequences.</rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I understand that concern, I believe the issue of transparency is just as critical. AI systems need to be more open about their decision-making processes.",
+                "annotation": "While I understand that concern, I believe the <aspect_03> issue of transparency </aspect_03> is just as critical. <opinion_03> AI systems need to be more open </opinion_03> about their decision-making processes, <rationale_03> to ensure accountability and trust from users.</rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Great point, Charlie. However, with openness, there are risks of overwhelming users with information. Balance is key.",
+                "annotation": "Great point, <target_01> AI ethics </target_01>. However, with <aspect_04> openness </aspect_04>, there are <opinion_04> risks of overwhelming </opinion_04> users with information <rationale_04> which could hinder their understanding of AI.</rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Reflecting on both your insights, I now see transparency in AI not just as beneficial but crucial for societal progress.",
+                "annotation": "Reflecting on both your insights, I now see transparency in <target_01> AI ethics </target_01> <opinion_05> as crucial </opinion_05> for societal progress, <rationale_05> especially as it can foster trust and collaborative innovation.</rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI ethics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "concept of bias",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "troubling",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "particularly because it can lead to unfair treatment of individuals.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI ethics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "implications of biased algorithms",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "immense",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "leading to harmful societal consequences.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI ethics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "issue of transparency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "as critical",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "to ensure accountability and trust from users.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI ethics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "openness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "risky",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which could hinder their understanding of AI.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI ethics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "transparency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "especially as it can foster trust and collaborative innovation.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ethan",
+                "target": "AI ethics",
+                "aspect": "transparency",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Elena"
+            },
+            {
+                "id": 1,
+                "name": "Raj"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            },
+            {
+                "id": 3,
+                "name": "Tom"
+            },
+            {
+                "id": 4,
+                "name": "Sophie"
+            },
+            {
+                "id": 5,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you seen the latest advancements in gene editing? The precision of CRISPR technology is remarkable.",
+                "annotation": "Have you seen the latest advancements in <target_01> gene editing </target_01>? The <aspect_01> precision of CRISPR technology </aspect_01> is <rationale_01> remarkable </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, but isn't there a huge ethical concern regarding its use? It's just not fully, ethically sound yet.",
+                "annotation": "Yes, but isn't there a <opinion_02> huge ethical concern </opinion_02> regarding its use? <rationale_02> It's just not fully, ethically sound yet </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Ethics aside, I think the applications in treating genetic disorders are crucial. It could save countless lives.",
+                "annotation": "Ethics aside, I think the <opinion_03> applications in treating genetic disorders are crucial </opinion_03>. <rationale_03> It could save countless lives </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I actually used CRISPR techniques in my lab last semester. Initially, I was skeptical about the long-term effects, but seeing the results firsthand changed my perspective.",
+                "annotation": "I actually used <target_01> CRISPR techniques </target_01> in my lab last semester. Initially, I was <opinion_04> skeptical about </opinion_04> the long-term effects, but seeing the results firsthand <rationale_04> changed my perspective </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That’s encouraging! I think the scientific community needs more hands-on experiences to truly grasp its potential.",
+                "annotation": "That’s encouraging! I think the <opinion_05> scientific community needs more hands-on experiences </opinion_05> to truly grasp <rationale_05> its potential </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "But what about the potential risks of unintended consequences? Those could be devastating.",
+                "annotation": "But what about the <opinion_06> potential risks of unintended consequences </opinion_06>? <rationale_06> Those could be devastating </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Elena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "precision of CRISPR technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which is remarkable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "ethical concern",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "huge ethical concern",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's just not fully, ethically sound yet",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "applications in treating genetic disorders",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It could save countless lives",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "CRISPR techniques",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "long-term effects",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "skeptical about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which changed my perspective",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "hands-on experiences",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "needs more",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "to truly grasp its potential",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "risks of unintended consequences",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "potential risks",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Those could be devastating",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Tom",
+                "target": "CRISPR techniques",
+                "aspect": "long-term effects",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Elena"
+            },
+            {
+                "id": 1,
+                "name": "Mark"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            },
+            {
+                "id": 4,
+                "name": "Tara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring quantum devices, and the processing power is astounding. It allows for complex computations beyond traditional capabilities.",
+                "annotation": "I've been exploring <target_01> quantum devices </target_01>, and the <aspect_01> processing power </aspect_01> is <opinion_01> astounding </opinion_01>. <rationale_01> It allows for complex computations beyond traditional capabilities </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but the error rates in quantum calculations can be frustrating. Sometimes, they compromise the reliability.",
+                "annotation": "Absolutely, but the <aspect_02> error rates </aspect_02> in <target_01> quantum devices </target_01> can be <opinion_02> frustrating </opinion_02>. <rationale_02> Sometimes, they compromise the reliability </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I'd argue that the potential for error correction in these devices is quite promising, though it's still developing.",
+                "annotation": "I'd argue that the <aspect_03> potential for error correction </aspect_03> in <target_01> quantum devices </target_01> is <opinion_03> promising </opinion_03>, <rationale_03> though it's still developing </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Initially, I thought the reliability might be acceptable, but I've come to realize that the high error rates are a significant drawback.",
+                "annotation": "Initially, I <opinion_04> thought </opinion_04> the <aspect_02> reliability </aspect_02> might be <opinion_05> acceptable </opinion_05>, but I've come to realize that the high error rates are a <opinion_06> significant drawback </opinion_06>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Elena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "processing power",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "astounding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It allows for complex computations beyond traditional capabilities",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "error rates",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "frustrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Sometimes, they compromise the reliability",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "potential for error correction",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "though it's still developing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Elena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "reliability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "acceptable",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the high error rates are a significant drawback",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Elena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "reliability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "significant drawback",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the high error rates are a significant drawback",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Elena",
+                "target": "quantum devices",
+                "aspect": "reliability",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "negative",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the latest advancements in 5G technology. Its overall speed is astonishing, considering how quickly it has evolved.",
+                "annotation": "I've been reading about the <target_01> advancements in 5G technology </target_01>. Its <aspect_01> overall speed </aspect_01> is <opinion_01> astonishing </opinion_01>, <rationale_01> considering how quickly it has evolved </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting, Alice! However, the complexity of the infrastructure appears challenging. I find it quite overwhelming for many providers.",
+                "annotation": "That's interesting, Alice! However, the <aspect_02> complexity of the infrastructure </aspect_02> appears <opinion_02> challenging </opinion_02>, <rationale_02> I find it quite overwhelming for many providers </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I see your point, Bob, but with the right investments, this complexity can turn into a <opinion_03> manageable </opinion_03> factor, <rationale_03> especially as technologies converge and promote efficiency.",
+                "annotation": "I see your point, Bob, but with the right investments, this <aspect_02> complexity </aspect_02> can turn into a <opinion_03> manageable </opinion_03> factor, <rationale_03> especially as technologies converge and promote efficiency </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Moreover, the potential applications for industries are vast. The versatility is impressive and can redefine operations substantially.",
+                "annotation": "Moreover, the potential <aspect_04> applications for industries </aspect_04> are <opinion_04> impressive </opinion_04>, <rationale_04> and can redefine operations substantially </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "advancements in 5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "overall speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "astonishing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "considering how quickly it has evolved",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "advancements in 5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complexity of the infrastructure",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "challenging",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I find it quite overwhelming for many providers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "advancements in 5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "manageable",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially as technologies converge and promote efficiency",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "advancements in 5G technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "applications for industries",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "and can redefine operations substantially",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Charlie",
+                "target": "advancements in 5G technology",
+                "aspect": "complexity",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Dylan"
+            },
+            {
+                "id": 1,
+                "name": "Sophie"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            },
+            {
+                "id": 3,
+                "name": "Emma"
+            },
+            {
+                "id": 4,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Virtual reality technology is quite captivating, especially the immersive experiences it offers.",
+                "annotation": "The <aspect_01> immersive experiences </aspect_01> of <target_01> virtual reality technology </target_01> are <opinion_01> captivating </opinion_01>, <rationale_01> especially considering how they allow users to step into different worlds </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the cost associated with high-quality VR equipment is pretty steep, making it less accessible.",
+                "annotation": "The <aspect_02> cost </aspect_02> of <target_01> high-quality VR equipment </target_01> is <opinion_02> steep </opinion_02>, <rationale_02> making it less accessible to many potential users </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I agree that the cost is high, I find the educational benefits of VR to be very valuable, especially in training simulations.",
+                "annotation": "The <aspect_03> educational benefits </aspect_03> of <target_01> VR </target_01> are <opinion_03> very valuable </opinion_03>, <rationale_03> especially in training simulations where practical experience is essential </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "At first, I thought the physical discomfort from prolonged use of VR was a major drawback, but considering its potential for cognitive training, I’ve come to see it differently.",
+                "annotation": "Initially, I thought the <aspect_04> physical discomfort </aspect_04> from <target_01> prolonged VR use </target_01> was a <opinion_04> major drawback </opinion_04>, <rationale_04> but I’ve come to see it differently </rationale_04> considering its potential for cognitive training.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dylan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "virtual reality technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "immersive experiences",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially considering how they allow users to step into different worlds",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "high-quality VR equipment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "steep",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it less accessible to many potential users",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VR",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "educational benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "very valuable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially in training simulations where practical experience is essential",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Emma",
+                    "manner": "implicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "prolonged VR use",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "physical discomfort",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "major drawback",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but I’ve come to see it differently considering its potential for cognitive training",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Emma",
+                "target": "prolonged VR use",
+                "aspect": "physical discomfort",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00011",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Ethan"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring different cloud solutions, and I'm really impressed by the scalability of AWS. It allows businesses to grow without the limitations of physical servers.",
+                "annotation": "I've been exploring different <target_01> cloud solutions </target_01>, and I'm really <opinion_01> impressed by </opinion_01> the <aspect_01> scalability </aspect_01> of AWS. <rationale_01> It allows businesses to grow without the limitations of physical servers </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I've found Azure's flexibility in hybrid cloud setups to be more beneficial for companies transitioning from on-premises to the cloud.",
+                "annotation": "That's true, but I've found <aspect_02> Azure's flexibility </aspect_02> to be <opinion_02> more beneficial </opinion_02> for <target_01> companies </target_01> transitioning from on-premises to the cloud <rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While Azure might offer flexibility, I think Google Cloud's data analytics tools are exceptional. They provide companies with deep insights quickly.",
+                "annotation": "While Azure might offer flexibility, I think <aspect_03> Google Cloud's data analytics tools </aspect_03> are <opinion_03> exceptional </opinion_03>. <rationale_03> They provide companies with deep insights quickly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to consider all cloud solutions pretty similar, but now I see distinct strengths within each platform.",
+                "annotation": "I used to consider all <target_01> cloud solutions </target_01> pretty <opinion_04> similar </opinion_04>, <rationale_04> but now I see distinct strengths within each platform </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "It's insightful to hear that perspective, Liam. The diversity of features really helps different businesses cater to their unique needs.",
+                "annotation": "It's insightful to hear that perspective, Liam. The diversity of <aspect_05> features </aspect_05> really helps <target_01> different businesses </target_01> cater to their unique needs <rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "Exactly! After reflecting on our discussion, I appreciate Azure's value more than I initially did.",
+                "annotation": "Exactly! <rationale_06> After reflecting on our discussion </rationale_06>, I appreciate <aspect_02> Azure's value </aspect_02> <opinion_06> more than I initially did </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressed by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It allows businesses to grow without the limitations of physical servers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "flexibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "more beneficial",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "for companies transitioning from on-premises to the cloud",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "data analytics tools",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They provide companies with deep insights quickly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "similarity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "similar",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but now I see distinct strengths within each platform",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "beneficial",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "The diversity of features really helps different businesses cater to their unique needs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "value",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more appreciated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "After reflecting on our discussion",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "cloud solutions",
+                "aspect": "value",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00012",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Riley"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            },
+            {
+                "id": 3,
+                "name": "Morgan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find firewalls incredibly essential for protecting our data from unauthorized access and malicious attacks.",
+                "annotation": "I find <opinion_01> incredibly essential for </opinion_01> <target_01> firewalls </target_01> <aspect_01> protecting our data </aspect_01> from unauthorized access and malicious attacks.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I believe antivirus software is even more crucial since it actively removes threats from our systems.",
+                "annotation": "That's true, but I believe <opinion_02> even more crucial </opinion_02> <target_02> antivirus software </target_02> <aspect_02> actively removes threats </aspect_02> from our systems.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I used to think that firewalls were the ultimate barrier, but after a recent malware scare, I now appreciate antivirus software's proactive approach.",
+                "annotation": "I used to think that <target_01> firewalls </target_01> were the ultimate barrier, but after a recent malware scare, I now <opinion_03> appreciate </opinion_03> <target_02> antivirus software </target_02> <aspect_02> proactive approach </aspect_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That really puts things in perspective. It's a good reminder that both measures work hand-in-hand for maximum security.",
+                "annotation": "That really puts things in perspective. <rationale_04> It's a good reminder that both measures </rationale_04> <target_01> firewalls </target_01> and <target_02> antivirus software </target_02> work hand-in-hand for <opinion_04> maximum security </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "firewalls",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "protecting our data",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly essential for",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "unauthorized access and malicious attacks",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "antivirus software",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "actively removes threats",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "even more crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it actively removes threats from our systems",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "firewalls",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "proactive approach",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "appreciate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "after a recent malware scare",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "firewalls",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "maximum security",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "maximum security",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it's a good reminder that both measures work hand-in-hand",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jordan",
+                "target": "antivirus software",
+                "aspect": "proactive approach",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00013",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Mia"
+            },
+            {
+                "id": 4,
+                "name": "Emma"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about quantum devices lately, and I'm intrigued by their computational speed. It's astonishing how fast they can process information.",
+                "annotation": "I've been reading about <target_01> quantum devices </target_01> lately, and I'm <opinion_01> intrigued by </opinion_01> their <aspect_01> computational speed </aspect_01>. <rationale_01> It's astonishing how fast they can process information </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but have you considered the environmental impact of manufacturing these devices? It seems rather concerning.",
+                "annotation": "True, but have you considered the <aspect_02> environmental impact </aspect_02> of manufacturing these devices? It seems <opinion_02> rather concerning </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I believe the environmental cost might be justified by the benefits they provide. Their computational capabilities can significantly improve numerous fields.",
+                "annotation": "I believe the <aspect_03> environmental cost </aspect_03> might be <opinion_03> justified </opinion_03> by the benefits they provide. <rationale_03> Their computational capabilities can significantly improve numerous fields </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, we should still be concerned about sustainability. Justifying harm to the environment is a slippery slope.",
+                "annotation": "However, we should still be concerned about <aspect_04> sustainability </aspect_04>. <rationale_04> Justifying harm to the environment is a slippery slope </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "But the advancements in technology often lead to more eco-friendly solutions in the long run, don't you think?",
+                "annotation": "But the <aspect_05> advancements in technology </aspect_05> often <opinion_05> lead to more eco-friendly solutions </opinion_05> in the long run. <rationale_05> They can improve efficiency and reduce waste over time </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "I see your point. Considering all of these factors, perhaps the environmental concerns could be balanced with proper regulations. That does make it less alarming than I initially thought.",
+                "annotation": "I see your point. <rationale_06> Considering all of these factors, perhaps the environmental concerns could be balanced with proper regulations </rationale_06>. That does make the environmental impact <opinion_06> less alarming </opinion_06> than I initially thought.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "computational speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "intrigued by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's astonishing how fast they can process information",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "environmental impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "rather concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "environmental cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "justified",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Their computational capabilities can significantly improve numerous fields",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "sustainability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Justifying harm to the environment is a slippery slope",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "advancements in technology",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "lead to more eco-friendly solutions",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "They can improve efficiency and reduce waste over time",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "environmental impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "less alarming",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Considering all of these factors, perhaps the environmental concerns could be balanced with proper regulations",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "quantum devices",
+                "aspect": "environmental impact",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00014",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Evelyn"
+            },
+            {
+                "id": 1,
+                "name": "Michael"
+            },
+            {
+                "id": 2,
+                "name": "Sofia"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            },
+            {
+                "id": 4,
+                "name": "Natalie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been researching quantum devices lately, and their potential for data processing seems remarkable.",
+                "annotation": "I've been researching <target_01> quantum devices </target_01> lately, and their <aspect_01> potential for data processing </aspect_01> seems <opinion_01> remarkable </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but I'm concerned about their <aspect_02> reliability </aspect_02>. Multi-layered qubits can be quite tricky to manage.",
+                "annotation": "but I'm <opinion_02> concerned </opinion_02> about their <aspect_02> reliability </aspect_02>. <rationale_01> Multi-layered qubits can be quite tricky to manage </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I feel the <aspect_03> accessibility </aspect_03> of quantum devices is still limited, which hinders their broader adoption.",
+                "annotation": "I feel the <aspect_03> accessibility </aspect_03> of <target_01> quantum devices </target_01> is <opinion_03> limited </opinion_03>, which <rationale_02> hinders their broader adoption </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I agree that they can be complex, the <aspect_04> efficiency </aspect_04> we can achieve is unmatched.",
+                "annotation": "the <aspect_04> efficiency </aspect_04> we can achieve is <opinion_04> unmatched </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I was initially skeptical about their <aspect_05> practicality </aspect_05>, but after attending a seminar, I realized they could revolutionize computing.",
+                "annotation": "I was initially <opinion_05> skeptical </opinion_05> about their <aspect_05> practicality </aspect_05>, but <rationale_03> after attending a seminar </rationale_03>, I <opinion_06> realized </opinion_06> they could revolutionize computing.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Evelyn",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "potential for data processing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "reliability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "concerned",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Multi-layered qubits can be quite tricky to manage",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sofia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "accessibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which hinders their broader adoption",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "unmatched",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Natalie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "practicality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "skeptical",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "after attending a seminar",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Natalie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quantum devices",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "practicality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "realized",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "they could revolutionize computing",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Natalie",
+                "target": "quantum devices",
+                "aspect": "practicality",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00015",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Remy"
+            },
+            {
+                "id": 1,
+                "name": "Sage"
+            },
+            {
+                "id": 2,
+                "name": "Parker"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been thinking about the efficiency of robotic systems in manufacturing and how they reduce human error significantly.",
+                "annotation": "I've been thinking about the <aspect_01> efficiency </aspect_01> of <target_01> robotic systems </target_01> in <rationale_01> manufacturing and how they reduce human error significantly </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I feel that the complexity of robotics can sometimes lead to unforeseen issues, which makes them less reliable.",
+                "annotation": "That's true, but I feel that the <aspect_02> complexity </aspect_02> of <target_01> robotics </target_01> <rationale_02> can sometimes lead to unforeseen issues, which makes them less reliable </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I find the adaptability of modern robots fascinating; they can be programmed to learn from feedback, improving their performance over time.",
+                "annotation": "However, I find the <aspect_03> adaptability </aspect_03> of <target_01> modern robots </target_01> <opinion_03> fascinating </opinion_03>; <rationale_03> they can be programmed to learn from feedback, improving their performance over time </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's a valid point, but does their adaptability compensate for their potential unreliability? I still think that unpredictability is a major downside.",
+                "annotation": "That's a valid point, but <rationale_04> does their adaptability compensate for their potential unreliability? I still think that unpredictability is a major downside </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Remy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "significant",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "they reduce human error significantly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sage",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "less reliable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "can sometimes lead to unforeseen issues",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Parker",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern robots",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "adaptability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "fascinating",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "they can be programmed to learn from feedback, improving their performance over time",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Remy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "unpredictability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "major downside",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I still think that unpredictability is a major downside",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sage",
+                "target": "robotics",
+                "aspect": "complexity",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00016",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Fiona"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think robots in healthcare are quite useful, as they can perform complex surgeries with high precision.",
+                "annotation": "I think <aspect_01> robots </aspect_01> in <target_01> healthcare </target_01> are <opinion_01> quite useful </opinion_01>, <rationale_01> as they can perform complex surgeries with high precision </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but sometimes the lack of human intuition in robots can lead to unexpected issues during operations.",
+                "annotation": "I agree, but <rationale_02> sometimes the lack of human intuition in robots can lead to unexpected issues during operations </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The software that controls these surgical robots is incredibly sophisticated, making them reliable in critical situations.",
+                "annotation": "The <aspect_02> software </aspect_02> that controls these <target_01> surgical robots </target_01> is <opinion_02> incredibly sophisticated </opinion_02>, <rationale_03> making them reliable in critical situations </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Yet, the ethical considerations of using robots in patient care can be rather troubling, especially regarding privacy.",
+                "annotation": "Yet, the <aspect_03> ethical considerations </aspect_03> of using <target_01> robots </target_01> in patient care can be <opinion_03> rather troubling </opinion_03>, <rationale_04> especially regarding privacy </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I find the integration of AI in robotic systems remarkable; it enhances their ability to adapt to varied situations.",
+                "annotation": "I find the <aspect_04> integration of AI </aspect_04> in <target_01> robotic systems </target_01> <opinion_04> remarkable </opinion_04>; <rationale_05> it enhances their ability to adapt to varied situations </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "While I appreciate advancements in robotics, I believe the overreliance on them could diminish critical human skills in doctors.",
+                "annotation": "While I appreciate <aspect_05> advancements </aspect_05> in <target_01> robotics </target_01>, I believe the <opinion_05> overreliance on them could diminish critical human skills in doctors </opinion_05>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "healthcare",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "robots",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "useful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as they can perform complex surgeries with high precision",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "healthcare",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "robots",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "could be problematic",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "sometimes the lack of human intuition in robots can lead to unexpected issues during operations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "healthcare",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "software",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "sophisticated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making them reliable in critical situations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "healthcare",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "ethical considerations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "troubling",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "especially regarding privacy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic systems",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "integration of AI",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it enhances their ability to adapt to varied situations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Fiona",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "advancements",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "diminishing",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "the overreliance on them could diminish critical human skills in doctors",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Bob",
+                "target": "healthcare",
+                "aspect": "robots",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00017",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Sofia"
+            },
+            {
+                "id": 2,
+                "name": "Daniel"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The cloud storage solution we're using is secure. It offers end-to-end encryption.",
+                "annotation": "The <target_01> cloud storage solution </target_01> is <opinion_01> secure </opinion_01>. <rationale_01> It offers end-to-end encryption </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the speed is unreliable, which can be frustrating during uploads.",
+                "annotation": "I think the <aspect_02> speed </aspect_02> is <opinion_02> unreliable </opinion_02>, <rationale_02> which can be frustrating during uploads </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I appreciate the security, I agree with Sofia. The slow upload times can be a dealbreaker.",
+                "annotation": "While I appreciate the <aspect_02> security </aspect_02>, I agree with Sofia. The <opinion_03> slow upload times </opinion_03> can be a dealbreaker.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "On another note, the user interface is not intuitive at all, making it difficult for newcomers.",
+                "annotation": "On another note, the <aspect_04> user interface </aspect_04> is <opinion_04> not intuitive </opinion_04>, <rationale_04> making it difficult for newcomers </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "However, there are recent updates that have improved the interface significantly. I found it much easier to navigate.",
+                "annotation": "However, there are recent updates that have <opinion_05> improved </opinion_05> the <aspect_04> interface </aspect_04> significantly. <rationale_05> I found it much easier to navigate </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "I'll have to re-evaluate my stance on the interface after hearing that. It is good to know they're making progress.",
+                "annotation": "I'll have to <opinion_06> re-evaluate </opinion_06> my stance on the <aspect_04> interface </aspect_04> after hearing that. <rationale_06> It is good to know they're making progress </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud storage solution",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "secure",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offers end-to-end encryption",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sofia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud storage solution",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "unreliable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can be frustrating during uploads",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Daniel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud storage solution",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "slow",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "can be a dealbreaker",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sofia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud storage solution",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "not intuitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making it difficult for newcomers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud storage solution",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "improved",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "I found it much easier to navigate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sofia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud storage solution",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "re-evaluate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It is good to know they're making progress",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sofia",
+                "target": "cloud storage solution",
+                "aspect": "user interface",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00018",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm really impressed by the scalability of cloud solutions. It allows businesses to grow without the heavy burden of physical infrastructure.",
+                "annotation": "I'm really impressed by the <aspect_01> scalability </aspect_01> of <target_01> cloud solutions </target_01>. <rationale_01> It allows businesses to grow without the heavy burden of physical infrastructure </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think that flexibility is more important. The ability to adjust resource allocation in real-time really sets cloud solutions apart.",
+                "annotation": "I think that <opinion_02> flexibility </opinion_02> is more important. <aspect_02> The ability to adjust resource allocation in real-time </aspect_02> really sets <target_01> cloud solutions </target_01> apart.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I've actually found the customization options to be lacking. It can be quite frustrating for specialized needs.",
+                "annotation": "I've actually found the <aspect_03> customization options </aspect_03> to be <opinion_03> lacking </opinion_03>. <rationale_03> It can be quite frustrating for specialized needs </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's interesting, but many providers are working on improving customization. Have you checked the latest updates from major cloud platforms? They are really enhancing user needs.",
+                "annotation": "That's interesting, but many providers are working on improving <aspect_03> customization </aspect_03>. <rationale_04> Have you checked the latest updates from major cloud platforms? They are really enhancing user needs </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 2,
+                "utterance": "I hadn't realized that. With these updates, there might be potential for significant improvement in customization after all.",
+                "annotation": "I hadn't realized that. <rationale_05> With these updates, there might be potential for significant improvement in customization after all </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It allows businesses to grow without the heavy burden of physical infrastructure",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "flexibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "more important",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The ability to adjust resource allocation in real-time really sets cloud solutions apart",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customization options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It can be quite frustrating for specialized needs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud solutions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customization",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "promising",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "With these updates, there might be potential for significant improvement in customization after all",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Charlie",
+                "target": "cloud solutions",
+                "aspect": "customization options",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    }
+]

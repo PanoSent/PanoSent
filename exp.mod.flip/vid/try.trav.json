@@ -1,0 +1,1067 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Noah"
+            },
+            {
+                "id": 2,
+                "name": "Olivia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Exploring national parks can be a refreshing getaway, especially with the breathtaking landscapes and fresh air.",
+                "annotation": "Exploring <target_01> national parks </target_01> can be <opinion_01> refreshing </opinion_01>, <rationale_01> especially with the breathtaking landscapes and fresh air </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Stunning visuals of various national parks showcasing lush landscapes.",
+                    "id": "vid_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, but the accommodation can be quite expensive. It would deter me from visiting often.",
+                "annotation": "Yes, but the <aspect_02> accommodation </aspect_02> can be <opinion_02> quite expensive </opinion_02>. <rationale_02> It would deter me from visiting often </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I find camping to be a marvelous option, as it saves money while allowing for a deeper connection to nature.",
+                "annotation": "I find <aspect_03> camping </aspect_03> to be <opinion_03> marvelous </opinion_03>, <rationale_03> as it saves money while allowing for a deeper connection to nature </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's a valid point, but I’ve heard that the recent rise in campsite fees has made it less appealing for budget travelers.",
+                "annotation": "That’s a valid point, but I’ve heard that the <aspect_04> campsite fees </aspect_04> have <opinion_04> risen </opinion_04>, <rationale_04> making it less appealing for budget travelers </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "national parks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "landscapes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially with the breathtaking landscapes and fresh air",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "national parks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "accommodation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite expensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It would deter me from visiting often",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "national parks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "camping",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "marvelous",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as it saves money while allowing for a deeper connection to nature",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "national parks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "campsite fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "risen",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making it less appealing for budget travelers",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Noah",
+                "target": "national parks",
+                "aspect": "campsite fees",
+                "initial sentiment": "negative",
+                "flipped sentiment": "negative",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Carol"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The architectural beauty of the Colosseum stands as a remarkable testament to ancient Roman engineering and design.",
+                "annotation": "The <aspect_01> architectural beauty </aspect_01> of the <target_01> Colosseum </target_01> stands as a <opinion_01> remarkable </opinion_01> testament to ancient Roman engineering and design.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "The architectural beauty of the Colosseum showcases ancient engineering.",
+                    "id": "vid_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the historical significance is equally important; it’s fascinating to consider it as a venue for entertainment and social gatherings.",
+                "annotation": "I think the <aspect_02> historical significance </aspect_02> is <opinion_02> equally important </opinion_02>; <rationale_01> it’s fascinating to consider it as a venue for entertainment and social gatherings </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I appreciate its historical value, I find the maintenance of such heritage sites lacks sufficient funding and organization, making it less accessible.",
+                "annotation": "While I appreciate its <aspect_03> historical value </aspect_03>, I find the <aspect_04> maintenance </aspect_04> of such heritage sites <opinion_03> lacks sufficient funding and organization </opinion_03>, <rationale_02> making it less accessible </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "You raise a good point about maintenance; however, investing in it can yield economic benefits through tourism and education. I believe it’s essential.",
+                "annotation": "You raise a good point about <aspect_04> maintenance </aspect_04>; however, investing in it can yield <aspect_05> economic benefits </aspect_05> through <opinion_04> tourism and education </opinion_04>. <rationale_03> I believe it’s essential </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Initially, I thought of the maintenance issue as secondary, but now I see that proper funding is indeed vital for preserving our rich heritage.",
+                "annotation": "Initially, I thought of the <aspect_04> maintenance </aspect_04> issue as <opinion_05> secondary </opinion_05>, but now I see that <rationale_04> proper funding is indeed vital for preserving our rich heritage </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Colosseum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "architectural beauty",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "testament to ancient Roman engineering and design",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Colosseum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "historical significance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "equally important",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it’s fascinating to consider it as a venue for entertainment and social gatherings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Carol",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Colosseum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "historical value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lacks sufficient funding and organization",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it less accessible",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Colosseum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "maintenance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "investing in it can yield economic benefits through tourism and education",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Colosseum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "maintenance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "secondary",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "proper funding is indeed vital for preserving our rich heritage",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alice",
+                "target": "Colosseum",
+                "aspect": "maintenance",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been thinking about the Great Wall of China, and its historical significance is incredibly rich, reflecting the tenacity of a civilization.",
+                "annotation": "I've been thinking about the <target_01> Great Wall of China </target_01>, and its <aspect_01> historical significance </aspect_01> is <opinion_01> incredibly rich </opinion_01>, <rationale_01> reflecting the tenacity of a civilization </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but don't you find the preservation of such sites often feels inadequate? It seems like most repairs are superficial.",
+                "annotation": "That's true, but don't you find the <aspect_02> preservation </aspect_02> of such sites often feels <opinion_02> inadequate </opinion_02>? <rationale_02> It seems like most repairs are superficial </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "You have a point about preservation. Initially, I thought it was sufficient, but the more I see, the more it feels disheartening to learn about the deteriorating sections.",
+                "annotation": "You have a point about <aspect_02> preservation </aspect_02>. Initially, I thought it was <opinion_03> sufficient </opinion_03>, but <rationale_03> the more I see, the more it feels disheartening to learn about the deteriorating sections </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "What do you think about the accessibility to such heritage sites? I find it frustrating that many people can't experience their beauty.",
+                "annotation": "What do you think about the <aspect_03> accessibility </aspect_03> to such heritage sites? I find it <opinion_04> frustrating </opinion_04> that <rationale_04> many people can't experience their beauty </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Dramatic views showcasing the Great Wall of China's beauty and vastness.",
+                    "id": "vid_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Exactly, and the limited access can be a real barrier to appreciating their value. It sparks conversations about how we prioritize preservation versus access.",
+                "annotation": "Exactly, and the <aspect_03> limited access </aspect_03> can be <opinion_05> a real barrier </opinion_05> to <rationale_05> appreciating their value </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "I once believed that stricter access was necessary for preservation. However, after hearing your thoughts, I am reconsidering that stance; more people should connect with history.",
+                "annotation": "I once believed that <aspect_03> stricter access </aspect_03> was <opinion_06> necessary </opinion_06> for <rationale_06> preservation </rationale_06>. However, after hearing your thoughts, I am <opinion_07> reconsidering </opinion_07> that stance; more people should connect with history.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "historical significance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly rich",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "reflecting the tenacity of a civilization",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "preservation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inadequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It seems like most repairs are superficial",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "preservation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "sufficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the more I see, the more it feels disheartening to learn about the deteriorating sections",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "accessibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "frustrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "many people can't experience their beauty",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "limited access",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "a real barrier",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "appreciating their value",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "stricter access",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "necessary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "preservation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "stricter access",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "reconsidering",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "more people should connect with history",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Maya",
+            "target": "Great Wall of China",
+            "aspect": "stricter access",
+            "initial sentiment": "positive",
+            "flipped sentiment": "neutral",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Oliver"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            },
+            {
+                "id": 3,
+                "name": "Isabella"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently went on a budget travel trip to Mexico, and the cultural experiences were absolutely enriching, offering a deep dive into local traditions.",
+                "annotation": "The <aspect_01> cultural experiences </aspect_01> in the <target_01> budget travel trip to Mexico </target_01> were <opinion_01> absolutely enriching </opinion_01>, <rationale_01> offering a deep dive into local traditions </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Exploring local traditions in Mexico during budget travel.",
+                    "id": "vid_0004"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree! Plus, the food was surprisingly affordable and delicious, which made the trip even better.",
+                "annotation": "Plus, the <aspect_02> food </aspect_02> was <opinion_02> surprisingly affordable </opinion_02> and <rationale_02> delicious, which made the trip even better </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I found the transportation a bit challenging; it was often cramped, which hindered comfort during my travels.",
+                "annotation": "I found the <aspect_03> transportation </aspect_03> <opinion_03> a bit challenging </opinion_03>; <rationale_03> it was often cramped, which hindered comfort during my travels </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Initially, I felt that the transportation's challenges were overwhelming, but reflecting on the shared stories from locals made me realize it can be an adventure in itself.",
+                "annotation": "Initially, I felt that the <aspect_03> transportation </aspect_03> was <opinion_04> overwhelming </opinion_04>, but <rationale_04> reflecting on the shared stories from locals made me realize it can be an adventure in itself </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel trip to Mexico",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cultural experiences",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely enriching",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering a deep dive into local traditions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel trip to Mexico",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "food",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "surprisingly affordable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which made the trip even better",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel trip to Mexico",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "transportation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a bit challenging",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it was often cramped, which hindered comfort during my travels",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel trip to Mexico",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "transportation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "reflecting on the shared stories from locals made me realize it can be an adventure in itself",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Isabella",
+                "target": "budget travel trip to Mexico",
+                "aspect": "transportation",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Sofia"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The food on the cruise was absolutely delightful, showcasing exquisite flavors that really elevated the dining experience.",
+                "annotation": "The <aspect_01> food </aspect_01> on the <target_01> cruise </target_01> was <opinion_01> absolutely delightful </opinion_01>, <rationale_01> showcasing exquisite flavors that really elevated the dining experience </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Exquisite food served on the cruise.",
+                    "id": "vid_0005"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I thought the entertainment options were lackluster. There were too few activities that catered to everyone's interests.",
+                "annotation": "I thought the <aspect_02> entertainment options </aspect_02> were <opinion_02> lackluster </opinion_02>. <rationale_02> There were too few activities that catered to everyone's interests </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with Liam on the food, but I see your point, Sofia. The lack of variety in entertainment did detract from the overall vibe of the cruise.",
+                "annotation": "I agree with <holder_01> Liam </holder_01> on the <aspect_01> food </aspect_01>, but I see your point, <holder_02> Sofia </holder_02>. The <aspect_02> lack of variety in entertainment </aspect_02> did <opinion_03> detract </opinion_03> from <rationale_03> the overall vibe of the cruise </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "After hearing you both, I realize the cruise did miss some engaging entertainment. I initially thought it was fine, but now I see how it impacted the experience.",
+                "annotation": "After hearing you both, I realize the <aspect_02> cruise </aspect_02> did <opinion_04> miss </opinion_04> some <rationale_04> engaging entertainment </rationale_04>. I initially thought it was <opinion_05> fine </opinion_05>, but now I see how it impacted the experience.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "food",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely delightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showcasing exquisite flavors that really elevated the dining experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sofia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "entertainment options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "lackluster",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "There were too few activities that catered to everyone's interests",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "food",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "detract",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the overall vibe of the cruise",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "miss",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "engaging entertainment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "fine",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "now I see how it impacted the experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "cruise",
+                "aspect": "entertainment",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "negative",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    }
+]

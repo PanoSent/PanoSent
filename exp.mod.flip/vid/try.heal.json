@@ -1,0 +1,213 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been thinking about going on a wellness retreat; I hear the atmosphere is incredibly peaceful, perfect for relaxing.",
+                "annotation": "I've been thinking about going on a <target_01> wellness retreat </target_01>; I hear the <aspect_01> atmosphere </aspect_01> is <opinion_01> incredibly peaceful </opinion_01>, <rationale_01> perfect for relaxing </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds appealing, but sometimes I think that the cost can be prohibitive for many people who need it most.",
+                "annotation": "That sounds appealing, but sometimes I think that the <aspect_02> cost </aspect_02> can be <opinion_02> prohibitive </opinion_02> for many people who need it most, <rationale_02> especially in these tough economic times </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A graph showing rising costs of wellness retreats over recent years.",
+                    "id": "vid_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's true, but I've read that many retreats offer sliding scale prices now, which makes them much more accessible.",
+                "annotation": "That's true, but I've read that many retreats <opinion_03> offer sliding scale prices now </opinion_03>, <rationale_03> which makes them much more accessible </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Interesting point, Cathy. I was indeed skeptical about the cost of these retreats, fearing they won’t fit my budget. But now that you mention sliding scale options, I feel more hopeful about the potential for affordability.",
+                "annotation": "Interesting point, Cathy. I was indeed <opinion_04> skeptical about </opinion_04> the <target_01> cost </target_01> of these retreats, <rationale_04> fearing they won’t fit my budget </rationale_04>. But now that <rationale_05> you mention sliding scale options </rationale_05>, I feel more <opinion_05> hopeful about the potential for affordability </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "atmosphere",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly peaceful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "perfect for relaxing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "prohibitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially in these tough economic times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "offer sliding scale prices now",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which makes them much more accessible",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "skeptical about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "fearing they won’t fit my budget",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "hopeful about the potential for affordability",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "you mention sliding scale options",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "David",
+                "target": "wellness retreat",
+                "aspect": "cost",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    }
+]

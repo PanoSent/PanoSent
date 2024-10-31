@@ -1,0 +1,2375 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Linda"
+            },
+            {
+                "id": 1,
+                "name": "James"
+            },
+            {
+                "id": 2,
+                "name": "Tina"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently dined at Le Jules Verne, and the ambiance was mesmerizing.",
+                "annotation": "I recently dined at <target_01> Le Jules Verne </target_01>, and the <aspect_01> ambiance </aspect_01> was <opinion_01> mesmerizing </opinion_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An elegantly set dining table at Le Jules Verne, showcasing an exquisite ambiance with dim lighting and decorative elements.",
+                    "id": "img_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The menu had such a rich variety, but I found the prices rather steep.",
+                "annotation": "The <aspect_02> menu </aspect_02> had such a <opinion_02> rich variety </opinion_02>, but I found the <aspect_03> prices </aspect_03> rather <opinion_03> steep </opinion_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree, but the quality of the dishes justified the cost for me.",
+                "annotation": "I agree, but the <aspect_02> quality of the dishes </aspect_02> <opinion_04> justified the cost </opinion_04> for me.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Absolutely! The duck confit was beautifully presented and tasted divine.",
+                "annotation": "Absolutely! The <aspect_04> duck confit </aspect_04> was <opinion_05> beautifully presented </opinion_05> and tasted <opinion_06> divine </opinion_06>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video showcasing a chef plating duck confit with artistic flair at Le Jules Verne.",
+                    "id": "vid_0001"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "And did you notice the wine pairing? It elevated the entire meal!",
+                "annotation": "And did you notice the <aspect_05> wine pairing </aspect_05>? It <opinion_07> elevated </opinion_07> the entire meal.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "I did! I was initially skeptical about the pairing, but it was spot on, enhancing all the flavors.",
+                "annotation": "I was initially skeptical about the <aspect_05> pairing </aspect_05>, but it was <opinion_08> spot on </opinion_08>, enhancing all the flavors.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Linda",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Le Jules Verne",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "ambiance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "mesmerizing",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The ambiance was enchanting and perfectly set the mood for a gourmet experience.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Le Jules Verne",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "menu",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "rich variety",
+                    "manner": "explicit"
+                },
+                "aspect_2": {
+                    "identity": "aspect_03",
+                    "value": "prices",
+                    "manner": "explicit"
+                },
+                "opinion_3": {
+                    "identity": "opinion_03",
+                    "value": "steep",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The prices seemed excessively high for the average diner.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Le Jules Verne",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "quality of the dishes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "justified the cost",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The quality of each dish was exquisite, making the experience worth the price.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Linda",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Le Jules Verne",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "duck confit",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "beautifully presented",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "The presentation complemented the flavor, creating an overall delightful dish.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Le Jules Verne",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "wine pairing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "elevated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "The wine complemented the food exceptionally well, enriching each bite.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Le Jules Verne",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "pairing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "spot on",
+                    "manner": "implicitly"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It enhanced the flavors of the dishes, contrary to my initial doubts.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Tina",
+            "target": "Le Jules Verne",
+            "aspect": "wine pairing",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Jade"
+            },
+            {
+                "id": 2,
+                "name": "Ravi"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The street tacos in Mexico City are absolutely phenomenal, with flavors that vibrate through every bite.",
+                "annotation": "The <target_01> street tacos in Mexico City </target_01> are <opinion_01> absolutely phenomenal </opinion_01>, <rationale_01> with flavors that vibrate through every bite </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A vibrant street vendor preparing tacos with colorful ingredients in Mexico City.",
+                    "id": "vid_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I must say the price tags are surprisingly high for street food.",
+                "annotation": "I must say the <aspect_02> price tags </aspect_02> are <opinion_02> surprisingly high </opinion_02> for <rationale_02> street food </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but the accompanying salsa adds an exceptional zest, enriching the overall taco experience.",
+                "annotation": "The <aspect_03> accompanying salsa </aspect_03> adds an <opinion_03> exceptional </opinion_03> zest, <rationale_03> enriching the overall taco experience </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The accompanying salsa adds an exceptional zest.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos in Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavors",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "phenomenal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with flavors that vibrate through every bite",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jade",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos in Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "price tags",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "surprisingly high for street food",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos in Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "accompanying salsa",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "enriching the overall taco experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Zara"
+            },
+            {
+                "id": 3,
+                "name": "Eli"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently tried making a lentil burger at home, and I found the flavor absolutely rich, which surprised me given its healthy reputation.",
+                "annotation": "I've recently tried making a <target_01> lentil burger </target_01> at home, and I found the <aspect_01> flavor </aspect_01> absolutely <opinion_01> rich </opinion_01>, <rationale_01> which surprised me given its healthy reputation </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Really? I’ve heard that lentil burgers can sometimes be a bit bland compared to traditional meat burgers.",
+                "annotation": "Really? I’ve heard that <opinion_02> lentil burgers can sometimes be a bit bland </opinion_02> compared to traditional meat burgers.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree with that. The texture can actually be quite satisfying, providing a hearty alternative to meat. In fact, I find the texture very appealing.",
+                "annotation": "I disagree with that. The <aspect_02> texture </aspect_02> can actually be quite <opinion_03> satisfying </opinion_03>, <rationale_02> providing a hearty alternative to meat </rationale_02>. In fact, I find the texture <opinion_04> very appealing </opinion_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The texture can actually be quite satisfying, providing a hearty alternative to meat.",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You make a good point, actually. I haven't given lentil burgers much of a chance. Maybe I should try making one myself to see if I can appreciate the texture.",
+                "annotation": "You make a good point, actually. I haven't given <target_01> lentil burgers </target_01> much of a chance. <opinion_05> Maybe I should try making one myself </opinion_05> to see if I can appreciate the <aspect_03> texture </aspect_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Zara shows a video tutorial on how to prepare a lentil burger, emphasizing its texture.",
+                    "id": "vid_0003"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "lentil burger",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "rich",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which surprised me given its healthy reputation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "lentil burger",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "flavor",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit bland",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "compared to traditional meat burgers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Zara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "lentil burger",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "satisfying",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "providing a hearty alternative to meat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Zara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "lentil burger",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "very appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It provides a hearty alternative to meat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "lentil burger",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "should give it a chance",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "to see if I can appreciate the texture",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "lentil burger",
+                "aspect": "texture",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Leila"
+            },
+            {
+                "id": 1,
+                "name": "Raj"
+            },
+            {
+                "id": 2,
+                "name": "Chen"
+            },
+            {
+                "id": 3,
+                "name": "Fatima"
+            },
+            {
+                "id": 4,
+                "name": "Miguel"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just experienced an incredible meal at a fusion restaurant that combined Mexican and Japanese cuisines. The flavors were truly inventive.",
+                "annotation": "I just experienced an incredible meal at a <target_01> fusion restaurant </target_01> that combined <aspect_01> Mexican and Japanese cuisines </aspect_01>. The <opinion_01> flavors </opinion_01> were <rationale_01> truly inventive.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds interesting! In my experience, fusion can sometimes be confusing when the flavors clash. How was the balance?",
+                "annotation": "That sounds interesting! In my experience, <aspect_02> fusion </aspect_02> can sometimes be <opinion_02> confusing </opinion_02> <rationale_02> when the flavors clash.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Honestly, I felt the blending was exceptional. The chef really knew how to combine the textures and tastes, creating something new and harmonious.",
+                "annotation": "Honestly, I felt the blending was <opinion_03> exceptional </opinion_03>. The chef really knew how to combine the <aspect_03> textures and tastes </aspect_03>, creating <rationale_03> something new and harmonious.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The blending of textures and tastes was exceptional.",
+                    "id": "aud_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That’s great to hear! It reminds me of this dish I had during a trip to Tokyo, where the sushi chef used ingredients from Peru. It blew my mind!",
+                "annotation": "That’s great to hear! It reminds me of this <aspect_04> dish </aspect_04> I had during a trip to Tokyo, where the sushi chef used <opinion_04> mind-blowing </opinion_04> <rationale_04> ingredients from Peru.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Fusion food can indeed be a revelation! I often think of how artfully it reflects cultural exchanges.",
+                "annotation": "<aspect_05> Fusion food </aspect_05> can indeed be <opinion_05> revelatory </opinion_05> <rationale_05> as it reflects cultural exchanges.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A vibrant fusion restaurant showcasing cultural exchanges through food.",
+                    "id": "vid_0004"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "After hearing your stories, I realize fusion cuisine is so much more than just mixing dishes; it's about creativity! I might have been skeptical before.",
+                "annotation": "After hearing your stories, I realize <aspect_06> fusion cuisine </aspect_06> is so much more than just mixing dishes; it's <opinion_06> creative </opinion_06> <rationale_06> about creativity! I might have been skeptical before.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Leila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion restaurant",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "Mexican and Japanese cuisines",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "inventive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "truly inventive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fusion",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "when the flavors clash.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Chen",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blending",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "textures and tastes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "creating something new and harmonious.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dish",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "dish",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "mind-blowing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "ingredients from Peru.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Fatima",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Fusion food",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "fusion food",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "revelatory",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "as it reflects cultural exchanges.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Miguel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "creative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "about creativity! I might have been skeptical before.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Miguel",
+                "target": "fusion cuisine",
+                "aspect": "fusion cuisine",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Tom"
+            },
+            {
+                "id": 2,
+                "name": "Lily"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I can't stop thinking about the incredible flavors in traditional coleslaw from the Carolina region.",
+                "annotation": "I can't stop thinking about the <target_01> traditional coleslaw </target_01> from the Carolina region. It's <opinion_01> vibrant </opinion_01>, <rationale_01> possessing a unique blend of tangy and sweet flavors that really pop </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I’ve never been a fan of coleslaw; it often tastes bland and lacks substance to me.",
+                "annotation": "I’ve never been a fan of the <aspect_02> coleslaw </aspect_02>; it often tastes <opinion_02> bland </opinion_02>, <rationale_02> lacking substance and excitement compared to other side dishes </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I’ve never been a fan of coleslaw; it often tastes bland and lacks substance to me.",
+                    "id": "aud_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Tom, I can understand your hesitation, but if made with the right mix of ingredients, it can really shine with depth of flavor.",
+                "annotation": "Tom, I can understand your hesitation about the <aspect_02> coleslaw </aspect_02>, but if made with the right mix of ingredients, it can really <opinion_03> shine </opinion_03>, <rationale_03> providing depth of flavor that transforms it into something special </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You might be right, Lily. I've had it poorly made before, but I could give it another chance if it's prepared well.",
+                "annotation": "You might be right, Lily. I've had it poorly made before, but I could see it as <opinion_04> more appealing </opinion_04>, <rationale_04> if it's prepared well with fresh ingredients and a good dressing </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A chef preparing coleslaw with fresh ingredients, showcasing the vibrant colors and textures.",
+                    "id": "vid_0005"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional coleslaw",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "possessing a unique blend of tangy and sweet flavors that really pop",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional coleslaw",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "taste",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "bland",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "lacking substance and excitement compared to other side dishes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional coleslaw",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "taste",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "shine",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "providing depth of flavor that transforms it into something special",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional coleslaw",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "appeal",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "if it's prepared well with fresh ingredients and a good dressing",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Tom",
+            "target": "traditional coleslaw",
+            "aspect": "taste",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Laura"
+            },
+            {
+                "id": 1,
+                "name": "Mark"
+            },
+            {
+                "id": 2,
+                "name": "Rachel"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been experimenting with sourdough bread lately, and honestly, the aroma when it bakes is incredible!",
+                "annotation": "I've been experimenting with <target_01> sourdough bread </target_01> lately, and honestly, the <aspect_01> aroma </aspect_01> is <opinion_01> incredible </opinion_01>, <rationale_01> it fills the kitchen with warmth and invites everyone to gather around </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree! Plus, the texture of the crust is a delightful contrast to the soft crumb inside.",
+                "annotation": "I agree! Plus, the <aspect_02> texture of the crust </aspect_02> is <opinion_02> delightful </opinion_02>, <rationale_02> providing a satisfying crunch that complements the soft interior </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I find the whole process a bit daunting, as the timing and the feeding can be tricky.",
+                "annotation": "However, I find the <aspect_03> process </aspect_03> a bit <opinion_03> daunting </opinion_03>, <rationale_03> as the timing and the feeding can be tricky and require attention </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video showcasing the step-by-step process of making sourdough bread.",
+                    "id": "vid_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think that way as well, but once I got into a routine with it, it became much easier and even therapeutic.",
+                "annotation": "I used to think that way as well, but once I got into a <aspect_04> routine </aspect_04> with it, it became <opinion_04> much easier </opinion_04>, <rationale_04> and even therapeutic as I connected with the dough's development </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Once I got into a routine, it became much easier and therapeutic.",
+                    "id": "aud_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I’ve seen beautiful images of sourdough art! The artistic aspect of shaping the loaves is so inspiring.",
+                "annotation": "I’ve seen beautiful <aspect_05> images of sourdough art </aspect_05>! The <aspect_05> artistic aspect </aspect_05> is <opinion_05> inspiring </opinion_05>, <rationale_05> it encourages creativity not just in flavor, but in presentation as well </rationale_05>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Artistic sourdough loaves shaped into beautiful designs.",
+                    "id": "img_0002"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Laura",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sourdough bread",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "aroma",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it fills the kitchen with warmth and invites everyone to gather around",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sourdough bread",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "texture of the crust",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "delightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "providing a satisfying crunch that complements the soft interior",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Rachel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sourdough bread",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "process",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "daunting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as the timing and the feeding can be tricky and require attention",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sourdough bread",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "routine",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "much easier",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "and even therapeutic as I connected with the dough's development",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sourdough bread",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "artistic aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "inspiring",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it encourages creativity not just in flavor, but in presentation as well",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Rachel",
+            "target": "sourdough bread",
+            "aspect": "process",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Noah"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently tried a new vegan burger, and I found the texture to be surprisingly meaty, which made it really enjoyable.",
+                "annotation": "I recently tried a new <target_01> vegan burger </target_01>, and I found the <aspect_01> texture </aspect_01> to be <opinion_01> surprisingly meaty </opinion_01>, <rationale_01> which made it really enjoyable </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While that sounds promising, I've heard some plant-based options can be overly processed, which can take away from their health benefits.",
+                "annotation": "While that sounds promising, I've heard some <target_01> plant-based options </target_01> can be <opinion_02> overly processed </opinion_02>, <rationale_02> which can take away from their health benefits </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "While that sounds promising, I've heard some plant-based options can be overly processed.",
+                    "id": "aud_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, I saw an informative video that discussed how many brands are ensuring their burgers are minimally processed to retain nutrients.",
+                "annotation": "Actually, I saw an informative <target_01> video </target_01> that discussed how many <aspect_02> brands </aspect_02> are <opinion_03> ensuring their burgers are minimally processed </opinion_03> to <rationale_03> retain nutrients </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video explaining how brands are making their burgers with minimal processing for nutritional benefits.",
+                    "id": "vid_0007"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Oh, that's great to know! I was concerned about the processing aspect, but if more brands are focused on quality, it changes my perspective.",
+                "annotation": "Oh, that's great to know! I was concerned about the <aspect_02> processing aspect </aspect_02>, but if more <rationale_04> brands are focused on quality </rationale_04>, it <opinion_04> changes my perspective </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vegan burger",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "surprisingly meaty",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which made it really enjoyable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "plant-based options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "processing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overly processed",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can take away from their health benefits",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "brands",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "processing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "ensuring their burgers are minimally processed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "to retain nutrients",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "processing aspect",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "quality focus",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "changes my perspective",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "brands are focused on quality",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Noah",
+                "target": "plant-based options",
+                "aspect": "processing",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Olivia"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            },
+            {
+                "id": 5,
+                "name": "James"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been experimenting with homemade fruit sodas, but I find the taste can be inconsistent.",
+                "annotation": "I've been experimenting with <target_01> homemade fruit sodas </target_01>, but I find the <aspect_01> taste </aspect_01> can be <opinion_01> inconsistent </opinion_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Liam showcasing various homemade fruit sodas, mixing fruits and sparkling water.",
+                    "id": "vid_0008"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the flavor complexities in homemade sodas are delightful! Each sip reveals something new.",
+                "annotation": "I think the <aspect_01> flavor complexities </aspect_01> in <target_01> homemade sodas </target_01> are <opinion_02> delightful </opinion_02>! <rationale_01> Each sip reveals something new </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Yet, the carbonation can also be a problem; sometimes it fizzes out too quickly, making the drink flat.",
+                "annotation": "Yet, the <aspect_02> carbonation </aspect_02> can also be <opinion_03> problematic </opinion_03>; <rationale_02> sometimes it fizzes out too quickly, making the drink flat </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, I've noticed that as well. However, using a soda maker can really enhance the fizz and make the drink more refreshing.",
+                "annotation": "However, using a <aspect_03> soda maker </aspect_03> can really <opinion_04> enhance </opinion_04> the fizz and make the drink <opinion_05> more refreshing </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I've tried different fruits too, but the sweetness can be overpowering, especially with overly ripe bananas.",
+                "annotation": "I've tried different <aspect_04> fruits </aspect_04> too, but the <aspect_05> sweetness </aspect_05> can be <opinion_06> overpowering </opinion_06>, <rationale_03> especially with overly ripe bananas </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I've tried different fruits too, but the sweetness can be overpowering, especially with overly ripe bananas.",
+                    "id": "aud_0007"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "My experience has been different; I love the sweetness! It makes each drink feel indulgent.",
+                "annotation": "I love the <aspect_05> sweetness </aspect_05>! It makes each drink feel <opinion_07> indulgent </opinion_07>.",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 0,
+                "utterance": "I didn't really appreciate the sweetness before, but after adapting my recipes and balancing flavors, I now find it charming.",
+                "annotation": "I didn't really appreciate the <aspect_05> sweetness </aspect_05> before, but <rationale_04> after adapting my recipes and balancing flavors </rationale_04>, I now find it <opinion_08> charming </opinion_08>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade fruit sodas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "taste",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "inconsistent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "there can be variations in flavors",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade fruit sodas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavor complexities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "delightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "each sip reveals something new",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade fruit sodas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "carbonation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "problematic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "sometimes it fizzes out too quickly, making the drink flat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade fruit sodas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "soda maker",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enhance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it really improves the fizz and refreshment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade fruit sodas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "fruits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "overpowering",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially with overly ripe bananas",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade fruit sodas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "sweetness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "indulgent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "makes each drink feel indulgent",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade fruit sodas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "sweetness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "charming",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "understanding how balancing flavors changes experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "homemade fruit sodas",
+                "aspect": "sweetness",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Fiona"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been experimenting with plant-based proteins lately, and I find quinoa to be an excellent addition to my meals.",
+                "annotation": "I've been experimenting with <target_01> plant-based proteins </target_01> lately, and I find <aspect_01> quinoa </aspect_01> to be <opinion_01> excellent </opinion_01>. <rationale_01> It adds a great texture and nutrition to my meals </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While quinoa is nutritious, I believe tempeh has a superior flavor profile, especially when grilled.",
+                "annotation": "While <target_01> quinoa </target_01> is nutritious, I believe <aspect_02> tempeh </aspect_02> has a <opinion_02> superior </opinion_02> <aspect_03> flavor profile </aspect_03>, <rationale_02> especially when grilled </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I'm not convinced; tempeh's texture can be a bit too dense for some dishes.",
+                "annotation": "I'm <opinion_03> not convinced </opinion_03>; <aspect_04> tempeh's texture </aspect_04> can be a <opinion_04> bit too dense </opinion_04> for some dishes.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I'm not convinced; tempeh's texture can be a bit too dense for some dishes.",
+                    "id": "aud_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's true, but when properly marinated, its texture enhances the dish beautifully, making it a dynamic ingredient.",
+                "annotation": "That's true, but when <aspect_05> tempeh </aspect_05> is <opinion_05> properly marinated </opinion_05>, <rationale_03> its texture enhances the dish beautifully, making it a dynamic ingredient </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A beautifully grilled tempeh dish, marinated to perfection, showcasing its texture.",
+                    "id": "img_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I think both quinoa and tempeh have their strengths, but I prefer to use chickpeas because they are versatile.",
+                "annotation": "I think <target_02> both quinoa and tempeh </target_02> have their strengths, but I <opinion_06> prefer </opinion_06> to use <aspect_06> chickpeas </aspect_06> because they are <opinion_07> versatile </opinion_07>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "I'm starting to see that perspective. Chickpeas can indeed adapt to many recipes, making them an admirable choice.",
+                "annotation": "<rationale_06> I'm starting to see that perspective </rationale_06>. <aspect_06> Chickpeas </aspect_06> can indeed adapt to many recipes, making them a <opinion_08> admirable choice </opinion_08>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "plant-based proteins",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It adds a great texture and nutrition to my meals",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "plant-based proteins",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "tempeh",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "superior",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially when grilled",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "plant-based proteins",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "tempeh's texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "not convinced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "can be a bit too dense for some dishes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "plant-based proteins",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "tempeh",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "properly marinated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "its texture enhances the dish beautifully, making it a dynamic ingredient",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "chickpeas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "versatile",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "prefer",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "they are versatile",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "chickpeas",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "admirable choice",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "admirable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "I'm starting to see that perspective",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Diana",
+                "target": "chickpeas",
+                "aspect": "admirable choice",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Aisha"
+            },
+            {
+                "id": 1,
+                "name": "Raj"
+            },
+            {
+                "id": 2,
+                "name": "Kiki"
+            },
+            {
+                "id": 3,
+                "name": "Luca"
+            },
+            {
+                "id": 4,
+                "name": "Chloe"
+            },
+            {
+                "id": 5,
+                "name": "Yasmin"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just experienced this incredible fusion restaurant that serves amazing Indian-Italian dishes. The flavors are exceptional.",
+                "annotation": "I just experienced this incredible <target_01> fusion restaurant </target_01> that serves amazing <aspect_01> Indian-Italian dishes </aspect_01>. The <opinion_01> flavors are exceptional </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But do you think merging such diverse cuisines can create confusion in taste? I often think the balance is tough to achieve.",
+                "annotation": "But do you think merging such diverse <target_01> cuisines </target_01> can create <opinion_02> confusion in taste </opinion_02>? <rationale_02> I often think the balance is tough to achieve </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A montage of various dishes blending Indian and Italian elements, showcasing vibrant colors and diverse textures.",
+                    "id": "vid_0009"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, I've had fusion dishes that were surprisingly cohesive. The chefs often understand how to blend spices and herbs effectively.",
+                "annotation": "Actually, I've had <target_01> fusion dishes </target_01> that were <opinion_03> surprisingly cohesive </opinion_03>. <rationale_03> The chefs often understand how to blend spices and herbs effectively </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s a great point! I used to think all fusion food was hit-or-miss, but last week, I tried some dishes that changed my mind. They were truly harmonious.",
+                "annotation": "That’s a great point! I used to think all <target_01> fusion food </target_01> was <opinion_04> hit-or-miss </opinion_04>, but last week, <rationale_04> I tried some dishes that changed my mind </rationale_04>. They were truly <opinion_05> harmonious </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "It’s interesting how personal experiences can shift our views on fusion cuisine. I used to find it overwhelming, but now I appreciate its creativity.",
+                "annotation": "It’s interesting how <aspect_06> personal experiences </aspect_06> can shift our views on <target_01> fusion cuisine </target_01>. I used to find it <opinion_06> overwhelming </opinion_06>, but now I <opinion_07> appreciate its creativity </opinion_07>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "It’s interesting how personal experiences can shift our views on fusion cuisine.",
+                    "id": "aud_0009"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I think that appreciation comes from how explorative we are as diners. Fusion offers a chance to try something new, which can be thrilling!",
+                "annotation": "I think that <opinion_08> appreciation </opinion_08> comes from how explorative we are as <target_01> diners </target_01>. <rationale_05> Fusion offers a chance to try something new, which can be thrilling! </rationale_05>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Aisha",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion restaurant",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "Indian-Italian dishes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cuisines",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "confusion in taste",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "confusion in taste",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I often think the balance is tough to achieve",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Kiki",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion dishes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "cohesiveness",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "surprisingly cohesive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The chefs often understand how to blend spices and herbs effectively",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Luca",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion food",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "hit-or-miss",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "hit-or-miss",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I tried some dishes that changed my mind",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Luca",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion food",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "harmony",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "truly harmonious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Chloe",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "I used to find it overwhelming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Chloe",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_07",
+                    "value": "creativity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "appreciate its creativity",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "I appreciate its creativity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Yasmin",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "diners",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_08",
+                    "value": "explorative attitude",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "appreciation",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Fusion offers a chance to try something new, which can be thrilling!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Luca",
+                "target": "fusion food",
+                "aspect": "hit-or-miss",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            },
+            {
+                "holder": "Chloe",
+                "target": "fusion cuisine",
+                "aspect": "overwhelming",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    }
+]

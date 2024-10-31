@@ -1,0 +1,1214 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "We recently switched to using the new logistics software. The interface is extremely user-friendly.",
+                "annotation": "We recently switched to using the new <target_01> logistics software </target_01>. The <aspect_01> interface </aspect_01> is <opinion_01> extremely user-friendly </opinion_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "We recently switched to the new logistics software, and the interface is extremely user-friendly!",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I've noticed it too, Alice. It dramatically reduces data entry errors, which is fantastic.",
+                "annotation": "I've noticed it too, Alice. It dramatically reduces <aspect_02> data entry errors </aspect_02>, which is <opinion_02> fantastic </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I find the reporting features somewhat lacking. The generated reports lack depth and customization options.",
+                "annotation": "However, I find the reporting <aspect_03> features </aspect_03> somewhat <opinion_03> lacking </opinion_03>. <rationale_03> The generated reports lack depth and customization options </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s a valid point, Charlie. On the other hand, the integration with other systems is seamless, which optimizes our workflow substantially.",
+                "annotation": "That’s a valid point, Charlie. On the other hand, the <aspect_04> integration with other systems </aspect_04> is <opinion_04> seamless </opinion_04>, which <rationale_04> optimizes our workflow substantially </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "logistics software",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "extremely user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Alice's enthusiastic tone",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "logistics software",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "data entry errors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it dramatically reduces data entry errors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "logistics software",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The generated reports lack depth and customization options",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "logistics software",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "integration with other systems",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "seamless",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which optimizes our workflow substantially",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have any of you looked into Ethereum as an investment? I'm curious about its potential.",
+                "annotation": "Have any of you looked into <target_0> Ethereum </target_0> as an investment? <opinion_0> I'm curious </opinion_0> about its <aspect_0> potential </aspect_0>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Ethereum's smart contracts are revolutionary. They offer unparalleled flexibility.",
+                "annotation": "<target_1> Ethereum's </target_1> <aspect_1> smart contracts </aspect_1> are <opinion_1> revolutionary </opinion_1>. <rationale_1> They offer unparalleled flexibility </rationale_1>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But transaction fees on Ethereum can be quite high.",
+                "annotation": "But <target_2> transaction fees </target_2> on Ethereum can be quite <opinion_2> high </opinion_2>. <rationale_2> This might deter small-scale investors </rationale_2>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I think the development community is a major strength. It's very active and innovative.",
+                "annotation": "I think the <aspect_3> development community </aspect_3> is a major <opinion_3> strength </opinion_3>. <rationale_3> It's very active and innovative </rationale_3>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "The scalability issues can't be ignored, though. They need to be solved for widespread adoption.",
+                "annotation": "<aspect_4> Scalability issues </aspect_4> can't be ignored, though. <opinion_4> They are critical </opinion_4>. <rationale_4> They need to be solved for widespread adoption </rationale_4>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "We can't ignore the scalability issues. They need solving for blockchain to gain widespread adoption.",
+                    "id": "aud_0002"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "curious",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Honestly, I'm not sure what to think of it yet",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_11",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "smart contracts",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They offer unparalleled flexibility",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "transaction fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "This might deter small-scale investors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "development community",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "strength",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's very active and innovative",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "scalability issues",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "critical",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "They need to be solved for widespread adoption",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jane"
+            },
+            {
+                "id": 1,
+                "name": "Mike"
+            },
+            {
+                "id": 2,
+                "name": "Alice"
+            },
+            {
+                "id": 3,
+                "name": "Tom"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            },
+            {
+                "id": 5,
+                "name": "Jack"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The transaction speed of the new crypto asset platform is incredible. It handles multiple operations within seconds.",
+                "annotation": "The <aspect_01> transaction speed </aspect_01> of the <target_01> new crypto asset platform </target_01> is <opinion_01> incredible </opinion_01>. <rationale_01> It handles multiple operations within seconds </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think its security features are quite robust, especially with the implementation of biometric authentication.",
+                "annotation": "I think its <aspect_02> security features </aspect_02> are <opinion_02> quite robust </opinion_02>, <rationale_02> especially with the implementation of biometric authentication </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The security features are rock-solid. The biometric authentication just confirmed it.",
+                    "id": "aud_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the customer support is lacking. The response times are too slow.",
+                "annotation": "However, the <aspect_03> customer support </aspect_03> is <opinion_03> lacking </opinion_03>. <rationale_03> The response times are too slow </rationale_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I agree. The user interface, on the other hand, is quite user-friendly. It's intuitive and easy to navigate.",
+                "annotation": "I agree. The <aspect_04> user interface </aspect_04>, on the other hand, is <opinion_04> quite user-friendly </opinion_04>. <rationale_04> It's intuitive and easy to navigate </rationale_04>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "What about the transaction fees? I find them to be rather high compared to other platforms.",
+                "annotation": "What about the <aspect_05> transaction fees </aspect_05>? I find them to be <opinion_05> rather high </opinion_05> compared to other platforms.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "True, the high transaction fees can be a deal-breaker for many users.",
+                "annotation": "True, the <aspect_05> transaction fees </aspect_05> can be a <opinion_05> deal-breaker </opinion_05> for many users.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jane",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new crypto asset platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "transaction speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It handles multiple operations within seconds",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new crypto asset platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Biometric authentication",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new crypto asset platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customer support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The response times are too slow",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new crypto asset platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's intuitive and easy to navigate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new crypto asset platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "transaction fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "rather high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "compared to other platforms",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Jack",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new crypto asset platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "transaction fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "a deal-breaker",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "for many users",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Setting a daily spending limit is crucial for effective budgeting.",
+                "annotation": "Setting a <highlight>target_01>daily spending limit</target_01><highlight><highlight>opinion_01> is crucial</opinion_01><highlight>for effective budgeting<highlight<rationale_01><highlight>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Setting a daily spending limit is crucial for effective budgeting.",
+                    "id": "aud_0004"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Sure, but tracking every expense can be quite boring. It takes a lot of effort.",
+                "annotation": "<highlight>aspect_02>tracking every expense</highlight> can be <highlight>opinion_02>quite boring</highlight>. <highlight>rationale_02> It takes a lot of effort</highlight>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I found using an app helps a lot. Some apps even categorize your spending automatically, which is super convenient.",
+                "annotation": "I found using an <highlight>target_03>app</highlight> helps a lot. Some apps even <highlight>aspect_03>categorize your spending</highlight> automatically, which is <highlight>opinion_03>super convenient</highlight>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Then again, setting transparency with financial goals is important. It keeps everything clear and achievable.",
+                "annotation": "Then again, <highlight>aspect_04>setting transparency with financial goals</highlight> is <highlight>opinion_04>important</highlight>. <highlight>rationale_04> It keeps everything clear and achievable</highlight>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Setting transparency with financial goals is important. It keeps everything clear and achievable.",
+                    "id": "aud_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "And let's not forget to allocate a portion for emergencies. It's essential for handling unexpected expenses smoothly.",
+                "annotation": "And let's not forget to <highlight>aspect_05>allocate a portion for emergencies</highlight>. It's <highlight>opinion_05>essential</highlight> for <highlight>rationale_05>handling unexpected expenses smoothly</highlight>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "daily spending limit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "setting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for effective budgeting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "daily spending limit",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "tracking every expense",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "boring",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it takes a lot of effort",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "categorize your spending",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "convenient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which is super convenient",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "daily spending limit",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "setting transparency with financial goals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "important",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It keeps everything clear and achievable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "daily spending limit",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "allocate a portion for emergencies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "for handling unexpected expenses smoothly",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Max"
+            },
+            {
+                "id": 1,
+                "name": "Dana"
+            },
+            {
+                "id": 2,
+                "name": "Leslie"
+            },
+            {
+                "id": 3,
+                "name": "Jordan"
+            },
+            {
+                "id": 4,
+                "name": "Taylor"
+            },
+            {
+                "id": 5,
+                "name": "Sam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "What do you think about investing in Ethereum?",
+                "annotation": "What do you think about investing in <target_01> Ethereum </target_01>?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Ethereum's transaction speed is impressive; it really supports high-frequency trading efficiently.",
+                "annotation": "Ethereum's <aspect_01> transaction speed </aspect_01> is <opinion_01> impressive </opinion_01>; it really <rationale_01> supports high-frequency trading efficiently </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree, Dana. Additionally, its smart contract capability is revolutionary, changing the way we do business.",
+                "annotation": "Additionally, its <aspect_02> smart contract capability </aspect_02> is <opinion_02> revolutionary </opinion_02>, <rationale_02> changing the way we do business </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I’ve noticed that the network fees can be quite high, which can deter some users.",
+                "annotation": "I’ve noticed that the <aspect_03> network fees </aspect_03> can be <opinion_03> quite high </opinion_03>, which <rationale_03> can deter some users </rationale_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Despite the fees, Ethereum's developer community is amazing, consistently driving innovation.",
+                "annotation": "Despite the <aspect_03> fees </aspect_03>, Ethereum's <aspect_04> developer community </aspect_04> is <opinion_04> amazing </opinion_04>, <rationale_04> consistently driving innovation </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "And the decentralized finance projects built on Ethereum are growing exponentially.",
+                "annotation": "And the <aspect_05> decentralized finance projects </aspect_05> built on Ethereum are <opinion_05> growing exponentially </opinion_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The decentralized finance projects on Ethereum are growing exponentially.",
+                    "id": "aud_0006"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "transaction speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "supports high-frequency trading efficiently",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leslie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "smart contract capability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "changing the way we do business",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "network fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "can deter some users",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "amazing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "consistently driving innovation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "decentralized finance projects",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "growing exponentially",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "decentralized finance projects built on Ethereum are growing exponentially",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The company's pension plan has several benefits, particularly the matching contributions. It's excellent because it significantly boosts long-term savings.",
+                "annotation": "The company's <target_01> pension plan </target_01> has several benefits, particularly the <aspect_01> matching contributions </aspect_01>. It's <opinion_01> excellent </opinion_01> because <rationale_01> it significantly boosts long-term savings </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I've heard people say it's complicated to manage because the rules are stringent.",
+                "annotation": "That's true, but I've heard people say it's <opinion_02> complicated </opinion_02> to manage because <rationale_02> the rules are stringent </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The pension plan rules are true, but I've heard they're really stringent and complicated to manage.",
+                    "id": "aud_0007"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Absolutely correct. The management aspect is tricky due to those stringent rules, but having a financial advisor can simplify things.",
+                "annotation": "Absolutely correct. The <aspect_03> management aspect </aspect_03> is <opinion_03> tricky </opinion_03> due to those stringent rules, but having a financial advisor can simplify things.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "matching contributions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it significantly boosts long-term savings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "rules",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "complicated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "the rules are stringent",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "management aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "tricky",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "due to those stringent rules",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

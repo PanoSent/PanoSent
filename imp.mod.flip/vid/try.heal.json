@@ -1,0 +1,319 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sofia"
+            },
+            {
+                "id": 3,
+                "name": "Jacob"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently read an article about the importance of mental health awareness, and its impact on communities is significant, providing more open dialogue.",
+                "annotation": "I recently read an article about the <target_01> importance of mental health awareness </target_01>, and its <aspect_01> impact on communities </aspect_01> is <opinion_01> significant </opinion_01>, <rationale_01> providing more open dialogue </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That’s true, but I worry the conversation is still a bit superficial, lacking depth in understanding personal struggles.",
+                "annotation": "That’s true, but I worry the <aspect_02> conversation </aspect_02> is <opinion_02> superficial </opinion_02>, <rationale_02> lacking depth in understanding personal struggles </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "I hadn’t thought about it that way, but you make a good point about the need for deeper connections. It’s crucial for reducing stigma.",
+                "annotation": "I hadn’t thought about it that way, but you make a good point about the <aspect_02> need for deeper connections </aspect_02>. It’s <opinion_03> crucial </opinion_03> for <rationale_03> reducing stigma </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "Have you seen the new video on how to talk about mental health? It’s uplifting, with simple tips that encourage meaningful conversations.",
+                "annotation": "Have you seen the new video on how to talk about <target_02> mental health </target_02>? It’s <aspect_03> uplifting </aspect_03>, with <opinion_04> simple tips </opinion_04> that <rationale_04> encourage meaningful conversations </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Uplifting video on how to talk about mental health with tips for encouraging conversation.",
+                    "id": "vid_0001"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Yes, I watched it! The strategies they presented are effective for opening up discussions, making it easier for people to share.",
+                "annotation": "Yes, I watched it! The <aspect_04> strategies </aspect_04> they presented are <opinion_05> effective </opinion_05> for <rationale_05> opening up discussions, making it easier for people to share </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "I feel like mental health education should start in schools. It’s imperative, as kids would learn crucial skills early on.",
+                "annotation": "I feel like <target_03> mental health education </target_03> should start in schools. It’s <aspect_05> imperative </aspect_05>, as <opinion_06> kids would learn crucial skills early on </opinion_06>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 6,
+                "speaker": 0,
+                "utterance": "That’s an interesting perspective. Initially, I thought it should be optional, but I now see how it would foster better emotional resilience.",
+                "annotation": "That’s an interesting perspective. Initially, I thought it should be <opinion_07> optional </opinion_07>, but I now see how it would <opinion_08> foster better emotional resilience </opinion_08>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "importance of mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "impact on communities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "providing more open dialogue",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "importance of mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "conversation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "superficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "lacking depth in understanding personal struggles",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "importance of mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "need for deeper connections",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "reducing stigma",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sofia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "mental health",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "uplifting video",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "uplifting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "encourage meaningful conversations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "mental health",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "strategies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "opening up discussions, making it easier for people to share",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Jacob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "mental health education",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "imperative",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "imperative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "kids would learn crucial skills early on",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "mental health education",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "education approach",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "optional",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "initially thought it should be optional",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "mental health education",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "educational value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "foster better emotional resilience",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_08",
+                    "value": "would help students cope with challenges",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Maya",
+            "target": "mental health education",
+            "aspect": "education approach",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    }
+]

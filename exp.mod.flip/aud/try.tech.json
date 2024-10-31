@@ -1,0 +1,1575 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I read about the new wireless technology that's enhancing connectivity across urban areas. The speed is remarkably high, which is vital for smart cities.",
+                "annotation": "I read about <target_01> the new wireless technology </target_01> that's enhancing <aspect_01> connectivity </aspect_01> across urban areas. The speed is <opinion_01> remarkably high </opinion_01>, <rationale_01> which is vital for smart cities </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds fantastic, Alice! However, I wonder about the security aspect. Is this technology also secure enough to handle sensitive data?",
+                "annotation": "That sounds <opinion_02> fantastic </opinion_02>, Alice! However, I wonder about the <aspect_02> security </aspect_02> aspect. Is this technology also <opinion_03> secure enough </opinion_03> to handle sensitive data? <rationale_02> It’s essential that we protect personal information in this digital age </rationale_02>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Alice, that's a fantastic innovation, but is it secure?",
+                    "id": "aud_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I've experienced some of this technology firsthand. While it is fast, I did feel a bit uneasy about how well it protects my information.",
+                "annotation": "I've experienced <target_01> some of this technology </target_01> firsthand. While it is <opinion_04> fast </opinion_04>, I did feel <opinion_05> a bit uneasy </opinion_05> about how well it protects my <aspect_03> information </aspect_03>. <rationale_03> The recent breaches in similar technologies have made me cautious </rationale_03>",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the new wireless technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "connectivity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkably high",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which is vital for smart cities",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the new wireless technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It’s essential that we protect personal information in this digital age",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "some of this technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "information",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "fast",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The recent breaches in similar technologies have made me cautious",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "some of this technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "information",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "a bit uneasy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The recent breaches in similar technologies have made me cautious",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Charlie",
+            "target": "some of this technology",
+            "aspect": "information",
+            "initial sentiment": "positive",
+            "flipped sentiment": "negative",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the advancements in robotic AI technology, and I'm quite impressed by its <aspect_01> capabilities</aspect_01>. <rationale_01> It's consistently improving in learning and decision-making.</rationale_01>",
+                "annotation": "I've been reading about the advancements in robotic AI technology, and I'm <opinion_01> quite impressed by </opinion_01> its <aspect_01> capabilities </aspect_01>. <rationale_01> It's consistently improving in learning and decision-making </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I agree with you about the <aspect_02> potential</aspect_02>, it also feels quite <opinion_02> concerning</opinion_02>. <rationale_02> The risk of misuse in the wrong hands is significant.</rationale_02>",
+                "annotation": "While I agree with you about the <aspect_02> potential </aspect_02>, it also feels quite <opinion_02> concerning </opinion_02>. <rationale_02> The risk of misuse in the wrong hands is significant </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I see your point, Bob, but I find the <aspect_03> precision</aspect_03> of these robots <opinion_03> fascinating</opinion_03>. <rationale_03> Just look at how accurately some surgical robots can operate.</rationale_03>",
+                "annotation": "I see your point, Bob, but I find the <aspect_03> precision </aspect_03> of these robots <opinion_03> fascinating </opinion_03>. <rationale_03> Just look at how accurately some surgical robots can operate </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The precision of robotic technologies is truly fascinating.",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's very true, Charlie. However, I believe the <aspect_04> ethics</aspect_04> around robotics are <opinion_04> troubling</opinion_04>. <rationale_04> There are cases where ethical implications are not fully considered.</rationale_04>",
+                "annotation": "That's very true, Charlie. However, I believe the <aspect_04> ethics </aspect_04> around robotics are <opinion_04> troubling </opinion_04>. <rationale_04> There are cases where ethical implications are not fully considered </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I've had ups and downs with the idea of robotics. At first, I thought they were mostly <opinion_05> ominous</opinion_05>, mostly due to films showcasing them as threats. But my experiences at the tech fair showed me their <aspect_01> capabilities</aspect_01>, making me reflect. Now, I see them as <opinion_06> beneficial</opinion_06>.<rationale_05> They can really augment human potential.</rationale_05>",
+                "annotation": "I've had ups and downs with the idea of robotics. At first, I thought they were mostly <opinion_05> ominous </opinion_05>, mostly due to films showcasing them as threats. But my experiences at the tech fair showed me their <aspect_01> capabilities </aspect_01>, making me reflect. Now, I see them as <opinion_06> beneficial </opinion_06>.<rationale_05> They can really augment human potential </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic AI technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "quite impressed by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's consistently improving in learning and decision-making.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic AI technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The risk of misuse in the wrong hands is significant.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic AI technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "precision",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Just look at how accurately some surgical robots can operate.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic AI technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "ethics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "troubling",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "There are cases where ethical implications are not fully considered.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic AI technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "ominous",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Due to films showcasing them as threats.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "robotic AI technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "They can really augment human potential.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ethan",
+                "target": "robotic AI technology",
+                "aspect": "capabilities",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading a lot about self-driving cars lately; their <target_01> technology </target_01> is quite <aspect_01> innovative </aspect_01>, as it can learn from numerous driving scenarios to improve safety.",
+                "annotation": "I've been reading a lot about self-driving cars lately; their <target_01> technology </target_01> is quite <aspect_01> innovative </aspect_01>, <opinion_01> as it can learn from numerous driving scenarios </opinion_01> <rationale_01> to improve safety </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but isn't the <aspect_02> ethical dilemma </aspect_02> surrounding them a bit concerning? It feels <opinion_02> troubling </opinion_02> that they have to make split-second decisions about human lives.",
+                "annotation": "I agree, but isn't the <aspect_02> ethical dilemma </aspect_02> surrounding them <opinion_02> a bit troubling </opinion_02>? <rationale_02> It feels that they have to make split-second decisions about human lives </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I find the ethical dilemma surrounding autonomous vehicles quite troubling.",
+                    "id": "aud_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's a valid point, Bob, but recent studies show that self-driving cars could actually reduce accidents significantly. Their <target_01> technology </target_01> is <aspect_02> safer </aspect_02> than human drivers if programmed correctly.",
+                "annotation": "That's a valid point, Bob, but recent studies show that self-driving cars could actually reduce accidents significantly. Their <target_01> technology </target_01> is <aspect_02> safer </aspect_02>, <opinion_03> than human drivers </opinion_03> <rationale_03> if programmed correctly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Interesting! I was worried about the ethical issues, but knowing that they can potentially be <opinion_04> safer </opinion_04> offers a new perspective. It's a complex issue, isn't it?",
+                "annotation": "Interesting! I was worried about the ethical issues, but knowing that they can potentially be <opinion_04> safer </opinion_04> <rationale_04> offers a new perspective </rationale_04>. It's a complex issue, isn't it?",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "innovative",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "as it can learn from numerous driving scenarios",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "to improve safety",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "ethical dilemma",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "troubling",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "that they have to make split-second decisions about human lives",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "safer",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "than human drivers",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "if programmed correctly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "safer",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "offers a new perspective",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "knowing that they can potentially be safer",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Diana",
+                "target": "technology",
+                "aspect": "safer",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Dr. Hayes"
+            },
+            {
+                "id": 1,
+                "name": "Alex"
+            },
+            {
+                "id": 2,
+                "name": "Jamie"
+            },
+            {
+                "id": 3,
+                "name": "Riley"
+            },
+            {
+                "id": 4,
+                "name": "Jordan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The recent advances in gene editing, particularly CRISPR, are revolutionary, allowing precise modifications that were previously unimaginable.",
+                "annotation": "The recent advances in <target_01> gene editing </target_01>, particularly <aspect_01> CRISPR </aspect_01>, are <opinion_01> revolutionary </opinion_01>, <rationale_01> allowing precise modifications that were previously unimaginable </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I see your point, but isn’t there a risk of unintended consequences? The <aspect_02> safety </aspect_02> of such technologies is still <opinion_02> uncertain </opinion_02>, because <rationale_02> there might be off-target effects we don't fully understand yet.",
+                "annotation": "I see your point, but isn’t there a risk of unintended consequences? The <aspect_02> safety </aspect_02> of such technologies is still <opinion_02> uncertain </opinion_02>, <rationale_02> because there might be off-target effects we don't fully understand yet.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "You're correct; while the prospects are exciting, the <aspect_02> ethical implications </aspect_02> are <opinion_03> concerning </opinion_03>, since <rationale_03> altering the human genome raises questions about 'designer babies.'",
+                "annotation": "You're correct; while the prospects are exciting, the <aspect_02> ethical implications </aspect_02> are <opinion_03> concerning </opinion_03>, <rationale_03> since altering the human genome raises questions about 'designer babies.' </rationale_03>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The ethical implications of gene editing do cause concern.",
+                    "id": "aud_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "Not to mention, the <aspect_04> accessibility </aspect_04> of these technologies is <opinion_04> limited </opinion_04>, because <rationale_04> developing countries often lack the resources to implement such advances.",
+                "annotation": "Not to mention, the <aspect_04> accessibility </aspect_04> of these technologies is <opinion_04> limited </opinion_04>, <rationale_04> because developing countries often lack the resources to implement such advances. </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Exactly! However, if we can enhance <aspect_05> disease prevention </aspect_05>, it can be <opinion_05> transformative </opinion_05>, as <rationale_05> we could significantly reduce hereditary diseases globally.",
+                "annotation": "Exactly! However, if we can enhance <aspect_05> disease prevention </aspect_05>, it can be <opinion_05> transformative </opinion_05>, <rationale_05> as we could significantly reduce hereditary diseases globally. </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "Right, though we should consider the <aspect_06> regulation </aspect_06> aspect too, which is <opinion_06> complex </opinion_06>, because <rationale_06> creating laws in sync with fast-paced biotech developments is a challenge.",
+                "annotation": "Right, though we should consider the <aspect_06> regulation </aspect_06> aspect too, which is <opinion_06> complex </opinion_06>, <rationale_06> because creating laws in sync with fast-paced biotech developments is a challenge. </rationale_06>",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 4,
+                "utterance": "After discussing these points, I'm starting to feel that the <aspect_02> safety </aspect_02> concerns might outweigh the benefits for now. Initially, I thought the advancements were entirely positive.",
+                "annotation": "After discussing these points, I'm starting to feel that the <aspect_02> safety </aspect_02> concerns might <opinion_07> outweigh the benefits </opinion_07> for now. <rationale_07> Initially, I thought the advancements were entirely positive. </rationale_07>",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dr. Hayes",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "CRISPR",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing precise modifications that were previously unimaginable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "safety",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "uncertain",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "there might be off-target effects we don't fully understand yet.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dr. Hayes",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "ethical implications",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "since altering the human genome raises questions about 'designer babies.'",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "accessibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "because developing countries often lack the resources to implement such advances.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "disease prevention",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "transformative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "as we could significantly reduce hereditary diseases globally.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "regulation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "complex",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "creating laws in sync with fast-paced biotech developments is a challenge.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene editing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "safety",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "might outweigh the benefits",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "Initially, I thought the advancements were entirely positive.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Jordan",
+            "target": "gene editing",
+            "aspect": "safety",
+            "initial sentiment": "positive",
+            "flipped sentiment": "negative",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Fiona"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I believe blockchain is a revolutionary technology with a potential for disruption in many industries.",
+                "annotation": "I believe <target_01> blockchain </target_01> is <opinion_01> revolutionary </opinion_01> <aspect_01> technology </aspect_01> with a potential for disruption in many industries.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But isn't its scalability an issue? Many networks struggle when faced with a large number of transactions.",
+                "annotation": "But isn't <aspect_02> scalability </aspect_02> <opinion_02> an issue </opinion_02>? <rationale_02> Many networks struggle when faced with a large number of transactions </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I've heard scalability can really hold back blockchain technology.",
+                    "id": "aud_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While scalability has been a challenge, recent innovations like sharding are promising solutions that could enhance performance.",
+                "annotation": "While <aspect_02> scalability </aspect_02> <opinion_03> has been a challenge </opinion_03>, <rationale_03> recent innovations like sharding are promising solutions that could enhance performance </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's interesting. Initially, I viewed scalability as a significant drawback, but with sharding in the conversation, I might reconsider its overall potential.",
+                "annotation": "That's interesting. Initially, I viewed <aspect_02> scalability </aspect_02> as <opinion_04> a significant drawback </opinion_04>, <rationale_04> but with sharding in the conversation </rationale_04>, I might reconsider its overall potential.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with a potential for disruption in many industries",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "an issue",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Many networks struggle when faced with a large number of transactions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "has been a challenge",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "recent innovations like sharding are promising solutions that could enhance performance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scalability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "a significant drawback",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but with sharding in the conversation",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Diana",
+                "target": "blockchain",
+                "aspect": "scalability",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            },
+            {
+                "id": 5,
+                "name": "Fiona"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The potential of Artificial Intelligence in healthcare is phenomenal since it can analyze data far quicker than humans can.",
+                "annotation": "The <aspect_01> potential </aspect_01> of <target_01> Artificial Intelligence in healthcare </target_01> is <opinion_01> phenomenal </opinion_01> since <rationale_01> it can analyze data far quicker than humans can </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "AI's potential in healthcare is phenomenal for data analysis.",
+                    "id": "aud_0006"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but the ethical implications of AI are concerning, especially regarding patient privacy and data security.",
+                "annotation": "The <aspect_02> ethical implications </aspect_02> of <target_01> Artificial Intelligence </target_01> are <opinion_02> concerning </opinion_02>, <rationale_02> especially regarding patient privacy and data security </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But isn't it worth it for faster diagnoses? The benefit to patient outcomes should outweigh the risks.",
+                "annotation": "The <aspect_03> benefit to patient outcomes </aspect_03> should <opinion_03> outweigh </opinion_03> the <target_01> risks of Artificial Intelligence </target_01>, <rationale_03> for faster diagnoses </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While speed is important, we can't ignore the <aspect_04> trust </aspect_04> issues. Patients must trust AI decisions, which isn't guaranteed.",
+                "annotation": "The <aspect_04> trust </aspect_04> issues regarding <target_01> AI decisions </target_01> are <opinion_04> significant </opinion_04> since <rationale_04> patients must trust AI decisions, which isn't guaranteed </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Trust in AI decisions is a significant concern.",
+                    "id": "aud_0007"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I see the point about trust, but the <aspect_05> efficiency </aspect_05> brought by AI could revolutionize treatment paths, leading to faster recovery times.",
+                "annotation": "The <aspect_05> efficiency </aspect_05> brought by <target_01> AI </target_01> could be <opinion_05> revolutionary </opinion_05>, <rationale_05> leading to faster treatment paths and recovery times </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Initially, I was skeptical about AI's role in healthcare, but hearing all your points, I now believe that its <aspect_06> impact </aspect_06> could be <opinion_06> transformative </opinion_06>, particularly if ethical frameworks are established.",
+                "annotation": "I was skeptical about <target_01> AI </target_01>'s <aspect_06> impact </aspect_06>, but now I believe its <opinion_06> transformative </opinion_06> potential could shine, <rationale_06> especially if ethical frameworks are established </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Artificial Intelligence in healthcare",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "phenomenal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it can analyze data far quicker than humans can",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Artificial Intelligence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "ethical implications",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "concerning",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially regarding patient privacy and data security",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Artificial Intelligence",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "benefit to patient outcomes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "outweigh",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "for faster diagnoses",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI decisions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "trust",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "patients must trust AI decisions, which isn't guaranteed",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "leading to faster treatment paths and recovery times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Fiona",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "AI",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "transformative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "especially if ethical frameworks are established",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Fiona",
+                "target": "AI",
+                "aspect": "impact",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about SpaceX's Starship, and I'm really impressed by its reusability. The fact that it can be reused multiple times makes it a game-changer for space exploration.",
+                "annotation": "I've been reading about <target_01> SpaceX's Starship </target_01>, and I'm <opinion_01> really impressed by </opinion_01> its <aspect_01> reusability </aspect_01>. <rationale_01> The fact that it can be reused multiple times makes it a game-changer for space exploration </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I think the propulsion system is actually the most fascinating part. Its efficiency could drastically reduce costs and pave the way for deeper space missions.",
+                "annotation": "I agree, but I think the <aspect_02> propulsion system </aspect_02> is <opinion_02> fascinating </opinion_02>. <rationale_02> Its efficiency could drastically reduce costs and pave the way for deeper space missions </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The propulsion system could revolutionize space travel!",
+                    "id": "aud_0008"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I recognize the propulsion system's importance, I find the safety measures incorporated into Starship to be paramount. They ensure that crewed missions can proceed with minimal risk.",
+                "annotation": "While I recognize the <aspect_03> propulsion system's </aspect_03> importance, I find the <aspect_04> safety measures </aspect_04> incorporated into Starship to be <opinion_03> paramount </opinion_03>. <rationale_03> They ensure that crewed missions can proceed with minimal risk </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's a fair point, Charlie. However, if the propulsion system can lower expenses significantly, it could foster more frequent missions, indirectly enhancing safety through experience.",
+                "annotation": "That's a fair point, Charlie. However, if the <aspect_02> propulsion system </aspect_02> can be <opinion_04> significantly beneficial </opinion_04>, <rationale_04> it could foster more frequent missions, indirectly enhancing safety through experience </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "I see your perspective now. If that’s the case, then the propulsion system is not only fascinating but also a critical factor for advancing safety in space travel.",
+                "annotation": "I see your perspective now. If that’s the case, then the <aspect_02> propulsion system </aspect_02> is <opinion_05> not only fascinating but also critical </opinion_05> for <rationale_05> advancing safety in space travel </rationale_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Now I understand how they connect!",
+                    "id": "aud_0009"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SpaceX's Starship",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "reusability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "really impressed by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The fact that it can be reused multiple times makes it a game-changer for space exploration",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SpaceX's Starship",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "propulsion system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Its efficiency could drastically reduce costs and pave the way for deeper space missions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SpaceX's Starship",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "propulsion system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "paramount",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They ensure that crewed missions can proceed with minimal risk",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SpaceX's Starship",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "propulsion system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "significantly beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It could foster more frequent missions, indirectly enhancing safety through experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SpaceX's Starship",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "propulsion system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "not only fascinating but also critical",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "for advancing safety in space travel",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Bob",
+                "target": "SpaceX's Starship",
+                "aspect": "propulsion system",
+                "initial sentiment": "positive",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    }
+]

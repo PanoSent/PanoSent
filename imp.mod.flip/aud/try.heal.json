@@ -1,0 +1,486 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Bella"
+            },
+            {
+                "id": 2,
+                "name": "Cora"
+            },
+            {
+                "id": 3,
+                "name": "Derek"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring the benefits of holistic medicine lately, and I'm fascinated by how it emphasizes natural healing processes.",
+                "annotation": "I've been exploring the <target_01> benefits of holistic medicine </target_01> lately, and I'm <opinion_01> fascinated by </opinion_01> how it <aspect_01> emphasizes natural healing processes </aspect_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! I believe the <aspect_02> approach to wellness </aspect_02> in holistic medicine is very comprehensive as it considers the mind, body, and spirit.",
+                "annotation": "That's interesting! I believe the <aspect_02> approach to wellness </aspect_02> in holistic medicine is <opinion_02> very comprehensive </opinion_02> as it considers the mind, body, and spirit.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I find some of the <aspect_03> therapies </aspect_03> to be unproven, which makes me skeptical about their effectiveness.",
+                "annotation": "However, I find some of the <aspect_03> therapies </aspect_03> to be <opinion_03> unproven </opinion_03>, <rationale_03> which makes me skeptical about their effectiveness </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Some therapies in holistic medicine can feel unproven and questionable.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I can see why you might think that. But if we look at the <aspect_04> patient testimonials </aspect_04>, many people report substantial improvements.",
+                "annotation": "I can see why you might think that. But if we look at the <aspect_04> patient testimonials </aspect_04>, <rationale_04> many people report substantial improvements </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Exactly! Also, I think the <aspect_05> flexibility </aspect_05> of treatment plans in holistic medicine is essential because it allows personalization for each patient's needs.",
+                "annotation": "Exactly! Also, I think the <aspect_05> flexibility </aspect_05> of treatment plans in holistic medicine is <opinion_05> essential </opinion_05> because it allows personalization for each patient's needs.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "After hearing these perspectives, I can appreciate that while the therapies may seem unproven, the personalized approach does offer significant potential.",
+                "annotation": "<rationale_06> After hearing these perspectives </rationale_06>, I can appreciate that while the therapies may seem unproven, the personalized approach does offer <opinion_06> significant potential </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "natural healing processes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinated by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "approach to wellness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "very comprehensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as it considers the mind, body, and spirit",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cora",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "therapies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "unproven",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which makes me skeptical about their effectiveness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Derek",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "patient testimonials",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "substantial improvements",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "many people report substantial improvements",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "flexibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "because it allows personalization for each patient's needs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cora",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "personalized approach",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "significant potential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "After hearing these perspectives",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Cora",
+                "target": "holistic medicine",
+                "aspect": "therapies",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Josh"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been trying a new HIIT workout, and honestly, the intensity is remarkable.",
+                "annotation": "I've been trying a new <target_01> HIIT workout </target_01>, and honestly, the <aspect_01> intensity </aspect_01> is <opinion_01> remarkable </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I hear you on that! But isn’t the recovery time a bit insufficient? It leaves me feeling drained.",
+                "annotation": "I hear you on that! But isn’t the <aspect_02> recovery time </aspect_02> <opinion_02> a bit insufficient </opinion_02>? <rationale_02> It leaves me feeling drained </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Isn't the recovery time too short?",
+                    "id": "aud_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the recovery time is okay if you're consistent. But Alice, I find it exhilarating how the workouts build your stamina.",
+                "annotation": "I think the <aspect_03> recovery time </aspect_03> is <opinion_03> okay </opinion_03> if you're consistent. But Alice, I find it <opinion_04> exhilarating </opinion_04> how the workouts build your <target_01> stamina </target_01>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That may be, but have you considered how the <target_01> HIIT workout </target_01> can lead to injuries? It can be risky.",
+                "annotation": "That may be, but have you considered how the <target_01> HIIT workout </target_01> can lead to <aspect_04> injuries </aspect_04>? <opinion_05> It can be risky </opinion_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Injuries can be a real concern, can't they?",
+                    "id": "aud_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I believe if you're cautious and listen to your body, the risks are manageable. I lean towards it being quite beneficial overall.",
+                "annotation": "I believe if you're cautious and listen to your body, the risks are manageable. I lean towards it being <opinion_06> quite beneficial </opinion_06> overall.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "intensity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's pushing me beyond my limits",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Josh",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "recovery time",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit insufficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It leaves me feeling drained",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "recovery time",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "okay",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "If you're consistent, it works.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "injuries",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "risky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It can lead to injuries.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "HIIT workout",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "risks",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "quite beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "If you're cautious, risks are manageable.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Josh",
+            "target": "HIIT workout",
+            "aspect": "recovery time",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    }
+]

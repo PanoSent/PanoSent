@@ -1,0 +1,705 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lucy"
+            },
+            {
+                "id": 1,
+                "name": "David"
+            },
+            {
+                "id": 2,
+                "name": "Mia"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just love how chocolate truffles have such a creamy texture, it's like a silky blanket for my taste buds.",
+                "annotation": "I just love how <target_01> chocolate truffles </target_01> have such a <aspect_01> creamy texture </aspect_01>, it's <opinion_01> like a silky blanket </opinion_01> for my taste buds.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True! But I find that the sweetness level can be overwhelming, which often distracts from the chocolate's richness.",
+                "annotation": "True! But I find that the <aspect_02> sweetness level </aspect_02> can be <opinion_02> overwhelming </opinion_02>, which often distracts from the chocolate's richness.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "David reacting to a truffle's sweetness.",
+                    "id": "vid_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I completely agree with you both. Although, I used to think the sweetness was just right when I was a child. Maybe my taste has changed as I've gotten older.",
+                "annotation": "I completely agree with you both. Although, I used to think the <aspect_02> sweetness </aspect_02> was <opinion_03> just right </opinion_03> when I was a child, <rationale_03> maybe my taste has changed as I've gotten older </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "And let's not forget the diverse flavors! The raspberry-flavored truffles are exceptional; they have a tangy twist that elevates them.",
+                "annotation": "And let's not forget the <aspect_04> diverse flavors </aspect_04>! The raspberry-flavored truffles are <opinion_04> exceptional </opinion_04>; they have a tangy twist that elevates them.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Looking back at my childhood memories, I've realized my perspective on truffle sweetness has shifted; I now appreciate the balance much more than before.",
+                "annotation": "Looking back at my childhood memories, I've realized my perspective on <target_01> chocolate truffles </target_01> sweetness has <opinion_05> shifted </opinion_05>; I now appreciate the balance <rationale_05> much more than before </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lucy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "chocolate truffles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "creamy texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "like a silky blanket",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for my taste buds.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "chocolate truffles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sweetness level",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which often distracts from the chocolate's richness.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "chocolate truffles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sweetness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "just right",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "maybe my taste has changed as I've gotten older.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "chocolate truffles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "diverse flavors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they have a tangy twist that elevates them.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "chocolate truffles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sweetness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "shifted",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "much more than before.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "David",
+            "target": "chocolate truffles",
+            "aspect": "sweetness",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            },
+            {
+                "id": 3,
+                "name": "Derek"
+            },
+            {
+                "id": 4,
+                "name": "Emma"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently tried making homemade pasta, and I was amazed at how the texture was so <strong> silky </strong>. The process really brought out the true essence of the flour.",
+                "annotation": "I recently tried making homemade pasta, and I was <opinion_01> amazed at </opinion_01> how the <aspect_01> texture </aspect_01> was so <strong> silky </strong>. <rationale_01> The process really brought out the true essence of the flour </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Silky is a great description! However, the time it takes to knead the dough is <strong> excessive </strong>. It can be quite tiring and may discourage some people from trying.",
+                "annotation": "However, the <aspect_02> time </aspect_02> it takes to knead the dough is <opinion_02> excessive </opinion_02>. <rationale_02> It can be quite tiring and may discourage some people from trying </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I used to think store-bought pasta was perfectly fine, but after trying homemade, the flavor is genuinely <strong> superior </strong> and makes such a difference in dishes.",
+                "annotation": "the <aspect_03> flavor </aspect_03> is genuinely <opinion_03> superior </opinion_03> <rationale_03> and makes such a difference in dishes </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's interesting, Clara. I've always preferred the convenience of pre-made pasta, but I must say, after your excitement about the flavor, I am now inclined to try making it myself!",
+                "annotation": "I must say, after your excitement about the <aspect_03> flavor </aspect_03>, I am now inclined to try making it myself. <rationale_04> Your enthusiasm has changed my perspective on homemade pasta. </rationale_04>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Clara shares her experience making homemade pasta.",
+                    "id": "vid_0002"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "While making pasta is rewarding, I find that the effort needed is sometimes <strong> futile </strong> compared to just boiling water for a quick meal.",
+                "annotation": "I find that the effort needed is sometimes <opinion_05> futile </opinion_05> compared to just boiling water for a quick meal. <rationale_05> It takes significant time and energy for a simple dish. </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "amazed at",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The process really brought out the true essence of the flour",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "time",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "excessive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can be quite tiring and may discourage some people from trying",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "flavor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "superior",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "and makes such a difference in dishes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Derek",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "flavor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "changed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Your enthusiasm has changed my perspective on homemade pasta.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "homemade pasta",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "effort",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "futile",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It takes significant time and energy for a simple dish.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Derek",
+                "target": "homemade pasta",
+                "aspect": "flavor",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Noah"
+            },
+            {
+                "id": 2,
+                "name": "Chloe"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            },
+            {
+                "id": 5,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "What are your thoughts on quinoa? I think it's an exceptional food because it's packed with nutrients.",
+                "annotation": "What are your thoughts on <target_01> quinoa </target_01>? I think it's <opinion_01> exceptional </opinion_01> food because it's <aspect_01> packed with nutrients </aspect_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I used to think quinoa tasted bland, but after trying it with spices, I found it to be delicious.",
+                "annotation": "I used to think <target_01> quinoa </target_01> tasted <opinion_02> bland </opinion_02>, but after <rationale_02> trying it with spices, I found it to be <opinion_03> delicious </opinion_03> </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I've heard a lot about the protein content in quinoa. It's impressive! It's one of the few plant foods that provide complete protein.",
+                "annotation": "I've heard a lot about the <aspect_04> protein content </aspect_04> in <target_01> quinoa </target_01>. <opinion_04> It's impressive </opinion_04>! <rationale_04> It's one of the few plant foods that provide complete protein </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A quick introduction to quinoa's protein benefits.",
+                    "id": "vid_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I appreciate how versatile quinoa is! You can use it in salads, bowls, or even desserts. It's amazing how it fits into any meal type.",
+                "annotation": "I appreciate how <aspect_05> versatile </aspect_05> <target_01> quinoa </target_01> is! You can use it in <opinion_05> salads, bowls, or even desserts </opinion_05>. <rationale_05> It's amazing how it fits into any meal type </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That's true! I was surprised to learn that it’s gluten-free, making it a great alternative for those with dietary restrictions.",
+                "annotation": "That's true! I was <opinion_06> surprised </opinion_06> to learn that <aspect_06> it’s gluten-free </aspect_06>, making it a great alternative for those with dietary restrictions <rationale_06>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Many people don't realize that quinoa also has antioxidants; it's a superfood for a reason.",
+                "annotation": "Many people don't realize that <aspect_07> quinoa </aspect_07> also has <opinion_07> antioxidants </opinion_07>; it's a superfood for a reason <rationale_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "nutrients",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "because it's packed with nutrients",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "taste",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "bland",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "but after trying it with spices, I found it to be delicious",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Chloe",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "protein content",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's one of the few plant foods that provide complete protein",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "versatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "amazing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It's amazing how it fits into any meal type",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "gluten-free",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "surprised",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "to learn that it’s gluten-free, making it a great alternative for those with dietary restrictions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_07",
+                    "value": "antioxidants",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "superfood",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "it's a superfood for a reason",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Noah",
+                "target": "quinoa",
+                "aspect": "taste",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    }
+]

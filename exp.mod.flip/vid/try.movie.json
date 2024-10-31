@@ -1,0 +1,932 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jenna"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Ava"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            },
+            {
+                "id": 4,
+                "name": "Maya"
+            },
+            {
+                "id": 5,
+                "name": "Oliver"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just finished watching 'The Hidden Depths' and I find the narrative structure captivating. It keeps you guessing with every twist and turn.",
+                "annotation": "I just finished watching '<target_01> The Hidden Depths </target_01>' and I find the <aspect_01> narrative structure </aspect_01> <opinion_01> captivating </opinion_01>. <rationale_01> It keeps you guessing with every twist and turn </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The pacing, however, feels inconsistent, which detracts from the overall experience.",
+                "annotation": "The <aspect_02> pacing </aspect_02>, however, feels <opinion_02> inconsistent </opinion_02>, <rationale_02> which detracts from the overall experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I can't agree with that. The character development is exceptional, and I think it really adds depth to the story.",
+                "annotation": "I can't agree with that. The <aspect_03> character development </aspect_03> is <opinion_03> exceptional </opinion_03>, <rationale_03> and I think it really adds depth to the story </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Though the cinematography is merely average. I expected more visually stunning scenes to complement such a thrilling story.",
+                "annotation": "Though the <aspect_04> cinematography </aspect_04> is <opinion_04> merely average </opinion_04>. <rationale_04> I expected more visually stunning scenes to complement such a thrilling story </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Footage showing the average cinematography in 'The Hidden Depths'.",
+                    "id": "vid_0001"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I disagree with you on that. The visuals effectively create an atmosphere, making the story feel more immersive.",
+                "annotation": "I disagree with you on that. The <aspect_04> visuals </aspect_04> effectively create an <opinion_05> immersive </opinion_05> <rationale_05> atmosphere, making the story feel more immersive </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "Considering your perspective, I may need to revisit my thoughts on the cinematography. It might actually be more impactful than I initially believed.",
+                "annotation": "<rationale_06> Considering your perspective </rationale_06>, I may need to revisit my thoughts on the <aspect_04> cinematography </aspect_04>. It might actually be <opinion_06> more impactful </opinion_06> than I initially believed.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jenna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Hidden Depths",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "narrative structure",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It keeps you guessing with every twist and turn",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Hidden Depths",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inconsistent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which detracts from the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Hidden Depths",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "and I think it really adds depth to the story",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Hidden Depths",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "merely average",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I expected more visually stunning scenes to complement such a thrilling story",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Hidden Depths",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "immersive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "effectively create an atmosphere, making the story feel more immersive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Hidden Depths",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more impactful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Considering your perspective",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ethan",
+                "target": "The Hidden Depths",
+                "aspect": "cinematography",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Marco"
+            },
+            {
+                "id": 2,
+                "name": "Jade"
+            },
+            {
+                "id": 3,
+                "name": "Tess"
+            },
+            {
+                "id": 4,
+                "name": "Finn"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently binge-watched a new original series, and the plot twists are simply mind-blowing.",
+                "annotation": "I recently binge-watched <target_01> a new original series </target_01>, and the <aspect_01> plot twists </aspect_01> are <opinion_01> simply mind-blowing </opinion_01>. <rationale_01> They kept me guessing until the very end. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That’s great! But aren’t you worried about the pacing? It felt rushed at times, which detracted from the suspense.",
+                "annotation": "That’s great! But aren’t you worried about the <aspect_02> pacing </aspect_02>? It felt <opinion_02> rushed </opinion_02>, <rationale_02> which detracted from the suspense. </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the humor is the best part! It's clever and well-timed, making it such a standout.",
+                "annotation": "I think the <aspect_03> humor </aspect_03> is <opinion_03> the best part </opinion_03>! <rationale_03> It's clever and well-timed, making it such a standout. </rationale_03>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Clever and well-timed humor from the series.",
+                    "id": "vid_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I initially thought the character arcs were well-developed, but after some reflection, I realized they seem a bit shallow and predictable.",
+                "annotation": "I initially thought the <aspect_04> character arcs </aspect_04> were <opinion_04> well-developed </opinion_04>, but after some reflection, I realized they seem <opinion_05> a bit shallow </opinion_05> and <rationale_04> predictable. </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I disagree! The visuals are stunning. Each scene creates such a rich atmosphere that adds depth to the narrative.",
+                "annotation": "I disagree! The <aspect_06> visuals </aspect_06> are <opinion_06> stunning </opinion_06>. <rationale_06> Each scene creates such a rich atmosphere that adds depth to the narrative. </rationale_06>",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a new original series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "plot twists",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "simply mind-blowing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They kept me guessing until the very end",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Marco",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a new original series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "rushed",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which detracted from the suspense",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jade",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a new original series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "humor",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "the best part",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's clever and well-timed, making it such a standout",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tess",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a new original series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character arcs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "well-developed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but after some reflection, I realized they seem a bit shallow",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tess",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a new original series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character arcs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "a bit shallow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "and predictable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Finn",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a new original series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Each scene creates such a rich atmosphere that adds depth to the narrative",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Tess",
+                "target": "a new original series",
+                "aspect": "character arcs",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Sophie"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            },
+            {
+                "id": 3,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I watched the new animated film, Echo Quest, and found the character design truly remarkable. The distinct styles capture a wide range of personalities.",
+                "annotation": "I watched the new animated film <target_01> Echo Quest </target_01>, and found the <aspect_01> character design </aspect_01> truly <opinion_01> remarkable </opinion_01>. <rationale_01> The distinct styles capture a wide range of personalities </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree about the character design! However, I think the story is a bit predictable. It's hard to feel surprised by the twists.",
+                "annotation": "I agree about the character design! However, I think the <aspect_02> story </aspect_02> is <opinion_02> a bit predictable </opinion_02>. <rationale_02> It's hard to feel surprised by the twists </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But do you think a familiar story can actually help audiences connect better with characters? The predictability might allow for deeper emotional engagement.",
+                "annotation": "But do you think <rationale_03> a familiar story can actually help audiences connect better with characters </rationale_03>? The predictability might allow for <aspect_02> deeper emotional engagement </aspect_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You might be right, the predictability does make it easier to relate. I guess I have to reconsider—perhaps the story is more accessible than I thought.",
+                "annotation": "You might be right, the predictability does make it easier to <aspect_02> relate </aspect_02>. I guess I have to reconsider—perhaps the story is <opinion_03> more accessible </opinion_03> than I thought.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A scene showcasing characters connecting during a predictable moment.",
+                    "id": "vid_0003"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echo Quest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "character design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The distinct styles capture a wide range of personalities",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echo Quest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "story",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit predictable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's hard to feel surprised by the twists",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echo Quest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "story",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "more accessible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the predictability does make it easier to relate",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sophie",
+                "target": "Echo Quest",
+                "aspect": "story",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            },
+            {
+                "id": 5,
+                "name": "James"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find superhero movies to have a thrilling appeal. Their intense action scenes keep me on the edge of my seat.",
+                "annotation": "I find <opinion_01> thrilling </opinion_01> <rationale_01> because their intense action scenes keep me on the edge of my seat </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I agree about the action, I believe the plots are often predictable. It's a bit disappointing when you can guess the ending.",
+                "annotation": "I believe the <aspect_01> plots </aspect_01> are <opinion_02> predictable </opinion_02>, as <rationale_02> it's a bit disappointing when you can guess the ending </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's an interesting point, but have you seen the latest superhero movie? It has a unique storyline that twists the typical genre clichés.",
+                "annotation": "The latest superhero movie has a <opinion_03> unique </opinion_03> <aspect_02> storyline </aspect_02> that twists the typical genre clichés. <rationale_03> It offers something fresh instead of the usual tropes </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Trailer of the new superhero movie featuring an unexpected plot twist.",
+                    "id": "vid_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I watched the trailer and it indeed looks captivating. The unique storyline is refreshing compared to what we've seen before.",
+                "annotation": "<rationale_04> I watched the trailer </rationale_04>, and it indeed looks <opinion_04> captivating </opinion_04>. The unique storyline is refreshing compared to our previous experiences with superhero films.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I think the visual effects are stunning in superhero movies. They enhance the overall experience significantly.",
+                "annotation": "I think the <aspect_03> visual effects </aspect_03> are <opinion_05> stunning </opinion_05>. They <rationale_05> enhance the overall experience significantly </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "True, but sometimes they overshadow the character development, making it hard for me to connect emotionally.",
+                "annotation": "Sometimes the <aspect_04> visual effects </aspect_04> overshadow the <aspect_05> character development </aspect_05>, which makes me <opinion_06> disconnected </opinion_06> emotionally <rationale_06> in many superhero films </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "superhero movies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "action scenes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "thrilling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "because their intense action scenes keep me on the edge of my seat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "superhero movies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "plots",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "predictable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it's a bit disappointing when you can guess the ending",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "superhero movies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "storyline",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "unique",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it offers something fresh instead of the usual tropes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "superhero movies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "storyline",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the unique storyline is refreshing compared to our previous experiences with superhero films",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "superhero movies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "visual effects",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "they enhance the overall experience significantly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "superhero movies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "disconnected",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "which makes me disconnected emotionally in many superhero films",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Liam",
+            "target": "superhero movies",
+            "aspect": "plots",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    }
+]

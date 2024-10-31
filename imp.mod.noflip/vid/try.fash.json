@@ -1,0 +1,822 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Jasmine"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            },
+            {
+                "id": 4,
+                "name": "Sophie"
+            },
+            {
+                "id": 5,
+                "name": "Oliver"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently bought a vintage watch, and the craftsmanship is exceptional. Every detail is meticulously finished.",
+                "annotation": "I recently bought a <target_01> vintage watch </target_01>, and the <aspect_01> craftsmanship </aspect_01> is <opinion_01> exceptional </opinion_01>. Every detail is <rationale_01> meticulously finished </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "What about the watch's design? I've seen some that are just overwhelmingly intricate.",
+                "annotation": "What about the watch's <aspect_02> design </aspect_02>? I've seen some that are <opinion_02> overwhelmingly intricate </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the design is elegant rather than intricate. It blends vintage charm with modern simplicity.",
+                "annotation": "I think the watch's <aspect_02> design </aspect_02> is <opinion_03> elegant </opinion_03> rather than intricate. It blends vintage charm with <rationale_02> modern simplicity </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Have you considered the watch's durability? Vintage pieces sometimes lack the resilience of modern ones.",
+                "annotation": "Have you considered the watch's <aspect_03> durability </aspect_03>? Vintage pieces sometimes lack the <opinion_04> resilience </opinion_04> of modern ones.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A comparison of a vintage watch and a modern watch, highlighting durability differences.",
+                    "id": "vid_0001"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That's a fair point. However, I find the nostalgia of a vintage piece outweighs its可能lack of modern durability.",
+                "annotation": "That's a fair point. However, I find the <aspect_04> nostalgia </aspect_04> of a vintage piece <opinion_05> outweighs </opinion_05> its lack of modern durability.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage watch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "craftsmanship",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "meticulously finished",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage watch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overwhelmingly intricate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I've seen some that are overly complex",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jasmine",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage watch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "elegant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "blends vintage charm with modern simplicity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage watch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "durability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "lack of resilience",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "sometimes lacking compared to modern ones",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage watch",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "nostalgia",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "outweighs",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "its lack of modern durability",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            },
+            {
+                "id": 5,
+                "name": "Oliver"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just bought these kids' raincoats, and their design is fantastic! The colors are vibrant and will surely attract kids.",
+                "annotation": "I just bought these <target_01> kids' raincoats </target_01>, and their <aspect_01> design </aspect_01> is <opinion_01> fantastic </opinion_01>! <rationale_01> The colors are vibrant and will surely attract kids </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A colorful display of kids' raincoats in various vibrant colors.",
+                    "id": "vid_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Those do look great! How about their durability? I want something that lasts through rough play.",
+                "annotation": "Those do look great! How about their <aspect_02> durability </aspect_02>? I want something that is <opinion_02> sturdy </opinion_02> enough to last through rough play.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The raincoats are super reliable! I've had similar ones that survived multiple seasons without any wear.",
+                "annotation": "The <aspect_02> raincoats </aspect_02> are <opinion_02> super reliable </opinion_02>! <rationale_02> I've had similar ones that survived multiple seasons without any wear </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's reassuring. What about comfort? Kids can be quite picky about what they wear.",
+                "annotation": "That's reassuring. What about <aspect_03> comfort </aspect_03>? Kids can be quite <opinion_03> sensitive </opinion_03> about what they wear.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Absolutely! These coats are lightweight and breathable, making them perfect for playtime.",
+                "annotation": "Absolutely! These <aspect_03> coats </aspect_03> are <opinion_03> lightweight and breathable </opinion_03>, <rationale_03> making them perfect for playtime </rationale_03>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I've also heard they come in a variety of sizes. Is that true? It would help with finding a fit for both my kids.",
+                "annotation": "I've also heard they come in a <aspect_04> variety of sizes </aspect_04>. Is that <opinion_04> convenient </opinion_04>? It would help with finding a fit for both my kids.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "kids' raincoats",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The colors are vibrant and will surely attract kids",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "raincoats",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "durability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "super reliable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I've had similar ones that survived multiple seasons without any wear",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "coats",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "comfort",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lightweight and breathable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making them perfect for playtime",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "raincoats",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "variety of sizes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "convenient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It would help with finding a fit for both my kids",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Dante"
+            },
+            {
+                "id": 1,
+                "name": "Leah"
+            },
+            {
+                "id": 2,
+                "name": "Javi"
+            },
+            {
+                "id": 3,
+                "name": "Sasha"
+            },
+            {
+                "id": 4,
+                "name": "Talia"
+            },
+            {
+                "id": 5,
+                "name": "Morgan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys seen the latest drop from that streetwear brand? The fit of the hoodie is just perfect!",
+                "annotation": "Have you guys seen the latest drop from that <target_01> streetwear brand </target_01>? The <aspect_01> fit </aspect_01> of the hoodie is <opinion_01> just perfect </opinion_01>!",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I thought the color palette was quite vibrant too! This makes the overall style feel very fresh.",
+                "annotation": "I thought the <aspect_02> color palette </aspect_02> was <opinion_02> quite vibrant </opinion_02>! <rationale_02> This makes the overall style feel very fresh </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But the price point is frankly ridiculous. I find it to be an unreasonable expenditure for a hoodie.",
+                "annotation": "But the <aspect_03> price point </aspect_03> is <opinion_03> frankly ridiculous </opinion_03>. <rationale_03> I find it to be an unreasonable expenditure for a hoodie </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Dynamic shots of the hoodie in various colors with a catchy beat",
+                    "id": "vid_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "And let's not forget the material! It's extremely soft and breathable, making it perfect for layering.",
+                "annotation": "And let's not forget the <aspect_04> material </aspect_04>! It's <opinion_04> extremely soft </opinion_04> and <opinion_05> breathable</opinion_05>, <rationale_04> making it perfect for layering </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "However, I think the design is rather simple. It lacks some daring elements that many streetwear fans seek.",
+                "annotation": "However, I think the <aspect_05> design </aspect_05> is <opinion_06> rather simple </opinion_06>. <rationale_05> It lacks some daring elements that many streetwear fans seek </rationale_05>.",
+                "modality": "None",
+                "reply": 0
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dante",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "streetwear brand",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "fit",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "just perfect",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "streetwear brand",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "color palette",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "This makes the overall style feel very fresh",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Javi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "streetwear brand",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "price point",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "frankly ridiculous",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I find it to be an unreasonable expenditure for a hoodie",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sasha",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "streetwear brand",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "material",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "extremely soft",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "making it perfect for layering",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Talia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "streetwear brand",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "rather simple",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It lacks some daring elements that many streetwear fans seek",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sarah"
+            },
+            {
+                "id": 1,
+                "name": "Tom"
+            },
+            {
+                "id": 2,
+                "name": "Jenna"
+            },
+            {
+                "id": 3,
+                "name": "Chris"
+            },
+            {
+                "id": 4,
+                "name": "Lily"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've come across this amazing vintage dress from the 1960s. What do you think?",
+                "annotation": "I've come across this amazing <target_01> vintage dress </target_01> from the 1960s. What do you think?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The fabric is absolutely stunning; it has a unique texture that modern dresses lack.",
+                "annotation": "The <aspect_01> fabric </aspect_01> is <opinion_01> absolutely stunning </opinion_01>; <rationale_01> it has a unique texture that modern dresses lack </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the color scheme is quite bold, which makes a real statement.",
+                "annotation": "I think the <aspect_02> color scheme </aspect_02> is <opinion_02> quite bold </opinion_02>; <rationale_02> which makes a real statement </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Footage showcasing the bold colors of the vintage dress and how they stand out.",
+                    "id": "vid_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, the fit might not be very versatile for different body types.",
+                "annotation": "However, the <aspect_03> fit </aspect_03> might not be <opinion_03> very versatile </opinion_03> <rationale_03> for different body types </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "But I believe it's charming; vintage pieces often have a nostalgic vibe that is hard to replicate.",
+                "annotation": "But I believe it's <aspect_04> vintage pieces </aspect_04> are <opinion_04> charming </opinion_04>; <rationale_04> they often have a nostalgic vibe that is hard to replicate </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage dress",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "fabric",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it has a unique texture that modern dresses lack",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jenna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage dress",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "color scheme",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite bold",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which makes a real statement",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Chris",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage dress",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "fit",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "very versatile",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "for different body types",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "vintage dress",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "vintage pieces",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "charming",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they often have a nostalgic vibe that is hard to replicate",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

@@ -1,0 +1,3474 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Anna"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I visited the new modern art gallery downtown, and I was captivated by the installation art. The way it challenges the viewer's perception is remarkable.",
+                "annotation": "I visited the <target_01> new modern art gallery downtown </target_01>, and I was <opinion_01> captivated by </opinion_01> the <aspect_01> installation art </aspect_01>. <rationale_01> The way it challenges the viewer's perception is remarkable </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! But do you really think the use of colors in that art piece was effective? I found it distracting.",
+                "annotation": "That's interesting! But do you really think the <aspect_02> use of colors </aspect_02> in that art piece was <opinion_02> distracting </opinion_02>? <rationale_02> I found it distracting </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I understand your point, Leo. Initially, I felt the colors were overwhelming, but they actually evoke a particular emotion that resonated with me.",
+                "annotation": "I understand your point, Leo. <rationale_03> Initially, I felt the colors were overwhelming, but they actually evoke a particular emotion that resonated with me </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Art installation featuring vibrant colors that invoke strong feelings from viewers.",
+                    "id": "img_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Maya, that's a great perspective! Sometimes art's purpose is to provoke thought, and maybe the colors were intended to stir emotions.",
+                "annotation": "Maya, that's a great perspective! <rationale_04> Sometimes art's purpose is to provoke thought, and maybe the colors were intended to stir emotions </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "True, but I still think the execution fell short. If you can't enjoy it, then what's the point?",
+                "annotation": "True, but I still think the <aspect_03> execution </aspect_03> <rationale_05> fell short. If you can't enjoy it, then what's the point? </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "I can see that viewpoint, though I believe there's value in discussing what we feel rather than merely enjoying. It’s about the conversation it sparks.",
+                "annotation": "I can see that viewpoint, though I believe there's <aspect_04> value </aspect_04> in discussing what we feel rather than merely enjoying. <rationale_06> It’s about the conversation it sparks </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Anna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new modern art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "installation art",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "captivated by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The way it challenges the viewer's perception is remarkable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new modern art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "use of colors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "distracting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I found it distracting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new modern art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "use of colors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "resonated with me",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Initially, I felt the colors were overwhelming, but they actually evoke a particular emotion that resonated with me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Anna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new modern art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "purpose of art",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "great",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Sometimes art's purpose is to provoke thought, and maybe the colors were intended to stir emotions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new modern art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "execution",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "fell short",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "If you can't enjoy it, then what's the point?",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new modern art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "value of discussion",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "valuable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It’s about the conversation it sparks",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Maya",
+                "target": "new modern art gallery",
+                "aspect": "use of colors",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "James"
+            },
+            {
+                "id": 4,
+                "name": "Emma"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys explored the latest digital installation by Elena? It's a fascinating blend of technology and art.",
+                "annotation": "Have you guys explored the <target_01> latest digital installation by Elena </target_01>? It's a <opinion_01> fascinating </opinion_01> blend of <aspect_01> technology and art </aspect_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The interactivity of the piece is intriguing, allowing the audience to engage in unexpected ways.",
+                "annotation": "The <aspect_02> interactivity </aspect_02> of the piece is <opinion_02> intriguing </opinion_02>, <rationale_02> allowing the audience to engage in unexpected ways </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I found the concept a bit gimmicky at first. It seemed more style over substance.",
+                "annotation": "I found the <aspect_03> concept </aspect_03> a bit <opinion_03> gimmicky </opinion_03> at first, <rationale_03> as it seemed more style over substance </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, I think the aesthetic quality of the visuals is stunning. They truly captivate and draw you into the experience.",
+                "annotation": "The <aspect_04> aesthetic quality of the visuals </aspect_04> is <opinion_04> stunning </opinion_04>, <rationale_04> as they truly captivate and draw you into the experience </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A vivid image showcasing the stunning aesthetic quality of Elena's digital installation.",
+                    "id": "img_0002"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I can see why you say that, but you can't ignore how the entire atmosphere shifts as you immerse in it. It's more than just visuals.",
+                "annotation": "You can't ignore how the <aspect_05> atmosphere </aspect_05> shifts as you immerse in it. <rationale_05> It's more than just visuals </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "You both make strong points. Considering the atmosphere and immersive qualities, I can appreciate it more now.",
+                "annotation": "<rationale_06> Considering the atmosphere and immersive qualities </rationale_06>, I can <opinion_06> appreciate it more now </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest digital installation by Elena",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "technology and art",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": null,
+                    "manner": "none"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest digital installation by Elena",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interactivity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "allowing the audience to engage in unexpected ways",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest digital installation by Elena",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "concept",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "gimmicky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as it seemed more style over substance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest digital installation by Elena",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "aesthetic quality of the visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as they truly captivate and draw you into the experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest digital installation by Elena",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "atmosphere",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "transformative",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It's more than just visuals",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "latest digital installation by Elena",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "atmosphere",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "appreciative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Considering the atmosphere and immersive qualities",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sophia",
+                "target": "latest digital installation by Elena",
+                "aspect": "concept",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Blake"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the concept behind modern art is often misunderstood, like this piece here.",
+                "annotation": "I think the <aspect_01> concept </aspect_01> behind <target_01> modern art </target_01> is <opinion_01> often misunderstood </opinion_01>, <rationale_01> like this piece here </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A modern art installation with abstract shapes and colors that provoke thought.",
+                    "id": "img_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I actually find the concept refreshing, as it challenges traditional aesthetics that can become stale and predictable.",
+                "annotation": "I actually find the <aspect_01> concept </aspect_01> refreshing, <opinion_02> as it challenges traditional aesthetics </opinion_02> that <rationale_02> can become stale and predictable </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I appreciate both views, I lean towards thinking the unpredictability can sometimes alienate the audience.",
+                "annotation": "While I appreciate both views, I lean towards the <opinion_03> thinking </opinion_03> that the unpredictability <aspect_02> can sometimes alienate </aspect_02> the audience.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I can see your point, Blake. It’s true that sometimes the intention can get lost in translation when it’s too abstract.",
+                "annotation": "I can see your point, <holder_02> Blake </holder_02>. It’s true that sometimes the <aspect_03> intention </aspect_03> can get <opinion_04> lost </opinion_04> in translation when <rationale_03> it’s too abstract </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "concept",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "misunderstood",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "like this piece here",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "concept",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as it challenges traditional aesthetics that can become stale and predictable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Blake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "unpredictability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "can sometimes alienate",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the audience",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "implicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "intention",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "lost",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "when it’s too abstract",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Avery",
+                "target": "modern art",
+                "aspect": "intention",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Luna"
+            },
+            {
+                "id": 1,
+                "name": "Ethan"
+            },
+            {
+                "id": 2,
+                "name": "Maya"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            },
+            {
+                "id": 5,
+                "name": "Jackson"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think abstract sculptures can be incredibly thought-provoking. They challenge traditional perceptions of art.",
+                "annotation": "I think <opinion_01> incredibly thought-provoking </opinion_01> <rationale_01> because they challenge traditional perceptions of art </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I find some of them confusing rather than thought-provoking. It feels like they lack a clear message.",
+                "annotation": "I find some of them <opinion_02> confusing </opinion_02> <rationale_02> rather than thought-provoking, because they lack a clear message </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Sure, but what about how they evoke emotions? This piece here captures chaos beautifully.",
+                "annotation": "What about how they <aspect_01> evoke emotions </aspect_01>? This piece here captures <opinion_03> beautifully </opinion_03>. <rationale_03> It effectively represents chaos </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An abstract sculpture representing chaos with twisting forms and sharp angles.",
+                    "id": "img_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I suppose that's a fair point. Art should evoke something, even if it's chaos. It might just depend on personal taste.",
+                "annotation": "<rationale_04> Art should evoke something, even if it's chaos. </rationale_04> It might depend on personal taste.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "And yet some pieces appear to have no emotional depth at all. That can be disappointing for viewers seeking connection.",
+                "annotation": "Yet some pieces appear to have <opinion_04> no emotional depth at all </opinion_04>. <rationale_05> That can be disappointing for viewers seeking connection. </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "True, but isn't the variety of reactions what makes modern art so intriguing? It invites multiple interpretations.",
+                "annotation": "The variety of reactions makes modern art <opinion_05> intriguing </opinion_05> <rationale_06> because it invites multiple interpretations </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Luna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract sculptures",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "traditional perceptions of art",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly thought-provoking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "because they challenge traditional perceptions of art",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract sculptures",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "clear message",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "because they lack a clear message",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract sculptures",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "emotions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "beautifully",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It effectively represents chaos",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract sculptures",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "importance of evoking emotions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "valid",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Art should evoke something, even if it's chaos.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract sculptures",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "emotional depth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "no emotional depth at all",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "That can be disappointing for viewers seeking connection.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Jackson",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "variety of reactions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "because it invites multiple interpretations",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Noah",
+            "target": "abstract sculptures",
+            "aspect": "importance of evoking emotions",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Reflection"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently came across a stunning installation made entirely of glass. The <aspect_01> transparency </aspect_01> of the material is <opinion_01> breathtaking </opinion_01>, <rationale_01> allowing light to filter beautifully through it.",
+                "annotation": "I recently came across a stunning <target_01> installation </target_01> made entirely of glass. The <aspect_01> transparency </aspect_01> of the material is <opinion_01> breathtaking </opinion_01>, <rationale_01> allowing light to filter beautifully through it.</rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But isn't glass also rather fragile? It seems risky for public spaces.",
+                "annotation": "But isn't <opinion_02> glass also rather fragile </opinion_02>? <rationale_02> It seems risky for public spaces.</rationale_02>",
+                "modality": {
+                    "type": "img",
+                    "caption": "A delicate glass installation positioned in a public park, highlighting its fragility.",
+                    "id": "img_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but some installations incorporate protective measures that enhance durability without compromising aesthetics. The <aspect_02> design </aspect_02> becomes <opinion_03> innovative </opinion_03>, <rationale_03> ensuring it withstands public interaction.",
+                "annotation": "True, but some <target_01> installations </target_01> incorporate protective measures that enhance durability without compromising aesthetics. The <aspect_02> design </aspect_02> becomes <opinion_03> innovative </opinion_03>, <rationale_03> ensuring it withstands public interaction.</rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a good point, Charlie. I initially thought glass was inadequate for interaction due to its <opinion_04> fragile nature </opinion_04>, but knowing that design can adapt, I see potential for engaging experiences. This could really change how we perceive installations.",
+                "annotation": "That's a good point, Charlie. I initially thought glass was <opinion_04> inadequate for interaction </opinion_04> due to its <rationale_04> fragile nature, </rationale_04> but knowing that <rationale_05> design can adapt</rationale_05>, I see potential for engaging experiences. This could really change how we perceive installations.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "transparency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing light to filter beautifully through it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fragility",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fragile",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It seems risky for public spaces",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "innovative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "ensuring it withstands public interaction",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fragility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "inadequate for interaction",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "due to its fragile nature",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "see potential for engaging experiences",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "knowing that design can adapt",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Dana",
+                "target": "installation",
+                "aspect": "fragility",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Mateo"
+            },
+            {
+                "id": 2,
+                "name": "Sofia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find the abstract painting at the gallery incredibly intriguing. It has layers that evoke deep emotions.",
+                "annotation": "I find the <target_01> abstract painting </target_01> at the gallery <opinion_01> incredibly intriguing </opinion_01>. <aspect_01> It has layers that evoke deep emotions </aspect_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I appreciate its colors, I think its composition is somewhat chaotic. It makes it hard to focus on any one element.",
+                "annotation": "While I appreciate its <aspect_02> colors </aspect_02>, I think the <target_01> composition </target_01> is <opinion_02> somewhat chaotic </opinion_02>. <rationale_02> It makes it hard to focus on any one element </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Interestingly, the artist explained in an interview that the chaos represents the complexity of modern life. It could transform your view of its composition.",
+                "annotation": "Interestingly, the artist explained in an interview that the chaos <opinion_03> represents the complexity of modern life </opinion_03>. <rationale_03> It could transform your view of its composition </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An abstract painting with chaotic composition reflecting modern life's complexity, enhancing emotional impact.",
+                    "id": "img_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Oh, I didn't know that! Considering your points, I see how the chaos could provide a valuable narrative. Perhaps it's not as chaotic as I thought.",
+                "annotation": "<rationale_04> Considering your points </rationale_04>, I see how the chaos could provide a valuable narrative. <opinion_04> Perhaps it's not as chaotic as I thought </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract painting",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "layers",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It has layers that evoke deep emotions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mateo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract painting",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "composition",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat chaotic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It makes it hard to focus on any one element",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sofia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract painting",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "composition",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "represents the complexity of modern life",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It could transform your view of its composition",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mateo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "abstract painting",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "composition",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "not as chaotic as I thought",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "considering your points",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Mateo",
+            "target": "abstract painting",
+            "aspect": "composition",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophie"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Amara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently visited a modern art exhibit that showcased some fascinating installations.",
+                "annotation": "I recently visited a <target_01> modern art exhibit </target_01> that showcased some <opinion_01> fascinating </opinion_01> <aspect_01> installations </aspect_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An impressive modern art installation featuring neon lights and reflective surfaces.",
+                    "id": "img_0007"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That installation looks incredibly captivating! Do you think it conveys a strong emotional message?",
+                "annotation": "That <aspect_02> installation </aspect_02> looks <opinion_02> incredibly captivating </opinion_02>! <rationale_02> It seems vibrant and attention-grabbing, pulling viewers into its world.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I believe some installations can feel empty if they lack context or storytelling, but that one seems to have layers.",
+                "annotation": "I believe some <aspect_03> installations </aspect_03> can feel <opinion_03> empty </opinion_03> <rationale_03> if they lack context or storytelling, but that one seems to have layers.</rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Interestingly, I initially thought it was just flashy, but upon reflection, I see how it engages with the audience on different levels.",
+                "annotation": "Interestingly, I initially thought it was just <opinion_04> flashy </opinion_04>, <rationale_04> but upon reflection, I see how it engages with the audience on different levels.</rationale_04>",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art exhibit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "installations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showcased some fascinating installations.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art exhibit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "installation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredibly captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It seems vibrant and attention-grabbing, pulling viewers into its world.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Amara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art exhibit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "installations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "empty",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "if they lack context or storytelling, but that one seems to have layers.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art exhibit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "engagement",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "flashy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but upon reflection, I see how it engages with the audience on different levels.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "modern art exhibit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "engagement",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "engaging",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "upon deeper thought, it becomes clear how it invites interpretation.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sophie",
+                "target": "modern art exhibit",
+                "aspect": "engagement",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Bailey"
+            },
+            {
+                "id": 2,
+                "name": "Cameron"
+            },
+            {
+                "id": 3,
+                "name": "Drew"
+            },
+            {
+                "id": 4,
+                "name": "Emerson"
+            },
+            {
+                "id": 5,
+                "name": "Finley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I believe traditional weaving techniques have an incredibly intricate beauty that modern fabrics often lack.",
+                "annotation": "I believe <aspect_01> traditional weaving techniques </aspect_01> have an <opinion_01> incredibly intricate beauty </opinion_01> that <rationale_01> modern fabrics often lack </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A close-up of a beautifully woven tapestry showcasing its intricate patterns and colors.",
+                    "id": "img_0008"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! It's fascinating how the history behind each pattern adds character to the fabric.",
+                "annotation": "Absolutely! It's <opinion_02> fascinating </opinion_02> how <rationale_02> the history behind each pattern adds character to the fabric </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But do you think such complexity can sometimes overshadow the practicality of the fabrics?",
+                "annotation": "But do you think such complexity <opinion_03> can sometimes overshadow </opinion_03> the <aspect_02> practicality </aspect_02> of the fabrics? <rationale_03> It seems like it might limit their use in everyday items. </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a valid point, but I'd argue that it's precisely that uniqueness which makes traditional crafts so valuable.",
+                "annotation": "That's a <opinion_04> valid point </opinion_04>, but I'd argue that <aspect_01> uniqueness </aspect_01> is precisely what makes <target_01> traditional crafts </target_01> so <rationale_04> valuable </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I must say, the sustainability aspect of handmade crafts genuinely enhances their appeal compared to mass-produced items.",
+                "annotation": "I must say, the <aspect_03> sustainability </aspect_03> of handmade crafts <opinion_05> genuinely enhances </opinion_05> their appeal <rationale_05> compared to mass-produced items </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Initially, I thought traditional crafts were too time-consuming and tedious, but realizing their sustainability and artistic depth, I've come to appreciate them more.",
+                "annotation": "Initially, I thought <target_02> traditional crafts </target_02> were <opinion_06> too time-consuming and tedious </opinion_06>, but <rationale_06> realizing their sustainability and artistic depth </rationale_06>, I've come to <opinion_07> appreciate them more </opinion_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional weaving techniques",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "intricate beauty",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly intricate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "modern fabrics often lack",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bailey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional weaving techniques",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "character",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "the history behind each pattern adds character to the fabric",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cameron",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional weaving techniques",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "practicality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "can sometimes overshadow",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It seems like it might limit their use in everyday items.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Drew",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "uniqueness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "valid point",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "is precisely what makes traditional crafts so valuable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Emerson",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "handmade crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "sustainability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "genuinely enhances",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "compared to mass-produced items",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Finley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "time-consuming and tedious",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "too time-consuming and tedious",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "realizing their sustainability and artistic depth",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Finley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_07",
+                    "value": "appreciation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "appreciate them more",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "realizing their sustainability and artistic depth",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Finley",
+                "target": "traditional crafts",
+                "aspect": "time-consuming and tedious",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Reevaluation due to a deeper understanding"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Oliver"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Mia"
+            },
+            {
+                "id": 4,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been listening to this new jazz album, and its harmony is astonishing, creating an almost ethereal atmosphere that you can get lost in.",
+                "annotation": "I've been listening to this new <target_01> jazz album </target_01>, and its <aspect_01> harmony </aspect_01> is <opinion_01> astonishing </opinion_01>, <rationale_01> creating an almost ethereal atmosphere that you can get lost in </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I find the harmony beautiful, I think the tempo feels overly slow for my taste, which might bore people who prefer something more upbeat.",
+                "annotation": "While I find the <aspect_02> tempo </aspect_02> <opinion_02> overly slow </opinion_02>, <rationale_02> which might bore people who prefer something more upbeat </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A visual representation of a slow tempo in jazz music, depicted by a slow-moving musical note.",
+                    "id": "img_0009"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree. The slow tempo allows for deeper emotional expression, making each note resonate beautifully.",
+                "annotation": "I disagree. The <aspect_02> slow tempo </aspect_02> <opinion_03> allows for deeper emotional expression </opinion_03>, <rationale_03> making each note resonate beautifully </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a valid point, Noah. The emotional depth in slower tempos can indeed add to the overall impact. I think I'll give it another listen with that perspective in mind.",
+                "annotation": "That's a valid point, <rationale_04> Noah </rationale_04>. The <aspect_02> emotional depth </aspect_02> in slower tempos <opinion_04> can indeed add to the overall impact </opinion_04>. I think I'll give it another listen with that perspective in mind.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Honestly, both harmony and tempo play critical roles, but the richness of harmony can elevate any song. Jazz thrives on this complexity.",
+                "annotation": "Honestly, both <aspect_01> harmony </aspect_01> and <aspect_02> tempo </aspect_02> <opinion_05> play critical roles </opinion_05>, but the <aspect_01> richness of harmony </aspect_01> <opinion_06> can elevate any song </opinion_06>. <rationale_05> Jazz thrives on this complexity </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "jazz album",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "harmony",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "astonishing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "creating an almost ethereal atmosphere that you can get lost in",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "jazz album",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "tempo",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overly slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which might bore people who prefer something more upbeat",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "jazz album",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "tempo",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "allows for deeper emotional expression",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making each note resonate beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "jazz album",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "emotional depth",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "can indeed add to the overall impact",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I'll give it another listen with that perspective in mind",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "jazz album",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "harmony",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "play critical roles",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "Jazz thrives on this complexity",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Mia",
+                "target": "jazz album",
+                "aspect": "tempo",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            },
+            {
+                "id": 3,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the sculpture in the park is really compelling; it draws people's attention beautifully.",
+                "annotation": "I think the <target_01> sculpture in the park </target_01> is really <opinion_01> compelling </opinion_01>; <rationale_01> it draws people's attention beautifully </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A large abstract sculpture surrounded by vibrant flowers in a park.",
+                    "id": "img_0010"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I see why it's attention-grabbing, I feel it lacks a certain depth in its craftsmanship.",
+                "annotation": "While I see why it's attention-grabbing, I feel the sculpture lacks a <opinion_02> certain depth </opinion_02> in its <aspect_01> craftsmanship </aspect_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The interplay of shadows cast by the sculpture during sunset adds an enchanting quality to it, something that shouldn't be overlooked.",
+                "annotation": "The <aspect_02> interplay of shadows </aspect_02> cast by the sculpture adds an <opinion_03> enchanting quality </opinion_03> to it. <rationale_02> This is something that shouldn't be overlooked </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, I think the materials used feel a bit cheap, which detracts from its overall elegance.",
+                "annotation": "However, I think the <aspect_03> materials used </aspect_03> feel <opinion_04> a bit cheap </opinion_04>, <rationale_03> which detracts from its overall elegance </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "I used to believe the sculpture was just a fun addition to the park, but now I appreciate the layers of meaning it offers.",
+                "annotation": "I used to believe the <target_01> sculpture in the park </target_01> was just a <opinion_05> fun addition </opinion_05>, but <rationale_04> now I appreciate the layers of meaning it offers </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture in the park",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "craftsmanship",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "compelling",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it draws people's attention beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture in the park",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "craftsmanship",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "lacks a certain depth",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it lacks a certain depth in its craftsmanship",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture in the park",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interplay of shadows",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "enchanting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "this is something that shouldn't be overlooked",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture in the park",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "materials",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "a bit cheap",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which detracts from its overall elegance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture in the park",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "layers of meaning",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "fun addition",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "now I appreciate the layers of meaning it offers",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sam",
+                "target": "sculpture in the park",
+                "aspect": "layers of meaning",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00011",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lena"
+            },
+            {
+                "id": 1,
+                "name": "Maya"
+            },
+            {
+                "id": 2,
+                "name": "Raj"
+            },
+            {
+                "id": 3,
+                "name": "Samir"
+            },
+            {
+                "id": 4,
+                "name": "Tariq"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm so excited for the Diwali festival coming up next week! The decorations are always vibrant and colorful, truly capturing the essence of joy.",
+                "annotation": "I'm so excited for <target_01> the Diwali festival </target_01> coming up next week! The <aspect_01> decorations </aspect_01> are <opinion_01> vibrant and colorful </opinion_01>, <rationale_01> truly capturing the essence of joy </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I love the food during Diwali! The sweets are incredibly delicious and offer a taste of tradition that can't be found anywhere else.",
+                "annotation": "I love the food during <target_01> Diwali </target_01>! The <aspect_02> sweets </aspect_02> are <opinion_02> incredibly delicious </opinion_02>, <rationale_02> offering a taste of tradition that can't be found anywhere else </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Absolutely! But I think the noise levels can be overwhelming with all the fireworks. They are quite disruptive, especially for pets.",
+                "annotation": "Absolutely! But I think <aspect_03> the noise levels </aspect_03> can be <opinion_03> overwhelming </opinion_03>, <rationale_03> especially for pets </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I understand your concern, but consider that the fireworks symbolize joy and celebration. They add an exciting element to the festivities, which is memorable for families.",
+                "annotation": "I understand your concern, but consider that <rationale_04> the fireworks symbolize joy and celebration </rationale_04>. They add an <opinion_04> exciting element </opinion_04> to the festivities, which is memorable for families.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 2,
+                "utterance": "You make a good point! I hadn't thought about it that way. The fireworks indeed create memorable moments that enhance the celebration.",
+                "annotation": "You make a good point! I hadn't thought about <rationale_05> it that way </rationale_05>. The fireworks indeed create <opinion_05> memorable moments </opinion_05> that enhance the celebration.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Colorful fireworks lighting up the night sky during a festival celebration.",
+                    "id": "img_0011"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "decorations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "vibrant and colorful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "truly capturing the essence of joy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sweets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredibly delicious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "offering a taste of tradition that can't be found anywhere else",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "noise levels",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially for pets",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Samir",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "fireworks",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exciting element",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they symbolize joy and celebration",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali festival",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "fireworks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "memorable moments",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "that enhance the celebration",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Raj",
+                "target": "Diwali festival",
+                "aspect": "fireworks",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00012",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Leila"
+            },
+            {
+                "id": 1,
+                "name": "Tom"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've come across a collection of landscape photographs. They're exceptionally vibrant, capturing the essence of nature beautifully.",
+                "annotation": "I've come across a collection of <target_01> landscape photographs </target_01>. They're <opinion_01> exceptionally vibrant </opinion_01>, <rationale_01> capturing the essence of nature beautifully </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, Leila! But I find the compositions a bit chaotic, lacking focus and leading the eye astray.",
+                "annotation": "But I find the <aspect_02> compositions </aspect_02> a bit <opinion_02> chaotic </opinion_02>, <rationale_02> lacking focus and leading the eye astray </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A busy landscape photograph featuring multiple elements drawing attention away from the focal point.",
+                    "id": "img_0012"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's an interesting point, Tom. However, I believe that the chaotic nature of the compositions can create a sense of discovery, which adds to the viewer's experience.",
+                "annotation": "I believe that the <aspect_02> chaotic nature of the compositions </aspect_02> can be <opinion_03> enriching </opinion_03>, <rationale_03> creating a sense of discovery, which adds to the viewer's experience </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Leila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "landscape photographs",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "vibrancy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptionally vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "capturing the essence of nature beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "landscape photographs",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "compositions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "chaotic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "lacking focus and leading the eye astray",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "landscape photographs",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "compositions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "enriching",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "creating a sense of discovery, which adds to the viewer's experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Tom",
+            "target": "landscape photographs",
+            "aspect": "compositions",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00013",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Riley"
+            },
+            {
+                "id": 1,
+                "name": "Morgan"
+            },
+            {
+                "id": 2,
+                "name": "Jamie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just discovered this incredible New Media Art installation called Virtual Reflections. The interactive aspect is transformative, engaging viewers in immersive experiences that challenge traditional viewing.",
+                "annotation": "I just discovered this incredible <target_01> New Media Art </target_01> installation called <target_02> Virtual Reflections </target_02>. The <aspect_01> interactive aspect </aspect_01> is <opinion_01> transformative </opinion_01>, <rationale_01> engaging viewers in immersive experiences that challenge traditional viewing </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! I think the installation's concept is innovative, but personally, the interface feels a bit overwhelming at times.",
+                "annotation": "That's interesting! I think the <aspect_02> interface </aspect_02> feels <opinion_02> a bit overwhelming </opinion_02>. <rationale_02> It can distract from the art itself, making it hard to connect with the deeper meaning </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I can see that perspective, but the interface is actually what makes it exceptional. It's intricate, allowing for a level of personal interaction that traditional art can't offer.",
+                "annotation": "I can see that perspective, but the <aspect_02> interface </aspect_02> is <opinion_03> exceptional </opinion_03>. <rationale_03> It's intricate, allowing for a level of personal interaction that traditional art can't offer </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You've got a point. I used to struggle with it, but I appreciate how it shapes the viewer's experience. The interaction leads to a richer understanding, doesn't it?",
+                "annotation": "You've got a point. I appreciate how the <aspect_02> interaction </aspect_02> shapes the viewer's experience. It leads to a <opinion_04> richer understanding </opinion_04>, <rationale_04> allowing us to engage with the artwork on a deeper level </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Visitors interacting with the New Media Art installation, highlighting the intricate interface.",
+                    "id": "img_0013"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "New Media Art",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interactive aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "transformative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "engaging viewers in immersive experiences that challenge traditional viewing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Virtual Reflections",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can distract from the art itself, making it hard to connect with the deeper meaning",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Virtual Reflections",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's intricate, allowing for a level of personal interaction that traditional art can't offer",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Virtual Reflections",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interaction",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "richer understanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "allowing us to engage with the artwork on a deeper level",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Morgan",
+                "target": "Virtual Reflections",
+                "aspect": "interaction",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00014",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you heard the new album by The Harmonics? The variety in musical styles is simply exhilarating.",
+                "annotation": "Have you heard the new album by <target_01> The Harmonics </target_01>? The <aspect_01> variety in musical styles </aspect_01> is <opinion_01> exhilarating </opinion_01>, <rationale_01> it keeps the listener engaged and excited throughout the tracks. </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I actually thought the transitions were jarring. I found it hard to focus on the overall message.",
+                "annotation": "I actually thought the <aspect_02> transitions </aspect_02> were <opinion_02> jarring </opinion_02>. <rationale_02> I found it hard to focus on the overall message. </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But isn't it the eclecticism that makes it unique? The way they merge genres adds depth, don't you think? In my view, the transitions are intriguing.",
+                "annotation": "But isn't it <rationale_03> the eclecticism that makes it unique? The way they merge genres adds depth, don't you think? </rationale_03> In my view, the <aspect_02> transitions </aspect_02> are <opinion_03> intriguing </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You might have a point; I see how the eclecticism can create a vibrant listening experience. Maybe the transitions serve a purpose after all.",
+                "annotation": "You might have a point; I see how the <aspect_02> eclecticism </aspect_02> can create a <opinion_04> vibrant </opinion_04> listening experience. <rationale_04> Maybe the transitions serve a purpose after all. </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A colorful waveform illustrating the dynamic transitions between different musical genres.",
+                    "id": "img_0014"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "variety in musical styles",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it keeps the listener engaged and excited throughout the tracks.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "transitions",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "jarring",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I found it hard to focus on the overall message.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "transitions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the eclecticism that makes it unique; the way they merge genres adds depth.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "eclecticism",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Maybe the transitions serve a purpose after all.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "The Harmonics",
+                "aspect": "transitions",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00015",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently attended an exhibition showcasing surreal photography. The dreamlike images are mesmerizing, evoking a sense of wonder.",
+                "annotation": "I recently attended an exhibition showcasing <target_01> surreal photography </target_01>. The <aspect_01> dreamlike images </aspect_01> are <opinion_01> mesmerizing </opinion_01>, <rationale_01> evoking a sense of wonder </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I can see that. However, some of the compositions felt chaotic. They were a bit overwhelming to absorb.",
+                "annotation": "I can see that. However, some of the <aspect_02> compositions </aspect_02> felt <opinion_02> chaotic </opinion_02>. <rationale_02> They were a bit overwhelming to absorb </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But I believe that the chaos actually adds depth to the narrative. Each image forces you to find meaning within the disorder. The complexity can be enriching.",
+                "annotation": "But I believe that <rationale_03> the chaos actually adds depth to the narrative. Each image forces you to find meaning within the disorder </rationale_03>. The <aspect_02> complexity </aspect_02> can be <opinion_03> enriching </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Now that I think about it, you're right. The complex layering invites us to delve deeper, rather than just skimming the surface.",
+                "annotation": "Now that I think about it, you're right. The <aspect_02> complex layering </aspect_02> is <opinion_04> insightful </opinion_04>. <rationale_04> It challenges viewers to delve deeper, rather than just skimming the surface </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A surreal photograph showcasing complex layering and chaotic elements that provoke deeper reflection.",
+                    "id": "img_0015"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "surreal photography",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "dreamlike images",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "mesmerizing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "evoking a sense of wonder",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "surreal photography",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "compositions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "chaotic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They were a bit overwhelming to absorb",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "surreal photography",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "enriching",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the chaos actually adds depth to the narrative. Each image forces you to find meaning within the disorder",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "surreal photography",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "complex layering",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "insightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It challenges viewers to delve deeper, rather than just skimming the surface",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sophia",
+                "target": "surreal photography",
+                "aspect": "compositions",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00016",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Maya"
+            },
+            {
+                "id": 2,
+                "name": "Rin"
+            },
+            {
+                "id": 3,
+                "name": "Leo"
+            },
+            {
+                "id": 4,
+                "name": "Sam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you seen the latest exhibit on digital installations? The interactivity is revolutionary in engaging the audience.",
+                "annotation": "Have you seen the latest exhibit on <target_01> digital installations </target_01>? The <aspect_01> interactivity </aspect_01> is <opinion_01> revolutionary </opinion_01>, <rationale_01> in engaging the audience </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I get that, but isn’t it also somewhat distracting? Sometimes too much interactivity can overshadow the art itself.",
+                "annotation": "I get that, but isn’t <aspect_02> interactivity </aspect_02> <opinion_02> somewhat distracting </opinion_02>? <rationale_02> Sometimes too much interactivity can overshadow the art itself </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "That’s an interesting point. Still, the way it allows personalized experiences is thrilling. It lets us connect to the art uniquely.",
+                "annotation": "That’s an interesting point. Still, <aspect_03> personalized experiences </aspect_03> are <opinion_03> thrilling </opinion_03>, <rationale_03> as it lets us connect to the art uniquely </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An interactive digital installation with viewers engaged uniquely.",
+                    "id": "img_0016"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "I love how digital art can evolve over time, adapting and transforming with viewer engagement. That dynamism is captivating!",
+                "annotation": "I love how <aspect_04> digital art </aspect_04> can <opinion_04> dynamically evolve </opinion_04> <rationale_04> with viewer engagement, adapting and transforming </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "It sure is, but I worry that this fast pace might lead to a lack of depth in the viewer’s experience over time.",
+                "annotation": "It sure is, but I worry that <aspect_05> fast pace </aspect_05> might lead to a <opinion_05> lack of depth </opinion_05> <rationale_05> in the viewer’s experience over time </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "In my experience, once you really focus on a digital piece, its depth emerges profoundly, but it does take an effort to engage fully.",
+                "annotation": "In my experience, once you really focus on a <target_01> digital piece </target_01>, its <aspect_06> depth </aspect_06> <opinion_06> emerges profoundly </opinion_06>, <rationale_06> but it does take an effort to engage fully </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 0,
+                "utterance": "Exactly! I used to think that merely being interactive was enough, but after some of my own experiences, I see the value of depth a lot more.",
+                "annotation": "Exactly! I used to think that being <aspect_07> interactive </aspect_07> was <opinion_07> enough </opinion_07>, but <rationale_07> after some of my own experiences, I see the value of depth a lot more </rationale_07>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital installations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interactivity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "in engaging the audience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital installations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interactivity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat distracting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Sometimes too much interactivity can overshadow the art itself",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital installations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "personalized experiences",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "thrilling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as it lets us connect to the art uniquely",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Rin",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital installations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "digital art",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "dynamically evolve",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "with viewer engagement, adapting and transforming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital installations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "fast pace",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "lack of depth",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "in the viewer’s experience over time",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital piece",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "depth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "emerges profoundly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "but it does take an effort to engage fully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "digital installations",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_07",
+                    "value": "interactive",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "enough",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "but after some of my own experiences, I see the value of depth a lot more",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Alex",
+            "target": "digital installations",
+            "aspect": "interactive",
+            "initial sentiment": "positive",
+            "flipped sentiment": "neutral",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    }
+]

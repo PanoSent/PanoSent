@@ -1,0 +1,3936 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lena"
+            },
+            {
+                "id": 1,
+                "name": "Mark"
+            },
+            {
+                "id": 2,
+                "name": "Jesse"
+            },
+            {
+                "id": 3,
+                "name": "Alex"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been looking into budget-friendly travel options lately. Hostels can be surprisingly convenient, offering a great opportunity to meet people.",
+                "annotation": "I've been looking into <target_01> budget-friendly travel options </target_01> lately. <aspect_01> Hostels </aspect_01> can be <opinion_01> surprisingly convenient </opinion_01>, <rationale_01> offering a great opportunity to meet people </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I don't know. Hostels often seem a bit cramped and noisy, which can ruin the experience.",
+                "annotation": "I don't know. <aspect_02> Hostels </aspect_02> often seem <opinion_02> a bit cramped and noisy </opinion_02>, <rationale_02> which can ruin the experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But many hostels provide common areas and organized activities that can enhance the social aspect of travel. I'd say they are enjoyable.",
+                "annotation": "But many <aspect_01> hostels </aspect_01> provide common areas and organized activities that can <opinion_03> enhance the social aspect of travel </opinion_03>. <rationale_03> I'd say they are enjoyable </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "But many hostels provide common areas and organized activities that can enhance the social aspect of travel.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "I suppose that makes sense. When I traveled last summer, the hostel vibe was way better than I expected. I guess they can be vibrant experiences after all.",
+                "annotation": "I suppose that makes sense. When I traveled last summer, <aspect_02> the hostel vibe </aspect_02> was <opinion_04> way better than I expected </opinion_04>. <rationale_04> I guess they can be vibrant experiences after all </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A lively scene in a hostel, with travelers enjoying activities together.",
+                    "id": "vid_0001"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget-friendly travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "Hostels",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "surprisingly convenient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering a great opportunity to meet people",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget-friendly travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "Hostels",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit cramped and noisy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can ruin the experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jesse",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget-friendly travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "Hostels",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "enjoyable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "that can enhance the social aspect of travel",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget-friendly travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "the hostel vibe",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "way better than I expected",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I guess they can be vibrant experiences after all",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Mark",
+                "target": "budget-friendly travel options",
+                "aspect": "the hostel vibe",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Sophie"
+            },
+            {
+                "id": 2,
+                "name": "Max"
+            },
+            {
+                "id": 3,
+                "name": "Emma"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've started using electric bikes for my commute rather than driving. They're incredibly efficient for navigating the city.",
+                "annotation": "I've started using <target_01> electric bikes </target_01> for my commute rather than driving. They're <aspect_01> incredibly efficient </aspect_01> for <opinion_01> navigating the city </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I see what you mean! I love how green they are, reducing our carbon footprint significantly.",
+                "annotation": "I see what you mean! I love how <aspect_02> green </aspect_02> they are, <opinion_02> reducing our carbon footprint significantly </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Absolutely! Though, I find them a bit awkward at times, especially with balance on uneven surfaces.",
+                "annotation": "Absolutely! Though, I find <aspect_03> them </aspect_03> <opinion_03> a bit awkward </opinion_03>, especially with balance on uneven surfaces.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I find them a bit awkward at times.",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That’s a fair point, Max. However, I think with a little practice, they can be quite manageable. The benefits outweigh the awkwardness.",
+                "annotation": "That’s a fair point, Max. However, I think <aspect_03> with a little practice </aspect_03>, they can be <opinion_04> quite manageable </opinion_04>. The benefits outweigh the awkwardness.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A compilation of individuals riding electric bikes successfully on uneven terrains.",
+                    "id": "vid_0002"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric bikes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for navigating the city",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric bikes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "greenness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "significantly reducing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "our carbon footprint",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric bikes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "balance",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a bit awkward",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially with balance on uneven surfaces",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric bikes",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "manageability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite manageable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "The benefits outweigh the awkwardness",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Sophie",
+                "target": "electric bikes",
+                "aspect": "manageability",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Jordan"
+            },
+            {
+                "id": 1,
+                "name": "Avery"
+            },
+            {
+                "id": 2,
+                "name": "Rowan"
+            },
+            {
+                "id": 3,
+                "name": "Skyler"
+            },
+            {
+                "id": 4,
+                "name": "Blake"
+            },
+            {
+                "id": 5,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I believe eco-friendly accommodations are essential for green travel because they significantly reduce our carbon footprint.",
+                "annotation": "I believe <aspect_01> eco-friendly accommodations </aspect_01> are <opinion_01> essential </opinion_01> for <target_01> green travel </target_01> because <rationale_01> they significantly reduce our carbon footprint </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I believe eco-friendly accommodations are essential for green travel because they significantly reduce our carbon footprint.",
+                    "id": "aud_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but cutting-edge technologies can make a massive difference too. Solar panels on hotel roofs, for example, enhance sustainability greatly.",
+                "annotation": "I agree, but <aspect_02> cutting-edge technologies </aspect_02> can <opinion_02> make a massive difference </opinion_02> too. <rationale_02> Solar panels on hotel roofs, for example, enhance sustainability greatly </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Certainly, but I'm skeptical about the implementation of these technologies in budget accommodations; it seems costly.",
+                "annotation": "Certainly, but I'm <opinion_03> skeptical </opinion_03> about the <aspect_02> implementation of these technologies </aspect_02> in <target_01> budget accommodations </target_01>; <rationale_03> it seems costly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Your point is valid, but I saw a recent video showing how some budget hotels are integrating solar technologies. It's feasible!",
+                "annotation": "Your point is valid, but I saw a <aspect_02> recent video </aspect_02> showing how some <target_01> budget hotels </target_01> are <opinion_04> integrating solar technologies </opinion_04>. <rationale_04> It's feasible! </rationale_04>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video showcasing budget hotels integrating solar panels and green technologies.",
+                    "id": "vid_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I think the awareness around green travel is growing, which is great. More consumers are valuing sustainability in their choices.",
+                "annotation": "I think the <aspect_03> awareness </aspect_03> around <target_01> green travel </target_01> is <opinion_05> growing </opinion_05>, which is great. <rationale_05> More consumers are valuing sustainability in their choices </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Initially, I believed green travel was a luxury rather than a necessity. However, learning about its significant benefits for the environment has completely shifted my view.",
+                "annotation": "Initially, I believed <aspect_04> green travel </aspect_04> was <opinion_06> a luxury </opinion_06> rather than <target_01> a necessity </target_01>. <rationale_06> However, learning about its significant benefits for the environment </rationale_06> has completely shifted my view.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "eco-friendly accommodations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "essential",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "they significantly reduce our carbon footprint",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cutting-edge technologies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "make a massive difference",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "solar panels on hotel roofs, for example, enhance sustainability greatly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Rowan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "implementation of these technologies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "skeptical",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it seems costly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Skyler",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "recent video",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "integrating solar technologies",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it's feasible!",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Blake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "awareness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "growing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "more consumers are valuing sustainability in their choices",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "a luxury",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "learning about its significant benefits for the environment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "green travel",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "a necessity",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "learning about its significant benefits for the environment",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Casey",
+                "target": "green travel",
+                "aspect": "green travel",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Alex"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Casey"
+            },
+            {
+                "id": 5,
+                "name": "Morgan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been really fascinated by my solo hiking trips recently; the variety in landscapes is stunning.",
+                "annotation": "I've been really <opinion_01> fascinated by </opinion_01> my <target_01> solo hiking trips </target_01>; the <aspect_01> variety in landscapes </aspect_01> is stunning.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I feel the same about solo travel experiences. The independence gained is liberating.",
+                "annotation": "I feel the same about <target_02> solo travel experiences </target_02>. The <aspect_02> independence gained </aspect_02> is <opinion_02> liberating </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "You both love the freedom of exploring alone, but I find solo travel a bit daunting. I'd say it's intimidating when you're in new places.",
+                "annotation": "You both love the freedom of exploring alone, but I find <target_02> solo travel </target_02> a bit <opinion_03> intimidating </opinion_03>. <rationale_01> It's daunting when you're in new places. </rationale_01>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I find solo travel a bit daunting.",
+                    "id": "aud_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think like you, Jordan, but after my last solo venture, I see it as an adventure. The thrill is exhilarating!",
+                "annotation": "I used to think like you, Jordan, but after my last <target_02> solo venture </target_02>, I see it as an <opinion_04> exhilarating </opinion_04> <aspect_03> adventure </aspect_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A solo traveler navigating a challenging but exciting hiking trail.",
+                    "id": "vid_0004"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trips",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "variety in landscapes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinated by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "the variety in landscapes is stunning",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "solo travel experiences",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "independence gained",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "liberating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "the independence gained is liberating",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "solo travel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "intimidating",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "intimidating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it's daunting when you're in new places",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "solo venture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "adventure",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the thrill is exhilarating",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Jordan",
+            "target": "solo travel",
+            "aspect": "intimidating",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Olivia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently switched to green travel options, and I find them incredibly eco-friendly, reducing my carbon footprint significantly.",
+                "annotation": "I've recently switched to <target_01> green travel options </target_01>, and I find them <opinion_01> incredibly eco-friendly </opinion_01>, <rationale_01> reducing my carbon footprint significantly </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting, but I'm concerned that some options might be less convenient, which seems frustrating at times.",
+                "annotation": "That's interesting, but I'm concerned that some <aspect_02> options </aspect_02> might be <opinion_02> less convenient </opinion_02>, <rationale_02> which seems frustrating at times </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "That's interesting, but I'm concerned that some options might be less convenient.",
+                    "id": "aud_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I understand where you're coming from, Liam. However, I think the benefits, like sustainability, outweigh those convenience issues, which are often temporary.",
+                "annotation": "I understand where you're coming from, Liam. However, I think the <aspect_03> benefits </aspect_03>, like sustainability, outweigh those <opinion_03> convenience issues </opinion_03>, <rationale_03> which are often temporary </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A scenic view of a sustainable travel destination, illustrating the beauty of eco-friendly travel.",
+                    "id": "img_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Absolutely, and when I travel greenly, I really enjoy the experience of connecting with nature, which feels enriching.",
+                "annotation": "Absolutely, and when I travel <target_01> greenly </target_01>, I really enjoy the <aspect_04> experience </aspect_04> of connecting with nature, which feels <opinion_04> enriching </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Reflecting on Olivia's point, I may need to reconsider my stance—convenience can sometimes be overlooked for the greater good of sustainability.",
+                "annotation": "Reflecting on Olivia's point, I may need to reconsider my stance—<opinion_05> convenience can sometimes be overlooked </opinion_05> for the greater good of sustainability.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "eco-friendliness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly eco-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "reducing my carbon footprint significantly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "less convenient",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which seems frustrating at times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "outweigh those convenience issues",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which are often temporary",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enriching",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "connecting with nature",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "convenience",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "can sometimes be overlooked",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "for the greater good of sustainability",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Liam",
+            "target": "green travel options",
+            "aspect": "convenience",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ella"
+            },
+            {
+                "id": 1,
+                "name": "Ryan"
+            },
+            {
+                "id": 2,
+                "name": "Tina"
+            },
+            {
+                "id": 3,
+                "name": "Milo"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring green travel options, particularly eco-friendly accommodations. They are commendable for their sustainability practices.",
+                "annotation": "I've been exploring <target_01> green travel options </target_01>, particularly <target_02> eco-friendly accommodations </target_02>. They are <opinion_01> commendable </opinion_01> for their <aspect_01> sustainability practices </aspect_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, Ella, but I've noticed many eco-friendly hotels are still quite costly. It's frustrating that sustainability often comes with a high price tag.",
+                "annotation": "I agree, Ella, but I've noticed many <target_02> eco-friendly hotels </target_02> are <opinion_02> costly </opinion_02>. <rationale_02> It's frustrating that sustainability often comes with a high price tag </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Many eco-friendly hotels are still quite costly.",
+                    "id": "aud_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's true, Ryan. However, I think it’s essential to weigh the environmental benefits against the cost. Some options are very affordable and provide excellent experiences.",
+                "annotation": "That's true, Ryan. However, I think it’s essential to weigh the <aspect_03> environmental benefits </aspect_03> against the cost. Some options are <opinion_03> very affordable </opinion_03> and <rationale_03> provide excellent experiences </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Additionally, the experience at an eco-friendly hotel can be unique. The connection with nature is often stronger than at standard hotels.",
+                "annotation": "Additionally, the <aspect_04> experience at an eco-friendly hotel </aspect_04> can be <opinion_04> unique </opinion_04>. <rationale_04> The connection with nature is often stronger than at standard hotels </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A scenic video showcasing eco-friendly accommodations surrounded by nature.",
+                    "id": "vid_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "I hadn’t thought about that perspective. Perhaps we should prioritize the experience and environmental impact over the price.",
+                "annotation": "I hadn’t thought about that perspective. Perhaps we should prioritize the <aspect_05> experience and environmental impact </aspect_05> over the price, <opinion_05> recognizing its value </opinion_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "green travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sustainability practices",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "commendable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for their sustainability practices",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ryan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "eco-friendly hotels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "costly",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's frustrating that sustainability often comes with a high price tag",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "eco-friendly hotels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "environmental benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "very affordable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "provide excellent experiences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Milo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "eco-friendly hotel",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "unique",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the connection with nature is often stronger than at standard hotels",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ryan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "eco-friendly hotels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "experience and environmental impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "recognizing its value",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "perhaps we should prioritize the experience over the price",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Ryan",
+            "target": "eco-friendly hotels",
+            "aspect": "cost",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emily"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Isabella"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Mia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find sea cruises incredibly relaxing, with such beautiful views of the ocean and coastline.",
+                "annotation": "I find <target_01> sea cruises </target_01> <opinion_01> incredibly relaxing </opinion_01>, <rationale_01> with such beautiful views of the ocean and coastline </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A stunning view from a cruise ship, showing the expansive ocean and dramatic coastline.",
+                    "id": "img_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "The onboard dining options are usually diverse and delicious, which adds to the overall experience.",
+                "annotation": "The <aspect_02> onboard dining options </aspect_02> are <opinion_02> diverse and delicious </opinion_02>, <rationale_02> which adds to the overall experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I think the activities sometimes feel repetitive, which makes the cruise less exciting.",
+                "annotation": "However, I think the <aspect_03> activities </aspect_03> feel <opinion_03> repetitive </opinion_03>, <rationale_03> which makes the cruise less exciting </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to agree with that, but I recently found out there are many unique themed cruises which could change that perspective.",
+                "annotation": "I used to agree with that, but <rationale_04> I recently found out there are many unique themed cruises </rationale_04> which could <opinion_04> change that perspective </opinion_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I was skeptical about sea cruises initially, thinking they might not be varied enough, but now I’ve seen how much fun themed events can be!",
+                "annotation": "<rationale_05> I was skeptical about sea cruises initially, thinking they might not be varied enough </rationale_05>, but <opinion_05> now I’ve seen how much fun themed events can be </opinion_05>!",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I was skeptical about sea cruises initially, but now I’ve seen how much fun themed events can be!",
+                    "id": "aud_0007"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruises",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "views",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly relaxing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with such beautiful views of the ocean and coastline",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruises",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "onboard dining options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "diverse and delicious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which adds to the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruises",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "activities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "repetitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which makes the cruise less exciting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruises",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "unique themed cruises",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "changed",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I recently found out there are many unique themed cruises",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruises",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "variety",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "fun",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "I was skeptical about sea cruises initially, thinking they might not be varied enough",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Mia",
+                "target": "sea cruises",
+                "aspect": "variety",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Nina"
+            },
+            {
+                "id": 1,
+                "name": "Alex"
+            },
+            {
+                "id": 2,
+                "name": "Ravi"
+            },
+            {
+                "id": 3,
+                "name": "Sophia"
+            },
+            {
+                "id": 4,
+                "name": "Leo"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently visited the ancient city of Petra, and its rock-cut architecture is breathtaking. It's unlike anything I've seen.",
+                "annotation": "I've recently visited the <target_01> ancient city of Petra </target_01>, and its <aspect_01> rock-cut architecture </aspect_01> is <opinion_01> breathtaking </opinion_01>. <rationale_01> It's unlike anything I've seen </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree! The sheer scale of the structures impresses me too, making it a significant heritage site for history lovers.",
+                "annotation": "I agree! The <aspect_02> scale of the structures </aspect_02> <rationale_02> impresses me too, making it a significant heritage site for history lovers </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "When I went there, I found the preservation of the site somewhat lacking. I worry about the effects of tourism on its integrity.",
+                "annotation": "When I went there, I found the <aspect_03> preservation of the site </aspect_03> <opinion_03> somewhat lacking </opinion_03>. <rationale_03> I worry about the effects of tourism on its integrity </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a fair concern, Ravi. However, the local authorities have started implementing measures to protect it. I think it will improve over time.",
+                "annotation": "That's a fair concern, <rationale_04> but the local authorities have started implementing measures to protect it </rationale_04>. <opinion_04> I think it will improve over time </opinion_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Footage showing local authorities conducting preservation efforts at Petra.",
+                    "id": "vid_0006"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I also believe they're trying hard to enhance visitor education, which is crucial for preserving such sites.",
+                "annotation": "<opinion_05> I also believe they're trying hard </opinion_05> to enhance <aspect_04> visitor education </aspect_04>, <rationale_05> which is crucial for preserving such sites </rationale_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "They're enhancing visitor education, crucial for preservation.",
+                    "id": "aud_0008"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "With that in mind, I suppose I can be more optimistic about the efforts in place. Change does take time.",
+                "annotation": "<rationale_06> With that in mind </rationale_06>, I suppose I can be <opinion_06> more optimistic </opinion_06> about the <aspect_03> preservation of the site </aspect_03>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ancient city of Petra",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "rock-cut architecture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's unlike anything I've seen",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ancient city of Petra",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "scale of the structures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it a significant heritage site for history lovers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ancient city of Petra",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "preservation of the site",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "somewhat lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I worry about the effects of tourism on its integrity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ancient city of Petra",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "preservation of the site",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "will improve",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the local authorities have started implementing measures to protect it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ancient city of Petra",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "visitor education",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "trying hard",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "which is crucial for preserving such sites",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "ancient city of Petra",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "preservation of the site",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more optimistic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "with that in mind",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ravi",
+                "target": "ancient city of Petra",
+                "aspect": "preservation of the site",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Aiden"
+            },
+            {
+                "id": 1,
+                "name": "Riley"
+            },
+            {
+                "id": 2,
+                "name": "Skylar"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently taken a solo hiking trip, and the scenery was breathtaking.",
+                "annotation": "I've recently taken a <target_01> solo hiking trip </target_01>, and the <aspect_01> scenery </aspect_01> was <opinion_01> breathtaking </opinion_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A scenic view from a mountain trail showcasing lush landscapes and clear skies.",
+                    "id": "vid_0007"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds incredible! But did you feel isolated at any point, given it was just you?",
+                "annotation": "That sounds <opinion_02> incredible </opinion_02>! But <rationale_02> did you feel isolated at any point, given it was just you? </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Honestly, I found solitude refreshing, even if it was a bit overwhelming during the quiet parts.",
+                "annotation": "Honestly, I found <aspect_02> solitude </aspect_02> <opinion_03> refreshing </opinion_03>, <rationale_03> even if it was a bit overwhelming during the quiet parts </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "I totally get that. I think solitude can be a mixed blessing. Did you have any audio guides during your hike?",
+                "annotation": "I totally get that. I think <aspect_03> solitude </aspect_03> can be a <opinion_04> mixed blessing </opinion_04>. <rationale_04> Did you have any audio guides during your hike? </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Yes, I played some nature sounds while trekking. It made the experience a lot more calming and immersive.",
+                "annotation": "Yes, I played some <aspect_04> nature sounds </aspect_04> while trekking. It <opinion_05> made the experience a lot more calming </opinion_05> and <opinion_06> immersive </opinion_06>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Sounds of flowing water and rustling leaves.",
+                    "id": "aud_0009"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "That sounds intriguing! It's fascinating how audio can transform your perspective in such settings.",
+                "annotation": "That sounds <opinion_07> intriguing </opinion_07>! It's fascinating how <aspect_05> audio </aspect_05> can <rationale_05> transform your perspective in such settings </rationale_05>.",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 1,
+                "utterance": "I might try that on my next trip. But did the isolation ever make you rethink solo adventures?",
+                "annotation": "I might try that on my next trip. But <aspect_02> isolation </aspect_02> ever make you <opinion_08> rethink </opinion_08> solo adventures?",
+                "modality": "None",
+                "reply": 5
+            },
+            {
+                "index": 7,
+                "speaker": 0,
+                "utterance": "Initially, I was unsure about going solo, but the solitude allowed me to reflect deeply. Now I value these experiences more.",
+                "annotation": "Initially, I was <opinion_09> unsure </opinion_09> about going solo, but <rationale_06> the solitude allowed me to reflect deeply </rationale_06>. Now I <opinion_10> value </opinion_10> these experiences more.",
+                "modality": "None",
+                "reply": 6
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Aiden",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "scenery",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "scenery",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "did you feel isolated at any point, given it was just you?",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Skylar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "solitude",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "even if it was a bit overwhelming during the quiet parts",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "solitude",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "mixed blessing",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Aiden",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "nature sounds",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "calming",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "made the experience a lot more calming and immersive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Skylar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "audio",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "transform your perspective in such settings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "isolation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "rethink",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Aiden",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "solitude",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_09",
+                    "value": "unsure",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "the solitude allowed me to reflect deeply",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Aiden",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solo hiking trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "solitude",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_10",
+                    "value": "value",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "now I value these experiences more",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Aiden",
+                "target": "solo hiking trip",
+                "aspect": "solitude",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ali"
+            },
+            {
+                "id": 1,
+                "name": "Li"
+            },
+            {
+                "id": 2,
+                "name": "Samira"
+            },
+            {
+                "id": 3,
+                "name": "Raj"
+            },
+            {
+                "id": 4,
+                "name": "Tina"
+            },
+            {
+                "id": 5,
+                "name": "Omar"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently immersed myself in the vibrant street culture during my trip to Tokyo, and the food was incredibly diverse, offering flavors I'd never encountered before.",
+                "annotation": "I recently immersed myself in the vibrant street culture during my trip to <target_01> Tokyo </target_01>, and the <aspect_01> food </aspect_01> was <opinion_01> incredibly diverse </opinion_01>, <rationale_01> offering flavors I'd never encountered before </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's fantastic! However, some dishes can be dauntingly spicy, which can be overwhelming for those not used to intense flavors.",
+                "annotation": "That's fantastic! However, some dishes can be <opinion_02> dauntingly spicy </opinion_02>, <rationale_02> which can be overwhelming for those not used to intense flavors </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "That's fantastic! However, some dishes can be dauntingly spicy.",
+                    "id": "aud_0010"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Interestingly, I found that trying the milder versions was a great way to adapt. The tempura was surprisingly light and flavorful.",
+                "annotation": "Interestingly, I found that trying the milder versions was <opinion_03> a great way to adapt </opinion_03>. <rationale_03> The tempura was surprisingly light and flavorful </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think that spicy food was my absolute favorite, but now I realize that exploring milder options can truly enhance the experience, as Ali mentioned about the tempura.",
+                "annotation": "I used to think that <opinion_04> spicy food was my absolute favorite </opinion_04>, but now I realize that <rationale_04> exploring milder options can truly enhance the experience </rationale_04>, as Ali mentioned about the tempura.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A visual montage showcasing various food experiences in Tokyo, focusing on both spicy and mild dishes, including tempura.",
+                    "id": "vid_0008"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I entirely agree! The variety is what makes cultural experiences so enriching, and I found that the sushi in Tokyo had a freshness that was unparalleled, which made it exceptional.",
+                "annotation": "I entirely agree! The <aspect_02> variety </aspect_02> is <opinion_05> what makes cultural experiences so enriching </opinion_05>, <rationale_05> and I found that the sushi in Tokyo had a freshness that was unparalleled, which made it exceptional </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Absolutely! I find the culinary arts very engaging, especially when I can share meals with locals, providing a more authentic experience.",
+                "annotation": "Absolutely! I find the <target_01> culinary arts </target_01> very <opinion_06> engaging </opinion_06>, <rationale_06> especially when I can share meals with locals, providing a more authentic experience </rationale_06>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Absolutely! I find the culinary arts very engaging.",
+                    "id": "aud_0011"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ali",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Tokyo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "food",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly diverse",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering flavors I'd never encountered before",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Li",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Tokyo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "spicy dishes",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "dauntingly spicy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can be overwhelming for those not used to intense flavors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Samira",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Tokyo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "milder versions",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a great way to adapt",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The tempura was surprisingly light and flavorful",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Tokyo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "spicy food",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "my absolute favorite",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "exploring milder options can truly enhance the experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Tokyo",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sushi",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the sushi in Tokyo had a freshness that was unparalleled",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Omar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "culinary arts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "culinary arts",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "very engaging",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "especially when I can share meals with locals, providing a more authentic experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00011",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Oliver"
+            },
+            {
+                "id": 1,
+                "name": "Sophie"
+            },
+            {
+                "id": 2,
+                "name": "Raj"
+            },
+            {
+                "id": 3,
+                "name": "Lisa"
+            },
+            {
+                "id": 4,
+                "name": "Tom"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently started exploring electric vehicles for my travels, and the environmental benefits are compelling.",
+                "annotation": "I've recently started exploring <target_01> electric vehicles </target_01> for my travels, and the <aspect_01> environmental benefits </aspect_01> are <opinion_01> compelling </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But do they really save money in the long run? I've heard they can be pricey.",
+                "annotation": "But do they really <opinion_02> save money </opinion_02> in the long run? <rationale_02> I've heard they can be pricey </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "But do they really save money in the long run? I've heard they can be pricey.",
+                    "id": "aud_0012"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Actually, the operating costs are significantly lower, especially with rising fuel prices. Charging at home can be much cheaper.",
+                "annotation": "Actually, the <aspect_02> operating costs </aspect_02> are <opinion_03> significantly lower </opinion_03>, <rationale_03> especially with rising fuel prices. Charging at home can be much cheaper </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's interesting! I was skeptical about whether I'd break even on the cost, but your points make me reconsider the benefits.",
+                "annotation": "That's interesting! I was <opinion_04> skeptical about </opinion_04> whether I'd break even on the cost, but <rationale_04> your points make me reconsider the benefits </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A discussion about the benefits of electric vehicles and their costs.",
+                    "id": "vid_0009"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric vehicles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "environmental benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "compelling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "none"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric vehicles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "operating costs",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "save money",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I've heard they can be pricey",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric vehicles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "operating costs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "significantly lower",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially with rising fuel prices. Charging at home can be much cheaper",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lisa",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric vehicles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "break-even cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "skeptical about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "whether I'd break even on the cost",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lisa",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric vehicles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "reconsider",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "your points make me reconsider the benefits",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Lisa",
+                "target": "electric vehicles",
+                "aspect": "break-even cost",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00012",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "Dave"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been researching budget travel options, and I'm impressed with how affordable some of these destinations are.",
+                "annotation": "I've been researching <target_01> budget travel options </target_01>, and I'm <opinion_01> impressed </opinion_01> with how affordable some of these destinations are.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But isn't the experience sometimes lacking? I mean, these low-cost trips often mean lower-quality accommodations.",
+                "annotation": "But isn't the <aspect_02> experience </aspect_02> sometimes <opinion_02> lacking </opinion_02>? I mean, these low-cost trips often mean lower-quality accommodations.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "But isn't the experience sometimes lacking?",
+                    "id": "aud_0013"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I understand your concern, Bob. However, I found that many budget places have improved greatly recently; some even offer unique local experiences.",
+                "annotation": "I understand your concern, Bob, regarding the <aspect_02> experience </aspect_02>. However, I found that many budget places have <opinion_03> improved greatly </opinion_03> recently; <rationale_03> some even offer unique local experiences </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Plus, have you seen the travel videos highlighting budget spots? They're quite enlightening, showing the hidden gems many overlook.",
+                "annotation": "Plus, have you seen the <aspect_03> travel videos </aspect_03> highlighting budget spots? <opinion_04> They're quite enlightening </opinion_04>, <rationale_04> showing the hidden gems many overlook </rationale_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Travel video montage showcasing beautiful budget destinations and their hidden gems.",
+                    "id": "vid_0010"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Reflecting on that, I appreciate how diverse the options can be, with some genuinely delightful stays. Maybe I was too quick to judge.",
+                "annotation": "Reflecting on that, I appreciate how <opinion_05> diverse </opinion_05> the options can be, <rationale_05> with some genuinely delightful stays </rationale_05>. Maybe I was too quick to judge.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "affordability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with how affordable some of these destinations are",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "often mean lower-quality accommodations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "improved greatly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "some even offer unique local experiences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dave",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "travel videos",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enlightening",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "showing the hidden gems many overlook",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "budget travel options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "diverse",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "with some genuinely delightful stays",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Bob",
+            "target": "budget travel options",
+            "aspect": "experience",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00013",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maria"
+            },
+            {
+                "id": 1,
+                "name": "Tom"
+            },
+            {
+                "id": 2,
+                "name": "Lily"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just came back from a fantastic Mediterranean cruise, and the food was absolutely incredible! The variety was unmatched.",
+                "annotation": "I just came back from a fantastic <target_01> Mediterranean cruise </target_01>, and the <aspect_01> food </aspect_01> was <opinion_01> absolutely incredible </opinion_01>! <rationale_01> The variety was unmatched </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's great to hear! I’ve heard the entertainment on those cruises can be a bit cheesy though. Did you find it entertaining?",
+                "annotation": "That's great to hear! I’ve heard the <target_01> entertainment </target_01> on those cruises can be <opinion_02> a bit cheesy </opinion_02> though. <rationale_02> Did you find it entertaining? </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Honestly, I found the entertainment engaging and lively! The shows were well-produced, which everyone seemed to enjoy.",
+                "annotation": "Honestly, I found the <target_01> entertainment </target_01> <aspect_02> engaging </aspect_02> and <opinion_03> lively </opinion_03>! <rationale_03> The shows were well-produced, which everyone seemed to enjoy </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Clips of lively entertainment shows on the Mediterranean cruise, showcasing performances and audience engagement.",
+                    "id": "vid_0011"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You've made me rethink my stance! Maybe it's not as cheesy as I thought. I usually avoid that kind of entertainment.",
+                "annotation": "You've made me rethink my stance! Maybe it's <opinion_04> not as cheesy </opinion_04> as I thought. <rationale_04> I usually avoid that kind of entertainment </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "You've made me rethink my stance! Maybe it's not as cheesy as I thought.",
+                    "id": "aud_0014"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maria",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Mediterranean cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "food",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The variety was unmatched",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit cheesy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Did you find it entertaining?",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "engaging and lively",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The shows were well-produced, which everyone seemed to enjoy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tom",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "not as cheesy",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I usually avoid that kind of entertainment",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Tom",
+                "target": "entertainment",
+                "aspect": "entertainment",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00014",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Laura"
+            },
+            {
+                "id": 1,
+                "name": "Jake"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            },
+            {
+                "id": 3,
+                "name": "Mark"
+            },
+            {
+                "id": 4,
+                "name": "Chloe"
+            },
+            {
+                "id": 5,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just visited the eco-village last weekend. The sustainable architecture was absolutely impressive!",
+                "annotation": "I just visited the <target_01> eco-village </target_01> last weekend. <rationale_01> The sustainable architecture was absolutely impressive </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I just visited the eco-village last weekend. The sustainable architecture was absolutely impressive!",
+                    "id": "aud_0015"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree! The community gardens are a wonderful touch, don't you think? They promote local flora and biodiversity.",
+                "annotation": "I agree! The <aspect_02> community gardens </aspect_02> are <opinion_02> a wonderful touch </opinion_02>, <rationale_02> as they promote local flora and biodiversity </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But the solar panels caught my attention more. They seemed exceptionally efficient, which is key for sustainable living.",
+                "annotation": "But the <aspect_03> solar panels </aspect_03> caught my attention more. <opinion_03> They seemed exceptionally efficient </opinion_03>, <rationale_03> which is key for sustainable living </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While the eco-village is commendable, I felt the pathways could be improved; they were a bit rough and uneven.",
+                "annotation": "While the <target_01> eco-village </target_01> is commendable, I felt the <aspect_04> pathways </aspect_04> could be <opinion_04> improved </opinion_04>; <rationale_04> they were a bit rough and uneven </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Image showing uneven and rough pathways in the eco-village.",
+                    "id": "img_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That's a valid point, but I think the rustic charm of the pathways adds to the character of the village.",
+                "annotation": "That's a valid point, but I think the <aspect_04> rustic charm of the pathways </aspect_04> adds to the <opinion_05> character </opinion_05> of the village.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "I can see that perspective. Perhaps they do enhance the village's character, but I still think they could be more accessible.",
+                "annotation": "I can see that perspective. <rationale_06> Perhaps they do enhance the village's character </rationale_06>, but I still think they could be <opinion_06> more accessible </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Laura",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "eco-village",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sustainable architecture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The sustainable architecture was absolutely impressive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "eco-village",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "community gardens",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "wonderful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as they promote local flora and biodiversity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "eco-village",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptionally efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which is key for sustainable living",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "eco-village",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pathways",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "could be improved",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they were a bit rough and uneven",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Chloe",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "eco-village",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "rustic charm of the pathways",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "adds to the character",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "of the village",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "eco-village",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pathways",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "more accessible",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Perhaps they do enhance the village's character",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Mark",
+            "target": "eco-village",
+            "aspect": "pathways",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00015",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Olivia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring local hiking trails recently. The scenery is breathtaking, offering diverse views and wildlife encounters.",
+                "annotation": "I've been exploring <target_01> local hiking trails </target_01> recently. The <aspect_01> scenery </aspect_01> is <opinion_01> breathtaking </opinion_01>, <rationale_01> offering diverse views and wildlife encounters </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds amazing! Though I've heard some trails can be quite challenging. They might not be suitable for everyone.",
+                "annotation": "That sounds amazing! Though I've heard some <aspect_02> trails </aspect_02> can be <opinion_02> quite challenging </opinion_02>. <rationale_02> They might not be suitable for everyone </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But remember the video I shared of that stunning trail? It really showcased how accessible some routes can be for different skill levels, which is reassuring.",
+                "annotation": "But remember the <aspect_03> accessibility </aspect_03> of some <target_01> trails </target_01>? It really showcased how <opinion_03> reassuring </opinion_03> <rationale_03> the video demonstrated various skill levels can enjoy this nature experience.</rationale_03>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video highlighting accessible hiking trails suitable for different skill levels.",
+                    "id": "vid_0012"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "I see your point. Maybe I should give it a shot, especially considering how beautiful and rejuvenating nature can be.",
+                "annotation": "I see your point. Maybe I should give <target_01> hiking trails </target_01> a shot, especially considering how <opinion_04> beautiful and rejuvenating </opinion_04> <rationale_04> nature can be </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I see your point. Maybe I should give it a shot, especially considering how beautiful and rejuvenating nature can be.",
+                    "id": "aud_0016"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local hiking trails",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "scenery",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering diverse views and wildlife encounters",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local hiking trails",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "trails",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite challenging",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They might not be suitable for everyone",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local hiking trails",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "accessibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "reassuring",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the video demonstrated various skill levels can enjoy this nature experience.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "hiking trails",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "running experience",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "beautiful and rejuvenating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "nature can be",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "local hiking trails",
+                "aspect": "trails",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00016",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Luna"
+            },
+            {
+                "id": 1,
+                "name": "Max"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just returned from an extravagant cruise through the Mediterranean. The landscapes were breathtaking.",
+                "annotation": "I just returned from an extravagant <target_01> cruise </target_01> through the Mediterranean. <rationale_01> The landscapes were breathtaking </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A panoramic view of the stunning Mediterranean coastline from the cruise.",
+                    "id": "vid_0013"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "What about the onboard entertainment? I heard they had some fantastic shows.",
+                "annotation": "What about the <aspect_02> onboard entertainment </aspect_02>? I heard they had some <opinion_02> fantastic </opinion_02> shows.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Oh, the shows were indeed captivating! The performances were not just entertaining, but also culturally enriching.",
+                "annotation": "The <aspect_03> performances </aspect_03> were indeed <opinion_03> captivating </opinion_03>! <rationale_03> They were not just entertaining, but also culturally enriching </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Oh, the shows were indeed captivating! The performances were not just entertaining, but also culturally enriching.",
+                    "id": "aud_0017"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I was initially skeptical about cultural performances on a cruise, but experiencing them changed my perception; they truly added value.",
+                "annotation": "I was initially skeptical about <aspect_04> cultural performances </aspect_04> on a cruise, but experiencing them <opinion_04> changed my perception </opinion_04>; they truly added value.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Luna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "landscapes",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The landscapes were breathtaking",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "onboard entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I heard they had some fantastic shows",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "performances",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They were not just entertaining, but also culturally enriching",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Luna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "cultural performances",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "changed my perception",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they truly added value",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Luna",
+            "target": "cruise",
+            "aspect": "cultural performances",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00017",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Tara"
+            },
+            {
+                "id": 1,
+                "name": "Fiona"
+            },
+            {
+                "id": 2,
+                "name": "Zane"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Kira"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Did you guys see the quirky travel documentary featuring the wild mushroom pickers in Oregon?",
+                "annotation": "Did you guys see the <target_01> quirky travel documentary </target_01> featuring the <aspect_01> wild mushroom pickers </aspect_01> in Oregon?",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A travel documentary showcasing wild mushroom pickers in Oregon.",
+                    "id": "vid_0014"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I loved how eccentric the storytelling style was! It made the experience feel more engaging.",
+                "annotation": "I loved how <aspect_02> eccentric the storytelling style </aspect_02> was! <rationale_01> It made the experience feel more engaging </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I appreciated the visuals, I thought the editing was a bit chaotic and could use improvement.",
+                "annotation": "While I appreciated the <aspect_03> visuals </aspect_03>, I thought the <aspect_04> editing </aspect_04> was <opinion_01> a bit chaotic </opinion_01> and could use improvement.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I disagree, Zane. The chaos added charm to the film; it felt like a wild adventure!",
+                "annotation": "I <opinion_02> disagree </opinion_02>, Zane. The <aspect_03> chaos </aspect_03> added <opinion_03> charm </opinion_03> to the film; it felt like a wild adventure!",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Reflecting on my own mushroom foraging experience, I think the raw style speaks to the heart of adventure, even if it's not polished.",
+                "annotation": "Reflecting on my own <aspect_05> mushroom foraging experience </aspect_05>, I think the <opinion_04> raw style </opinion_04> speaks to the heart of adventure, <rationale_03> even if it's not polished </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Reflecting on her own mushroom foraging experience, Kira shares her thoughts.",
+                    "id": "aud_0018"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "That’s a refreshing perspective, Kira! It makes me rethink how I viewed the documentary initially.",
+                "annotation": "That’s a <opinion_05> refreshing perspective </opinion_05>, Kira! <rationale_04> It makes me rethink how I viewed the documentary initially </rationale_04>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Tara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quirky travel documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "wild mushroom pickers",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exciting",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it showcases unique adventures of quirky individuals",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Fiona",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quirky travel documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "storytelling style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "engaging",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it made the experience feel more engaging",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Zane",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quirky travel documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "chaotic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the chaotic editing could use improvement",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quirky travel documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "chaos",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "charming",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the chaos added charm to the film",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Kira",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quirky travel documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "raw style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "speaks strongly",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it speaks to the heart of adventure",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quirky travel documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "perspective",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "it makes me rethink how I viewed the documentary",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Noah",
+                "target": "quirky travel documentary",
+                "aspect": "perspective",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    }
+]

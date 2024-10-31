@@ -1,0 +1,963 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emily"
+            },
+            {
+                "id": 1,
+                "name": "Sam"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            },
+            {
+                "id": 3,
+                "name": "Chris"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think basketball is a thrilling team sport. The pace and energy can really get everyone invested in the game.",
+                "annotation": "I think <target_01> basketball </target_01> is a <opinion_01> thrilling </opinion_01> <aspect_01> team sport </aspect_01>. <rationale_01> The pace and energy can really get everyone invested in the game </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Basketball's pace and energy make it thrilling!",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I too enjoy basketball, but I'm not a fan of the physicality. It can be quite overwhelming at times.",
+                "annotation": "I too enjoy <target_01> basketball </target_01>, but I'm not a <opinion_02> fan </opinion_02> of the <aspect_02> physicality </aspect_02>. <rationale_02> It can be quite overwhelming at times </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with Sam; the physicality can be intense. However, I find that it adds to the excitement and competitiveness.",
+                "annotation": "I agree with <target_01> basketball </target_01>; the <aspect_02> physicality </aspect_02> can be <opinion_03> intense </opinion_03>. <rationale_03> However, I find that it adds to the excitement and competitiveness </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think the physical aspect was a negative point as well, but after seeing how it promotes teamwork and strategy, I see it as a positive.",
+                "annotation": "I used to think the <aspect_02> physical aspect </aspect_02> was <opinion_04> negative </opinion_04>, but <rationale_04> after seeing how it promotes teamwork and strategy, I see it as a positive </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "basketball",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "team sport",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "thrilling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The pace and energy can really get everyone invested in the game",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "basketball",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "physicality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "not a fan",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can be quite overwhelming at times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "basketball",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "physicality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "intense",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "However, I find that it adds to the excitement and competitiveness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Chris",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "basketball",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "physical aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "negative",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "after seeing how it promotes teamwork and strategy, I see it as a positive",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Chris",
+                "target": "basketball",
+                "aspect": "physical aspect",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emily"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Olivia"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            },
+            {
+                "id": 5,
+                "name": "James"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think team sports are incredibly vital for enhancing social skills. They foster teamwork and communication among players.",
+                "annotation": "I think <target_01> team sports </target_01> are <opinion_01> incredibly vital </opinion_01> for <aspect_01> enhancing social skills </aspect_01>. <rationale_01> They foster teamwork and communication among players </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Definitely! But, I'm not so sure about competitive nature. I find it to be somewhat toxic, as it can create unnecessary stress and pressure.",
+                "annotation": "Definitely! But, I'm not so sure about <aspect_02> competitive nature </aspect_02>. I find it to be <opinion_02> somewhat toxic </opinion_02>, as <rationale_02> it can create unnecessary stress and pressure </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That’s interesting, Liam. I recently read a study showing that when handled well, competition can actually enhance motivation. I believe it's more constructive than toxic.",
+                "annotation": "That’s interesting, Liam. I recently read a study showing that when handled well, <aspect_02> competition </aspect_02> can actually be <opinion_03> more constructive </opinion_03>. <rationale_03> It can enhance motivation </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "When handled right, competition can really boost motivation!",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Wow, that does change my perspective a bit. I see how competition can drive people to improve, making it less toxic.",
+                "annotation": "<rationale_04> Wow, that does change my perspective a bit </rationale_04>. I see how <aspect_02> competition </aspect_02> can be <opinion_04> less toxic </opinion_04>, <rationale_05> making it drive people to improve </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "Exactly, and many friendships are formed through sports. The bonds created during this time are quite strong, which is a huge benefit.",
+                "annotation": "Exactly, and many friendships are formed through <target_01> team sports </target_01>. The <aspect_01> bonds created </aspect_01> are <opinion_05> quite strong </opinion_05>, <rationale_06> which is a huge benefit </rationale_06>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "Agreed. I believe that diversity in team sports promotes inclusivity, making it a welcoming environment for everyone.",
+                "annotation": "<rationale_07> Agreed. </rationale_07> I believe that diversity in <target_01> team sports </target_01> promotes <aspect_03> inclusivity </aspect_03>, making it <opinion_06> a welcoming environment </opinion_06> for everyone.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 6,
+                "speaker": 5,
+                "utterance": "And lastly, team sports build resilience. It's about learning from losses and setbacks, which is essential in life.",
+                "annotation": "And lastly, <target_01> team sports </target_01> build <aspect_04> resilience </aspect_04>. It's <opinion_07> essential </opinion_07> for <rationale_08> learning from losses and setbacks </rationale_08>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "enhancing social skills",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly vital",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They foster teamwork and communication among players",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "competitive nature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat toxic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it can create unnecessary stress and pressure",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "competition",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "more constructive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it can enhance motivation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "competition",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "less toxic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it can drive people to improve",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "bonds created",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "quite strong",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "which is a huge benefit",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "inclusivity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "a welcoming environment",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "making it a welcoming environment for everyone",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "team sports",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "resilience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_08",
+                    "value": "learning from losses and setbacks",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Liam",
+            "target": "team sports",
+            "aspect": "competitive nature",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Introduction of New Information"
+        }
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Claire"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been trying to improve my tennis serve lately. The <aspect_01> technique </aspect_01> is crucial, and I'm feeling <opinion_01> frustrated with </opinion_01> how inconsistent mine is. <rationale_01> It hinders my overall game when I can’t get it right.",
+                "annotation": "I've been trying to improve my tennis serve lately. The <target_01> technique </target_01> is crucial, and I'm feeling <opinion_01> frustrated with </opinion_01> how inconsistent mine is. <rationale_01> It hinders my overall game when I can’t get it right. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I understand that frustration. A reliable <aspect_02> racket </aspect_02> can make a big difference. Mine feels <opinion_02> balanced </opinion_02> and allows for better control. <rationale_02> It’s surprising how much gear impacts performance.",
+                "annotation": "I understand that frustration. A reliable <target_01> racket </target_01> can make a big difference. Mine feels <opinion_02> balanced </opinion_02> and allows for better control. <rationale_02> It’s surprising how much gear impacts performance. </rationale_02>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "It's surprising how much gear impacts performance!",
+                    "id": "aud_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I once used a racket that was too heavy for me, and the <aspect_03> weight </aspect_03> was definitely <opinion_03> cumbersome </opinion_03>. <rationale_03> It affected my swing and accuracy significantly.",
+                "annotation": "I once used a racket that was too heavy for me, and the <target_01> weight </target_01> was definitely <opinion_03> cumbersome </opinion_03>. <rationale_03> It affected my swing and accuracy significantly. </rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s interesting. I didn't realize the <aspect_04> grip </aspect_04> could be this <opinion_04> uncomfortable </opinion_04>. <rationale_04> I recently switched to a new grip and it enhances comfort and prevents slipping, which is essential.",
+                "annotation": "That’s interesting. I didn't realize the <target_01> grip </target_01> could be this <opinion_04> uncomfortable </opinion_04>. <rationale_04> I recently switched to a new grip and it enhances comfort and prevents slipping, which is essential. </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "I see what you mean about the grip; but did you know that there are grips designed to relieve pressure points? I think my experience in that regard could be <opinion_05> improved </opinion_05>. <rationale_05> It would help me perform better.",
+                "annotation": "I see what you mean about the grip; but did you know that there are grips designed to relieve pressure points? I think my experience in that regard could be <opinion_05> improved </opinion_05>. <rationale_05> It would help me perform better. </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "With that new information, I should look for a better grip too. My previous one has been <opinion_06> limiting </opinion_06>. <rationale_06> Improving grip directly affects performance and comfort.",
+                "annotation": "<rationale_06> With that new information </rationale_06>, I should look for a better grip too. My previous one has been <opinion_06> limiting </opinion_06>. <rationale_06> Improving grip directly affects performance and comfort. </rationale_06>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "technique",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "frustrated with",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It hinders my overall game when I can’t get it right.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "racket",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "balanced",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It’s surprising how much gear impacts performance.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Claire",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "weight",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "cumbersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It affected my swing and accuracy significantly.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "grip",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "uncomfortable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I recently switched to a new grip and it enhances comfort and prevents slipping, which is essential.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "improved",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It would help me perform better.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tennis",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "grip",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "limiting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Improving grip directly affects performance and comfort.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "David",
+                "target": "tennis",
+                "aspect": "grip",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Ava"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Mia"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you all tried rock climbing? I think it's such an exhilarating sport with incredible aspects of strength and strategy.",
+                "annotation": "Have you all tried <target_01> rock climbing </target_01>? I think it’s <opinion_01> such an exhilarating sport </opinion_01> with incredible aspects of <aspect_01> strength </aspect_01> and <aspect_02> strategy </aspect_02>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I totally agree! However, I find the height aspect a bit intimidating. It can make the experience overwhelming at times.",
+                "annotation": "I totally agree! However, I find the <aspect_03> height </aspect_03> aspect <opinion_02> a bit intimidating </opinion_02>. <rationale_02> It can make the experience overwhelming at times </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The height is definitely daunting.",
+                    "id": "aud_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But that intimidation pushes you to overcome fears, right? It's a huge part of the thrill and challenge.",
+                "annotation": "But that <aspect_03> intimidation </aspect_03> pushes you to <opinion_03> overcome fears </opinion_03>, right? <rationale_03> It's a huge part of the thrill and challenge </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True! I’ve seen how overcoming that fear leads to a great sense of accomplishment. That makes rock climbing even more rewarding.",
+                "annotation": "I’ve seen how overcoming that <aspect_03> fear </aspect_03> leads to a <opinion_04> great sense of accomplishment </opinion_04>. <rationale_04> That makes rock climbing even more rewarding </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I used to be scared of heights, but after my first climb, everything changed. Now, I appreciate the view from the top; it feels like flying.",
+                "annotation": "I used to be scared of <aspect_03> heights </aspect_03>, but after my first climb, everything changed. Now, I <opinion_05> appreciate the view from the top </opinion_05>; <rationale_05> it feels like flying </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "strength",
+                    "manner": "explicit"
+                },
+                "aspect_2": {
+                    "identity": "aspect_02",
+                    "value": "strategy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "such an exhilarating sport",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "incredible aspects of strength and strategy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "height",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit intimidating",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can make the experience overwhelming at times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "intimidation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "overcome fears",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's a huge part of the thrill and challenge",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "fear",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "great sense of accomplishment",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "That makes rock climbing even more rewarding",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rock climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "heights",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "appreciate the view from the top",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it feels like flying",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Ethan",
+            "target": "rock climbing",
+            "aspect": "heights",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    }
+]

@@ -1,0 +1,480 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been researching the new tariffs on imported textiles. I find their impact on global prices to be significant, as it affects small manufacturers heavily.",
+                "annotation": "I've been researching the new tariffs on imported <target_01> textiles </target_01>. I find their impact on global <aspect_01> prices </aspect_01> to be <opinion_01> significant </opinion_01>, as <rationale_01> it affects small manufacturers heavily </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the quality of domestic textiles is improving. I would say the quality now is outstanding because it encourages local production.",
+                "annotation": "I agree, but the <aspect_02> quality </aspect_02> of domestic <target_02> textiles </target_02> is now <opinion_02> outstanding </opinion_02> because <rationale_02> it encourages local production </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That’s true, but I still believe that foreign textiles remain competitive. The pricing aspect is usually <opinion_03> favorable </opinion_03> because of economies of scale in production.",
+                "annotation": "That’s true, but I still believe that <target_01> foreign textiles </target_01> remain competitive. The <aspect_03> pricing </aspect_03> aspect is usually <opinion_03> favorable </opinion_03> because <rationale_03> of economies of scale in production </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Analyzing the pricing advantages of foreign textiles due to economies of scale.",
+                    "id": "vid_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "You make a good point, Charlie. Perhaps the pricing of foreign textiles is more appealing, so we could say it’s competitive due to those economies of scale.",
+                "annotation": "<rationale_04> You make a good point, Charlie </rationale_04>. Perhaps the <aspect_03> pricing </aspect_03> of <target_01> foreign textiles </target_01> is more <opinion_04> appealing </opinion_04>, so we could say it’s competitive due to those economies of scale.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That's a valid change of opinion, Diana. However, the concerns of local manufacturers should not be overlooked, as they often struggle to keep up with such competition.",
+                "annotation": "That's a valid change of opinion, Diana. However, the <aspect_04> concerns </aspect_04> of local <target_02> manufacturers </target_02> should not be <opinion_05> overlooked </opinion_05>, as <rationale_05> they often struggle to keep up with such competition </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "textiles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "prices",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it affects small manufacturers heavily",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "textiles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it encourages local production",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "foreign textiles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "pricing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "favorable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "of economies of scale in production",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "foreign textiles",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "pricing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it’s competitive due to those economies of scale",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "manufacturers",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "concerns",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "overlooked",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "they often struggle to keep up with such competition",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Diana",
+            "target": "foreign textiles",
+            "aspect": "pricing",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Max"
+            },
+            {
+                "id": 1,
+                "name": "Lia"
+            },
+            {
+                "id": 2,
+                "name": "Omar"
+            },
+            {
+                "id": 3,
+                "name": "Jade"
+            },
+            {
+                "id": 4,
+                "name": "Tina"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been diving into various financial tech apps, and I find the user interface of AppZest truly intuitive, making it easy for new users to navigate.",
+                "annotation": "I've been diving into various <target_01> financial tech apps </target_01>, and I find the <aspect_01> user interface </aspect_01> of <target_02> AppZest </target_02> truly <opinion_01> intuitive </opinion_01>, <rationale_01> making it easy for new users to navigate </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That’s interesting! However, I think the security features of AppZest are somewhat lacking; there are no two-factor authentication options that I've seen.",
+                "annotation": "However, I think the <aspect_02> security features </aspect_02> of <target_02> AppZest </target_02> are <opinion_02> somewhat lacking </opinion_02>; <rationale_02> there are no two-factor authentication options that I've seen </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I believe the investment tracking feature is outstanding! It provides comprehensive insights which are crucial for making informed decisions.",
+                "annotation": "I believe the <aspect_03> investment tracking feature </aspect_03> of <target_02> AppZest </target_02> is <opinion_03> outstanding </opinion_03>! <rationale_03> It provides comprehensive insights which are crucial for making informed decisions </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Exploring investment tracking feature in AppZest that offers comprehensive insights.",
+                    "id": "vid_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The customization options for notifications are minimal, which can be frustrating if you want tailored alerts for your investments.",
+                "annotation": "The <aspect_04> customization options for notifications </aspect_04> are <opinion_04> minimal </opinion_04>, <rationale_04> which can be frustrating if you want tailored alerts for your investments </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Max's point about the interface is solid, but I think the onboarding process for new users is rather confusing, which can deter them initially.",
+                "annotation": "I think the <aspect_05> onboarding process </aspect_05> for new users is <opinion_05> rather confusing </opinion_05>, <rationale_05> which can deter them initially </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "While I appreciated the interface, I must admit that upon trying it out, I found the onboarding process to be less intuitive than I first thought.",
+                "annotation": "While I appreciated the <aspect_01> user interface </aspect_01>, I must admit that <rationale_06> upon trying it out, I found the onboarding process to be less intuitive than I first thought </rationale_06>, revealing that it is <opinion_06> confusing </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "AppZest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "intuitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making it easy for new users to navigate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "AppZest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "there are no two-factor authentication options that I've seen",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Omar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "AppZest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "investment tracking feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It provides comprehensive insights which are crucial for making informed decisions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Jade",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "AppZest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "customization options for notifications",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "minimal",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which can be frustrating if you want tailored alerts for your investments",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "AppZest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "onboarding process",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "rather confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "which can deter them initially",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "AppZest",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "upon trying it out, I found the onboarding process to be less intuitive than I first thought",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Max",
+            "target": "AppZest",
+            "aspect": "user interface",
+            "initial sentiment": "positive",
+            "flipped sentiment": "negative",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    }
+]

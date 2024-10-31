@@ -1,0 +1,627 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Clara"
+            },
+            {
+                "id": 1,
+                "name": "Jasper"
+            },
+            {
+                "id": 2,
+                "name": "Luna"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just listened to the new album by The Harmonies, and I find the <aspect_01> lyrics </aspect_01> incredibly <opinion_01> poetic </opinion_01>. <rationale_01> They convey such deep emotions that resonate with various life experiences.",
+                "annotation": "I just listened to the new album by The Harmonies, and I find the <aspect_01> lyrics </aspect_01> incredibly <opinion_01> poetic </opinion_01>. <rationale_01> They convey such deep emotions that resonate with various life experiences </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I appreciate the poetry, the <aspect_02> melodies </aspect_02> feel somewhat <opinion_02> repetitive </opinion_02>. <rationale_02> They often follow the same pattern, lacking variation to keep things interesting.",
+                "annotation": "While I appreciate the poetry, the <aspect_02> melodies </aspect_02> feel somewhat <opinion_02> repetitive </opinion_02>. <rationale_02> They often follow the same pattern, lacking variation to keep things interesting </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I actually disagree. I think the <aspect_02> melodies </aspect_02> are exceptionally <opinion_03> innovative </opinion_03> because they blend different genres. <rationale_03> This adds a refreshing layer that challenges conventional norms.",
+                "annotation": "I actually disagree. I think the <aspect_02> melodies </aspect_02> are exceptionally <opinion_03> innovative </opinion_03> because they blend different genres. <rationale_03> This adds a refreshing layer that challenges conventional norms </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You make a fair point. Maybe I was too quick to judge. The fusion of styles does bring out some interesting elements.",
+                "annotation": "You make a fair point. <rationale_04> Maybe I was too quick to judge </rationale_04>. The fusion of styles does bring out some interesting elements.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Exactly! And have you seen their music video? The visuals enhance the <aspect_01> lyrics </aspect_01> remarkably, adding another layer of meaning. I find it <opinion_04> mesmerizing </opinion_04>.",
+                "annotation": "Exactly! And have you seen their music video? The visuals enhance the <aspect_01> lyrics </aspect_01> remarkably, adding another layer of meaning. I find it <opinion_04> mesmerizing </opinion_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "The captivating visuals add depth to the song's poetic lyrics.",
+                    "id": "vid_0001"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "lyrics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "poetic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They convey such deep emotions that resonate with various life experiences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jasper",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "melodies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "repetitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They often follow the same pattern, lacking variation to keep things interesting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Luna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "melodies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "innovative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "This adds a refreshing layer that challenges conventional norms",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jasper",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "melodies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "interesting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Maybe I was too quick to judge.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "The Harmonies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "lyrics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "mesmerizing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "The captivating visuals add depth to the song's poetic lyrics.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jasper",
+                "target": "The Harmonies",
+                "aspect": "melodies",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Max"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been attending our local theater's performances, and their costume design is absolutely stunning. The attention to detail truly enhances the entire experience.",
+                "annotation": "I've been attending our local theater's performances, and their <target_01> costume design </target_01> is <aspect_01> absolutely stunning </aspect_01>. <rationale_01> The attention to detail truly enhances the entire experience </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but consider the lighting! It's often mesmerizing and contributes significantly to the mood of the performance.",
+                "annotation": "Absolutely, but consider the <aspect_02> lighting </aspect_02>! It's often <opinion_01> mesmerizing </opinion_01> and <rationale_02> contributes significantly to the mood of the performance </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Mesmerizing lighting creating mood in a theatrical scene.",
+                    "id": "vid_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's true, but the acting is what truly captivates me. When the performers embody their roles so convincingly, it elevates the entire storyline.",
+                "annotation": "That's true, but the <aspect_03> acting </aspect_03> is <opinion_02> what truly captivates me </opinion_02>. <rationale_03> When the performers embody their roles so convincingly, it elevates the entire storyline </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "For sure! However, I think the set design can sometimes feel a bit limited. It's impressive but lacks variety, which can affect immersion.",
+                "annotation": "For sure! However, I think the <aspect_04> set design </aspect_04> can sometimes feel <opinion_03> a bit limited </opinion_03>. <rationale_04> It's impressive but lacks variety, which can affect immersion </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Interesting point, Liam. I used to think set design was secondary, but I've read articles that argue it's pivotal for creating atmosphere.",
+                "annotation": "Interesting point, Liam. I used to think <aspect_04> set design </aspect_04> was <opinion_04> secondary </opinion_04>, but <rationale_05> I've read articles that argue it's pivotal for creating atmosphere </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local theater's performances",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "costume design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The attention to detail truly enhances the entire experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local theater's performances",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "mesmerizing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "contributes significantly to the mood of the performance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local theater's performances",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "acting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "what truly captivates me",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "When the performers embody their roles so convincingly, it elevates the entire storyline",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local theater's performances",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "set design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a bit limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's impressive but lacks variety, which can affect immersion",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "local theater's performances",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "set design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "secondary",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "I've read articles that argue it's pivotal for creating atmosphere",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Olivia",
+                "target": "local theater's performances",
+                "aspect": "set design",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Taylor"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Sam"
+            },
+            {
+                "id": 3,
+                "name": "Alex"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The installation piece at the gallery was certainly intriguing, with its unique use of varying textures.",
+                "annotation": "The <aspect_01> textures </aspect_01> in the <target_01> installation piece </target_01> were <opinion_01> intriguing </opinion_01>, <rationale_01> with its unique use of varying textures </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "An artist showcases different textures in a modern installation piece.",
+                    "id": "vid_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I feel the colors were quite vibrant, but they also created a somewhat chaotic atmosphere that could distract viewers.",
+                "annotation": "The <aspect_02> colors </aspect_02> were <opinion_02> vibrant </opinion_02>, but <rationale_02> they also created a somewhat chaotic atmosphere that could distract viewers </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While the textures stand out beautifully, I think the composition feels disjointed, lacking a central focus.",
+                "annotation": "The <aspect_03> composition </aspect_03> feels <opinion_03> disjointed </opinion_03>, <rationale_03> lacking a central focus despite the beautiful textures </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I initially thought the chaotic colors were distracting, but now I see they add to the piece's energy, making it feel alive.",
+                "annotation": "Initially, I thought the <aspect_02> colors </aspect_02> were <opinion_04> distracting </opinion_04>, but <rationale_04> they add to the piece's energy, making it feel alive </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation piece",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "textures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with its unique use of varying textures",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation piece",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "colors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "they also created a somewhat chaotic atmosphere that could distract viewers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation piece",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "composition",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "disjointed",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "lacking a central focus despite the beautiful textures",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "installation piece",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "colors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "distracting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they add to the piece's energy, making it feel alive",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alex",
+                "target": "installation piece",
+                "aspect": "colors",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    }
+]

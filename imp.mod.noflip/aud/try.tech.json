@@ -1,0 +1,3276 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emily"
+            },
+            {
+                "id": 1,
+                "name": "Jake"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new GenBio9 has a remarkable stem cell regeneration feature. It is ground-breaking for cell therapy applications.",
+                "annotation": "The new <target_01> GenBio9 </target_01> has a <aspect_01> stem cell regeneration feature </aspect_01>. It is <opinion_01> ground-breaking </opinion_01> for <rationale_01> cell therapy applications </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, it's revolutionary. My concern is the cost, though, it's fairly expensive for broader implementation.",
+                "annotation": "I agree, it's <opinion_02> revolutionary </opinion_02>. My concern is the <aspect_02> cost </aspect_02>, though, because <rationale_02> it's fairly expensive for broader implementation </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I agree, it's revolutionary. My concern, though, is the cost—it's pretty expensive for broader implementation.",
+                    "id": "aud_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, the affordability is definitely a limiting factor. However, the longevity improvement in patients is undeniable.",
+                "annotation": "True, the <aspect_03> affordability </aspect_03> is <opinion_03> a limiting factor </opinion_03>. However, <rationale_03> the longevity improvement in patients is undeniable </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "And don't forget about the ethical concerns regarding extensive use of stem cells.",
+                "annotation": "And don't forget about the <aspect_04> ethical concerns </aspect_04> regarding <rationale_04> extensive use of stem cells </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Ethics aside, the effectiveness of GenBio9 in mitigating chronic diseases is commendable.",
+                "annotation": "Ethics aside, the <opinion_05> effectiveness </opinion_05> of <target_01> GenBio9 </target_01> in <aspect_05> mitigating chronic diseases </aspect_05> is <rationale_05> commendable</rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Absolutely, I believe that we need to balance between cost and accessibility to make it more impactful globally.",
+                "annotation": "Absolutely, I believe that we need to balance between <aspect_06> cost </aspect_06> and <opinion_06> accessibility </opinion_06> to <rationale_06> make it more impactful globally </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenBio9",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "stem cell regeneration feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "ground-breaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "cell therapy applications",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenBio9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it's fairly expensive for broader implementation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenBio9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "affordability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a limiting factor",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the longevity improvement in patients is undeniable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenBio9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "ethical concerns",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "cautionary",
+                    "manner": "implicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "extensive use of stem cells",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenBio9",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "mitigating chronic diseases",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "commendable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "effectiveness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GenBio9",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "accessibility",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "make it more impactful globally",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sarah"
+            },
+            {
+                "id": 1,
+                "name": "David"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            },
+            {
+                "id": 5,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The propulsion system on the new Mars Rover is extremely efficient.",
+                "annotation": "The <aspect_01> propulsion system </aspect_01> on the <target_01> new Mars Rover </target_01> is <opinion_01> extremely efficient </opinion_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "You hear that steady hum? That's the Mars Rover's propulsion system working at peak efficiency.",
+                    "id": "aud_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I am not so sure, the communication systems have noticeable delays, which is frustrating.",
+                "annotation": "I am not so sure, the <aspect_02> communication systems </aspect_02> have <opinion_02> noticeable delays </opinion_02>, which is <rationale_02> frustrating </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I have to agree with Sarah, the energy consumption is also impressively low for such a powerful system.",
+                "annotation": "I have to agree with Sarah, the <aspect_03> energy consumption </aspect_03> is also <opinion_03> impressively low </opinion_03> for such a powerful system <rationale_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The landing mechanism is untrustworthy. It failed during several tests.",
+                "annotation": "The <aspect_04> landing mechanism </aspect_04> is <opinion_04> untrustworthy </opinion_04>. <rationale_04> It failed during several tests </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Despite that, the surface mobility is quite remarkable, allowing it to traverse difficult terrains easily.",
+                "annotation": "Despite that, the <aspect_05> surface mobility </aspect_05> is quite <opinion_05> remarkable </opinion_05>, <rationale_05> allowing it to traverse difficult terrains easily </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "The data analysis software is groundbreaking as it significantly speeds up the processing time.",
+                "annotation": "The <aspect_06> data analysis software </aspect_06> is <opinion_06> groundbreaking </opinion_06> as it <rationale_06> significantly speeds up the processing time </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "propulsion system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "extremely efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "the steady hum indicating its efficiency.",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "communication systems",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "noticeable delays",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "frustrating",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "energy consumption",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "impressively low",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "for such a powerful system",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "landing mechanism",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "untrustworthy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it failed during several tests",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "surface mobility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "allowing it to traverse difficult terrains easily",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "data analysis software",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "groundbreaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "significantly speeds up the processing time",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Zara"
+            },
+            {
+                "id": 3,
+                "name": "Mike"
+            },
+            {
+                "id": 4,
+                "name": "Jenna"
+            },
+            {
+                "id": 5,
+                "name": "Kai"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The immersive experience of the VirtualEscape VR headset is fantastic.",
+                "annotation": "The <aspect_01> immersive experience </aspect_01> of the <target_01> VirtualEscape VR headset </target_01> is <opinion_01> fantastic </opinion_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Wow, this VirtualEscape VR headset is incredible!",
+                    "id": "aud_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I disagree. The resolution is quite poor, making the images appear fuzzy and blurry.",
+                "annotation": "I disagree. The <aspect_02> resolution </aspect_02> is <opinion_02> quite poor </opinion_02>, making <rationale_02> the images appear fuzzy and blurry </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "In contrast, the sound quality is excellent, providing a deep, immersive audio experience.",
+                "annotation": "In contrast, the <aspect_03> sound quality </aspect_03> is <opinion_03> excellent </opinion_03>, providing <rationale_03> a deep, immersive audio experience </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "But the battery life is disappointingly short, lasting barely two hours.",
+                "annotation": "But the <aspect_04> battery life </aspect_04> is <opinion_04> disappointingly short </opinion_04>, lasting <rationale_04> barely two hours </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I love the comfort though. The padding around the eyes is very soft and snug.",
+                "annotation": "I love the <aspect_05> comfort </aspect_05> though. The <padding around the eyes is <opinion_05> very soft and snug </opinion_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Moreover, the versatility is impressive; it supports a range of games and applications seamlessly.",
+                "annotation": "Moreover, the <aspect_06> versatility </aspect_06> is <opinion_06> impressive </opinion_06>; it supports <rationale_06> a range of games and applications seamlessly </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VirtualEscape VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "immersive experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "wowing users through its immersive experience",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VirtualEscape VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "resolution",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite poor",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "the images appear fuzzy and blurry",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Zara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VirtualEscape VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "sound quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "a deep, immersive audio experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mike",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VirtualEscape VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disappointingly short",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "lasting barely two hours",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Jenna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VirtualEscape VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "comfort",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "very soft and snug",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "padding around the eyes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Kai",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VirtualEscape VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "versatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "supports a range of games and applications seamlessly",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Dr. Patel"
+            },
+            {
+                "id": 1,
+                "name": "Susan"
+            },
+            {
+                "id": 2,
+                "name": "David"
+            },
+            {
+                "id": 3,
+                "name": "Mia"
+            },
+            {
+                "id": 4,
+                "name": "John"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you all seen the new gene-editing kit? The precision of CRISPR-Cas9 is remarkable. It can target specific genes with incredible accuracy.",
+                "annotation": "Have you all seen the new <target_01>gene-editing kit</target_01>? The <aspect_01>precision</aspect_01> of <aspect_01>CRISPR-Cas9</aspect_01> is <opinion_01>remarkable</opinion_01>. <rationale_01>It can target specific genes with incredible accuracy</rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Indeed, although the accuracy is impressive, I'm concerned about the ethical implications, especially the unintended consequences.",
+                "annotation": "Indeed, although the <aspect_02>accuracy</aspect_02> is <opinion_02>impressive</opinion_02>, I'm concerned about the <aspect_03>ethical implications</aspect_03>, especially the <opinion_03>unintended consequences</opinion_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I heard a podcast where a researcher discussed the potential for off-target mutations. His cautionary tone was quite striking.",
+                "annotation": "I heard a podcast where a researcher discussed the potential for <aspect_04>off-target mutations</aspect_04>. His <opinion_04>cautionary</opinion_04> tone was quite striking.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I heard a podcast where a researcher said, 'The possibility of unintended genetic changes is a serious concern.'",
+                    "id": "aud_0004"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dr. Patel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene-editing kit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "precision",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It can target specific genes with incredible accuracy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Susan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene-editing kit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "accuracy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "untended consequences",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gene-editing kit",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "off-target mutations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "cautionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "The possibility of unintended genetic changes is a serious concern.",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ethan"
+            },
+            {
+                "id": 1,
+                "name": "Maya"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Sophia"
+            },
+            {
+                "id": 4,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The immersive experience in the VR headset is phenomenal. You feel like you're actually in the game.",
+                "annotation": "The <aspect_01> immersive experience </aspect_01> in the <target_01> VR headset </target_01> is <opinion_01> phenomenal </opinion_01>. <rationale_01> You feel like you're actually in the game. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But I think the resolution needs improvement. It's adequate, but finer details can sometimes be blurry.",
+                "annotation": "But I think the <aspect_02> resolution </aspect_02> needs <opinion_02> improvement </opinion_02>. <rationale_02> It's adequate, but finer details can sometimes be blurry. </rationale_02>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I'm concerned about the resolution. It's adequate, but finer details can sometimes be blurry.",
+                    "id": "aud_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, and don't forget about the battery life. It's decent, but could be better for longer sessions.",
+                "annotation": "True, and don't forget about the <aspect_03> battery life </aspect_03>. It's <opinion_03> decent </opinion_03>, but could be better for longer sessions.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Oh, and the field of view is great! It really adds to the sense of immersion.",
+                "annotation": "Oh, and the <aspect_04> field of view </aspect_04> is <opinion_04> great </opinion_04>! <rationale_04> It really adds to the sense of immersion. </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Don't get me started on the sound quality, it's outstanding. You can hear even the slightest footstep.",
+                "annotation": "Don't get me started on the <aspect_05> sound quality </aspect_05>, it's <opinion_05> outstanding </opinion_05>. <rationale_05> You can hear even the slightest footstep. </rationale_05>",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "immersive experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "phenomenal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "You feel like you're actually in the game.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "resolution",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "adequate",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's adequate, but finer details can sometimes be blurry.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "battery life",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "decent",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "but could be better for longer sessions.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "field of view",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "great",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It really adds to the sense of immersion.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "VR headset",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "sound quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "You can hear even the slightest footstep.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Eve"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The blockchain network's transparency feature is outstanding. It allows all participants to see all transactions which fosters trust.",
+                "annotation": "The <target_01> blockchain network </target_01>'s <aspect_01> transparency feature </aspect_01> is <opinion_01> outstanding </opinion_01>. <rationale_01> It allows all participants to see all transactions which fosters trust </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "However, the speed of transactions on many blockchain networks is disappointingly slow, taking several minutes to confirm.",
+                "annotation": "However, the <aspect_02> speed of transactions </aspect_02> on many <target_02> blockchain networks </target_02> is <opinion_02> disappointingly slow </opinion_02>, <rationale_02> taking several minutes to confirm </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Listen to that clock ticking away—blockchain transactions shouldn't take several minutes to confirm.",
+                    "id": "aud_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "For sure, the security is top-notch though. It's virtually impossible to alter records once they're on the blockchain.",
+                "annotation": "For sure, the <aspect_03> security </aspect_03> is <opinion_03> top-notch </opinion_03>. <rationale_03> It's virtually impossible to alter records once they're on the blockchain </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain network",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "transparency feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It allows all participants to see all transactions which fosters trust",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "blockchain networks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "speed of transactions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "disappointingly slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "taking several minutes to confirm",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "top-notch",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's virtually impossible to alter records once they're on the blockchain",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Morgan"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you ever considered installing solar panels at home? The initial cost is quite high.",
+                "annotation": "Have you ever considered installing <target_01> solar panels </target_01> at home? The <aspect_01> initial cost </aspect_01> is quite <opinion_01> high </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, Alex, but the long-term savings on energy bills are impressive.",
+                "annotation": "That's true, Alex, but the long-term savings on <aspect_02> energy bills </aspect_02> are <opinion_02> impressive </opinion_02>. <rationale_01> They can significantly reduce monthly expenses </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Plus, they significantly reduce your carbon footprint. The environmental impact is excellent.",
+                "annotation": "Plus, they significantly reduce your <aspect_03> carbon footprint </aspect_03>. The <opinion_03> environmental impact </opinion_03> is <opinion_03> excellent </opinion_03>. <rationale_02> Lowering greenhouse gas emissions </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Listen to those birds chirping! Plus, these changes significantly reduce your carbon footprint – the environmental impact is excellent.",
+                    "id": "aud_0007"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Agreed, Morgan. But don't forget about the maintenance aspect. It can be tedious.",
+                "annotation": "Agreed, Morgan. But don't forget about the <aspect_04> maintenance </aspect_04> aspect. It can be <opinion_04> tedious </opinion_04>. <rationale_03> Regular cleaning and checks are necessary </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "One thing is for sure, the technology keeps getting better and more efficient over time.",
+                "annotation": "One thing is for sure, the <aspect_05> technology </aspect_05> keeps getting <opinion_05> better </opinion_05> and more efficient over time. <rationale_04> Continuous advancements in solar technology </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "initial cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "the initial investment required",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "energy bills",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They can significantly reduce monthly expenses",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "carbon footprint",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Lowering greenhouse gas emissions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "maintenance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "tedious",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Regular cleaning and checks are necessary",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "better",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Continuous advancements in solar technology",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys looked into the new Mars Rover's drilling capabilities?",
+                "annotation": "Have you guys looked into the new <target_01> Mars Rover </target_01>'s <aspect_01> drilling capabilities </aspect_01>?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I actually think it's advanced. It seems to collect samples with high precision.",
+                "annotation": "I actually think it's <opinion_01> advanced </opinion_01>. <rationale_01> It seems to collect samples with high precision </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "What about its imaging system? Has there been any feedback on its efficiency?",
+                "annotation": "What about its <aspect_02> imaging system </aspect_02>? Has there been any feedback on its efficiency?",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "It's said that the imaging system is groundbreaking because it provides detailed surface scans.",
+                "annotation": "<opinion_02> Groundbreaking </opinion_02> is said about the <aspect_02> imaging system </aspect_02> because it <rationale_02> provides detailed surface scans </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "You hear that soft hum? That's the imaging system in action, providing detailed surface scans.",
+                    "id": "aud_0008"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "drilling capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "advanced",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It seems to collect samples with high precision",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Mars Rover",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "imaging system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "groundbreaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "provides detailed surface scans",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Isabella"
+            },
+            {
+                "id": 1,
+                "name": "Ethan"
+            },
+            {
+                "id": 2,
+                "name": "Olivia"
+            },
+            {
+                "id": 3,
+                "name": "Mason"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            },
+            {
+                "id": 5,
+                "name": "Jacob"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Our company's network firewall system has really strengthened against potential breaches, it's very robust.",
+                "annotation": "Our company's <target_01> network firewall system </target_01> has really <opinion_01> strengthened </opinion_01> against potential breaches, <rationale_01> it's very robust </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely. But I find the complexity of the setup a bit overwhelming.",
+                "annotation": "Absolutely. But I find the <aspect_01> complexity </aspect_01> of the setup a bit <opinion_02> overwhelming </opinion_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The monitoring and logging features are exceptional, they provide detailed insights into network traffic.",
+                "annotation": "The <aspect_02> monitoring and logging features </aspect_02> are <opinion_03> exceptional </opinion_03>, <rationale_02> they provide detailed insights into network traffic </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I've noticed the initial cost is quite high, don't you think?",
+                "annotation": " I've noticed the <aspect_03> initial cost </aspect_03> is quite <opinion_04> high </opinion_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "True, but the long-term savings on breach costs make it a worthy investment.",
+                "annotation": "True, but the <rationale_03> long-term savings on breach costs </rationale_03> make it a <opinion_05> worthy investment </opinion_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "And the real-time alert system? It's incredibly responsive; the alerts are almost instantaneous.",
+                "annotation": "And the <aspect_04> real-time alert system </aspect_04>? It's <opinion_06> incredibly responsive </opinion_06>; <rationale_04> the alerts are almost instantaneous </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The real-time alert system? It's super responsive—alerts come through almost instantly!",
+                    "id": "aud_0009"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "network firewall system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "strengthened",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it's very robust",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "network firewall system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "monitoring and logging features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "they provide detailed insights into network traffic",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jacob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "network firewall system",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "real-time alert system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "incredibly responsive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the alerts are almost instantaneous",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Carol"
+            },
+            {
+                "id": 3,
+                "name": "Dave"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The latency in 5G networks is incredibly low. This means users experience almost no delay in data transmission.",
+                "annotation": "The <aspect_01> latency </aspect_01> in <target_01> 5G networks </target_01> is <opinion_01> incredibly low </opinion_01>. <rationale_01> This means users experience almost no delay in data transmission </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the coverage of 5G networks is still limited, which affects its overall adoption rate.",
+                "annotation": "I think the <aspect_02> coverage </aspect_02> of <target_01> 5G networks </target_01> is <opinion_02> limited </opinion_02>, <rationale_02> which affects its overall adoption rate. </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But the potential for 5G in smart cities is tremendous. We'd see real-time data processing in public services.",
+                "annotation": "But the potential for <target_01> 5G networks </target_01> in <aspect_03> smart cities </aspect_03> is <opinion_03> tremendous </opinion_03>. <rationale_03> We'd see real-time data processing in public services </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Sound of city traffic and pedestrians chatting.",
+                "annotation": "<aspect_03> Smart cities </aspect_03> use <target_01> 5G networks </target_01> effectively. <rationale_04> This technology complements the bustling urban environment </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Can't hear myself think with all this traffic and chatter!",
+                    "id": "aud_0010"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "And the bandwidth of 5G networks is expansive, allowing multiple devices to connect simultaneously.",
+                "annotation": "And the <aspect_04> bandwidth </aspect_04> of <target_01> 5G networks </target_01> is <opinion_04> expansive </opinion_04>, <rationale_05> allowing multiple devices to connect simultaneously </rationale_05>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "However, the infrastructure costs for deploying 5G are still extremely high for many regions.",
+                "annotation": "However, the <aspect_05> infrastructure costs </aspect_05> for deploying <target_01> 5G networks </target_01> are <opinion_05> extremely high </opinion_05> for many regions.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G networks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "latency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly low",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "This means users experience almost no delay in data transmission",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G networks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "coverage",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which affects its overall adoption rate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Carol",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G networks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "smart cities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "tremendous",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "We'd see real-time data processing in public services",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dave",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G networks",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "smart cities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "beneficial",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "This technology complements the bustling urban environment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G networks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "bandwidth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "expansive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "allowing multiple devices to connect simultaneously",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "5G networks",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "infrastructure costs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "extremely high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "for many regions",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00011",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Morgan"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The propulsion system on the new spacecraft is incredibly efficient, allowing for much longer missions.",
+                "annotation": "The <aspect_01> propulsion system </aspect_01> on the new <target_01> spacecraft </target_01> is <opinion_01> incredibly efficient </opinion_01>, <rationale_01> allowing for much longer missions </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The propulsion system on the new spacecraft is incredibly efficient, letting us undertake much longer missions.",
+                    "id": "aud_0011"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the onboard communication systems seem quite outdated, making real-time contact difficult.",
+                "annotation": "<aspect_02> Onboard communication systems </aspect_02> seem <opinion_02> quite outdated </opinion_02>, <rationale_02> making real-time contact difficult </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Have you considered the interior design? It's remarkably spacious, which significantly reduces crew fatigue.",
+                "annotation": "Have you considered the <aspect_03> interior design </aspect_03>? It's <opinion_03> remarkably spacious </opinion_03>, <rationale_03> which significantly reduces crew fatigue </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a good point. But the navigation software still has a lot of bugs, leading to frequent course corrections.",
+                "annotation": "But the <aspect_04> navigation software </aspect_04> still has a lot of <opinion_04> bugs </opinion_04>, <rationale_04> leading to frequent course corrections </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "spacecraft",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "propulsion system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing for much longer missions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "spacecraft",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "onboard communication systems",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite outdated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making real-time contact difficult",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "spacecraft",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "interior design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "remarkably spacious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which significantly reduces crew fatigue",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "spacecraft",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "navigation software",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "bugs",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "leading to frequent course corrections",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00012",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Aiden"
+            },
+            {
+                "id": 1,
+                "name": "Olivia"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            },
+            {
+                "id": 3,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new biotech implants are astounding. The precision they offer is remarkable.",
+                "annotation": "The new <target_01> biotech implants </target_01> are astounding. The <aspect_01> precision </aspect_01> they offer is <opinion_01> remarkable </opinion_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "These new biotech implants are astounding! The precision they offer is truly remarkable.",
+                    "id": "aud_0012"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I'm concerned about their durability in the long run.",
+                "annotation": "I agree, but I'm concerned about their <aspect_02> durability </aspect_02> in the long run.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Prototypes have shown impressive durability. My test unit withstood extreme conditions.",
+                "annotation": "Prototypes have shown impressive <aspect_02> durability </aspect_02>. My test unit withstood <rationale_02> extreme conditions </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "How about the ethical implications? Their impact on human behavior could be significant.",
+                "annotation": "How about the <aspect_03> ethical implications </aspect_03>? Their impact on human behavior could be significant.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "What about the ethical implications? They could significantly impact human behavior.",
+                    "id": "aud_0013"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "I'm cautiously optimistic. As long as we have stringent regulations, we can mitigate potential issues.",
+                "annotation": "I'm cautiously optimistic. As long as we have <rationale_03> stringent regulations </rationale_03>, we can mitigate potential issues.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Aiden",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "biotech implants",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "precision",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "their precision is exceptional",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "biotech implants",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "durability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "they withstood extreme conditions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "biotech implants",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "ethical implications",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "significant",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "we must ensure stringent regulations",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00013",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Brianna"
+            },
+            {
+                "id": 2,
+                "name": "Carlos"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently migrated our company's data to a new cloud platform. The security features are exceptional.",
+                "annotation": "I recently migrated our company's data to a new <target_01> cloud platform </target_01>. The <aspect_01> security features </aspect_01> are <opinion_01> exceptional </opinion_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I just migrated our company's data to a new cloud platform, and the security features are exceptional!",
+                    "id": "aud_0014"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Wow, that sounds impressive. How would you rate the platform's data backup efficiency?",
+                "annotation": "Wow, that sounds impressive. How would you rate the platform's <aspect_02> data backup efficiency </aspect_02>?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "In my opinion, the backup efficiency is mediocre. I noticed it takes much longer to complete backups compared to our previous system.",
+                "annotation": "In my opinion, the backup efficiency is <opinion_02> mediocre </opinion_02>. <rationale_02> I noticed it takes much longer to complete backups compared to our previous system </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's quite a downside. What about the user interface, any thoughts?",
+                "annotation": "That's quite a downside. What about the <aspect_03> user interface </aspect_03>, any thoughts?",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "From my experience, the user interface is very intuitive. It's easy to navigate, which enhances productivity.",
+                "annotation": "From my experience, the user interface is <opinion_03> very intuitive </opinion_03>. <rationale_03> It's easy to navigate, which enhances productivity </rationale_03>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "clear excitement in his voice",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Carlos",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "data backup efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "mediocre",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it takes much longer to complete backups compared to our previous system",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Brianna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "cloud platform",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "very intuitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's easy to navigate, which enhances productivity",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00014",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Taylor"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Implementing multi-factor authentication in our system has been extremely effective, as it greatly enhances the security by preventing unauthorized access.",
+                "annotation": "Implementing <target_01> multi-factor authentication </target_01> in our system has been <opinion_01> extremely effective </opinion_01>, as <rationale_01> it greatly enhances the security by preventing unauthorized access </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "However, the user interface could be better, particularly since it's quite confusing for non-technical users.",
+                "annotation": "However, the <aspect_02> user interface </aspect_02> could be <opinion_02> better </opinion_02>, particularly since <rationale_02> it's quite confusing for non-technical users </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "An additional issue is that the password reset process is incredibly slow, which frustrates users who need quick access.",
+                "annotation": "An additional issue is that the <aspect_03> password reset process </aspect_03> is <opinion_03> incredibly slow </opinion_03>, which <rationale_03> frustrates users who need quick access </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Why is this taking forever? The password reset is so slow; it's really frustrating!",
+                    "id": "aud_0015"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "multi-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "effectiveness",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "extremely effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it greatly enhances the security by preventing unauthorized access",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "multi-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "better",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it's quite confusing for non-technical users",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "multi-factor authentication",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "password reset process",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "incredibly slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "frustrates users who need quick access",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00015",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            },
+            {
+                "id": 5,
+                "name": "Faith"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been researching solar panels lately. They seem really efficient, especially in regions with abundant sunlight.",
+                "annotation": "I've been researching <target_01> solar panels </target_01> lately. They seem really <opinion_01> efficient </opinion_01>, especially in regions with <rationale_01> abundant sunlight </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, but isn't the initial installation cost pretty high? It can be quite discouraging for new adopters because the upfront investment is substantial.",
+                "annotation": "Yes, but isn't the <aspect_01> initial installation cost </aspect_01> pretty <opinion_02> high </opinion_02>? It can be quite discouraging for new adopters because <rationale_02> the upfront investment is substantial </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Sure, but considering the long-term savings on electricity bills, it balances out in a few years, making it ultimately worthwhile.",
+                "annotation": "Sure, but considering the long-term savings on <aspect_02> electricity bills </aspect_02>, it balances out in a few years, making it <opinion_03> ultimately worthwhile </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Have you thought about the environmental impact? Solar panels are quite eco-friendly, contributing to a significant reduction in carbon emissions.",
+                "annotation": "Have you thought about the <aspect_03> environmental impact </aspect_03>? <target_01> Solar panels </target_01> are quite <opinion_04> eco-friendly </opinion_04>, contributing to a significant reduction in <rationale_03> carbon emissions </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Indeed. Also, modern solar panels have improved aesthetics. They blend well with the architecture and are less obtrusive than they used to be.",
+                "annotation": "Indeed. Also, modern <aspect_04> solar panels </aspect_04> have <opinion_05> improved aesthetics </opinion_05>. They <rationale_04> blend well with the architecture and are less obtrusive than they used to be </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Actually, the maintenance is quite minimal. Just a seasonal cleaning to ensure they are free from dust and debris, and they work optimally throughout the year.",
+                "annotation": "Actually, the <aspect_05> maintenance </aspect_05> is quite <opinion_06> minimal </opinion_06>. Just a seasonal cleaning to ensure they are free from <rationale_05> dust and debris </rationale_05>, and they work optimally throughout the year.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Maintaining these? It's quite easy. Just a seasonal cleaning to keep them dust-free and working smoothly all year.",
+                    "id": "aud_0016"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "efficiency",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "efficient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially in regions with abundant sunlight",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "initial installation cost",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "the upfront investment is substantial",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "electricity bills",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "ultimately worthwhile",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "considering the long-term savings on electricity bills",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "environmental impact",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "eco-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "contributing to a significant reduction in carbon emissions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "aesthetics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "improved",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "blend well with the architecture and are less obtrusive than they used to be",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Faith",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "maintenance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "minimal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "just a seasonal cleaning to ensure they are free from dust and debris",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00016",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Olivia"
+            },
+            {
+                "id": 1,
+                "name": "James"
+            },
+            {
+                "id": 2,
+                "name": "Mia"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            },
+            {
+                "id": 5,
+                "name": "Alexander"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I was reading about the latest rover landing on Mars. Its data collection capabilities are remarkable, allowing scientists to gather critical information efficiently.",
+                "annotation": "I was reading about the latest <target_01> rover landing on Mars </target_01>. Its <aspect_01> data collection capabilities </aspect_01> are <opinion_01> remarkable </opinion_01>, <rationale_01> allowing scientists to gather critical information efficiently </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but I heard the communication lag is an issue. It's frustrating when they can't receive real-time updates.",
+                "annotation": "True, but I heard the <aspect_02> communication lag </aspect_02> is an <opinion_02> issue </opinion_02>. It's frustrating when they can't receive real-time updates.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I watched a documentary about that. Many missions have had similar problems.",
+                "annotation": "I watched a documentary about that. Many missions have had similar problems.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "It's incredible how resilient these rovers are, though. They've survived extreme conditions for years.",
+                "annotation": "It's incredible how <aspect_03> resilient </aspect_03> these rovers are, though. They've survived extreme conditions for years.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Did anyone notice the power system? The fact that it runs on solar energy is impressive.",
+                "annotation": "Did anyone notice the <aspect_04> power system </aspect_04>? The fact that it runs on solar energy is <opinion_04> impressive </opinion_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Yes, the power system is indeed impressive. I saw a news segment where engineers discussed its efficiency and sustainability.",
+                "annotation": "<rationale_03>Yes, the power system is indeed impressive. I saw a news segment where engineers discussed its efficiency and sustainability.</rationale_03>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Yes, the power system is impressive. I saw engineers on the news discussing its efficiency and sustainability.",
+                    "id": "aud_0017"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rover landing on Mars",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "data collection capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing scientists to gather critical information efficiently",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rover landing on Mars",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "communication lag",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "issue",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's frustrating when they can't receive real-time updates",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "rover landing on Mars",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "power system",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "impressive",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Yes, the power system is indeed impressive. I saw a news segment where engineers discussed its efficiency and sustainability.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment_flip": "None"
+    },
+    {
+        "doc_id": "00017",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Olivia"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            },
+            {
+                "id": 5,
+                "name": "Elijah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm thinking about switching to renewable energy for my home. What do you all think?",
+                "annotation": "I'm thinking about switching to renewable energy for my home. What do you all think?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Solar panels are a great option; their efficiency has dramatically improved in recent years.",
+                "annotation": "<target_01> Solar panels </target_01> are a great option; their <aspect_01> efficiency </aspect_01> has <opinion_01> dramatically improved </opinion_01> in recent years.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Emma makes a good point. Plus, the installation costs have become much more affordable lately.",
+                "annotation": "Emma makes a good point. Plus, the <aspect_02> installation costs </aspect_02> have become much <opinion_02> more affordable </opinion_02> lately.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Yes, and the maintenance required is minimal, which is fantastic for homeowners.",
+                "annotation": "Yes, and the <aspect_03> maintenance </aspect_03> required is <opinion_03> minimal </opinion_03>, which is fantastic for homeowners.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Yes, the maintenance is minimal, which is fantastic for homeowners.\" *sound of a drill lightly operating in the background*",
+                    "id": "aud_0018"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Wind turbines are another viable solution, especially if you have enough space and wind flow.",
+                "annotation": "<target_02> Wind turbines </target_02> are another viable solution, especially if you have enough <aspect_04> space </aspect_04> and <aspect_05> wind flow </aspect_05>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Ava's right. And they are highly durable, usually lasting over twenty years with minimal upkeep.",
+                "annotation": "Ava's right. And they are highly <aspect_06> durable </aspect_06>, usually lasting over twenty years with minimal <aspect_07> upkeep </aspect_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "dramatically improved",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "in recent years",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "installation costs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "more affordable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "lately",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Solar panels",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "maintenance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "minimal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which is fantastic for homeowners",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Wind turbines",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "space",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "viable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "if you have enough space and wind flow",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Elijah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "Wind turbines",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "durable",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "highly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "usually lasting over twenty years",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

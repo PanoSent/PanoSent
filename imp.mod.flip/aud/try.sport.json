@@ -1,0 +1,831 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Chris"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The Olympic decathlon tests a range of abilities, which makes it the most comprehensive track and field event.",
+                "annotation": "The <target_01> Olympic decathlon </target_01> tests a <opinion_01> comprehensive </opinion_01> range of abilities, <rationale_01> which makes it the most comprehensive track and field event </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "It's the ultimate test of versatility!",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While that’s true, I think the gymnastics events require an incredible combination of strength and grace that’s equally impressive.",
+                "annotation": "While that’s true, I think the <target_01> gymnastics events </target_01> require an <opinion_02> incredible </opinion_02> combination of strength and grace <rationale_02> that’s equally impressive </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But, Chris, the decathlon showcases endurance across various disciplines, which is why I believe it stands out.",
+                "annotation": "But, Chris, the <target_01> decathlon </target_01> showcases <aspect_01> endurance </aspect_01> across various disciplines, <opinion_03> which is why I believe it stands out </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I initially thought gymnastics had the upper hand in terms of artistry and complexity, but the sheer physical demand of the decathlon really makes a strong case.",
+                "annotation": "I initially thought <target_01> gymnastics </target_01> had the <opinion_04> upper hand </opinion_04> in terms of <aspect_02> artistry and complexity </aspect_02>, but <rationale_04> the sheer physical demand of the decathlon really makes a strong case </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The physicality is just unparalleled!",
+                    "id": "aud_0002"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Chris",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Olympic decathlon",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "range of abilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "comprehensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which makes it the most comprehensive track and field event",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gymnastics events",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "combination of strength and grace",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "that's equally impressive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "decathlon",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "endurance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "stands out",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "across various disciplines",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Chris",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gymnastics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "artistry and complexity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "upper hand",
+                    "manner": "explicit"
+                },
+                "sentiment": "initially positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the sheer physical demand of the decathlon really makes a strong case",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Chris",
+                "target": "gymnastics",
+                "aspect": "artistry and complexity",
+                "initial sentiment": "initially positive",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Liam"
+            },
+            {
+                "id": 1,
+                "name": "Mia"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Olivia"
+            },
+            {
+                "id": 4,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new racing simulator, Speed Dimension, is truly impressive. The realism in the driving mechanics is exceptional, making you feel like you're really on the track.",
+                "annotation": "The new racing simulator, <target_01> Speed Dimension </target_01>, is truly impressive. The <aspect_01> driving mechanics </aspect_01> are <opinion_01> exceptional </opinion_01>, <rationale_01> making you feel like you're really on the track </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I have to disagree, Liam. While the mechanics might be realistic, I find the graphics to be somewhat lackluster, which diminishes the overall experience.",
+                "annotation": "I have to disagree, Liam. While the mechanics might be realistic, I find the <aspect_02> graphics </aspect_02> to be <opinion_02> somewhat lackluster </opinion_02>, <rationale_02> which diminishes the overall experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That’s interesting, Mia! I was impressed by the graphics, they evoke a certain charm that makes the racing feel vibrant. So, I think they are beautifully stylized.",
+                "annotation": "That’s interesting, Mia! I was impressed by the <aspect_02> graphics </aspect_02>, they evoke a certain charm that makes the racing feel vibrant. So, I think they are <opinion_03> beautifully stylized </opinion_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Honestly, the graphics really do have their own unique charm.",
+                    "id": "aud_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "I appreciate that perspective, Noah. You make a fair point about the charm, but to me, the graphics still feel outdated, which takes away from the immersion.",
+                "annotation": "I appreciate that perspective, Noah. You make a fair point about the charm, but to me, the <aspect_02> graphics </aspect_02> still feel <opinion_04> outdated </opinion_04>, <rationale_04> which takes away from the immersion </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "What type of cars are featured? I think the selection could be crucial for realism. A rich variety always enhances player engagement.",
+                "annotation": "What type of <target_02> cars </target_02> are featured? I think the <aspect_03> selection </aspect_03> could be <opinion_05> crucial </opinion_05> for realism, <rationale_05> a rich variety always enhances player engagement </rationale_05>.",
+                "modality": "None",
+                "reply": -1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Speed Dimension",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "driving mechanics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making you feel like you're really on the track",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Speed Dimension",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "graphics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat lackluster",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which diminishes the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Speed Dimension",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "graphics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "beautifully stylized",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "they evoke a certain charm that makes the racing feel vibrant",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Speed Dimension",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "graphics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "outdated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which takes away from the immersion",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "cars",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "selection",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "a rich variety always enhances player engagement",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "James"
+            },
+            {
+                "id": 1,
+                "name": "Sarah"
+            },
+            {
+                "id": 2,
+                "name": "Ethan"
+            },
+            {
+                "id": 3,
+                "name": "Lily"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new electric motorsport series is quite thrilling. The acceleration capabilities are simply astounding, providing an exhilarating rush.",
+                "annotation": "The new <target_01> electric motorsport series </target_01> is <opinion_01> quite thrilling </opinion_01>. <aspect_01> The acceleration capabilities </aspect_01> are <opinion_02> astounding </opinion_02>, <rationale_01> providing an exhilarating rush </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, James, but I feel the sound aspect is lacking. The cars are almost too quiet, which detracts from the excitement for me.",
+                "annotation": "I agree, James, but I feel the <aspect_02> sound aspect </aspect_02> is <opinion_03> lacking </opinion_03>, <rationale_02> as the cars are almost too quiet, which detracts from the excitement for me </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's a fair point, but the efficiency of the vehicles is remarkable. They consume less energy, which is a significant advantage.",
+                "annotation": "That's a fair point, but the <aspect_03> efficiency </aspect_03> of the vehicles is <opinion_04> remarkable </opinion_04>, <rationale_03> as they consume less energy, which is a significant advantage </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The vehicles' energy consumption is impressive and sets a new standard.",
+                    "id": "aud_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I appreciate the efficiency, I find the design of the cars to be uninspiring compared to traditional motorsports.",
+                "annotation": "While I appreciate the <aspect_04> efficiency </aspect_04>, I find the <aspect_05> design </aspect_05> of the cars to be <opinion_05> uninspiring </opinion_05>, <rationale_04> compared to traditional motorsports </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Interestingly, there’s been research highlighting how aerodynamics in the design have improved due to simulations. This can actually elevate performance drastically!",
+                "annotation": "Interestingly, there’s <rationale_05> been research highlighting how aerodynamics in the design have improved due to simulations </rationale_05>. <aspect_05> This can actually elevate performance drastically </aspect_05>!",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "Wow, I didn't consider that! If the design enhances performance significantly, I might need to rethink my stance.",
+                "annotation": "<rationale_06> Wow, I didn't consider that! If the design enhances performance significantly </rationale_06>, I might need to <opinion_06> rethink my stance </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric motorsport series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "acceleration capabilities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "quite thrilling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "providing an exhilarating rush",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric motorsport series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sound aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lacking",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as the cars are almost too quiet, which detracts from the excitement for me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric motorsport series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "efficiency",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as they consume less energy, which is a significant advantage",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric motorsport series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "uninspiring",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "compared to traditional motorsports",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "James",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric motorsport series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "elevated performance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "been research highlighting how aerodynamics in the design have improved due to simulations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "electric motorsport series",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "rethink my stance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "If the design enhances performance significantly",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Lily",
+                "target": "electric motorsport series",
+                "aspect": "design",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think soccer is a fantastic team sport. The way players coordinate is really impressive.",
+                "annotation": "I think <target_01> soccer </target_01> is a <opinion_01> fantastic </opinion_01> <aspect_01> team sport </aspect_01>. <rationale_01> The way players coordinate is really impressive </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "You're right, Alex! But in basketball, the teamwork is even more dynamic with quick passes and strategic plays.",
+                "annotation": "You're right, Alex! But in <target_02> basketball </target_02>, the <aspect_02> teamwork </aspect_02> is <opinion_02> even more dynamic </opinion_02>. <rationale_02> With quick passes and strategic plays, it's truly engaging </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I think basketball's teamwork is really dynamic!",
+                    "id": "aud_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but soccer requires endurance and is often a test of mental toughness as well. That adds depth to the strategy.",
+                "annotation": "True, but <target_01> soccer </target_01> requires <aspect_03> endurance </aspect_03> and is <opinion_03> a test of mental toughness </opinion_03> as well. <rationale_03> That adds depth to the strategy </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's an interesting point. I never considered soccer's mental aspect as a key feature.",
+                "annotation": "That's an <opinion_04> interesting </opinion_04> point. <rationale_04> I never considered soccer's mental aspect as a key feature </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "soccer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "team sport",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The way players coordinate is really impressive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "basketball",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "teamwork",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "even more dynamic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "With quick passes and strategic plays, it's truly engaging",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "soccer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "endurance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "a test of mental toughness",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "That adds depth to the strategy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "soccer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "mental aspect",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "interesting",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I never considered soccer's mental aspect as a key feature",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Jordan",
+            "target": "soccer",
+            "aspect": "mental aspect",
+            "initial sentiment": "positive",
+            "flipped sentiment": "neutral",
+            "trigger type": "Introduction of New Information"
+        }
+    }
+]

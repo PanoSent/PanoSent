@@ -1,0 +1,774 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Sam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've started a new fitness regimen focused on weight training, and I find it really effective for building strength.",
+                "annotation": "I've started a new <target_01> fitness regimen </target_01> focused on <aspect_01> weight training </aspect_01>, and I find it really <opinion_01> effective </opinion_01> for <rationale_01> building strength </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting, but I've heard that bodyweight exercises are more practical for long-term sustainability.",
+                "annotation": "That's interesting, but I've heard that <aspect_02> bodyweight exercises </aspect_02> are more <opinion_02> practical </opinion_02> for <rationale_02> long-term sustainability </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think variety is key. The right mix of strength training and flexibility workouts can make any regimen effective.",
+                "annotation": "I think <aspect_03> variety </aspect_03> is <opinion_03> key </opinion_03>. <rationale_03> The right mix of strength training and flexibility workouts can make any regimen effective </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I think variety is key.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "You raise a good point about sustainability, but I've only felt motivated with weight training so far.",
+                "annotation": "You raise a good point about <aspect_02> sustainability </aspect_02>, but I've only felt <opinion_04> motivated </opinion_04> with <rationale_04> weight training so far </rationale_04>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Have you tried incorporating sessions of yoga? They enhance flexibility, which really aids recovery.",
+                "annotation": "Have you tried incorporating <aspect_05> yoga </aspect_05>? They enhance <opinion_05> flexibility </opinion_05>, <rationale_05> which really aids recovery </rationale_05>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A yoga session that enhances flexibility and aids recovery.",
+                    "id": "vid_0001"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "I haven't, but after hearing about its benefits, I think adding yoga could improve my regimen significantly.",
+                "annotation": "I haven't, but after hearing about <aspect_06> its benefits </aspect_06>, I think adding yoga could be <opinion_06> significantly beneficial </opinion_06> to <rationale_06> improve my regimen </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness regimen",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "weight training",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "building strength",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness regimen",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "bodyweight exercises",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "practical",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "long-term sustainability",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness regimen",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "variety",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "key",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "mix of strength training and flexibility workouts can make any regimen effective",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness regimen",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sustainability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "motivated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "weight training so far",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness regimen",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "enhanced",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "aids recovery",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fitness regimen",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "significantly beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "improve my regimen",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophie"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            },
+            {
+                "id": 5,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently started using this new moisturizer, and I believe its texture is exceptionally smooth, which makes it feel luxurious on the skin.",
+                "annotation": "I've recently started using this new <target_01> moisturizer </target_01>, and I believe its <aspect_01> texture </aspect_01> is <opinion_01> exceptionally smooth </opinion_01>, <rationale_01> which makes it feel luxurious on the skin </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Sure, but isn't it a bit oily? My skin tends to feel greasy after applying most moisturizers.",
+                "annotation": "Sure, but isn't it <opinion_02> a bit oily </opinion_02>? <rationale_02> My skin tends to feel greasy after applying most moisturizers </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Isn't it a bit oily? My skin tends to feel greasy after applying moisturizers.",
+                    "id": "aud_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I've found that if you use just the right amount, it's perfectly hydrating without being greasy.",
+                "annotation": "I've found that if you use just the right amount, it's <opinion_03> perfectly hydrating </opinion_03> without <aspect_02> being greasy </aspect_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Interesting point, Emma. I used to think the same way about moisturizers, but after trying this one, I realized it absorbs well. It changed my perception of how moisturizers can actually be non-greasy.",
+                "annotation": "Interesting point, Emma. I used to think the same way about moisturizers, but after trying this one, I <opinion_04> realized it absorbs well </opinion_04>. <rationale_04> It changed my perception of how moisturizers can actually be <aspect_02> non-greasy </aspect_02>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "That’s a good observation, Liam. I feel like a good moisturizer should be hydrating yet light. I absolutely agree that it can be both.",
+                "annotation": "That’s a good observation, Liam. I feel like a good <target_01> moisturizer </target_01> should be <aspect_03> hydrating </aspect_03> yet <aspect_02> light </aspect_02>. <opinion_05> I absolutely agree that it can be both </opinion_05>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A visual of a moisturizer, demonstrating its hydrating and light texture.",
+                    "id": "vid_0002"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Exactly! I've tried so many moisturizers that promised hydration but left a heavy, oily residue. This one really stands out for its effectiveness.",
+                "annotation": "Exactly! I've tried so many <target_01> moisturizers </target_01> that promised <aspect_04> hydration </aspect_04> but left a <opinion_06> heavy, oily residue </opinion_06>. <rationale_05> This one really stands out for its effectiveness. </rationale_05>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "moisturizer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptionally smooth",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which makes it feel luxurious on the skin",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "moisturizer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "oiliness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "a bit oily",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "My skin tends to feel greasy after applying most moisturizers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "moisturizer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "oiliness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "perfectly hydrating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "without being greasy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "moisturizer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "absorption",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "realized it absorbs well",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It changed my perception of how moisturizers can actually be non-greasy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "moisturizer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "hydration",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "my absolute agreement",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "that it can be both",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "moisturizer",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "hydration",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "heavy, oily residue",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "This one really stands out for its effectiveness.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "moisturizer",
+                "aspect": "oiliness",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been following a keto diet lately, and I find it surprisingly effective for weight loss. Cutting carbs really boosts energy.",
+                "annotation": "I've been following a <target_01> keto diet </target_01> lately, and I find it <opinion_01> surprisingly effective </opinion_01> for <aspect_01> weight loss </aspect_01>. <rationale_01> Cutting carbs really boosts energy </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! But isn't the meal prep cumbersome? I'd assume it requires a lot of planning.",
+                "annotation": "<aspect_02> meal prep </aspect_02> <opinion_02> cumbersome </opinion_02>? <rationale_02> I'd assume it requires a lot of planning </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While it does require some planning, I've found the meals to be quite simple and delicious. Plus, it keeps you full longer.",
+                "annotation": "While it does require some planning, I've found the <aspect_03> meals </aspect_03> to be <opinion_03> quite simple </opinion_03> and <opinion_04> delicious </opinion_04>. <rationale_03> Plus, it keeps you full longer </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Charlie shares a simple keto recipe showcasing easy meal prep and delicious dishes.",
+                    "id": "vid_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I appreciate the variety in keto meals, but I'm concerned about the sustainability. Is it something you can adhere to long-term?",
+                "annotation": "I appreciate the <aspect_04> variety </aspect_04> in keto meals, but I'm concerned about its <opinion_05> sustainability </opinion_05>. <rationale_04> Is it something you can adhere to long-term? </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Great question! I initially thought it would be hard to maintain, but the variety keeps it exciting. I now believe it can be sustainable with the right adjustments.",
+                "annotation": "<rationale_05> Great question! I initially thought it would be hard to maintain </rationale_05>, but the variety keeps it exciting. <opinion_06> I now believe it can be sustainable </opinion_06> with the right adjustments.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "That makes sense! It seems like after getting used to it, you might find it easier to stick with. This feedback is really convincing.",
+                "annotation": "That makes sense! <rationale_06> It seems like after getting used to it, you might find it easier to stick with </rationale_06>. This feedback is <opinion_07> really convincing </opinion_07>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Charlie expresses agreement and acknowledges the convincing nature of Alice's feedback.",
+                    "id": "aud_0003"
+                },
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "keto diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "weight loss",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "surprisingly effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Cutting carbs really boosts energy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "keto diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "meal prep",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "cumbersome",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I'd assume it requires a lot of planning",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "keto diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "meals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite simple",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Plus, it keeps you full longer",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "keto diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "variety",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "sustainable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Is it something you can adhere to long-term?",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "keto diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "variety",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "sustainable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "The variety keeps it exciting.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "keto diet",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "feedback",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "really convincing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It seems like after getting used to it, you might find it easier to stick with.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Charlie",
+                "target": "keto diet",
+                "aspect": "sustainability",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    }
+]

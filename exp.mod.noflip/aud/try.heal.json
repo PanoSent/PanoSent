@@ -1,0 +1,882 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Catherine"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently been using a wellness app, and I find its tracking feature quite impressive.",
+                "annotation": "I've recently been using a <target_01> wellness app </target_01>, and I find its <aspect_01> tracking feature </aspect_01> quite <opinion_01> impressive </opinion_01>, <rationale_01> as it accurately records my daily activities and progress over time. </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I think the user interface could be more user-friendly; it sometimes feels overwhelming.",
+                "annotation": "I agree, but I think the <aspect_02> user interface </aspect_02> could be <opinion_02> more user-friendly </opinion_02>; <rationale_02> it sometimes feels overwhelming, which can deter users from engaging with the app. </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The interface can be confusing at times, making it hard to use.",
+                    "id": "aud_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Absolutely! And I find the motivational reminders are incredibly helpful; they keep me on track.",
+                "annotation": "Absolutely! And I find the <aspect_03> motivational reminders </aspect_03> are <opinion_03> incredibly helpful </opinion_03>; <rationale_03> they keep me on track and prevent procrastination. </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s true, but some reminders can be a bit annoying; I’d prefer more customization options for notifications.",
+                "annotation": "That’s true, but some <aspect_04> reminders </aspect_04> can be <opinion_04> a bit annoying </opinion_04>; <rationale_04> I’d prefer more customization options for notifications to manage how often I get pinged. </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "While I see your point, I believe the community aspect of the app is wonderfully supportive; it fosters connections.",
+                "annotation": "While I see your point, I believe the <aspect_05> community aspect </aspect_05> of the <target_01> app </target_01> is <opinion_05> wonderfully supportive </opinion_05>; <rationale_05> it fosters connections and encourages accountability among users. </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I think you're both right, yet the cost of some premium features seems too high; it feels exclusive.",
+                "annotation": "I think you're both right, yet the <aspect_06> cost of premium features </aspect_06> seems <opinion_06> too high </opinion_06>; <rationale_06> it feels exclusive and inaccessible to many who could benefit from the app. </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "tracking feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as it accurately records my daily activities and progress over time.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "more user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it sometimes feels overwhelming, which can deter users from engaging with the app.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Catherine",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "motivational reminders",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "incredibly helpful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "they keep me on track and prevent procrastination.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "reminders",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "a bit annoying",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I’d prefer more customization options for notifications to manage how often I get pinged.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "community aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "wonderfully supportive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it fosters connections and encourages accountability among users.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "wellness app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "cost of premium features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "too high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "it feels exclusive and inaccessible to many who could benefit from the app.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Ava"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been trying this new rejuvenating face mask, and honestly, it's been quite amazing for my skin.",
+                "annotation": "I've been trying this <aspect_01> rejuvenating face mask </aspect_01>, and <opinion_01> honestly, it's been quite amazing </opinion_01> for my <target_01> skin </target_01>. <rationale_01> It brings a refreshed look and feels really hydrating after use. </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I can see a difference! The glow is definitely noticeable. I love how revitalized it looks.",
+                "annotation": "I can see a <opinion_02> difference </opinion_02>! The <aspect_02> glow </aspect_02> is <opinion_03> definitely noticeable </opinion_03>. I love how <target_01> revitalized </target_01> it looks.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The glow is definitely noticeable! I love how revitalized it looks.",
+                    "id": "aud_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I've used face masks before, but this one is particularly nourishing. It feels luxurious on my skin.",
+                "annotation": "I've used <aspect_03> face masks </aspect_03> before, but this one is <opinion_04> particularly nourishing </opinion_04>. <rationale_02> It feels luxurious on my <target_01> skin </target_01>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Absolutely! The texture is so smooth and creamy. I find it incredibly delightful to apply.",
+                "annotation": "Absolutely! The <aspect_04> texture </aspect_04> is <opinion_05> so smooth </opinion_05> and creamy. I find it <opinion_06> incredibly delightful </opinion_06> to apply on my <target_01> skin </target_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The texture is incredibly delightful to apply!",
+                    "id": "aud_0003"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "rejuvenating face mask",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "amazing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It brings a refreshed look and feels really hydrating after use.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "glow",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "noticeable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The glow is definitely noticeable! I love how revitalized it looks.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "face masks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "nourishing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It feels luxurious on my skin.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "smooth",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I find it incredibly delightful to apply.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Matthew"
+            },
+            {
+                "id": 2,
+                "name": "Lila"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've started practicing yoga to relieve stress.",
+                "annotation": "I've started practicing <target_01> yoga </target_01> to relieve stress.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I've found yoga to be incredibly relaxing. It helps me unwind after long days.",
+                "annotation": "I've found <aspect_01> yoga </aspect_01> to be <opinion_01> incredibly relaxing </opinion_01>. <rationale_01> It helps me unwind after long days </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Yoga is incredibly relaxing for me; it helps me unwind!",
+                    "id": "aud_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Totally agree! The breathing techniques are beneficial, both in practice and in everyday situations.",
+                "annotation": "The <aspect_02> breathing techniques </aspect_02> are <opinion_02> beneficial </opinion_02>. <rationale_02> Both in practice and in everyday situations, they help me feel grounded </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Yes! But sometimes, I find some poses quite challenging. It can be frustrating.",
+                "annotation": "But sometimes, I find <aspect_03> some poses </aspect_03> quite <opinion_03> challenging </opinion_03>. <rationale_03> It can be frustrating for beginners and even for some experienced practitioners </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I believe it's important to recognize our limits. Each practice session is a step towards improvement.",
+                "annotation": "It's important to recognize <aspect_04> our limits </aspect_04>. <opinion_04> Each practice session is </opinion_04> <rationale_04> a step towards improvement and self-discovery </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Recognizing our limits is crucial; it encourages growth.",
+                    "id": "aud_0005"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Matthew",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly relaxing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it helps me unwind after long days",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "breathing techniques",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "both in practice and in everyday situations, they help me feel grounded",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "some poses",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "challenging",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it can be frustrating for beginners and even for some experienced practitioners",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "yoga",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "our limits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "important",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "each practice session is a step towards improvement and self-discovery",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently read about sleep studies and found the results on REM cycles to be fascinating, particularly how they impact memory consolidation.",
+                "annotation": "I recently read about <aspect_01> REM cycles </aspect_01> in <target_01> sleep studies </target_01> and found them to be <opinion_01> fascinating </opinion_01>, <rationale_01> particularly how they impact memory consolidation </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The findings on REM cycles from sleep studies are truly fascinating.",
+                    "id": "aud_0006"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The implications for educational techniques are quite revolutionary as well. It's a game-changer.",
+                "annotation": "Absolutely! The implications for <aspect_02> educational techniques </aspect_02> are <opinion_02> quite revolutionary </opinion_02>, <rationale_02> as it fundamentally changes how we understand learning and memory </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the findings about sleep duration affecting mood are particularly relevant nowadays, highlighting the importance of adequate sleep for well-being.",
+                "annotation": "I think the findings about <aspect_03> sleep duration </aspect_03> affecting <target_01> mood </target_01> are <opinion_03> particularly relevant </opinion_03>, <rationale_03> highlighting the importance of adequate sleep for well-being </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While that is crucial, I find the relationship of sleep deprivation on cognitive performance to be alarming.",
+                "annotation": "While that is crucial, I find the <aspect_04> relationship of sleep deprivation </aspect_04> on <target_01> cognitive performance </target_01> to be <opinion_04> alarming </opinion_04>, <rationale_04> as it can severely impact daily functioning and productivity </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Sleep deprivation's impact on cognitive performance is alarming; we should really pay attention to it.",
+                    "id": "aud_0007"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I share that concern. It's fascinating how consistent sleep patterns can enhance overall health, reflecting a strong link to longevity.",
+                "annotation": "I share that concern. <aspect_05> Consistent sleep patterns </aspect_05> can be <opinion_05> fascinating </opinion_05>, <rationale_05> as they enhance overall health and reflect a strong link to longevity </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Indeed! The application of these findings in mental health treatments is promising; it could lead to new strategies for therapy.",
+                "annotation": "Indeed! The application of <aspect_06> findings in mental health treatments </aspect_06> is <opinion_06> promising </opinion_06>, <rationale_06> as they could lead to new strategies for therapy </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sleep studies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "REM cycles",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "particularly how they impact memory consolidation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sleep studies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "educational techniques",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as it fundamentally changes how we understand learning and memory",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sleep studies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "sleep duration",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "particularly relevant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "highlighting the importance of adequate sleep for well-being",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sleep studies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "relationship of sleep deprivation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "alarming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as it can severely impact daily functioning and productivity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sleep studies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "consistent sleep patterns",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "as they enhance overall health and reflect a strong link to longevity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sleep studies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "findings in mental health treatments",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "promising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "as they could lead to new strategies for therapy",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

@@ -1,0 +1,609 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've just finished reading 'The Great Gatsby.' The characterization is truly compelling, particularly in how it reflects society of that era.",
+                "annotation": "I've just finished reading <target_01> 'The Great Gatsby' </target_01>. The <aspect_01> characterization </aspect_01> is <opinion_01> compelling </opinion_01>, <rationale_01> particularly in how it reflects society of that era </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting, Alice. However, I found the pacing somewhat slow; it detracted from my overall enjoyment of the book.",
+                "annotation": "That's interesting, Alice. However, I found the <aspect_02> pacing </aspect_02> <opinion_02> slow </opinion_02>; <rationale_02> it detracted from my overall enjoyment of the book </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A scene showcasing the book's slow pace with drawn-out descriptions.",
+                    "id": "vid_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I understand, Ben. Yet, the slow pacing gave me the chance to reflect on the themes more deeply, making the story resonate long after I read it.",
+                "annotation": "I understand, Ben. Yet, the <aspect_02> slow pacing </aspect_02> made the story <opinion_03> resonate </opinion_03> longer, <rationale_03> giving me the chance to reflect on the themes more deeply </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I hadn't considered that perspective, Clara. Upon reflection, I realize the depth it adds to the story, making it more enriching.",
+                "annotation": "I hadn't considered that perspective, Clara. Upon reflection, I realize it makes the story <opinion_04> more enriching </opinion_04>, <rationale_04> as it adds depth to the story </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Great Gatsby'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "characterization",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "compelling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "particularly in how it reflects society of that era",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Great Gatsby'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it detracted from my overall enjoyment of the book",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Great Gatsby'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "resonate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "giving me the chance to reflect on the themes more deeply",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Great Gatsby'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "depth",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more enriching",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as it adds depth to the story",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Alice",
+            "target": "'The Great Gatsby'",
+            "aspect": "pacing",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ryan"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Jake"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently attended a play called 'Echoes from the Past,' and I found the acting to be absolutely captivating.",
+                "annotation": "I recently attended a play called '<target_01> Echoes from the Past </target_01>,' and I found the <aspect_01> acting </aspect_01> to be <opinion_01> absolutely captivating </opinion_01>. <rationale_01> The actors brought such depth to their roles that every emotion felt genuine. </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! For me, the set design was quite impressive; it really transported the audience to another era.",
+                "annotation": "That's interesting! For me, the <aspect_02> set design </aspect_02> was <opinion_02> quite impressive </opinion_02>; <rationale_02> it really transported the audience to another era. </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I was skeptical about the storyline at first, thinking it might be too complex, but I was pleasantly surprised.",
+                "annotation": "I was <opinion_03> skeptical about </opinion_03> the <aspect_03> storyline </aspect_03> at first, <rationale_03> thinking it might be too complex, but I was pleasantly surprised. </rationale_03>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Jake faces a journey of confusion and surprise as he engages with the complex storyline of the play.",
+                    "id": "vid_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Did you notice how the lighting complemented the set? It added an ambiance that was both enchanting and effective.",
+                "annotation": "Did you notice how the <aspect_04> lighting </aspect_04> complemented the set? <rationale_04> It added an ambiance that was both enchanting and effective. </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Absolutely! I think it was the lighting combined with the sound that created an atmosphere that was simply enchanting.",
+                "annotation": "Absolutely! I think it was the <aspect_05> lighting and sound </aspect_05> that created an atmosphere that was <opinion_05> simply enchanting </opinion_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "Reflecting on it now, I realize that the storyline's intricacy was crucial; it kept the audience engaged until the end.",
+                "annotation": "Reflecting on it now, I realize that the <aspect_03> storyline's intricacy </aspect_03> was <opinion_06> crucial </opinion_06>; <rationale_06> it kept the audience engaged until the end. </rationale_06>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ryan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echoes from the Past",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "acting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The actors brought such depth to their roles that every emotion felt genuine.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echoes from the Past",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "set design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It really transported the audience to another era.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echoes from the Past",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "storyline",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "skeptical about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Thinking it might be too complex, but I was pleasantly surprised.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ryan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echoes from the Past",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enchanting and effective",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It added an ambiance that was both enchanting and effective.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echoes from the Past",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "lighting and sound",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "simply enchanting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It created an atmosphere that was simply enchanting.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jake",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Echoes from the Past",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "storyline's intricacy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "It kept the audience engaged until the end.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jake",
+                "target": "Echoes from the Past",
+                "aspect": "storyline",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you seen the new art installation at the downtown gallery? I find the concept absolutely innovative.",
+                "annotation": "Have you seen the new art installation at the <target_01> downtown gallery </target_01>? I find the <aspect_01> concept </aspect_01> absolutely <opinion_01> innovative </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I haven’t visited yet, but I read that it integrates technology in a really engaging way, which makes it appealing to a younger audience.",
+                "annotation": "I haven’t visited yet, but I read that it <aspect_02> integrates technology </aspect_02> in a really <opinion_02> engaging </opinion_02> way, <rationale_02> which makes it appealing to a younger audience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That’s interesting! I heard people were divided about its interactive elements; some say they’re overwhelming.",
+                "annotation": "That’s interesting! I heard people were <opinion_03> divided about </opinion_03> its <aspect_03> interactive elements </aspect_03>; <rationale_03> some say they’re overwhelming </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "Well, I imagined those interactive features could detract from the art itself, but seeing a clip of them made me reconsider. They actually seem to enhance the overall experience!",
+                "annotation": "I imagined those <aspect_04> interactive features </aspect_04> could <opinion_04> detract from </opinion_04> the art itself, but seeing a clip of them made me <rationale_04> reconsider. They actually seem to enhance the overall experience!</rationale_04>",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Clip showing how the interactive elements enhance the art experience.",
+                    "id": "vid_0003"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "downtown gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "concept",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "innovative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "downtown gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "integration of technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "engaging",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which makes it appealing to a younger audience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "downtown gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "interactive elements",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "divided about",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "some say they’re overwhelming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "downtown gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "interactive features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enhancing",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "They actually seem to enhance the overall experience!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alex",
+                "target": "downtown gallery",
+                "aspect": "interactive features",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    }
+]

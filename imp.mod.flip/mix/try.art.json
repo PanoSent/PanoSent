@@ -1,0 +1,2090 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Samira"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Aisha"
+            },
+            {
+                "id": 3,
+                "name": "Ravi"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think Diwali is absolutely vibrant, with bright lights and colorful decorations all around.",
+                "annotation": "I think <target_01> Diwali </target_01> is <opinion_01> absolutely vibrant </opinion_01>, <rationale_01> with bright lights and colorful decorations all around </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A sparkling Diwali celebration scene with illuminated diyas and colorful rangoli designs.",
+                    "id": "img_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, and the sounds of crackers create a festive atmosphere, though it can get a bit overwhelming at times.",
+                "annotation": "True, and the <aspect_02> sounds of crackers </aspect_02> create a <opinion_02> festive atmosphere </opinion_02>, <rationale_02> though it can get a bit overwhelming at times </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But I find the noise pollution troubling during Diwali; it spoils the pleasure of the celebrations.",
+                "annotation": "But I find the <aspect_03> noise pollution </aspect_03> <opinion_03> troubling </opinion_03> during Diwali; <rationale_03> it spoils the pleasure of the celebrations </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I find the noise pollution troubling during Diwali.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to love the sound, but now I see how the noise can really disrupt nearby animals and even people.",
+                "annotation": "I used to love the <aspect_02> sound </aspect_02>, but now I see how the <aspect_03> noise </aspect_03> can really <opinion_04> disrupt </opinion_04> nearby animals and even people.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "I can understand that perspective, Ravi. Sounds like introducing quieter options could make the festival more inclusive for everyone!",
+                "annotation": "I can understand that perspective, Ravi. <rationale_04> Sounds like introducing <aspect_04> quieter options </aspect_04> could make the festival more <opinion_05> inclusive </opinion_05> for everyone!</rationale_04>",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Samira",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "decorations",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "with bright lights and colorful decorations all around.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sounds of crackers",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "festive",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "though it can get a bit overwhelming at times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Aisha",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "noise pollution",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "troubling",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it spoils the pleasure of the celebrations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sound",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disrupt",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "nearby animals and even people",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Samira",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "quieter options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "inclusive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "introducing quieter options could make the festival more inclusive for everyone!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ravi",
+                "target": "Diwali",
+                "aspect": "sound",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Taylor"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            },
+            {
+                "id": 3,
+                "name": "Riley"
+            },
+            {
+                "id": 4,
+                "name": "Sydney"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The rhythm of the new song is quite infectious and makes you want to dance.",
+                "annotation": "The <aspect_01> rhythm </aspect_01> of the <target_01> new song </target_01> is <opinion_01> quite infectious </opinion_01> and <rationale_01> makes you want to dance </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The rhythm of the new song is quite infectious and makes you want to dance.",
+                    "id": "aud_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I completely agree! However, the lyrical content feels a bit shallow to me.",
+                "annotation": "I completely agree! However, the <aspect_02> lyrical content </aspect_02> feels <opinion_02> a bit shallow </opinion_02> to me.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The production quality is impressive, especially the mixing of different instruments. It gives the song depth.",
+                "annotation": "The <aspect_03> production quality </aspect_03> is <opinion_03> impressive </opinion_03>, especially <rationale_03> the mixing of different instruments </rationale_03>. It gives the song depth.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I agree the production is good, the vocals lack emotion and make it hard to connect with the song.",
+                "annotation": "While I agree the production is good, the <aspect_04> vocals </aspect_04> <opinion_04> lack emotion </opinion_04> and <rationale_04> make it hard to connect with the song </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Interestingly, I had a personal experience where I felt the song's energy reflected my mood during a party last weekend.",
+                "annotation": "Interestingly, I had a personal experience where I felt the <aspect_01> song's energy </aspect_01> <opinion_05> was uplifting </opinion_05> during a party last weekend.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video of a vibrant party scene featuring people dancing and enjoying music.",
+                    "id": "vid_0001"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new song",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "rhythm",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "infectious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it makes you want to dance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new song",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lyrical content",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "shallow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it feels a bit shallow to me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new song",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "production quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially the mixing of different instruments",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new song",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "vocals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "lack emotion",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they make it hard to connect with the song",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Sydney",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new song",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "song's energy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "uplifting",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "during a party last weekend",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "Daniel"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've just finished reading 'The Silent Patient'. The plot twists are absolutely stunning.",
+                "annotation": "I've just finished reading <target_01> 'The Silent Patient' </target_01>. <rationale_01> The plot twists are absolutely stunning. </rationale_01>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I've just finished reading 'The Silent Patient'. The plot twists are absolutely stunning.",
+                    "id": "aud_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Indeed! The character development is intriguing as well, making you empathize with their struggles.",
+                "annotation": "Indeed! The <aspect_02> character development </aspect_02> is <opinion_02> intriguing </opinion_02> as well, <rationale_02> making you empathize with their struggles. </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I found the writing style to be quite captivating. It really draws you into the story.",
+                "annotation": "I found the <aspect_03> writing style </aspect_03> to be <opinion_03> quite captivating </opinion_03>. <rationale_03> It really draws you into the story. </rationale_03>",
+                "modality": {
+                    "type": "img",
+                    "caption": "An open book with vivid illustrations depicting the narrative themes of 'The Silent Patient'.",
+                    "id": "img_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I appreciate the storytelling, I thought the pacing was a bit slow at times.",
+                "annotation": "While I appreciate the storytelling, I thought the <aspect_04> pacing </aspect_04> was <opinion_04> a bit slow </opinion_04> at times. <rationale_04> It sometimes made the story drag on longer than necessary. </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "Although I noticed the pacing, the depth it adds to characters makes it worthwhile for me.",
+                "annotation": "Although I noticed the <aspect_04> pacing </aspect_04>, the depth it adds to characters makes it <opinion_05> worthwhile </opinion_05> for me.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "True, character depth is crucial. Personally, I think that enhances the overall reading experience considerably.",
+                "annotation": "True, <aspect_02> character depth </aspect_02> is <opinion_06> crucial </opinion_06>. <rationale_06> Personally, I think that enhances the overall reading experience considerably. </rationale_06>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Silent Patient'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "plot twists",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The plot twists are absolutely stunning.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Silent Patient'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "intriguing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "Making you empathize with their struggles.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Silent Patient'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "writing style",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It really draws you into the story.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Daniel",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Silent Patient'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "a bit slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It sometimes made the story drag on longer than necessary.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Silent Patient'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "worthwhile",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "The depth it adds to characters makes it worthwhile for me.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Silent Patient'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "character depth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Personally, I think that enhances the overall reading experience considerably.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Alice",
+            "target": "'The Silent Patient'",
+            "aspect": "pacing",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lila"
+            },
+            {
+                "id": 1,
+                "name": "Mark"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently attended a local artisan fair showcasing traditional crafts like woodworking and pottery. The craftsmanship is exceptional, reflecting deep cultural heritage.",
+                "annotation": "I recently attended a local artisan fair showcasing <target_01> traditional crafts </target_01> like woodworking and pottery. The <aspect_01> craftsmanship </aspect_01> is <opinion_01> exceptional </opinion_01>, <rationale_01> reflecting deep cultural heritage </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I don't know, Lila. I visited a similar fair once, and I found the products overpriced. The value didn’t seem justified to me.",
+                "annotation": "I don't know, Lila. I visited a similar fair once, and I found the products <opinion_02> overpriced </opinion_02>. <rationale_02> The value didn’t seem justified to me </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Have you considered that the high prices may reflect the quality of materials and the amount of time invested in each piece? I believe the value is actually quite significant.",
+                "annotation": "Have you considered that <rationale_03> the high prices may reflect the quality of materials and the amount of time invested in each piece </rationale_03>? I believe the value is <opinion_03> quite significant </opinion_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Have you considered that the high prices may reflect the quality of materials and the amount of time invested in each piece? I believe the value is actually quite significant.",
+                    "id": "aud_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Now that you mention it, I hadn’t thought about the craftsmanship and time involved. It makes sense that the quality would justify a higher price.",
+                "annotation": "Now that you mention it, I hadn’t thought about the craftsmanship and time involved. It makes sense that the quality would <opinion_04> justify a higher price </opinion_04>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Video showing artisans at work, highlighting the intricate processes involved in crafting traditional pieces.",
+                    "id": "vid_0002"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "craftsmanship",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "reflecting deep cultural heritage",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "price",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overpriced",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The value didn’t seem justified to me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "value",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite significant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the high prices may reflect the quality of materials and the amount of time invested in each piece",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "traditional crafts",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "quality",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "justify a higher price",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It makes sense that the quality would justify a higher price",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Mark",
+                "target": "traditional crafts",
+                "aspect": "price",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Claire"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new installation at the gallery features an intriguing use of light, creating a mesmerizing atmosphere.",
+                "annotation": "The new installation at the <target_01> gallery </target_01> features an <aspect_01> intriguing use of light </aspect_01>, creating a <opinion_01> mesmerizing </opinion_01> atmosphere.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I find it overwhelming, honestly. The lights distract from the sculptures themselves.",
+                "annotation": "I <opinion_02> find it overwhelming </opinion_02>, <rationale_02> honestly. The lights distract from the <target_02> sculptures </target_02> themselves </rationale_02>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video showcasing the gallery installation with bright lights and featured sculptures.",
+                    "id": "vid_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I can see both sides, but the interplay between light and sculpture creates a unique dialogue.",
+                "annotation": "I can see both sides, but the <aspect_02> interplay between light and sculpture </aspect_02> creates a <opinion_03> unique </opinion_03> dialogue.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s interesting! Initially, I thought the lighting made everything look tacky, but now that you mention its dialogue, it kind of shifts my perspective.",
+                "annotation": "That’s interesting! Initially, I thought the <aspect_03> lighting </aspect_03> made everything look <opinion_04> tacky </opinion_04>, but now that you mention its dialogue, it kind of shifts my perspective.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "For me, though, the audio component is just as important; it complements the visual experience beautifully.",
+                "annotation": "For me, though, the <aspect_04> audio component </aspect_04> is <opinion_05> important </opinion_05>; it complements the <target_01> visual experience </target_01> beautifully.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Audio commentary on the importance of the audio component in art installations.",
+                    "id": "aud_0005"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "Good point! I initially didn't think the audio added much value, but I've started to appreciate how it enhances the atmosphere.",
+                "annotation": "Good point! I initially <opinion_06> didn't think the audio added much value </opinion_06>, but I've started to appreciate how it <aspect_05> enhances the atmosphere </aspect_05>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "use of light",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "mesmerizing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "creating a mesmerizing atmosphere",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "sculptures",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "The lights distract from the sculptures themselves",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Claire",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "interplay between light and sculpture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "unique",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "creates a unique dialogue",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "tacky",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "made everything look tacky",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "audio component",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "important",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "complements the visual experience beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "audio value",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "didn't think it added much value",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "initially didn't think that's helped add to the experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "atmosphere",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "enhances the atmosphere",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "appreciate how it enhances the atmosphere",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Frank",
+                "target": "gallery",
+                "aspect": "audio value",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            },
+            {
+                "holder": "David",
+                "target": "gallery",
+                "aspect": "lighting",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Noah"
+            },
+            {
+                "id": 3,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently attended a craft fair and was truly impressed by the handmade pottery. The glaze finishes are exquisite, showcasing the artisans' skills beautifully.",
+                "annotation": "I recently attended a <target_01> craft fair </target_01> and was truly impressed by the handmade <target_02> pottery </target_02>. The <aspect_01> glaze finishes </aspect_01> are <opinion_01> exquisite </opinion_01>, <rationale_01> showcasing the artisans' skills beautifully </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A display of various handmade pottery pieces with vibrant glazes at a craft fair.",
+                    "id": "img_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I've seen some of that pottery too! However, I find the prices rather steep for what they offer. It can discourage new buyers.",
+                "annotation": "I've seen some of that pottery too! However, I find the <aspect_02> prices </aspect_02> rather <opinion_02> steep </opinion_02> for what they offer. <rationale_02> It can discourage new buyers </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But shouldn't we consider that these artisans invest a lot of time and effort into their work? In my view, the <aspect_02> prices </aspect_02> are <opinion_03> justified </opinion_03> given the craftsmanship involved.",
+                "annotation": "But shouldn't we consider that these artisans invest a lot of time and effort into their work? In my view, the <aspect_02> prices </aspect_02> are <opinion_03> justified </opinion_03> <rationale_03> given the craftsmanship involved </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You might have a point there. I understand the effort involved, but it still feels disproportionate sometimes.",
+                "annotation": "You might have a point there. I understand the effort involved, but it still feels <opinion_04> disproportionate </opinion_04> sometimes.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "You might have a point there. I understand the effort involved, but it still feels disproportionate sometimes.",
+                    "id": "aud_0006"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "craft fair",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "glaze finishes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exquisite",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showcasing the artisans' skills beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "pottery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "prices",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "steep",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can discourage new buyers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "pottery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "prices",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "justified",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "given the craftsmanship involved",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "pottery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "prices",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "disproportionate",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It can discourage new buyers",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "pottery",
+                "aspect": "prices",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Tina"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Alex"
+            },
+            {
+                "id": 3,
+                "name": "Maya"
+            },
+            {
+                "id": 4,
+                "name": "Raj"
+            },
+            {
+                "id": 5,
+                "name": "Sam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I attended the recent performance of 'The Dance of Shadows.' The choreography is stunning, showcasing an elegant blend of classical and contemporary styles.",
+                "annotation": "I attended the recent performance of <target_01> 'The Dance of Shadows' </target_01>. The <aspect_01> choreography </aspect_01> is <opinion_01> stunning </opinion_01>, <rationale_01> showcasing an elegant blend of classical and contemporary styles </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I've heard many positive reviews about it. However, I think the lighting could have been better. It sometimes distracted from the dancers.",
+                "annotation": "I've heard many positive reviews about it. However, I think the <aspect_02> lighting </aspect_02> could have been <opinion_02> better </opinion_02>. <rationale_02> It sometimes distracted from the dancers </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but the lighting during the solo performances was absolutely magical, adding depth and emotion to the overall experience.",
+                "annotation": "True, but the <aspect_02> lighting </aspect_02> during the solo performances was <opinion_03> absolutely magical </opinion_03>, <rationale_03> adding depth and emotion to the overall experience </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "Clips from 'The Dance of Shadows' showcasing solo performances with magical lighting effects.",
+                    "id": "vid_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "After seeing the clips, I can see how the lighting contributed positively during those moments, offering a different perspective.",
+                "annotation": "After seeing the clips, I can see how the <aspect_02> lighting </aspect_02> contributed <opinion_04> positively </opinion_04> during those moments, <rationale_04> offering a different perspective </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "And let's not forget about the music! The score complements the dance beautifully, creating a cohesive experience that resonates with the audience.",
+                "annotation": "And let's not forget about the <target_01> music </target_01>! The <aspect_03> score </aspect_03> complements the dance <opinion_05> beautifully </opinion_05>, <rationale_05> creating a cohesive experience that resonates with the audience </rationale_05>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "The music indeed adds layers to the performance. However, do you think it sometimes overpowered the dancers?",
+                "annotation": "The <aspect_03> music </aspect_03> indeed adds layers to the performance. However, do you think it sometimes <opinion_06> overpowered </opinion_06> the dancers? <rationale_06> This could take away from their expressions </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            },
+            {
+                "index": 6,
+                "speaker": 5,
+                "utterance": "Having heard your perspectives, I feel the score is well-balanced. It enhances rather than detracts from the dance, making it more expressive.",
+                "annotation": "Having heard your perspectives, I feel the <aspect_03> score </aspect_03> is <opinion_07> well-balanced </opinion_07>. <rationale_07> It enhances rather than detracts from the dance, making it more expressive </rationale_07>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The score enhances the performance, making it more expressive.",
+                    "id": "aud_0007"
+                },
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Dance of Shadows'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "choreography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "showcasing an elegant blend of classical and contemporary styles",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Dance of Shadows'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "better",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It sometimes distracted from the dancers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Dance of Shadows'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "absolutely magical",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "adding depth and emotion to the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Dance of Shadows'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "positively",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "offering a different perspective",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "music",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "score",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "beautifully",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "creating a cohesive experience that resonates with the audience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "music",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "music",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "overpowered",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "This could take away from their expressions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'The Dance of Shadows'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "score",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "well-balanced",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "It enhances rather than detracts from the dance, making it more expressive",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jordan",
+                "target": "'The Dance of Shadows'",
+                "aspect": "lighting",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Luna"
+            },
+            {
+                "id": 1,
+                "name": "Zane"
+            },
+            {
+                "id": 2,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find the exhibit layout of the art gallery really intuitive, guiding visitors through the different themes without confusion.",
+                "annotation": "I find the <aspect_01> exhibit layout </aspect_01> of the <target_01> art gallery </target_01> <rationale_01> guiding visitors through the different themes without confusion </rationale_01>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A walkthrough video showcasing the art gallery's layout and how it directs visitors from one piece to another.",
+                    "id": "vid_0005"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I disagree and think the layout could be overwhelming; it feels crowded in some sections, which detracts from the art itself.",
+                "annotation": "I disagree and think the <aspect_02> layout </aspect_02> could be <opinion_02> overwhelming </opinion_02>; <rationale_02> it feels crowded in some sections, which detracts from the art itself </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I believe the lighting in the gallery is outstanding because it highlights the artwork beautifully, enhancing the colors and details.",
+                "annotation": "I believe the <aspect_03> lighting </aspect_03> in the <target_01> gallery </target_01> is <opinion_03> outstanding </opinion_03> because <rationale_03> it highlights the artwork beautifully, enhancing the colors and details </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I believe the lighting in the gallery is outstanding because it highlights the artwork beautifully.",
+                    "id": "aud_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "While I appreciated the lighting initially, I've noticed it can create harsh shadows on some pieces, which obscures certain elements.",
+                "annotation": "While I appreciated the <aspect_03> lighting </aspect_03> initially, I've noticed it <opinion_04> can create harsh shadows </opinion_04> on some pieces, which <rationale_04> obscures certain elements </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Luna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "exhibit layout",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "intuitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "guiding visitors through the different themes without confusion",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Zane",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "layout",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "it feels crowded in some sections, which detracts from the art itself",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "outstanding",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it highlights the artwork beautifully, enhancing the colors and details",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Luna",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "can create harsh shadows",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which obscures certain elements",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Luna",
+                "target": "art gallery",
+                "aspect": "lighting",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Elena"
+            },
+            {
+                "id": 1,
+                "name": "Ryan"
+            },
+            {
+                "id": 2,
+                "name": "Chloe"
+            },
+            {
+                "id": 3,
+                "name": "Mason"
+            },
+            {
+                "id": 4,
+                "name": "Tara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I find the texture of the sculpture to be captivating, as it draws viewers in for a closer look.",
+                "annotation": "I find the <aspect_01> texture </aspect_01> of the <target_01> sculpture </target_01> to be <opinion_01> captivating </opinion_01>, <rationale_01> as it draws viewers in for a closer look </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A close-up image of a textured sculpture, highlighting its intricate details.",
+                    "id": "img_0004"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree with that, but I also believe the use of color is quite striking, making it an instant focal point in the gallery.",
+                "annotation": "I agree with that, but I also believe the <aspect_02> use of color </aspect_02> is <opinion_02> striking </opinion_02>, <rationale_02> making it an instant focal point in the gallery </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, yet I find that the form is a bit unconventional, which may not appeal to all visitors.",
+                "annotation": "True, yet I find that the <aspect_03> form </aspect_03> is <opinion_03> unconventional </opinion_03>, <rationale_03> which may not appeal to all visitors </rationale_03>.",
+                "modality": {
+                    "type": "vid",
+                    "caption": "A video showing several visitors reacting differently to the sculpture's unconventional form.",
+                    "id": "vid_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I think the form adds character to the piece. It challenges traditional ideas of beauty and art.",
+                "annotation": "I think the <aspect_03> form </aspect_03> <opinion_04> adds character </opinion_04> to the piece. <rationale_04> It challenges traditional ideas of beauty and art </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Speaking of the gallery, the installation overall is impressive as it utilizes space wonderfully, creating a holistic experience.",
+                "annotation": "Speaking of the <aspect_04> gallery installation </aspect_04>, it is <opinion_05> impressive </opinion_05> as it utilizes space wonderfully, <rationale_05> creating a holistic experience </rationale_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The installation overall is impressive as it utilizes space wonderfully.",
+                    "id": "aud_0009"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Elena",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "captivating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it draws viewers in for a closer look",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ryan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "use of color",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "striking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it an instant focal point in the gallery",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Chloe",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "form",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "unconventional",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which may not appeal to all visitors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sculpture",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "form",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "adds character",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It challenges traditional ideas of beauty and art",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Tara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "gallery installation",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "installation overall",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "as it utilizes space wonderfully, creating a holistic experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Chloe",
+                "target": "sculpture",
+                "aspect": "form",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    }
+]

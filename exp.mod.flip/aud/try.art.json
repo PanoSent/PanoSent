@@ -1,0 +1,801 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lina"
+            },
+            {
+                "id": 1,
+                "name": "Raj"
+            },
+            {
+                "id": 2,
+                "name": "Meera"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I love how Diwali, the festival of lights, celebrates the victory of light over darkness. The <aspect_01> decorations </aspect_01> are <opinion_01> vibrant </opinion_01>, as they really fill the atmosphere with joy and hope.",
+                "annotation": "I love how <target_01> Diwali </target_01>, the festival of lights, celebrates the victory of light over darkness. The <aspect_01> decorations </aspect_01> are <opinion_01> vibrant </opinion_01>, <rationale_01> as they really fill the atmosphere with joy and hope </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I find those <aspect_02> fireworks </aspect_02> during Diwali to be <opinion_02> overwhelming </opinion_02> because they can be too loud and cause distress to pets and even some people.",
+                "annotation": "I find those <aspect_02> fireworks </aspect_02> during <target_01> Diwali </target_01> to be <opinion_02> overwhelming </opinion_02> <rationale_02> because they can be too loud and cause distress to pets and even some people </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I see your point about the fireworks, don't you think they symbolize the joy of the festival? In my eyes, they are <opinion_03> exhilarating </opinion_03> because they add a festive flair and a sense of celebration.",
+                "annotation": "While I see your point about the fireworks, don't you think they symbolize the joy of the festival? In my eyes, they are <opinion_03> exhilarating </opinion_03> <rationale_03> because they add a festive flair and a sense of celebration </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "You have a valid point! It's true that the fireworks do create a festive atmosphere. I guess they can be <opinion_04> joyful </opinion_04> at times, as they certainly light up the night sky beautifully.",
+                "annotation": "You have a valid point! It's true that the fireworks do create a festive atmosphere. I guess they can be <opinion_04> joyful </opinion_04> <rationale_04> as they certainly light up the night sky beautifully </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The fireworks truly create a stunning display.",
+                    "id": "aud_0001"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "decorations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "vibrant",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as they really fill the atmosphere with joy and hope",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fireworks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "because they can be too loud and cause distress to pets and even some people",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Meera",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fireworks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "because they add a festive flair and a sense of celebration",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Diwali",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "fireworks",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "joyful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as they certainly light up the night sky beautifully",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Raj",
+                "target": "Diwali",
+                "aspect": "fireworks",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Casey"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys seen the latest installation of new media art at the gallery? The interactive aspect is incredible.",
+                "annotation": "Have you guys seen the latest installation of new media art at the <target_01> gallery </target_01>? The <aspect_01> interactive aspect </aspect_01> is <opinion_01> incredible </opinion_01>, <rationale_01> which really engages the audience in a unique way </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the use of technology in those installations may overshadow the artwork itself. It's like the tech takes center stage.",
+                "annotation": "I think the <aspect_02> use of technology </aspect_02> <opinion_02> may overshadow </opinion_02> the artwork itself. <rationale_02> It's like the tech takes center stage </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The technology sometimes overshadows the art.",
+                    "id": "aud_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But isn't that the point? The technological component invites a wider range of interpretations and experiences. It's transformative.",
+                "annotation": "But isn't that the <aspect_03> point </aspect_03>? The <aspect_02> technological component </aspect_02> <opinion_03> invites a wider range </opinion_03> of interpretations and experiences. <rationale_03> It's transformative </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That makes sense, Casey. I used to feel that it detracted from traditional methods, but I'm starting to appreciate this shift now.",
+                "annotation": "That makes sense, Casey. I used to feel that it <opinion_04> detracted from </opinion_04> traditional methods, but I'm starting to <opinion_05> appreciate this shift </opinion_05> now. <rationale_04> I'm realizing that innovation is key to evoking thought and engagement </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interactive aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which really engages the audience in a unique way",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "use of technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "may overshadow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's like the tech takes center stage",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "point",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "invites a wider range",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It's transformative",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "use of technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "detracted from",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "traditional methods",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "use of technology",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "appreciate this shift",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "I'm realizing that innovation is key to evoking thought and engagement",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Taylor",
+                "target": "gallery",
+                "aspect": "use of technology",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Mia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            },
+            {
+                "id": 5,
+                "name": "Ethan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've visited that new art gallery, and the <aspect_01> layout </aspect_01> is <opinion_01> exceptional </opinion_01>. <rationale_01> It allows for fluid movement and viewing of the pieces without obstruction.",
+                "annotation": "I've visited that new art gallery, and the <target_01> art gallery </target_01> is <aspect_01> layout </aspect_01> is <opinion_01> exceptional </opinion_01>. <rationale_01> It allows for fluid movement and viewing of the pieces without obstruction. </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but the <aspect_02> lighting </aspect_02> is <opinion_02> mediocre </opinion_02> because <rationale_02> some artworks end up looking washed out, which diminishes their impact.",
+                "annotation": "True, but the <aspect_02> lighting </aspect_02> is <opinion_02> mediocre </opinion_02> because <rationale_02> some artworks end up looking washed out, which diminishes their impact. </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The lighting is mediocre and diminishes the artwork's impact.",
+                    "id": "aud_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I found the <aspect_03> signage </aspect_03> to be <opinion_03> confusing </opinion_03>. <rationale_03> It doesn't clearly guide visitors from one exhibit to another, which could lead to frustration.",
+                "annotation": "I found the <aspect_03> signage </aspect_03> to be <opinion_03> confusing </opinion_03>. <rationale_03> It doesn't clearly guide visitors from one exhibit to another, which could lead to frustration. </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I actually thought the <aspect_04> artwork </aspect_04> was <opinion_04> striking </opinion_04> since <rationale_04> the range of styles and artists featured really draws you in.",
+                "annotation": "I actually thought the <aspect_04> artwork </aspect_04> was <opinion_04> striking </opinion_04> since <rationale_04> the range of styles and artists featured really draws you in. </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The artwork exhibited was striking and engaging.",
+                    "id": "aud_0004"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Initially, I thought the <aspect_02> lighting </aspect_02> was acceptable, but after listening to Liam, I realized it's actually rather <opinion_05> underwhelming </opinion_05> because <rationale_05> it fails to enhance the aesthetic appeal of the gallery.",
+                "annotation": "Initially, I thought the <aspect_02> lighting </aspect_02> was acceptable, but after listening to Liam, I realized it's actually rather <opinion_05> underwhelming </opinion_05> because <rationale_05> it fails to enhance the aesthetic appeal of the gallery. </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "layout",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It allows for fluid movement and viewing of the pieces without obstruction.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "mediocre",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "some artworks end up looking washed out, which diminishes their impact.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Mia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "signage",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "confusing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It doesn't clearly guide visitors from one exhibit to another, which could lead to frustration.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "artwork",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "striking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the range of styles and artists featured really draws you in.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "art gallery",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "underwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "it fails to enhance the aesthetic appeal of the gallery.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Olivia",
+                "target": "art gallery",
+                "aspect": "lighting",
+                "initial sentiment": "positive",
+                "flipped sentiment": "negative",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Leo"
+            },
+            {
+                "id": 2,
+                "name": "Nina"
+            },
+            {
+                "id": 3,
+                "name": "Raj"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you all been to the new Art Spectrum gallery? The <aspect_01> layout </aspect_01> is <opinion_01> impressive </opinion_01>, as it allows for a fluid movement through the pieces.",
+                "annotation": "Have you all been to the new <target_01> Art Spectrum </target_01> gallery? The <aspect_01> layout </aspect_01> is <opinion_01> impressive </opinion_01>, <rationale_01> as it allows for a fluid movement through the pieces </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the lighting needs improvement, though. It's a bit <opinion_02> dim </opinion_02> in some areas, which makes it hard to appreciate the details of the art.",
+                "annotation": "I think the <aspect_02> lighting </aspect_02> needs improvement, though. It's a bit <opinion_02> dim </opinion_02> <rationale_02> in some areas, which makes it hard to appreciate the details of the art </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I have to disagree with you, Leo. I found the dim lighting to be <opinion_03> intimate </opinion_03>, creating a mood that invites reflection on the artwork.",
+                "annotation": "I have to disagree with you, <holder_02>Leo</holder_02>. I found the <aspect_02> dim lighting </aspect_02> to be <opinion_03> intimate </opinion_03> <rationale_03> creating a mood that invites reflection on the artwork </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I found the dim lighting to be intimate, inviting reflection on the art.",
+                    "id": "aud_0005"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's an interesting perspective, Nina. Personally, I felt the lighting was <opinion_04> overwhelming </opinion_04>, as it made certain pieces less approachable, not offering enough contrast.",
+                "annotation": "That's an interesting perspective, <holder_03>Nina</holder_03>. Personally, I felt the <aspect_02> lighting </aspect_02> was <opinion_04> overwhelming </opinion_04> <rationale_04> as it made certain pieces less approachable, not offering enough contrast </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Art Spectrum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "layout",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as it allows for a fluid movement through the pieces",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Leo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Art Spectrum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "dim",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "in some areas, which makes it hard to appreciate the details of the art",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Art Spectrum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "intimate",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "creating a mood that invites reflection on the artwork",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Art Spectrum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "lighting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "as it made certain pieces less approachable, not offering enough contrast",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    }
+]

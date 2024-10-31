@@ -1,0 +1,1801 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cynthia"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the itinerary for the sea cruise is overwhelming, as it tries to cover too many destinations in a short time.",
+                "annotation": "I think the <aspect_01> itinerary </aspect_01> for the <target_01> sea cruise </target_01> is <opinion_01> overwhelming </opinion_01>, <rationale_01> as it tries to cover too many destinations in a short time </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I disagree; I feel the itinerary is exciting because it offers diverse experiences, like visiting historical sites and relaxing at beaches.",
+                "annotation": "I feel the <aspect_01> itinerary </aspect_01> is <opinion_02> exciting </opinion_02>, <rationale_02> because it offers diverse experiences, like visiting historical sites and relaxing at beaches </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But isn't the onboard entertainment more important? I think it's essential, and the variety of shows adds great value to the experience.",
+                "annotation": "I think the <aspect_02> onboard entertainment </aspect_02> is <opinion_03> essential </opinion_03>, <rationale_03> and the variety of shows adds great value to the experience </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The onsite entertainment truly shapes the cruise experience.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I find the entertainment average; it's nice but lacks uniqueness. More thematic events would be engaging.",
+                "annotation": "I find the <aspect_02> entertainment </aspect_02> <opinion_04> average </opinion_04>; <rationale_04> it's nice but lacks uniqueness </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "And what about the dining options? I believe they are fantastic, with various cuisines that cater to all tastes.",
+                "annotation": "I believe the <aspect_03> dining options </aspect_03> are <opinion_05> fantastic </opinion_05>, <rationale_05> with various cuisines that cater to all tastes </rationale_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Dining options are a highlight during cruises.",
+                    "id": "aud_0002"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "I used to think the dining options were adequate, but after trying the different cuisines on this cruise, I've changed my mind; they are truly top-notch.",
+                "annotation": "I used to think the <aspect_03> dining options </aspect_03> were <opinion_06> adequate </opinion_06>, but <rationale_06> after trying the different cuisines on this cruise </rationale_06>, I've changed my mind; they are <opinion_07> truly top-notch </opinion_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "itinerary",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as it tries to cover too many destinations in a short time",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "itinerary",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "exciting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "because it offers diverse experiences, like visiting historical sites and relaxing at beaches",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cynthia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "onboard entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "and the variety of shows adds great value to the experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "entertainment",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "average",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it's nice but lacks uniqueness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "dining options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "with various cuisines that cater to all tastes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "dining options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "adequate",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "after trying the different cuisines on this cruise",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "sea cruise",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "dining options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "top-notch",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "they are truly top-notch",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Bob",
+                "target": "sea cruise",
+                "aspect": "dining options",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently went on a gastronomic tour in Italy, and the variety of cheeses was stunning. Each region had its unique flavors and textures.",
+                "annotation": "I recently went on a <target_01> gastronomic tour </target_01> in Italy, and the <aspect_01> variety of cheeses </aspect_01> was <opinion_01> stunning </opinion_01>. <rationale_01> Each region had its unique flavors and textures </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The texture of the Parmigiano-Reggiano is particularly remarkable. It crumbles perfectly and melts beautifully in your mouth.",
+                "annotation": "Absolutely! The <aspect_02> texture of the Parmigiano-Reggiano </aspect_02> is <opinion_02> particularly remarkable </opinion_02>. <rationale_02> It crumbles perfectly and melts beautifully in your mouth </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The texture of Parmigiano-Reggiano is remarkable!",
+                    "id": "aud_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Well, for me, the experience of pairing wine with the cheeses was the highlight. The flavors enhanced each other incredibly.",
+                "annotation": "Well, for me, the <aspect_03> experience of pairing wine with the cheeses </aspect_03> was <opinion_03> the highlight </opinion_03>. <rationale_03> The flavors enhanced each other incredibly </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Interestingly, I was skeptical about the different types of cheese, but after tasting a few aged varieties, I found them to be incredibly rich and delightful.",
+                "annotation": "Interestingly, I was <opinion_04> skeptical </opinion_04> about the <aspect_04> different types of cheese </aspect_04>, but after tasting a few aged varieties, I found them to be <opinion_05> incredibly rich and delightful </opinion_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gastronomic tour",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "variety of cheeses",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Each region had its unique flavors and textures",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gastronomic tour",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "texture of the Parmigiano-Reggiano",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "particularly remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It crumbles perfectly and melts beautifully in your mouth",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gastronomic tour",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "experience of pairing wine with the cheeses",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "the highlight",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The flavors enhanced each other incredibly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gastronomic tour",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "different types of cheese",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "skeptical",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but after tasting a few aged varieties, I found them to be incredibly rich and delightful",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "gastronomic tour",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "different types of cheese",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "incredibly rich and delightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "after tasting a few aged varieties",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Diana",
+                "target": "gastronomic tour",
+                "aspect": "different types of cheese",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Zoe"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I always found tree climbing to be exhilarating! The rush of ascending is unmatched by any other experience.",
+                "annotation": "I always found <target_01> tree climbing </target_01> to be <opinion_01> exhilarating </opinion_01>! <rationale_01> The rush of ascending is unmatched by any other experience </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I disagree! The heights can be terrifying. I think it's an overrated activity because the danger seems too high for some fun.",
+                "annotation": "I disagree! The <aspect_02> heights </aspect_02> can be <opinion_02> terrifying </opinion_02>. <rationale_02> I think it's an overrated activity because the danger seems too high for some fun </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But Ben, how about the view from the top? I found it to be breathtaking, making every struggle worthwhile.",
+                "annotation": "But Ben, how about the <aspect_03> view </aspect_03> from the <target_01> top </target_01>? I found it to be <opinion_03> breathtaking </opinion_03>, <rationale_03> making every struggle worthwhile </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The view is seriously breathtaking!",
+                    "id": "aud_0004"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That’s a good point, Zoe. I guess if you focus on the view, the fear might just fade. It's surprising how views can shift your perspective.",
+                "annotation": "<rationale_04> That’s a good point, Zoe </rationale_04>. I guess if you focus on the view, the <aspect_03> fear </aspect_03> might just fade. <opinion_04> It's surprising </opinion_04> how views can shift your perspective.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tree climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "rush of ascending",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exhilarating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The rush of ascending is unmatched by any other experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tree climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "heights",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overrated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "the danger seems too high for some fun",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Zoe",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tree climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "view",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making every struggle worthwhile",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "tree climbing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "fear",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "surprising",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "how views can shift your perspective",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Ben",
+            "target": "tree climbing",
+            "aspect": "heights",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the dining options on our recent cruise were fabulous. Each restaurant had a unique theme.",
+                "annotation": "I think the <target_01> dining options </target_01> on our recent cruise were <opinion_01> fabulous </opinion_01>. <rationale_01> Each restaurant had a unique theme </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Sure, but the service sometimes felt lackluster. I found it quite disappointing.",
+                "annotation": "Sure, but the <aspect_02> service </aspect_02> sometimes felt <opinion_02> lackluster </opinion_02>. <rationale_02> I found it quite disappointing </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Sometimes the wait for our meals felt too long.",
+                    "id": "aud_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I agree it was a bit slow at times, I believe the service was generally attentive and friendly, which is refreshing.",
+                "annotation": "While I agree it was a bit slow at times, I believe the <aspect_02> service </aspect_02> was generally <opinion_03> attentive and friendly </opinion_03>, which is refreshing.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "After hearing your perspectives, I can see the service was not as bad as I thought. It was indeed friendly overall.",
+                "annotation": "<rationale_04> After hearing your perspectives </rationale_04>, I can see the <aspect_02> service </aspect_02> was <opinion_04> friendly overall </opinion_04>, which contrasts my previous view.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "dining options",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fabulous",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Each restaurant had a unique theme",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "service",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "service",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "lackluster",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I found it quite disappointing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "service",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "service",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "attentive and friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which is refreshing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "service",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "service",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "friendly overall",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "after hearing your perspectives",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Bob",
+            "target": "service",
+            "aspect": "service",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Isabella"
+            },
+            {
+                "id": 1,
+                "name": "Maximilian"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Oliver"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've just returned from a luxury train trip across the Alps. The experience is extraordinary, highlighting breathtaking views with unparalleled comfort.",
+                "annotation": "I've just returned from a <target_01> luxury train trip </target_01> across the Alps. The <aspect_01> experience </aspect_01> is <opinion_01> extraordinary </opinion_01>, <rationale_01> highlighting breathtaking views with unparalleled comfort </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds amazing! However, I believe the ticket prices are exorbitant. It's hard to justify such high costs for just a ride.",
+                "annotation": "That sounds amazing! However, I believe the <aspect_02> ticket prices </aspect_02> are <opinion_02> exorbitant </opinion_02>. <rationale_02> It's hard to justify such high costs for just a ride </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Maximilian, while the prices may seem steep, they also directly reflect the quality of the service and the unique destinations. I think the value provided is actually quite premium.",
+                "annotation": "Maximilian, while the prices may seem steep, they also directly reflect the <aspect_03> quality of the service </aspect_03> and the unique destinations. I think the <aspect_02> value provided </aspect_02> is actually <opinion_03> quite premium </opinion_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The premium value reflects the high-quality experience and unique views offered.",
+                    "id": "aud_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "Now that you mention it, I realize that the level of service does justify some expense. It might be worth considering for a special occasion.",
+                "annotation": "Now that you mention it, I realize that the level of service does <opinion_04> justify some expense </opinion_04>. <rationale_04> It might be worth considering for a special occasion </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "luxury train trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "experience",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "extraordinary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "highlighting breathtaking views with unparalleled comfort",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maximilian",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "luxury train trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "ticket prices",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "exorbitant",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's hard to justify such high costs for just a ride",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "luxury train trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "quality of the service",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite premium",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "they also directly reflect the quality of the service and the unique destinations",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Maximilian",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "luxury train trip",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "value provided",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "justify some expense",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It might be worth considering for a special occasion",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Maximilian",
+                "target": "luxury train trip",
+                "aspect": "ticket prices",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Isabella"
+            },
+            {
+                "id": 3,
+                "name": "Ethan"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've recently visited the Great Wall of China, and I was truly struck by its historical significance. It's a marvel of ancient engineering.",
+                "annotation": "I've recently visited <target_01> the Great Wall of China </target_01>, and I was <opinion_01> truly struck by </opinion_01> its <aspect_01> historical significance </aspect_01>. <rationale_01> It's a marvel of ancient engineering </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The Great Wall's history is mesmerizing.",
+                    "id": "aud_0007"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely! The sheer size is impressive, but I find some sections too crowded, which takes away the serene experience.",
+                "annotation": "Absolutely! The sheer <aspect_02> size </aspect_02> is <opinion_02> impressive </opinion_02>, but I find some sections <opinion_03> too crowded </opinion_03>, which takes away <rationale_02> the serene experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with the size being breathtaking, but I think the views from the top are unparalleled. They truly accentuate the beauty of the landscape.",
+                "annotation": "I agree with the <aspect_02> size </aspect_02> being <opinion_04> breathtaking </opinion_04>, but I think the <aspect_03> views from the top </aspect_03> are <opinion_05> unparalleled </opinion_05>. <rationale_03> They truly accentuate the beauty of the landscape </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "While I enjoy the views, I've encountered some unmaintained areas that were somewhat disappointing. They detract from the overall experience.",
+                "annotation": "While I enjoy the <aspect_03> views </aspect_03>, I've encountered some <aspect_04> unmaintained areas </aspect_04> that were <opinion_06> somewhat disappointing </opinion_06>. <rationale_04> They detract from the overall experience </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Yes, I see your point. However, I think the majestic structure itself can overshadow those issues. It's a testament to human achievement.",
+                "annotation": "Yes, I see your point. However, I think the <aspect_05> majestic structure </aspect_05> can <opinion_07> overshadow those issues </opinion_07>. <rationale_05> It's a testament to human achievement </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "historical significance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "truly struck by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's a marvel of ancient engineering",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "size",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "aspect_2": {
+                    "identity": "aspect_03",
+                    "value": "crowds",
+                    "manner": "explicit"
+                },
+                "opinion_3": {
+                    "identity": "opinion_03",
+                    "value": "too crowded",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which takes away the serene experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Isabella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "size",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "aspect_3": {
+                    "identity": "aspect_03",
+                    "value": "views from the top",
+                    "manner": "explicit"
+                },
+                "opinion_5": {
+                    "identity": "opinion_05",
+                    "value": "unparalleled",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "They truly accentuate the beauty of the landscape",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Ethan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "views",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "somewhat disappointing",
+                    "manner": "explicit"
+                },
+                "aspect_4": {
+                    "identity": "aspect_04",
+                    "value": "unmaintained areas",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "They detract from the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the Great Wall of China",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "majestic structure",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "overshadow those issues",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It's a testament to human achievement",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Ethan",
+            "target": "the Great Wall of China",
+            "aspect": "views",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Milo"
+            },
+            {
+                "id": 1,
+                "name": "Juno"
+            },
+            {
+                "id": 2,
+                "name": "Rex"
+            },
+            {
+                "id": 3,
+                "name": "Tess"
+            },
+            {
+                "id": 4,
+                "name": "Luna"
+            },
+            {
+                "id": 5,
+                "name": "Finn"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I had this wild idea to go star-gazing up in the mountains. The view of the stars is simply breathtaking!",
+                "annotation": "I had this wild idea to go <target_01> star-gazing </target_01> up in the mountains. The view of the stars is <opinion_01> breathtaking </opinion_01>! <rationale_01> It's like the universe spills its secrets just for you </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds enchanting! But, what if the weather doesn't cooperate? I find that can be quite disappointing.",
+                "annotation": "That sounds enchanting! But, what if the <aspect_01> weather </aspect_01> doesn't cooperate? I find that can be quite <opinion_02> disappointing </opinion_02>. <rationale_02> A cloudy night can completely ruin the experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I went last week, and the weather was perfect! The stars were so clear, almost magical. It really brought the adventure alive.",
+                "annotation": "I went last week, and the <aspect_02> weather </aspect_02> was <opinion_03> perfect </opinion_03>! <rationale_03> The stars were so clear, almost magical </rationale_03>, and it really brought the adventure alive.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The sky was absolutely clear, and the stars were dazzling!",
+                    "id": "aud_0008"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Wow, that’s encouraging! Maybe my fears about the weather are overblown. The experience sounds incredible!",
+                "annotation": "Wow, that’s <opinion_04> encouraging </opinion_04>! Maybe my fears about the <aspect_03> weather </aspect_03> are overblown. <rationale_04> The experience sounds incredible </rationale_04>!",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Milo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "star-gazing",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "view of the stars",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "breathtaking",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's like the universe spills its secrets just for you",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Juno",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "A cloudy night can completely ruin the experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Rex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "perfect",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The stars were so clear, almost magical",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Juno",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "weather",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "incredible",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "The experience sounds incredible",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Juno",
+            "target": "weather",
+            "aspect": "weather",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Henry"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            },
+            {
+                "id": 3,
+                "name": "Jasper"
+            },
+            {
+                "id": 4,
+                "name": "Nora"
+            },
+            {
+                "id": 5,
+                "name": "Owen"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just returned from my trip aboard the luxury cruise, Celestial Waves, and the service was simply unparalleled. Every need was catered to, making it an unforgettable experience.",
+                "annotation": "I just returned from my trip aboard the <target_01> luxury cruise </target_01>, <aspect_01> service </aspect_01> was <opinion_01> simply unparalleled </opinion_01>. <rationale_01> Every need was catered to, making it an unforgettable experience </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Just got back from the Celestial Waves, and wow, the service was impeccable!",
+                    "id": "aud_0009"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That does sound incredible, but what about the dining? I've heard mixed reviews about the menu options.",
+                "annotation": "That does sound incredible, but what about the <aspect_02> dining </aspect_02>? I've heard <opinion_02> mixed reviews </opinion_02> about the menu options. <rationale_02> It’s crucial for such a trip to have excellent food.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "The dining was surprisingly exquisite! Each meal was a masterpiece, beautifully plated and bursting with flavor.",
+                "annotation": "The <aspect_02> dining </aspect_02> was <opinion_03> surprisingly exquisite </opinion_03>! <rationale_03> Each meal was a masterpiece, beautifully plated and bursting with flavor </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "What about the excursions? I heard some were quite luxurious while others were just basic tourist traps.",
+                "annotation": "What about the <aspect_04> excursions </aspect_04>? I heard some were <opinion_04> quite luxurious </opinion_04> while others were <opinion_05> just basic tourist traps </opinion_05>. <rationale_04> Depending on the offerings, it could really affect the overall value of the trip.</rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "I agree! The excursions are key! However, I’ve read that they have a tendency to overlook some hidden gems in favor of the mainstream.",
+                "annotation": "I agree! The <aspect_04> excursions </aspect_04> are <opinion_06> key </opinion_06>! <rationale_06> They have a tendency to overlook some hidden gems in favor of the mainstream </rationale_06>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 0,
+                "utterance": "Now that you mention it, the excursions were quite typical but what made them enjoyable was the incredible guides. They were knowledgeable and added so much context along the way.",
+                "annotation": "The <aspect_04> excursions </aspect_04> were <opinion_07> quite typical </opinion_07> but the incredible guides made them <opinion_08> enjoyable </opinion_08>. <rationale_07> They were knowledgeable and added so much context along the way </rationale_07>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "service",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "simply unparalleled",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Every need was catered to, making it an unforgettable experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Henry",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "dining",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "mixed reviews",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It’s crucial for such a trip to have excellent food.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "dining",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "surprisingly exquisite",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Each meal was a masterpiece, beautifully plated and bursting with flavor",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "excursions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite luxurious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Depending on the offerings, it could really affect the overall value of the trip.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "excursions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "just basic tourist traps",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Depending on the offerings, it could really affect the overall value of the trip.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Jasper",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "excursions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "key",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "They have a tendency to overlook some hidden gems in favor of the mainstream.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "excursions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "quite typical",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "they were quite typical but what made them enjoyable was the incredible guides.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Celestial Waves",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "excursions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "enjoyable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_08",
+                    "value": "The incredible guides made the excursions enjoyable.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Alice",
+            "target": "Celestial Waves",
+            "aspect": "excursions",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    }
+]

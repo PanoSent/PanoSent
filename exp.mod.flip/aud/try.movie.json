@@ -1,0 +1,1324 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Sam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been diving headfirst into the world of comic books lately, and I have to say, the artwork is absolutely stunning. The vibrant colors and intricate details really bring the stories to life.",
+                "annotation": "I've been diving headfirst into the world of <target_01> comic books </target_01> lately, and I have to say, the <aspect_01> artwork </aspect_01> is <opinion_01> absolutely stunning </opinion_01>. <rationale_01> The vibrant colors and intricate details really bring the stories to life </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but I think the stories often lack depth. I find many plots to be rather predictable and they don't evoke much emotion.",
+                "annotation": "True, but I think the <aspect_02> stories </aspect_02> often lack <opinion_02> depth </opinion_02>. <rationale_02> I find many plots to be rather predictable and they don't evoke much emotion </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I can see where you're coming from, but I think some comics challenge conventional storytelling. For example, 'Maus' infuses profound themes that can alter one's perspective on history.",
+                "annotation": "I can see where you're coming from, but I think some <target_01> comics </target_01> challenge conventional <aspect_03> storytelling </aspect_03>. <rationale_03> For example, 'Maus' infuses profound themes that can alter one's perspective on history </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's a strong example! I forgot about 'Maus'. It brings such a powerful perspective, which makes me reconsider my view on comic narratives.",
+                "annotation": "That's a strong example! I forgot about <target_01> 'Maus' </target_01>. It brings such a <aspect_04> powerful perspective </aspect_04>, which makes me reconsider my view on comic narratives. ",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I forgot about 'Maus', which brings a powerful perspective!",
+                    "id": "aud_0001"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Indeed, 'Maus' is a landmark. It shows that comics can tackle heavy subjects with grace, thus enhancing their value as artistic literature.",
+                "annotation": "Indeed, <target_01> 'Maus' </target_01> is a <aspect_05> landmark </aspect_05>. <rationale_04> It shows that comics can tackle heavy subjects with grace, thus enhancing their value as artistic literature </rationale_04>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "This discussion is refreshing! It emphasizes how comics can weave complex narratives and engage readers on many levels.",
+                "annotation": "<rationale_05> This discussion is refreshing! </rationale_05> It emphasizes how <target_01> comics </target_01> can weave <aspect_06> complex narratives </aspect_06> and engage readers on many levels.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "comic books",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "artwork",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The vibrant colors and intricate details really bring the stories to life",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "comic books",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "stories",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "lack depth",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I find many plots to be rather predictable and they don't evoke much emotion",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "comics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "storytelling",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "challenge conventional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "For example, 'Maus' infuses profound themes that can alter one's perspective on history",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'Maus'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "powerful perspective",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "powerful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It makes me reconsider my view on comic narratives",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "'Maus'",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "landmark",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "landmark",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It shows that comics can tackle heavy subjects with grace, thus enhancing their value as artistic literature",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "comics",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "complex narratives",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "weave",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "This discussion emphasizes how comics can engage readers on many levels",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Alex",
+                "target": "'Maus'",
+                "aspect": "powerful perspective",
+                "initial sentiment": "positive",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alex"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Sam"
+            },
+            {
+                "id": 3,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently watched a documentary on climate change, and the visuals were stunning, really emphasizing the impacts of global warming.",
+                "annotation": "I recently watched a <target_01> documentary </target_01> on climate change, and the <aspect_01> visuals </aspect_01> were <opinion_01> stunning </opinion_01>, <rationale_01> really emphasizing the impacts of global warming </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but the pacing felt slow at times, which affected my engagement with the content.",
+                "annotation": "True, but the <aspect_02> pacing </aspect_02> felt <opinion_02> slow </opinion_02> at times, <rationale_02> which affected my engagement with the content </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I disagree about the pacing. I found it to be <opinion_03> thoughtful </opinion_03>, giving viewers time to absorb the information presented.",
+                "annotation": "I disagree about the <aspect_02> pacing </aspect_02>. I found it to be <opinion_03> thoughtful </opinion_03>, <rationale_03> giving viewers time to absorb the information presented </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I found the pacing thoughtful, allowing for better absorption of information.",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's a good point, Sam. Initially, I felt the slow pacing was detrimental, but now I see it as essential for understanding complex topics.",
+                "annotation": "That's a good point, Sam. Initially, I felt the <aspect_02> pacing </aspect_02> was <opinion_04> detrimental </opinion_04>, <rationale_04> but now I see it as essential for understanding complex topics </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "visuals",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "really emphasizing the impacts of global warming",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which affected my engagement with the content",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "thoughtful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "giving viewers time to absorb the information presented",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "detrimental",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "but now I see it as essential for understanding complex topics",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "documentary",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "pacing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "for understanding complex topics",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Riley",
+                "target": "documentary",
+                "aspect": "pacing",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Cassie"
+            },
+            {
+                "id": 1,
+                "name": "Ryan"
+            },
+            {
+                "id": 2,
+                "name": "Teagan"
+            },
+            {
+                "id": 3,
+                "name": "Jules"
+            },
+            {
+                "id": 4,
+                "name": "Max"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys seen the latest episode of that survival reality show? The challenges are absolutely thrilling!",
+                "annotation": "Have you guys seen <target_01> the latest episode of that survival reality show </target_01>? The <aspect_01> challenges </aspect_01> are <opinion_01> absolutely thrilling </opinion_01>! <rationale_01> They really push participants to their limits, which makes it exhilarating to watch. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "True, but don't you think the editing is somewhat misleading? It sometimes paints a different picture than reality.",
+                "annotation": "True, but don't you think the <aspect_02> editing </aspect_02> is <opinion_02> somewhat misleading </opinion_02>? <rationale_02> It sometimes paints a different picture than reality. </rationale_02>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The editing often alters the context of events.",
+                    "id": "aud_0003"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I completely agree with Ryan. The manipulation makes it lose some of its authenticity.",
+                "annotation": "I completely agree with <holder_01> Ryan </holder_01>. The <aspect_02> manipulation </aspect_02> makes it <opinion_03> lose </opinion_03> some of its <aspect_03> authenticity </aspect_03>. <rationale_03> Viewers deserve to see genuine reactions, not some dramatized version. </rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s a valid point, but I think the contestants' reactions can be incredibly entertaining despite the editing.",
+                "annotation": "That’s a valid point, but I think the <aspect_04> contestants' reactions </aspect_04> can be <opinion_04> incredibly entertaining </opinion_04> despite the <aspect_02> editing </aspect_02>. <rationale_04> Their emotional responses add a layer of dramatic flair. </rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I used to think the show was just about the drama, but after watching the last few episodes, I realized the psychological aspects can be quite insightful.",
+                "annotation": "I used to think <target_01> the show </target_01> was just about the drama, but after watching the last few episodes, I realized the <aspect_05> psychological aspects </aspect_05> can be <opinion_05> quite insightful </opinion_05>. <rationale_05> It sheds light on human behavior under stress, which is fascinating! </rationale_05>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "It's fascinating how stress reveals true character.",
+                    "id": "aud_0004"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Cassie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the latest episode of that survival reality show",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "challenges",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely thrilling",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They really push participants to their limits, which makes it exhilarating to watch.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ryan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the latest episode of that survival reality show",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "editing",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "somewhat misleading",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It sometimes paints a different picture than reality.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Teagan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the latest episode of that survival reality show",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "authenticity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "lose",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Viewers deserve to see genuine reactions, not some dramatized version.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Jules",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the latest episode of that survival reality show",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "contestants' reactions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "incredibly entertaining",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Their emotional responses add a layer of dramatic flair.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Max",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "the show",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "psychological aspects",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "quite insightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It sheds light on human behavior under stress, which is fascinating!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Riley"
+            },
+            {
+                "id": 2,
+                "name": "Joey"
+            },
+            {
+                "id": 3,
+                "name": "Taylor"
+            },
+            {
+                "id": 4,
+                "name": "Jordan"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I just caught the new Marvel movie Guardian’s Rebirth, and the visual effects are absolutely stunning, elevating the action scenes to a whole new level.",
+                "annotation": "I just caught the new <target_01> Marvel movie Guardian’s Rebirth </target_01>, and the <aspect_01> visual effects </aspect_01> are <opinion_01> absolutely stunning </opinion_01>, <rationale_01> elevating the action scenes to a whole new level </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "For sure! But I think the plot was rather predictable, lacking any real twists that would keep us on the edge of our seats.",
+                "annotation": "For sure! But I think the <aspect_02> plot </aspect_02> was <opinion_02> rather predictable </opinion_02>, <rationale_02> lacking any real twists that would keep us on the edge of our seats </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "You know, I didn’t notice it before, but you’re right! The predictability made the movie feel less thrilling than I expected.",
+                "annotation": "You know, I didn’t notice it before, but you’re right! The <aspect_02> predictability </aspect_02> made the movie feel <opinion_03> less thrilling </opinion_03> than I expected.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "The soundtrack, though, is remarkable! It perfectly complements the tone of every scene, keeping you emotionally connected.",
+                "annotation": "The <aspect_03> soundtrack </aspect_03>, though, is <opinion_04> remarkable </opinion_04>! <rationale_04> It perfectly complements the tone of every scene, keeping you emotionally connected </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The soundtrack is perfectly crafted for each scene.",
+                    "id": "aud_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "I agree with that! The musical choices elevate the emotional impact, giving the film a dynamic depth.",
+                "annotation": "I agree with that! The <aspect_03> musical choices </aspect_03> elevate the <opinion_05> emotional impact </opinion_05>, <rationale_05> giving the film a dynamic depth </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 4,
+                "utterance": "What are your thoughts on the character development? It felt a bit shallow to me, especially the villain's backstory.",
+                "annotation": "What are your thoughts on the <aspect_04> character development </aspect_04>? It felt <opinion_06> a bit shallow </opinion_06> to me, <rationale_06> especially the villain's backstory </rationale_06>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 6,
+                "speaker": 1,
+                "utterance": "I used to think the character arcs were okay, but after reflecting, you're right about the villain. It really lacked depth, which undermined the stakes.",
+                "annotation": "I used to think the <aspect_04> character arcs </aspect_04> were <opinion_07> okay </opinion_07>, but after reflecting, you're right about the villain. It really <opinion_08> lacked depth </opinion_08>, <rationale_08> which undermined the stakes </rationale_08>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "visual effects",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "absolutely stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "elevating the action scenes to a whole new level",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "plot",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "rather predictable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "lacking any real twists that would keep us on the edge of our seats",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "predictability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "less thrilling",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "made the movie feel less thrilling than I expected",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Joey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "soundtrack",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It perfectly complements the tone of every scene, keeping you emotionally connected",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "musical choices",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "elevate the emotional impact",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "giving the film a dynamic depth",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character development",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "a bit shallow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "especially the villain's backstory",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "character arcs",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "okay",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "I used to think the character arcs were okay",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Riley",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Guardian’s Rebirth",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "villain's depth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "lacked depth",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_08",
+                    "value": "which undermined the stakes",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Riley",
+            "target": "Guardian’s Rebirth",
+            "aspect": "character arcs",
+            "initial sentiment": "positive",
+            "flipped sentiment": "negative",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Jamie"
+            },
+            {
+                "id": 2,
+                "name": "Morgan"
+            },
+            {
+                "id": 3,
+                "name": "Riley"
+            },
+            {
+                "id": 4,
+                "name": "Drew"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The Best Picture nominees this year include some truly groundbreaking films; the cinematography in those films is remarkable, offering a feast for the eyes.",
+                "annotation": "The <target_01> Best Picture nominees </target_01> this year include some truly groundbreaking films; the <aspect_01> cinematography </aspect_01> in those films is <opinion_01> remarkable </opinion_01>, <rationale_01> offering a feast for the eyes </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree that the cinematography is impressive, but some of the storylines can be convoluted, which detracts from the overall experience.",
+                "annotation": "I agree that the <aspect_02> cinematography </aspect_02> is <opinion_02> impressive </opinion_02>, but some of the <aspect_03> storylines </aspect_03> can be <opinion_03> convoluted </opinion_03>, <rationale_02> which detracts from the overall experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 0,
+                "utterance": "It's true; while the cinematography dazzles, the convoluted stories often require a second watch, making them less accessible.",
+                "annotation": "It's true; while the <aspect_01> cinematography </aspect_01> dazzles, the <aspect_03> convoluted stories </aspect_03> often require <opinion_04> a second watch </opinion_04>, <rationale_03> making them less accessible </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "Have you all thought about the performances though? The acting is so electrifying, it really brings depth to the characters.",
+                "annotation": "Have you all thought about the <aspect_04> performances </aspect_04> though? The <aspect_05> acting </aspect_05> is <opinion_05> electrifying </opinion_05>, <rationale_04> it really brings depth to the characters </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Electrifying performances that deepen character portrayal.",
+                    "id": "aud_0006"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "Absolutely, but sometimes it feels overshadowed by over-the-top narratives, almost like they compete rather than complement.",
+                "annotation": "Absolutely, but sometimes it feels <opinion_06> overshadowed </opinion_06> by <aspect_03> over-the-top narratives </aspect_03>, <rationale_05> almost like they compete rather than complement </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 3,
+                "utterance": "That's an interesting point. I thought the narratives were ambitious but could have been streamlined for better coherence.",
+                "annotation": "That's an interesting point. I thought the <aspect_03> narratives </aspect_03> were <opinion_07> ambitious </opinion_07> but <opinion_08> could have been streamlined </opinion_08>, <rationale_06> for better coherence </rationale_06>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 6,
+                "speaker": 4,
+                "utterance": "I actually think the ambitious nature of the narratives is refreshing, as it allows for more creative storytelling, even if it risks some coherence.",
+                "annotation": "I actually think the <aspect_03> ambitious nature of the narratives </aspect_03> is <opinion_09> refreshing </opinion_09>, <rationale_07> as it allows for more creative storytelling, even if it risks some coherence </rationale_07>.",
+                "modality": "None",
+                "reply": 5
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "offering a feast for the eyes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which detracts from the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "storylines",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "convoluted",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which detracts from the overall experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "cinematography",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "dazzles",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making them less accessible",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "performances",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "electrifying",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it really brings depth to the characters",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "over-the-top narratives",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "overshadowed",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "almost like they compete rather than complement",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "narratives",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_07",
+                    "value": "ambitious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "for better coherence",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Drew",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Best Picture nominees",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "narratives",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_08",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_07",
+                    "value": "as it allows for more creative storytelling, even if it risks some coherence",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Jamie",
+            "target": "Best Picture nominees",
+            "aspect": "storylines",
+            "initial sentiment": "positive",
+            "flipped sentiment": "negative",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    }
+]

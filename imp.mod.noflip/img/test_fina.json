@@ -1,0 +1,4416 @@
+[
+    {
+        "doc_id": "00000",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            },
+            {
+                "id": 3,
+                "name": "Dan"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the backyard of the new house we're considering is really beautiful because it has a lot of open space and trees.",
+                "annotation": "I think the <target_01> new house </target_01> we're considering has a <aspect_01> backyard </aspect_01> that is <opinion_01> beautiful </opinion_01> because <rationale_01> it has a lot of open space and trees </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Well, I feel the kitchen is quite modern, with all the latest appliances installed.",
+                "annotation": "Well, I feel the <aspect_02> kitchen </aspect_02> of the <target_02> new house </target_02> is <opinion_02> modern </opinion_02>, with <rationale_02> all the latest appliances installed </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree, but I think the living room needs some work. The layout seems rather uninviting.",
+                "annotation": "I agree, but I think the <aspect_03> living room </aspect_03> of the <target_02> new house </target_02> needs some work. <opinion_03> The layout seems rather uninviting </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "But, have you seen the bedrooms? They are spacious and filled with natural light, which is great.",
+                "annotation": "But, have you seen the <aspect_04> bedrooms </aspect_04>? They are <opinion_04> spacious </opinion_04> and filled with natural light, which is <rationale_04> great </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I took a picture of the backyard. Check it out, it really is charming.",
+                "annotation": "I took a picture of the <aspect_01> backyard </aspect_01>. Check it out, it really is <opinion_01> charming </opinion_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A photo showing the new house's charming backyard, filled with trees and open space.",
+                    "id": "img_0001",
+                    "implicit": "aspect_01: backyard"
+                },
+                "reply": 0
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I've got to say, the bathrooms look quite luxurious. The marble finishes add a touch of elegance.",
+                "annotation": "I've got to say, the <aspect_05> bathrooms </aspect_05> of the <target_02> new house </target_02> look <opinion_05> luxurious </opinion_05>. The <rationale_05> marble finishes add a touch of elegance </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "backyard",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "beautiful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it has a lot of open space and trees",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "new house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "kitchen",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "modern",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "all the latest appliances installed",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "new house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "living room",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "uninviting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The layout seems rather uninviting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "new house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "bedrooms",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "spacious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "great",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "new house",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "backyard",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "charming",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "None",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "new house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "bathrooms",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "luxurious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "marble finishes add a touch of elegance",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been considering different retirement plans, but the administrative fees are surprisingly high.",
+                "annotation": "I've been considering different <target_01> retirement plans </target_01>, but the <aspect_01> administrative fees </aspect_01> are <opinion_01> surprisingly high </opinion_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A retirement plan brochure highlighting various costs involved, implicitly mentioning high administrative fees.",
+                    "id": "img_0002"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's a real concern! I think the investment options are quite variable too, which adds another layer of complexity.",
+                "annotation": "That's a real concern! I think the <aspect_02> investment options </aspect_02> are <opinion_02> quite variable </opinion_02> too, which adds another layer of complexity.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "For me, the payout flexibility seems the most questionable. It doesn't adapt well to unexpected expenses.",
+                "annotation": "For me, the <aspect_03> payout flexibility </aspect_03> seems the most <opinion_03> questionable </opinion_03>. <rationale_03> It doesn't adapt well to unexpected expenses </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That’s true, but the tax benefits are excellent for some plans. They can provide considerable savings.",
+                "annotation": "That’s true, but the <aspect_04> tax benefits </aspect_04> are <opinion_04> excellent </opinion_04> for some plans. <rationale_04> They can provide considerable savings </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "One should also think about long-term sustainability, which I find quite robust in few plans.",
+                "annotation": "One should also think about <aspect_05> long-term sustainability </aspect_05>, which I find <opinion_05> quite robust </opinion_05> in few plans.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "retirement plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "administrative fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "surprisingly high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "high administrative fees",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "retirement plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "investment options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite variable",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "investment options are variable",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "retirement plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "payout flexibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "questionable",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "it doesn't adapt well to unexpected expenses",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "retirement plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "tax benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "they can provide considerable savings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "retirement plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "long-term sustainability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "robust",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "robust long-term sustainability",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "John"
+            },
+            {
+                "id": 1,
+                "name": "Sarah"
+            },
+            {
+                "id": 2,
+                "name": "Karen"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "In my opinion, the healthcare benefits offered by our pension plan are quite comprehensive as they cover a wide range of services.",
+                "annotation": "In my opinion, the <aspect_01> healthcare benefits </aspect_01> offered by our <target_01> pension plan </target_01> are <opinion_01> quite comprehensive </opinion_01> as <rationale_01> they cover a wide range of services </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I feel the same, but I'm concerned about the investment options. They're not as diverse as I would like for long-term growth.",
+                "annotation": "I feel the same, but I'm concerned about the <aspect_02> investment options </aspect_02>. They're <opinion_02> not as diverse </opinion_02> as <rationale_02> I would like for long-term growth </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think the annual reviews of our pension are very useful; they ensure that we are on track with our retirement goals.",
+                "annotation": "I think the <aspect_03> annual reviews </aspect_03> of our <target_01> pension </target_01> are <opinion_03> very useful </opinion_03>; <rationale_03> they ensure that we are on track with our retirement goals </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Image showing a financial advisor discussing a pension review with clients, highlighting the importance of annual reviews in meeting retirement goals.",
+                    "id": "img_0003"
+                },
+                "reply": 0
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "John",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "healthcare benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "quite comprehensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "they cover a wide range of services",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "investment options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "not as diverse",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I would like for long-term growth",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Karen",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "annual reviews",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "very useful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "they ensure that we are on track with our retirement goals",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The downtown apartment has a stunning view of the city skyline.",
+                "annotation": "The <target_01> downtown apartment </target_01> has a <opinion_01> stunning </opinion_01> <aspect_01> view </aspect_01> of the city skyline. <rationale_01> It provides a panoramic sight of the entire city </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Night view from the downtown apartment showing the illuminated city skyline",
+                    "id": "img_0004"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the noise levels are quite high. It's hard to get a peaceful night's sleep.",
+                "annotation": "I agree, but the <aspect_02> noise levels </aspect_02> are <opinion_02> quite high </opinion_02>. <rationale_02> It's hard to get a peaceful night's sleep </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's true, but the apartment's proximity to amenities is very convenient. The grocery store and gym are just a block away.",
+                "annotation": "That's true, but the <aspect_03> proximity to amenities </aspect_03> is <opinion_03> very convenient </opinion_03>. <rationale_03> The grocery store and gym are just a block away </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "downtown apartment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "view",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It provides a panoramic sight of the entire city",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "downtown apartment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "noise levels",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It's hard to get a peaceful night's sleep",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "downtown apartment",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "proximity to amenities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "very convenient",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The grocery store and gym are just a block away",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Chris"
+            },
+            {
+                "id": 2,
+                "name": "Jamie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you considered the potential shortfalls in our current pension plan?",
+                "annotation": "Have you considered the potential shortfalls in our current <target_01> pension plan </target_01>?",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, one concern is its limited investment options, which seem quite restrictive.",
+                "annotation": "Yes, one concern is its limited <aspect_01> investment options </aspect_01>, which seem quite <opinion_01> restrictive </opinion_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An illustration showing a pension plan's restrictive investment options.",
+                    "id": "img_0005"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "True, but its low administrative fees do make it somewhat attractive, don't you think?",
+                "annotation": "True, but its low <opinion_02> administrative fees </opinion_02> do make it somewhat <opinion_03> attractive </opinion_03>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "pension plan",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "investment options",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "restrictive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "its limited investment options",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "pension plan",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "administrative fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "attractive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "True, but its low administrative fees do make it somewhat attractive",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Catherine"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eva"
+            },
+            {
+                "id": 5,
+                "name": "Frank"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been considering investing in Bitcoin because its price stability has improved recently.</target>",
+                "annotation": "<holder_01> I've </holder_01> been considering investing in <target_01> Bitcoin </target_01> because its <aspect_01> price stability </aspect_01> has <opinion_01> improved </opinion_01> <rationale_01> recently </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "From my perspective, Bitcoin's market adoption is still limited, making it a less reliable asset compared to stocks.",
+                "annotation": "<holder_02> From my perspective </holder_02>, Bitcoin's <aspect_02> market adoption </aspect_02> is <opinion_02> still limited </opinion_02>, <rationale_02> making it a less reliable asset compared to stocks </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the blockchain technology behind it is highly secure, ensuring safe transactions.",
+                "annotation": "However, the <target_01> blockchain technology </target_01> behind it is <opinion_03> highly secure </opinion_03>, ensuring <rationale_03> safe transactions </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An infographic explaining the security features of blockchain technology.",
+                    "id": "img_0006"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I think the energy consumption for mining Bitcoin is enormous, which can be a big concern for sustainability.",
+                "annotation": "<holder_03> I </holder_03> think the <aspect_03> energy consumption </aspect_03> for mining Bitcoin is <opinion_04> enormous </opinion_04>, which can be a <rationale_04> big concern for sustainability </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Eva, I see that point, but the potential for high returns makes it quite attractive despite the risks.",
+                "annotation": "Eva, I see that point, but the potential for <target_01> high returns </target_01> makes it <opinion_05> quite attractive </opinion_05> <rationale_05> despite the risks </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I'd argue the recent trends in Bitcoin's price are misleading as short-term spikes don't indicate overall market strength.",
+                "annotation": "<holder_03> I'd argue </holder_03> the recent trends in <aspect_01> Bitcoin's price </aspect_01> are <opinion_06> misleading </opinion_06> as <rationale_06> short-term spikes don't indicate overall market strength </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "price stability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "improved",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "recently",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "market adoption",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "still limited",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making it a less reliable asset compared to stocks",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Catherine",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "blockchain technology",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "security",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "highly secure",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "ensuring safe transactions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "energy consumption",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "enormous",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which can be a big concern for sustainability",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eva",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "return potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "quite attractive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "despite the risks",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Frank",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "price trends",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "misleading",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "short-term spikes don't indicate overall market strength",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lucas"
+            },
+            {
+                "id": 1,
+                "name": "Emma"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            },
+            {
+                "id": 3,
+                "name": "Sophia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the new GloSmart Smartphone has fantastic features, particularly its AMOLED display. The colors are vibrant and deeply saturated.",
+                "annotation": "I think the new <target_01> GloSmart Smartphone </target_01> has fantastic features, particularly its <aspect_01> AMOLED display </aspect_01>. The <opinion_01> colors are vibrant and deeply saturated </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "But haven't you noticed the battery drains pretty quickly with that display? It significantly reduces the phone's usability throughout the day.",
+                "annotation": "But haven't you noticed the <aspect_02> battery </aspect_02> <opinion_02> drains pretty quickly </opinion_02> with that display? <rationale_02> It significantly reduces the phone's usability throughout the day </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "And let's not forget the camera. I find it subpar compared to other flagships in the market. Low-light performance is disappointing.",
+                "annotation": "And let's not forget the <aspect_03> camera </aspect_03>. I find it <opinion_03> subpar </opinion_03> compared to other flagships in the market. <rationale_03> Low-light performance is disappointing </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Images showing the GloSmart's poor low-light camera performance, highlighting the subpar quality compared to other flagships.",
+                    "id": "img_0007"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "On a brighter note, the design is sleek and modern, which adds to its overall appeal.",
+                "annotation": "On a brighter note, the <aspect_04> design </aspect_04> is <opinion_04> sleek and modern </opinion_04>, which <rationale_04> adds to its overall appeal </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GloSmart Smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "AMOLED display",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "colors are vibrant and deeply saturated",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The colors are vibrant and deeply saturated",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GloSmart Smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "battery",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "drains pretty quickly",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It significantly reduces the phone's usability throughout the day",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GloSmart Smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "camera",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "subpar",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Low-light performance is disappointing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "GloSmart Smartphone",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "sleek and modern",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which adds to its overall appeal",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00007",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Diana"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the liquidity of Bitcoin is quite high, which makes it easy to trade at any time.",
+                "annotation": "I think the <aspect_01> liquidity </aspect_01> of <target_01> Bitcoin </target_01> is <opinion_01> quite high </opinion_01>, <rationale_01> which makes it easy to trade at any time </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "On the downside, the transaction fees can be rather expensive, especially during high network congestion.",
+                "annotation": "On the downside, the <aspect_02> transaction fees </aspect_02> can be <opinion_02> rather expensive </opinion_02>, <rationale_02> especially during high network congestion </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the development community supporting Bitcoin is incredibly active and diligent.",
+                "annotation": "However, the <aspect_03> development community </aspect_03> supporting <target_01> Bitcoin </target_01> is <opinion_03> incredibly active </opinion_03>, <rationale_03> constantly implementing updates and improvements </rationale_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Here's an infographic highlighting Bitcoin's global adoption rates.",
+                "annotation": "Here's an infographic highlighting <target_01> Bitcoin </target_01>'s global <aspect_04> adoption rates </aspect_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An infographic showing the increasing adoption rates of Bitcoin worldwide.",
+                    "id": "img_0008"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "liquidity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "quite high",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "which makes it easy to trade at any time",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "transaction fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "rather expensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially during high network congestion",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "development community",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "incredibly active",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "constantly implementing updates and improvements",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Diana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "adoption rates",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "increasing",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "an infographic showing the increasing adoption rates of Bitcoin worldwide",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00008",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Nick"
+            },
+            {
+                "id": 1,
+                "name": "Alex"
+            },
+            {
+                "id": 2,
+                "name": "Taylor"
+            },
+            {
+                "id": 3,
+                "name": "Jordan"
+            },
+            {
+                "id": 4,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm considering investing in Ethereum; its market stability seems quite remarkable lately.",
+                "annotation": "I'm considering investing in <target_01> Ethereum </target_01>; its <aspect_01> market stability </aspect_01> seems quite <opinion_01> remarkable </opinion_01> lately.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Interesting choice! But how do you feel about the transaction fees?",
+                "annotation": "But how do you feel about the <aspect_02> transaction fees </aspect_02>?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "To be honest, I think the fees are quite high, which might turn away potential investors.",
+                "annotation": "To be honest, I think the fees are quite <opinion_02> high </opinion_02>, which might turn away potential investors.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Despite that, Ethereum's adoption rate across industries is very impressive!",
+                "annotation": "Despite that, Ethereum's <aspect_03> adoption rate </aspect_03> across industries is very <opinion_03> impressive </opinion_03>!",
+                "modality": {
+                    "type": "img",
+                    "caption": "A graph showing Ethereum's increasing adoption rate over the last five years.",
+                    "id": "img_0009"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I totally agree, and the security protocols they use are top-notch, providing user confidence.",
+                "annotation": "and the <aspect_04> security protocols </aspect_04> they use are <opinion_04> top-notch </opinion_04>, providing user confidence.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Nick",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "market stability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "lately",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "cryptocurrency",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "transaction fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which might turn away potential investors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "Ethereum",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "adoption rate",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "across industries",
+                    "manner": "explicit"
+                },
+                "modality": {
+                    "type": "img",
+                    "caption": "A graph showing Ethereum's increasing adoption rate over the last five years.",
+                    "id": "img_0009"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_04",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "security protocols",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "top-notch",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "providing user confidence",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00009",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Cathy"
+            },
+            {
+                "id": 3,
+                "name": "David"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new mobile banking app interface is user-friendly, making transactions so much easier.",
+                "annotation": "The new <target_01> mobile banking app </target_01> <aspect_01> interface </aspect_01> is <opinion_01> user-friendly </opinion_01>, <rationale_01> making transactions so much easier </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but I find the load time a bit slow, which can get frustrating when multitasking.",
+                "annotation": "I agree, but I find the <aspect_02> load time </aspect_02> a bit <opinion_02> slow </opinion_02>, <rationale_02> which can get frustrating when multitasking </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Despite the slow load time, the security features are top-notch. That’s crucial for me.",
+                "annotation": "Despite the slow load time, the <aspect_03> security features </aspect_03> are <opinion_03> top-notch </opinion_03>. <rationale_03> That’s crucial for me </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The app's integration with external wallets is seamless, allowing for smooth fund transfers.",
+                "annotation": "The app's <aspect_04> integration with external wallets </aspect_04> is <opinion_04> seamless </opinion_04>, <rationale_04> allowing for smooth fund transfers </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A screenshot of the mobile banking app showing an external wallet integration section, highlighting smooth fund transfer feature.",
+                    "id": "img_0010"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I've noticed that the customer support section is quite responsive compared to other apps I've used.",
+                "annotation": "I've noticed that the <aspect_05> customer support section </aspect_05> is quite <opinion_05> responsive </opinion_05> compared to other apps I've used.",
+                "modality": "None",
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making transactions so much easier",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "load time",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "slow",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which can get frustrating when multitasking",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Cathy",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "top-notch",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "That’s crucial for me",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "integration with external wallets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "seamless",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "allowing for smooth fund transfers",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "customer support section",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "responsive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "compared to other apps I've used",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "integration with external wallets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "seamless",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "allowing for smooth fund transfers",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00010",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sophia"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Oliver"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the Comprehensive Coverage is really reliable, especially because it covers a wide range of incidents.",
+                "annotation": "I think the <target_01> Comprehensive Coverage </target_01> is <opinion_01> really reliable </opinion_01>, especially because <rationale_01> it covers a wide range of incidents </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A graphic showing various incidents such as theft, fire, and natural disasters covered by a comprehensive insurance policy",
+                    "id": "img_0011"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That’s true, but the premiums for Comprehensive Coverage are quite expensive. It significantly increases the overall costs.",
+                "annotation": "That’s true, but the <aspect_02> premiums </aspect_02> for <target_01> Comprehensive Coverage </target_01> are <opinion_02> quite expensive </opinion_02>. <rationale_02> It significantly increases the overall costs </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Yes, but the coverage for natural disasters is invaluable. It provided great relief during the hurricane season.",
+                "annotation": "Yes, but the <aspect_03> coverage for natural disasters </aspect_03> is <opinion_03> invaluable </opinion_03>. <rationale_03> It provided great relief during the hurricane season </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "However, the Claim Settlement process is lengthy. My colleague had to wait for several months to get their claim processed.",
+                "annotation": "However, the <aspect_04> Claim Settlement process </aspect_04> is <opinion_04> lengthy </opinion_04>. <rationale_04> My colleague had to wait for several months to get their claim processed </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Comprehensive Coverage",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "range of incidents",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "really reliable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it covers a wide range of incidents",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Comprehensive Coverage",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "premiums",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite expensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It significantly increases the overall costs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Comprehensive Coverage",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "coverage for natural disasters",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "invaluable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It provided great relief during the hurricane season",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Comprehensive Coverage",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "Claim Settlement process",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "lengthy",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "My colleague had to wait for several months to get their claim processed",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00011",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Paul"
+            },
+            {
+                "id": 2,
+                "name": "Raj"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The garden in the Willow Street house is extremely well-maintained, it looks like a magazine cover.",
+                "annotation": "The <aspect_01> garden </aspect_01> in the <target_01> Willow Street house </target_01> is <opinion_01> extremely well-maintained </opinion_01>, <rationale_01> it looks like a magazine cover </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the kitchen could use some updates. It seems rather outdated.",
+                "annotation": "I agree, but the <aspect_02> kitchen </aspect_02> <opinion_02> could use some updates </opinion_02>. <rationale_02> It seems rather outdated </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Oh, but have you seen the living room? It's incredibly spacious, absolutely perfect for hosting gatherings.",
+                "annotation": "Oh, but have you seen the <aspect_03> living room </aspect_03>? It's <opinion_03> incredibly spacious </opinion_03>, <rationale_03> absolutely perfect for hosting gatherings </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image of the living room in the Willow Street house, showcasing its ample space and modern decor.",
+                    "id": "img_0012"
+                },
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's true. And let's not forget the stunning view from the master bedroom, it's definitely a highlight.",
+                "annotation": "That's true. And let's not forget the <aspect_04> view </aspect_04> from the <target_01> master bedroom </target_01>, it's <opinion_04> definitely a highlight </opinion_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A captivating view of the serene landscape from the master bedroom in the Willow Street house.",
+                    "id": "img_0013"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Willow Street house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "garden",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "extremely well-maintained",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it looks like a magazine cover",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Paul",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Willow Street house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "kitchen",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "could use some updates",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It seems rather outdated",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Willow Street house",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "living room",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "incredibly spacious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "absolutely perfect for hosting gatherings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Paul",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "master bedroom",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "view",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "definitely a highlight",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the stunning view",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00012",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Maya"
+            },
+            {
+                "id": 1,
+                "name": "Liam"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Emma"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I believe the new SwiftPay app is revolutionary. The transaction speed is extremely fast, enabling seamless payments instantly.",
+                "annotation": "I believe the new <target_01> SwiftPay app </target_01> is <opinion_01> revolutionary </opinion_01>. The <aspect_01> transaction speed </aspect_01> is <opinion_01> extremely fast </opinion_01>, <rationale_01> enabling seamless payments instantly </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I've also noticed that the user interface is very user-friendly. It makes all the features easy to understand and navigate.",
+                "annotation": "I've also noticed that the <aspect_02> user interface </aspect_02> is <opinion_02> very user-friendly </opinion_02>. <rationale_02> It makes all the features easy to understand and navigate </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "But I've heard complaints about the customer support. It's apparently quite slow and not very helpful at times.",
+                "annotation": "But I've heard complaints about the <aspect_03> customer support </aspect_03>. It's <opinion_03> quite slow </opinion_03> and <opinion_03> not very helpful </opinion_03> at times.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I don’t agree about the customer support issues. Just last week, they helped me resolve a security glitch efficiently and courteously.",
+                "annotation": "I don’t agree about the <aspect_03> customer support </aspect_03> issues. Just last week, they helped me resolve a <aspect_04> security glitch </aspect_04> <rationale_04> efficiently and courteously </rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A SwiftPay customer service representative assisting a user with a query.",
+                    "id": "img_0014"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "To add, the data analytics provided by SwiftPay are really extensive. They offer deep insights into your spending behavior and patterns.",
+                "annotation": "To add, the <aspect_05> data analytics </aspect_05> provided by <target_01_implicit> are <opinion_05> really extensive </opinion_05>. <rationale_05> They offer deep insights into your spending behavior and patterns </rationale_05>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SwiftPay app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "transaction speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "revolutionary",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "enabling seamless payments instantly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SwiftPay app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "very user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It makes all the features easy to understand and navigate",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SwiftPay app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customer support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite slow and not very helpful",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "at times",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "SwiftPay app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customer support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "efficiently and courteously",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "Just last week, they helped me resolve a security glitch",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01_implicit",
+                    "value": "SwiftPay app",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "data analytics",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "really extensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "They offer deep insights into your spending behavior and patterns",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00013",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "John"
+            },
+            {
+                "id": 1,
+                "name": "Sarah"
+            },
+            {
+                "id": 2,
+                "name": "Michael"
+            },
+            {
+                "id": 3,
+                "name": "Emily"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The location of this property is fantastic. It's close to the downtown area, which makes it very convenient for commuting.",
+                "annotation": "The <target_01> location </target_01> of this property is <opinion_01> fantastic </opinion_01>. <rationale_01> It's close to the downtown area, which makes it very convenient for commuting </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An aerial view showing the property uniquely positioned near the bustling downtown area.",
+                    "id": "img_0015"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the interior design feels quite outdated. It could use a modern touch to make it more appealing.",
+                "annotation": "I agree, but the <aspect_01> interior design </aspect_01> feels quite <opinion_01> outdated </opinion_01>. <rationale_01> It could use a modern touch to make it more appealing </rationale_01>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "That's true. On the plus side, the backyard is very spacious. Families would love having that extra outdoor space.",
+                "annotation": "That's true. On the plus side, the <aspect_01> backyard </aspect_01> is very <opinion_01> spacious </opinion_01>. <rationale_01> Families would love having that extra outdoor space </rationale_01>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "And the natural light in the living room is quite impressive. Huge windows really brighten the space.",
+                "annotation": "And the <target_01> natural light </target_01> in the living room is quite <opinion_01> impressive </opinion_01>. <rationale_01> Huge windows really brighten the space </rationale_01>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "John",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "location",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "location",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's close to the downtown area, which makes it very convenient for commuting",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interior design",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "outdated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It could use a modern touch to make it more appealing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "backyard",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "spacious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Families would love having that extra outdoor space",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "natural light",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "natural light",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Huge windows really brighten the space",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00014",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Mary"
+            },
+            {
+                "id": 1,
+                "name": "John"
+            },
+            {
+                "id": 2,
+                "name": "Lisa"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been researching retirement plans, and the flexibility of the 401(k) plan is exceptional because it allows you to adjust contributions based on your financial situation.",
+                "annotation": "I've been researching <target_01> retirement plans </target_01>, and the <aspect_01> flexibility </aspect_01> of the 401(k) plan is <opinion_01> exceptional </opinion_01> because <rationale_01> it allows you to adjust contributions based on your financial situation </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! What do you think about the tax advantages it offers?",
+                "annotation": "That's interesting! What do you think about the <aspect_02> tax advantages </aspect_02> it offers?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The tax advantages are quite beneficial, especially since you can defer taxes until withdrawal.",
+                "annotation": "The <aspect_02> tax advantages </aspect_02> are quite <opinion_02> beneficial </opinion_02>, especially since <rationale_02> you can defer taxes until withdrawal </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A calculator and financial documents illustrating the concept of deferring taxes until withdrawal, highlighting tax advantages.",
+                    "id": "img_0016"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "It's good to know, but I'm also concerned about the associated fees.",
+                "annotation": "It's good to know, but I'm also concerned about the <aspect_03> associated fees </aspect_03>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Mary",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "retirement plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flexibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it allows you to adjust contributions based on your financial situation",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lisa",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "retirement plans",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "tax advantages",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "A calculator and financial documents illustrating the concept of deferring taxes until withdrawal, highlighting tax advantages.",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00015",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            },
+            {
+                "id": 3,
+                "name": "Dana"
+            },
+            {
+                "id": 4,
+                "name": "Eve"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently invested in this new crypto coin called Lumina. Its transaction speed is incredibly fast, processing within seconds.",
+                "annotation": "I recently invested in this new <target_01> crypto coin </target_01> called Lumina. Its <aspect_01> transaction speed </aspect_01> is <opinion_01> incredibly fast </opinion_01>, <rationale_01> processing within seconds </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A visual representation of the Lumina crypto coin's lightning-fast transaction speed",
+                    "id": "img_0017"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, but the security features seem pretty weak to me. It does not provide two-factor authentication for transactions.",
+                "annotation": "I agree, but the <aspect_02> security features </aspect_02> seem pretty <opinion_02> weak </opinion_02> to me. <rationale_02> It does not provide two-factor authentication for transactions </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 4,
+                "utterance": "Lumina's ease of use is pretty impressive. The interface is very user-friendly, suitable for beginners.",
+                "annotation": "<target_01> Lumina's </target_01> <aspect_03> ease of use </aspect_03> is pretty <opinion_03> impressive </opinion_03>. <rationale_03> The interface is very user-friendly, suitable for beginners </rationale_03>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 3,
+                "speaker": 2,
+                "utterance": "I have my doubts about the liquidity of Lumina. The trade volume is quite low compared to other cryptocurrencies.",
+                "annotation": "I have my doubts about the <aspect_04> liquidity </aspect_04> of Lumina. The <opinion_04> trade volume </opinion_04> is quite <opinion_04> low </opinion_04> compared to other cryptocurrencies.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A graph showing Lumina's trading volume being lower than other major cryptocurrencies",
+                    "id": "img_0018"
+                },
+                "reply": 1
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "The community support around Lumina is fantastic. The developers are very active on forums and social media.",
+                "annotation": "The <target_02> community support </target_02> around Lumina is <opinion_05> fantastic </opinion_05>. <rationale_05> The developers are very active on forums and social media </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "crypto coin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "transaction speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly fast",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "processing within seconds",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "crypto coin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "weak",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It does not provide two-factor authentication for transactions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Eve",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Lumina's",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "ease of use",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "The interface is very user-friendly, suitable for beginners",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "crypto coin",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "liquidity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "low",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "The trade volume is quite low compared to other cryptocurrencies",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Dana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "community support",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "developers",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "The developers are very active on forums and social media",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00016",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Michael"
+            },
+            {
+                "id": 1,
+                "name": "Sarah"
+            },
+            {
+                "id": 2,
+                "name": "David"
+            },
+            {
+                "id": 3,
+                "name": "Emma"
+            },
+            {
+                "id": 4,
+                "name": "John"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "Have you guys checked out the latest update on Ethereum? The gas fees are incredibly low, making transactions much cheaper.",
+                "annotation": "Have you guys checked out the latest update on <target_01> Ethereum </target_01>? The <aspect_01> gas fees </aspect_01> are <opinion_01> incredibly low </opinion_01>, <rationale_01> making transactions much cheaper </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, I noticed that too. The low gas fees really enhance the user experience, making it more attractive for small investors.",
+                "annotation": "Yes, I noticed that too. The <aspect_01> low gas fees </aspect_01> really <opinion_01> enhance the user experience </opinion_01>, <rationale_01> making it more attractive for small investors </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Chart showing the recent decrease in Ethereum gas fees, highlighting the more affordable transaction costs for users.",
+                    "id": "img_0019"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 3,
+                "utterance": "It's good to see Ethereum improving. The market stability seems much better now with these changes.",
+                "annotation": "It's good to see <target_01> Ethereum </target_01> improving. The market <aspect_02> stability </aspect_02> seems <opinion_02> much better </opinion_02> now with these changes <rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 4,
+                "utterance": "I agree, the performance is solid now. I think more developers will be encouraged to build on the Ethereum platform.",
+                "annotation": "I agree, the <aspect_03> performance </aspect_03> is <opinion_03> solid </opinion_03> now. <rationale_03> I think more developers will be encouraged to build on the Ethereum platform </rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 2,
+                "utterance": "Don't forget about the security. The new update also seems to have stronger security measures in place.",
+                "annotation": "Don't forget about the <aspect_04> security </aspect_04>. The new update also seems to have <opinion_04> stronger </opinion_04> security measures in place <rationale_04>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Infographic showcasing key security improvements in the latest Ethereum update, emphasizing the enhanced protection measures.",
+                    "id": "img_0020"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "gas fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly low",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making transactions much cheaper",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "gas fees",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "enhance the user experience",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making it more attractive for small investors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "market stability",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "much better",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "now with these changes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "John",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "performance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "solid",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "more developers will be encouraged to build on the Ethereum platform",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "David",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Ethereum",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "security",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "stronger",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "the new update also seems to have stronger security measures in place",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00017",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Olivia"
+            },
+            {
+                "id": 1,
+                "name": "Mason"
+            },
+            {
+                "id": 2,
+                "name": "Emma"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The volatility of Bitcoin is extremely high, making it a risky investment.",
+                "annotation": "The <target_01> Bitcoin </target_01> <aspect_01> volatility </aspect_01> is <opinion_01> extremely high </opinion_01>, <rationale_01> making it a risky investment </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Yes, but its growth potential is substantial, promising significant returns in the long run.",
+                "annotation": "Yes, but its <aspect_02> growth potential </aspect_02> is <opinion_02> substantial </opinion_02>, <rationale_02> promising significant returns in the long run </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "Bitcoin transactions are generally fast, but the fees can sometimes be prohibitive.",
+                "annotation": "Bitcoin <aspect_03> transactions </aspect_03> are generally <opinion_03> fast </opinion_03>, but the fees can sometimes be prohibitive.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A transaction being approved on a blockchain interface, illustrating the speed of Bitcoin transactions.",
+                    "id": "img_0021"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I agree to some extent, but the underlying technology of blockchain is innovative, providing transparency and security.",
+                "annotation": "but the underlying <aspect_04> technology of blockchain </aspect_04> is <opinion_04> innovative </opinion_04>, <rationale_04> providing transparency and security </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "volatility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "extremely high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making it a risky investment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Mason",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "growth potential",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "substantial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "promising significant returns in the long run",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "fees",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "fast",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "but the fees can sometimes be prohibitive",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "Bitcoin",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "technology of blockchain",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "innovative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "providing transparency and security",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00018",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Dylan"
+            },
+            {
+                "id": 1,
+                "name": "Casey"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            },
+            {
+                "id": 3,
+                "name": "Alex"
+            },
+            {
+                "id": 4,
+                "name": "Jamie"
+            },
+            {
+                "id": 5,
+                "name": "Taylor"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The security features of this new mobile banking app are truly impressive, especially the two-factor authentication which significantly reduces the risk of unauthorized access.",
+                "annotation": "The <aspect_01> security features </aspect_01> of this new <target_01> mobile banking app </target_01> are <opinion_01> truly impressive </opinion_01>, <rationale_01> especially the two-factor authentication which significantly reduces the risk of unauthorized access </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, the user interface is also quite intuitive, making navigation very smooth and user-friendly.",
+                "annotation": "I agree, the <aspect_02> user interface </aspect_02> is also <opinion_02> quite intuitive </opinion_02>, <rationale_02> making navigation very smooth and user-friendly </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the customer service support needs improvement. It takes too long to get a response.",
+                "annotation": "However, the <aspect_03> customer service support </aspect_03> needs <opinion_03> improvement </opinion_03>. <rationale_03> It takes too long to get a response </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "The transaction history feature is quite detailed. It's easy to track all expenses and incomes.",
+                "annotation": "The <aspect_04> transaction history feature </aspect_04> is <opinion_04> quite detailed </opinion_04>. <rationale_04> It's easy to track all expenses and incomes </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "True, but I think the app could benefit from more investment options, such as mutual funds and ETFs.",
+                "annotation": "<opinion_05> True </opinion_05>, but I think the <aspect_05> app </aspect_05> could benefit from more <rationale_05> investment options </rationale_05>, such as mutual funds and ETFs.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A mock-up of a mobile banking app screen that highlights investment options not currently available.",
+                    "id": "img_0022"
+                },
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "From my perspective, the encryption protocols used are state-of-the-art, ensuring user data is always protected.",
+                "annotation": "From my perspective, the <aspect_06> encryption protocols </aspect_06> used are <opinion_06> state-of-the-art </opinion_06>, <rationale_06> ensuring user data is always protected </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Dylan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "truly impressive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "especially the two-factor authentication which significantly reduces the risk of unauthorized access",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "user interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "quite intuitive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "making navigation very smooth and user-friendly",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "customer service support",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "improvement",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "It takes too long to get a response",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "transaction history feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite detailed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's easy to track all expenses and incomes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Jamie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "app",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "True",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "investment options",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "encryption protocols",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "state-of-the-art",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "ensuring user data is always protected",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00019",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Lucas"
+            },
+            {
+                "id": 2,
+                "name": "Sophia"
+            },
+            {
+                "id": 3,
+                "name": "Michael"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The townhouse on Elm Street is stunning! The living room is exceptionally spacious, allowing for a lot of natural light.",
+                "annotation": "The <target_01> townhouse on Elm Street </target_01> is <opinion_01> stunning </opinion_01>! The <aspect_01> living room </aspect_01> is <opinion_02> exceptionally spacious </opinion_02>, <rationale_01> allowing for a lot of natural light </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A bright and spacious living room with large windows in the townhouse on Elm Street.",
+                    "id": "img_0023"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That sounds wonderful, but did you notice that the kitchen is a bit outdated? The appliances seem quite old.",
+                "annotation": "That sounds wonderful, but did you notice that the <aspect_02> kitchen </aspect_02> is <opinion_03> a bit outdated </opinion_03>? The <aspect_03> appliances </aspect_03> seem <opinion_04> quite old </opinion_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree with you, Lucas. However, the backyard is beautiful and well-maintained, offering a charming space for gatherings.",
+                "annotation": "I agree with you, Lucas. However, the <aspect_04> backyard </aspect_04> is <opinion_05> beautiful </opinion_05> and <aspect_05> well-maintained </aspect_05>, <rationale_02> offering a charming space for gatherings</rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A beautiful and well-maintained backyard with a cozy setup, perfect for gatherings.",
+                    "id": "img_0024"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Sophia, you're right. Also, don't forget the great location of this townhouse. It's located near excellent schools, which is ideal for families.",
+                "annotation": "Sophia, you're right. Also, don't forget the <aspect_06> great location </aspect_06> of this <target_02> townhouse </target_02>. It's <opinion_06> ideal </opinion_06> for families, <rationale_03> being near excellent schools</rationale_03>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "townhouse on Elm Street",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "living room",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "exceptionally spacious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing for a lot of natural light",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "kitchen",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "kitchen",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "outdated",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale",
+                    "value": "The appliances seem quite old",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "backyard",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "backyard",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "beautiful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "offering a charming space for gatherings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Michael",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "townhouse",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "great location",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "ideal",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "being near excellent schools",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00020",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I think the interface of our new financial app is amazing. It's straightforward and user-friendly, which makes navigation effortless.",
+                "annotation": "I think the <target_01> interface </target_01> of our new financial app is <opinion_01> amazing </opinion_01>. <rationale_01> It's straightforward and user-friendly, which makes navigation effortless </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A screenshot showing the sleek and intuitive design of the new financial app interface.",
+                    "id": "img_0025"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Absolutely, but it's quite slow at times, especially when multiple features are used simultaneously.",
+                "annotation": "Absolutely, but <target_02> it's quite slow </target_02> at times, especially when multiple features are used simultaneously.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "The integration of various banking services is a major plus. It allows users to manage everything in one place, which is extremely convenient.",
+                "annotation": "The <aspect_02> integration of various banking services </aspect_02> is a major <opinion_02> plus </opinion_02>. <rationale_02> It allows users to manage everything in one place, which is extremely convenient </rationale_02>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "amazing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It's straightforward and user-friendly, which makes navigation effortless",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "it's quite slow",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "integration of various banking services",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "integration of various banking services",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "plus",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It allows users to manage everything in one place, which is extremely convenient",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00021",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ava"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been using the BudgetMaster app for a month now, and its expense tracking feature is really detailed, helping me understand where my money goes.",
+                "annotation": "I've been using the <target_01> BudgetMaster app </target_01> for a month now, and its <aspect_01> expense tracking feature </aspect_01> is <opinion_01> really detailed </opinion_01>, <rationale_01> helping me understand where my money goes </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! How about the budgeting reports it generates?",
+                "annotation": "That's interesting! How about the <aspect_02> budgeting reports </aspect_02> it generates?",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "From my experience, the reports are quite comprehensive, which makes it easier to plan and adjust monthly expenses.",
+                "annotation": "From my experience, the <aspect_03> reports </aspect_03> are <opinion_02> quite comprehensive </opinion_02>, <rationale_02> which makes it easier to plan and adjust monthly expenses </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A screenshot of the BudgetMaster's comprehensive budgeting report.",
+                    "id": "img_0026"
+                },
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "BudgetMaster app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "expense tracking feature",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "really detailed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "helping me understand where my money goes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "BudgetMaster app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "reports",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "comprehensive",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which makes it easier to plan and adjust monthly expenses",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00022",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Bob"
+            },
+            {
+                "id": 2,
+                "name": "Charlie"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "The new mobile banking app's interface is so user-friendly, it's amazing.",
+                "annotation": "The new <target_01> mobile banking app </target_01>'s <aspect_01> interface </aspect_01> is <opinion_01> so user-friendly </opinion_01>, <rationale_01> it's amazing </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Sure, but I find the transaction speed to be quite disappointing. It takes forever for transfers to complete.",
+                "annotation": "Sure, but I find the <aspect_02> transaction speed </aspect_02> to be quite <opinion_02> disappointing </opinion_02>. <rationale_02> It takes forever for transfers to complete </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, the security features are top-notch, especially with the new biometric login.",
+                "annotation": "However, the <aspect_03> security features </aspect_03> are <opinion_03> top-notch </opinion_03>, <rationale_03> especially with the new biometric login </rationale_03>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A user logging in using fingerprint authentication, highlighting the biometric login feature.",
+                    "id": "img_0027"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "I do agree with you on that. But the app sometimes crashes unexpectedly, which can be very frustrating.",
+                "annotation": "I do agree with you on that. But the <target_01> app </target_01> sometimes <aspect_04> crashes </aspect_04> <opinion_04> unexpectedly </opinion_04>, <rationale_04> which can be very frustrating </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "interface",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "so user-friendly",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "it's amazing",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Bob",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "transaction speed",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "disappointing",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It takes forever for transfers to complete",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Charlie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "security features",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "top-notch",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially with the new biometric login",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mobile banking app",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "crashes",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "unexpectedly",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "which can be very frustrating",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    },
+    {
+        "doc_id": "00023",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Morgan"
+            },
+            {
+                "id": 1,
+                "name": "Stephanie"
+            },
+            {
+                "id": 2,
+                "name": "Dylan"
+            },
+            {
+                "id": 3,
+                "name": "Casey"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I'm looking into health insurance plans, but the premiums seem quite high.",
+                "annotation": "I'm looking into <target_01> health insurance plans </target_01>, but the <aspect_01> premiums </aspect_01> seem <opinion_01> quite high </opinion_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "Indeed, some plans have expensive premiums. However, their coverage in case of serious illness is excellent since they include comprehensive treatment options.",
+                "annotation": "Indeed, some plans have <opinion_02> expensive </opinion_02> <aspect_02> premiums </aspect_02>. However, their <aspect_03> coverage </aspect_03> in case of serious illness is <opinion_03> excellent </opinion_03> since they include comprehensive treatment options.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An image of a happy family with a health insurance document, signifying the peace of mind of having excellent coverage.",
+                    "id": "img_0028"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I agree. The coverage is comprehensive, but what about the out-of-pocket expenses? They can be very high sometimes.",
+                "annotation": "I agree. The <target_01> coverage </target_01> is <opinion_03> comprehensive </opinion_03>, but what about the <aspect_04> out-of-pocket expenses </aspect_04>? They can be <opinion_04> very high </opinion_04> sometimes.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That is correct. Some plans cover almost all costs, but it's important to check the details since the hidden costs can be substantial.",
+                "annotation": "That is correct. Some plans cover almost all <aspect_04> costs </aspect_04>, but it's important to check the <aspect_05> details </aspect_05> since the <target_02> hidden costs </target_02> can be <opinion_05> substantial </opinion_05>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Casey reading the fine print of a health insurance policy, representing the importance of checking details.",
+                    "id": "img_0029"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "health insurance plans",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "premiums",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "quite high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "None",
+                    "manner": "implicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Stephanie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "None",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "premiums",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "expensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "since they include comprehensive treatment options",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Stephanie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "coverage",
+                    "manner": "implicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "coverage",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "excellent",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "since they include comprehensive treatment options",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Dylan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "coverage",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "coverage",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "comprehensive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They can be very high sometimes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Dylan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "out-of-pocket expenses",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "costs",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "very high",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "They can be very high sometimes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "hidden costs",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "details",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "substantial",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "since the hidden costs can be substantial",
+                    "manner": "implicit"
+                }
+            }
+        ],
+        "sentiment flip": "None"
+    }
+]

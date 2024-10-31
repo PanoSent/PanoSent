@@ -1,0 +1,1232 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sam"
+            },
+            {
+                "id": 1,
+                "name": "Nina"
+            },
+            {
+                "id": 2,
+                "name": "Alex"
+            },
+            {
+                "id": 3,
+                "name": "Raj"
+            },
+            {
+                "id": 4,
+                "name": "Maya"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently tried some street tacos from Mexico City, and I was genuinely impressed by their flavors. Each bite had a burst of fresh ingredients that made them unforgettable.",
+                "annotation": "I recently tried some <target_01> street tacos from Mexico City </target_01>, and I was <opinion_01> genuinely impressed by </opinion_01> their <aspect_01> flavors </aspect_01>. <rationale_01> Each bite had a burst of fresh ingredients that made them unforgettable </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That’s awesome! I’d add that the variety of toppings available is fantastic. You can customize them to your liking, which makes it a personal experience.",
+                "annotation": "That’s awesome! I’d add that the <aspect_02> variety of toppings </aspect_02> is <opinion_02> fantastic </opinion_02>. <rationale_02> You can customize them to your liking, which makes it a personal experience </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I'm not so sure about their texture, though. I expected them to be more crispy but found them a little soggy.",
+                "annotation": "I'm <opinion_03> not so sure about </opinion_03> their <aspect_03> texture </aspect_03>, <rationale_03> I expected them to be more crispy but found them a little soggy </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I thought the texture could have been better.",
+                    "id": "aud_0001"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's an interesting point, Alex. However, I appreciate that the moistness retains the flavors well, making every bite satisfying.",
+                "annotation": "That's an interesting point, Alex. However, I appreciate that the <aspect_04> moistness </aspect_04> <rationale_04> retains the flavors well, making every bite satisfying </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Actually, I think the texture adds character! It’s not meant to be a chip but an experience of authenticity.",
+                "annotation": "Actually, I think the <aspect_04> texture </aspect_04> adds character! <rationale_05> It’s not meant to be a chip but an experience of authenticity </rationale_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "I see your point, but I'll admit I'm still not fully sold. I'd prefer a bit more crunch. But maybe it’s worth trying them with different toppings.",
+                "annotation": "<rationale_06> I see your point </rationale_06>, but I'll admit I'm <opinion_06> still not fully sold </opinion_06>. <rationale_06> However, it might be worth trying them with different toppings </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos from Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "genuinely impressed by",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "Each bite had a burst of fresh ingredients that made them unforgettable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos from Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "variety of toppings",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "You can customize them to your liking, which makes it a personal experience",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos from Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "not so sure about",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "I expected them to be more crispy but found them a little soggy",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Raj",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos from Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "moistness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "appreciate",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "retains the flavors well, making every bite satisfying",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos from Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "adds character",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It’s not meant to be a chip but an experience of authenticity",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "street tacos from Mexico City",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "crunch",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "still not fully sold",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "However, it might be worth trying them with different toppings",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alana"
+            },
+            {
+                "id": 1,
+                "name": "Tyler"
+            },
+            {
+                "id": 2,
+                "name": "Jordan"
+            },
+            {
+                "id": 3,
+                "name": "Maya"
+            },
+            {
+                "id": 4,
+                "name": "Liam"
+            },
+            {
+                "id": 5,
+                "name": "Nina"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been really enjoying quinoa lately. It's so nutritious and versatile, making it a perfect base for many meals.",
+                "annotation": "I've been really enjoying <target_01> quinoa </target_01> lately. It's <opinion_01> nutritious and versatile </opinion_01>, making it a perfect base for many meals.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree! Plus, it's high in protein, which is great for muscle recovery after workouts.",
+                "annotation": "I agree! Plus, it's <aspect_02> high in protein </aspect_02>, <rationale_02> which is great for muscle recovery after workouts </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I find the texture of quinoa a bit off-putting. It feels slightly gritty to me, which makes me hesitant to try it.",
+                "annotation": "I find the <aspect_03> texture of quinoa </aspect_03> <opinion_03> off-putting </opinion_03>, <rationale_03> as it feels slightly gritty to me, which makes me hesitant to try it </rationale_03>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The texture of quinoa doesn't appeal to me.",
+                    "id": "aud_0002"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "That's an interesting point, but the flavor of quinoa is quite mild, and it pairs well with almost anything.",
+                "annotation": "That's an interesting point, but the <aspect_04> flavor of quinoa </aspect_04> <rationale_04> is quite mild, and it pairs well with almost anything </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I used to dislike it because of its texture, but I've come to appreciate how it's adaptable in different recipes.",
+                "annotation": "<rationale_05> I used to dislike it because of its texture </rationale_05>, but I've come to appreciate how it's <opinion_05> adaptable </opinion_05> in different recipes.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I think quinoa is quite fantastic! Its health benefits really outweigh any texture issues.",
+                "annotation": "I think <target_01> quinoa </target_01> is <opinion_06> fantastic </opinion_06>! <rationale_06> Its health benefits really outweigh any texture issues </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "nutritious and versatile",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "nutritious and versatile",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "making it a perfect base for many meals",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Tyler",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "high in protein",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "great",
+                    "manner": "positive"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "which is great for muscle recovery after workouts",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "texture of quinoa",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "off-putting",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "as it feels slightly gritty to me, which makes me hesitant to try it",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Maya",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "flavor of quinoa",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "quite mild",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "and it pairs well with almost anything",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "texture",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "adaptable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "how it's adaptable in different recipes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Nina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "quinoa",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "health benefits",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "fantastic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "Its health benefits really outweigh any texture issues",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "quinoa",
+                "aspect": "texture",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Aisha"
+            },
+            {
+                "id": 1,
+                "name": "Nikolai"
+            },
+            {
+                "id": 2,
+                "name": "Keiko"
+            },
+            {
+                "id": 3,
+                "name": "Liam"
+            },
+            {
+                "id": 4,
+                "name": "Tania"
+            },
+            {
+                "id": 5,
+                "name": "Omar"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently tried fusion cuisine at a new restaurant. The flavors were thrilling and blended beautifully.",
+                "annotation": "I recently tried <target_01> fusion cuisine </target_01> at a new restaurant. <rationale_01> The flavors were thrilling and blended beautifully </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "The flavors were thrilling and blended beautifully.",
+                    "id": "aud_0003"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 2,
+                "utterance": "That's interesting! I find fusion cuisine to be quite inventive, as it allows a combination of various traditions.",
+                "annotation": "I find <target_01> fusion cuisine </target_01> to be <opinion_02> quite inventive </opinion_02>, <rationale_02> as it allows a combination of various traditions </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 1,
+                "utterance": "While I appreciate the creativity, it can sometimes feel a bit chaotic. Too many elements clash rather than harmonize.",
+                "annotation": "While I appreciate the creativity, I feel <aspect_03> flavor harmony </aspect_03> can sometimes be <opinion_03> a bit chaotic </opinion_03>. <rationale_03> Too many elements clash rather than harmonize </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 5,
+                "utterance": "I disagree! A tangy kimchi taco was surprisingly delightful, showcasing how differences can enhance each other.",
+                "annotation": "A <aspect_04> kimchi taco </aspect_04> was <opinion_04> surprisingly delightful </opinion_04>, <rationale_04> showcasing how differences can enhance each other </rationale_04>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Showcasing how differences can enhance each other.",
+                    "id": "aud_0004"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 3,
+                "utterance": "That's a valid point, Omar. Perhaps the key is to find balance and avoid overwhelming the palate.",
+                "annotation": "That's a valid point, <rationale_05> the key is to find balance and avoid overwhelming the palate </rationale_05>. <opinion_05> Fusion cuisine really calls for a delicate touch </opinion_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "Yeah, I can see that. Maybe if the flavors are well-matched, it could lead to a more enjoyable experience.",
+                "annotation": "Maybe if the <aspect_06> flavors </aspect_06> are <opinion_06> well-matched </opinion_06>, <rationale_06> it could lead to a more enjoyable experience </rationale_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Aisha",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavor",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "thrilling",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "The flavors were thrilling and blended beautifully",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Keiko",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "creativity",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inventive",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "as it allows a combination of various traditions",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Nikolai",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "flavor harmony",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "chaotic",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Too many elements clash rather than harmonize",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Omar",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "taco",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "surprisingly delightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "showcasing how differences can enhance each other",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "flavors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "well-matched",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "it could lead to a more enjoyable experience",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Nikolai",
+            "target": "fusion cuisine",
+            "aspect": "flavor harmony",
+            "initial sentiment": "negative",
+            "flipped sentiment": "neutral",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lila"
+            },
+            {
+                "id": 1,
+                "name": "Milo"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            },
+            {
+                "id": 3,
+                "name": "Derek"
+            },
+            {
+                "id": 4,
+                "name": "Tessa"
+            },
+            {
+                "id": 5,
+                "name": "Ian"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've always thought chocolate is the finest among sweets because of its rich flavor and creamy texture.",
+                "annotation": "I've always thought <target_01> chocolate </target_01> is the <opinion_01> finest </opinion_01> among <aspect_01> sweets </aspect_01> because of <rationale_01> its rich flavor and creamy texture </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "While I appreciate chocolate, I find gummy candies to be much more enjoyable since they offer a fun chewiness.",
+                "annotation": "While I appreciate <target_01> chocolate </target_01>, I find <target_02> gummy candies </target_02> to be <opinion_02> much more enjoyable </opinion_02> since <rationale_02> they offer a fun chewiness </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think both chocolate and gummy candies are great, but the variety of flavors in gummy candies really makes them special.",
+                "annotation": "I think both <target_01> chocolate </target_01> and <target_02> gummy candies </target_02> are great, but the <aspect_03> variety of flavors </aspect_03> in <opinion_03> gummy candies </opinion_03> really makes them special.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to prefer chocolate, but learning that certain gummy candies use natural fruit flavors has changed my perspective on them.",
+                "annotation": "I used to prefer <target_01> chocolate </target_01>, but <rationale_04> learning that certain gummy candies use natural fruit flavors </rationale_04> has changed my <opinion_04> perspective </opinion_04> on <target_02> them </target_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "I didn't realize gummy candies could be so natural.",
+                    "id": "aud_0005"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Gummy candies can be overly sweet, though. I sometimes feel that chocolate offers a more satisfying richness.",
+                "annotation": "Gummy candies can be <opinion_05> overly sweet </opinion_05>, though. I sometimes feel that <target_01> chocolate </target_01> offers a more satisfying <aspect_05> richness </aspect_05>.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "That might be true, but it's hard to find chocolate that matches the fun of gummy candies, especially in a party setting.",
+                "annotation": "That might be true, but it's hard to find <target_01> chocolate </target_01> that matches the <opinion_06> fun </opinion_06> of <target_02> gummy candies </target_02>, especially in a <aspect_06> party setting </aspect_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "chocolate",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sweets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "finest",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "its rich flavor and creamy texture",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Milo",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "gummy candies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "sweets",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "much more enjoyable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "they offer a fun chewiness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "gummy candies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "flavors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "special",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "the variety of flavors in gummy candies really makes them special",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Derek",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "gummy candies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "natural fruit flavors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "changed",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "learning that certain gummy candies use natural fruit flavors",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Tessa",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "chocolate",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "richness",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "more satisfying",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "chocolate offers a more satisfying richness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_06",
+                    "value": "Ian",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "gummy candies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "party setting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "fun",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "it's hard to find chocolate that matches the fun of gummy candies, especially in a party setting",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Derek",
+                "target": "gummy candies",
+                "aspect": "natural fruit flavors",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Ana"
+            },
+            {
+                "id": 1,
+                "name": "Lee"
+            },
+            {
+                "id": 2,
+                "name": "Ravi"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been trying out international fusion cuisine recently, and the flavors are absolutely remarkable.",
+                "annotation": "I've been trying out <target_01> international fusion cuisine </target_01>, and the flavors are <opinion_01> absolutely remarkable </opinion_01>, <rationale_01> the combination of ingredients creates unique taste experiences </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the textures in fusion food can be inconsistent. Sometimes they just clash instead of complementing each other.",
+                "annotation": "I think the <aspect_02> textures </aspect_02> in fusion food can be <opinion_02> inconsistent </opinion_02>, <rationale_02> sometimes they just clash instead of complementing each other </rationale_02>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Some textures can clash in fusion dishes.",
+                    "id": "aud_0006"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I see your point, Lee, many dishes I've had offer a surprising harmony of flavors, especially when spices are well-balanced.",
+                "annotation": "While I see your point, Lee, many dishes I've had offer a <opinion_03> surprising harmony </opinion_03> of flavors, <rationale_03> especially when spices are well-balanced </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's interesting, Ravi. Reflecting on what you said, I realize some dishes definitely achieve that balance. What dish are you thinking about?",
+                "annotation": "That's interesting, Ravi. Reflecting on what you said, I realize some dishes definitely achieve <opinion_04> that balance </opinion_04>, <rationale_04> it depends on the ingredients and how they are prepared </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 0,
+                "utterance": "I had a fusion taco recently, with Korean BBQ and Mexican tortillas. It was both flavorful and innovative.",
+                "annotation": "I had a <target_01> fusion taco </target_01> recently, with Korean BBQ and Mexican tortillas. It was <opinion_05> both flavorful and innovative </opinion_05>, <rationale_05> introducing a delightful twist on traditional recipes </rationale_05>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "That taco was a delightful surprise!",
+                    "id": "aud_0007"
+                },
+                "reply": 3
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "international fusion cuisine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "flavors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "remarkable",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "the combination of ingredients creates unique taste experiences",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lee",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion food",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "textures",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inconsistent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "sometimes they just clash instead of complementing each other",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ravi",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion food",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "flavors",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "surprising harmony",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "especially when spices are well-balanced",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Lee",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion food",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "balance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "achievable",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "it depends on the ingredients and how they are prepared",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Ana",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "fusion taco",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "flavor and innovation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "both flavorful and innovative",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "introducing a delightful twist on traditional recipes",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Lee",
+            "target": "fusion food",
+            "aspect": "balance",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Participant Feedback and Interaction"
+        }
+    }
+]

@@ -1,0 +1,368 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Samantha"
+            },
+            {
+                "id": 1,
+                "name": "Oliver"
+            },
+            {
+                "id": 2,
+                "name": "Ella"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring holistic medicine lately, and I find its approach to wellness quite refreshing, as it considers the whole person rather than just symptoms.",
+                "annotation": "I've been exploring <target_01> holistic medicine </target_01> lately, and I find its <aspect_01> approach </aspect_01> to wellness quite <opinion_01> refreshing </opinion_01>, <rationale_01> as it considers the whole person rather than just symptoms </rationale_01>.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Holistic medicine looks at the whole person.",
+                    "id": "aud_0001"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I think the emphasis on natural remedies is beneficial, but sometimes I wonder if it lacks scientific backing, which can be concerning.",
+                "annotation": "I think the <aspect_02> emphasis </aspect_02> on <target_01> natural remedies </target_01> is <opinion_02> beneficial </opinion_02>, but <rationale_02> sometimes I wonder if it lacks scientific backing, which can be concerning </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I appreciate the holistic approach, the idea of holistic medicine can seem vague, which makes it less credible for some people.",
+                "annotation": "While I appreciate the <aspect_03> approach </aspect_03>, the idea of <target_01> holistic medicine </target_01> can seem <opinion_03> vague </opinion_03>, which <rationale_03> makes it less credible for some people </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I used to think it was just a trend, lacking real efficacy; however, after researching case studies, I now see its potential for holistic healing.",
+                "annotation": "I used to think <target_01> holistic medicine </target_01> was just a trend, lacking <aspect_04> real efficacy </aspect_04>; however, <rationale_04> after researching case studies </rationale_04>, I now see its <opinion_04> potential </opinion_04> for holistic healing.",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Researching case studies changed my view on holistic medicine.",
+                    "id": "aud_0002"
+                },
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Samantha",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "approach",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "as it considers the whole person rather than just symptoms",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Oliver",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "natural remedies",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "emphasis",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "sometimes I wonder if it lacks scientific backing, which can be concerning",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Ella",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "approach",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "vague",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "makes it less credible for some people",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "real efficacy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "potential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "after researching case studies",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Lucas",
+                "target": "holistic medicine",
+                "aspect": "real efficacy",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Logical Argumentation"
+            }
+        ]
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Alice"
+            },
+            {
+                "id": 1,
+                "name": "Ben"
+            },
+            {
+                "id": 2,
+                "name": "Clara"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the importance of mental health awareness lately, and I find the discussions surrounding the subject insightful.",
+                "annotation": "I've been reading about the <target_01> importance of mental health awareness </target_01> lately, and I find the discussions surrounding the subject <opinion_01> insightful </opinion_01>. <rationale_01> They open up crucial conversations that help destigmatize mental health issues. </rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's true, but I feel the approaches are often inconsistent and sometimes misleading. Some mental health campaigns lack credibility.",
+                "annotation": "That's true, but I feel the <aspect_02> approaches </aspect_02> are <opinion_02> inconsistent </opinion_02> and <rationale_02> sometimes misleading. Some mental health campaigns lack credibility. </rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "It's interesting that you mention credibility. Recently, I came across a study indicating that community-driven programs are more effective than traditional campaigns.",
+                "annotation": "It's interesting that you mention <aspect_03> credibility </aspect_03>. Recently, I came across a study indicating that <opinion_03> community-driven programs are more effective </opinion_03> than traditional campaigns. <rationale_03> This shows that localized, relatable methods can resonate more with individuals. </rationale_03>",
+                "modality": {
+                    "type": "aud",
+                    "caption": "Community-driven programs are proven to be more effective than traditional campaigns.",
+                    "id": "aud_0003"
+                },
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 1,
+                "utterance": "That's a good point, Clara. I wasn't aware of that! It does alter my perception of approaches to mental health advocacy.",
+                "annotation": "That's a good point, Clara. <rationale_04> I wasn't aware of that! </rationale_04> It does alter my perception of <aspect_02> approaches to mental health advocacy </aspect_02> to think that they can be <opinion_04> more effective </opinion_04> with community involvement. ",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Alice",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "importance of mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "discussions",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "insightful",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "They open up crucial conversations that help destigmatize mental health issues.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "importance of mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "approaches",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "inconsistent",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "sometimes misleading. Some mental health campaigns lack credibility.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Clara",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "importance of mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "credibility",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "more effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "This shows that localized, relatable methods can resonate more with individuals.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Ben",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "importance of mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "approaches to mental health advocacy",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "more effective",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "I wasn't aware of that!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Ben",
+                "target": "importance of mental health awareness",
+                "aspect": "approaches to mental health advocacy",
+                "initial sentiment": "negative",
+                "flipped sentiment": "positive",
+                "trigger type": "Introduction of New Information"
+            }
+        ]
+    }
+]

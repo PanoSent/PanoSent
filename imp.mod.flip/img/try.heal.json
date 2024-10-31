@@ -1,0 +1,1437 @@
+[
+    {
+        "doc_id": "00001",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Lila"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Sam"
+            },
+            {
+                "id": 3,
+                "name": "Tina"
+            },
+            {
+                "id": 4,
+                "name": "Alex"
+            },
+            {
+                "id": 5,
+                "name": "Chris"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've started journaling recently. It's incredibly therapeutic for processing my feelings.",
+                "annotation": "I've started <target_01> journaling </target_01> recently. It's <opinion_01> incredibly therapeutic </opinion_01> <rationale_01> for processing my feelings </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "What do you think about therapy sessions? I find them overwhelming, especially when it comes to discussing deep topics.",
+                "annotation": "What do you think about <aspect_02> therapy sessions </aspect_02>? I find them <opinion_02> overwhelming </opinion_02>, <rationale_02> especially when it comes to discussing deep topics </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A person sitting in a therapist's office, showing signs of distress.",
+                    "id": "img_0001"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I can relate to that, Jordan. However, I've learned that deep discussions can lead to significant breakthroughs, making them worthwhile.",
+                "annotation": "I can relate to that, Jordan. However, I've learned that <aspect_03> deep discussions </aspect_03> can lead to <opinion_03> significant breakthroughs </opinion_03>, <rationale_03> making them worthwhile </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Exactly! And think about the benefits of community support. It's essential for mental wellness.",
+                "annotation": "Exactly! And think about the <aspect_04> benefits of community support </aspect_04>. It's <opinion_04> essential </opinion_04> <rationale_04> for mental wellness </rationale_04>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Reflecting on what you said, I realize that therapy sessions offer structure, which can be helpful amid emotional chaos.",
+                "annotation": "Reflecting on what you said, I realize that <aspect_02> therapy sessions </aspect_02> offer <opinion_05> helpful structure </opinion_05>, <rationale_05> which can be helpful amid emotional chaos </rationale_05>.",
+                "modality": "None",
+                "reply": 1
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Lila",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "journaling",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "therapeutic",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly therapeutic",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "for processing my feelings",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "therapy sessions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "discussion depth",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "especially when it comes to discussing deep topics",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "therapy sessions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "discussion outcomes",
+                    "manner": "implicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "significant breakthroughs",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "making them worthwhile",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_03",
+                    "value": "community support",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "importance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "for mental wellness",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Alex",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_02",
+                    "value": "therapy sessions",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "structure",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "helpful structure",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "which can be helpful amid emotional chaos",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Alex",
+            "target": "therapy sessions",
+            "aspect": "structure",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00002",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Avery"
+            },
+            {
+                "id": 1,
+                "name": "Jordan"
+            },
+            {
+                "id": 2,
+                "name": "Casey"
+            },
+            {
+                "id": 3,
+                "name": "Morgan"
+            },
+            {
+                "id": 4,
+                "name": "Taylor"
+            },
+            {
+                "id": 5,
+                "name": "Riley"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently attended a meditation retreat, and I found the atmosphere to be incredibly calming, allowing me to really unwind.",
+                "annotation": "I recently attended <target_01> a meditation retreat </target_01>, and I found the <aspect_01> atmosphere </aspect_01> to be <opinion_01> incredibly calming </opinion_01>, <rationale_01> allowing me to really unwind </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting, Avery. While I believe the setting can contribute significantly, I worry that if the retreat is too isolated, it might feel lonely.",
+                "annotation": "That's interesting, Avery. While I believe the <aspect_02> setting </aspect_02> can <opinion_02> contribute significantly </opinion_02>, <rationale_02> I worry that if the retreat is too isolated, it might feel lonely </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A serene retreat location surrounded by nature, with an isolated vibe.",
+                    "id": "img_0002"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I tend to agree with Jordan. A communal aspect at retreats can enhance the experience. Isolation can sometimes hamper connection with others.",
+                "annotation": "I tend to agree with <holder_01> Jordan </holder_01>. A <aspect_03> communal aspect </aspect_03> at retreats can <opinion_03> enhance </opinion_03> the experience, <rationale_03> while isolation can sometimes hamper connection with others </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "True, and the activities offered can also make a huge difference. Engaging workshops or nature walks can be uplifting.",
+                "annotation": "True, and the <aspect_04> activities </aspect_04> offered can also be <opinion_04> uplifting </opinion_04>, <rationale_04> especially engaging workshops or nature walks </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Reflecting on what we've discussed, I feel a retreat with both communal activities and a serene environment strikes the right balance for everyone.",
+                "annotation": "Reflecting on what we've discussed, I feel a retreat with both <aspect_05> communal activities </aspect_05> and a <aspect_02> serene environment </aspect_02> strikes the <opinion_05> perfect balance </opinion_05>, <rationale_05> appealing to everyone’s needs </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 5,
+                "speaker": 5,
+                "utterance": "I initially thought a retreat should be completely peaceful, but hearing you all talk, I understand the benefits of a lively atmosphere.",
+                "annotation": "I initially thought a <target_01> retreat </target_01> should be completely peaceful, but hearing you all talk, I understand the <aspect_06> benefits </aspect_06> of a <opinion_06> lively atmosphere </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Avery",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a meditation retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "atmosphere",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "incredibly calming",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "allowing me to really unwind",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jordan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a meditation retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "setting",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "contribute significantly",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "I worry that if the retreat is too isolated, it might feel lonely",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Casey",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a meditation retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "communal aspect",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "enhance",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "while isolation can sometimes hamper connection with others",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Morgan",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a meditation retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "activities",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "uplifting",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "especially engaging workshops or nature walks",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Taylor",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "a meditation retreat",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "lively atmosphere",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "beneficial",
+                    "manner": "implicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "hearing you all talk, I understand the benefits of a lively atmosphere",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Taylor",
+            "target": "a meditation retreat",
+            "aspect": "lively atmosphere",
+            "initial sentiment": "neutral",
+            "flipped sentiment": "positive",
+            "trigger type": "Logical Argumentation"
+        }
+    },
+    {
+        "doc_id": "00003",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Evelyn"
+            },
+            {
+                "id": 1,
+                "name": "Jack"
+            },
+            {
+                "id": 2,
+                "name": "Sophie"
+            },
+            {
+                "id": 3,
+                "name": "Lucas"
+            },
+            {
+                "id": 4,
+                "name": "Ava"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about the role of magnesium in sleep quality, and it's quite fascinating how it regulates neurotransmitters.",
+                "annotation": "I've been reading about the <target_01> magnesium </target_01> in <aspect_01> sleep quality </aspect_01>, and it's <opinion_01> fascinating </opinion_01> how it regulates neurotransmitters.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "That's interesting! But I've heard mixed opinions about magnesium supplements being truly effective.",
+                "annotation": "That's interesting! But I've heard <opinion_02> mixed </opinion_02> opinions about <aspect_02> magnesium supplements </aspect_02> being truly effective.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I think it's essential to consider the form of magnesium used. Some forms are excellent, while others are less bioavailable.",
+                "annotation": "I think it's <opinion_03> essential </opinion_03> to consider the <aspect_03> form of magnesium </aspect_03> used. <rationale_03> Some forms are excellent, while others are less bioavailable </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Exactly! Here's an image showing different magnesium supplements with their bioavailability levels.",
+                "annotation": "Here's an image showing <aspect_04> different magnesium supplements </aspect_04> with their bioavailability levels.",
+                "modality": {
+                    "type": "img",
+                    "caption": "Image displaying various types of magnesium supplements labeled with their respective bioavailability.",
+                    "id": "img_0003"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "I never realized there was such a difference in absorption rates. This makes me reconsider the supplements I choose.",
+                "annotation": "<rationale_05> I never realized there was such a difference in absorption rates </rationale_05>. This makes me <opinion_05> reconsider </opinion_05> the <aspect_05> supplements </aspect_05> I choose.",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 1,
+                "utterance": "After seeing that comparison, I agree! Not all magnesium supplements are created equal.",
+                "annotation": "After seeing that comparison, I <rationale_06> agree! </rationale_06> Not all <aspect_06> magnesium supplements </aspect_06> are <opinion_06> created equal </opinion_06>.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Evelyn",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "magnesium",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "sleep quality",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "fascinating",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "how it regulates neurotransmitters",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jack",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "magnesium",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "magnesium supplements",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "mixed",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "about being truly effective",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Sophie",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "magnesium",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "form of magnesium",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Some forms are excellent, while others are less bioavailable",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Lucas",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "magnesium",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "different magnesium supplements",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "informative",
+                    "manner": "implicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "with their bioavailability levels",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Ava",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "magnesium",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "supplements",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "reconsider",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "the difference in absorption rates",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Jack",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "magnesium",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "magnesium supplements",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "created equal",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "agree!",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Jack",
+                "target": "magnesium",
+                "aspect": "magnesium supplements",
+                "initial sentiment": "neutral",
+                "flipped sentiment": "negative",
+                "trigger type": "Participant Feedback and Interaction"
+            }
+        ]
+    },
+    {
+        "doc_id": "00004",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Laura"
+            },
+            {
+                "id": 1,
+                "name": "Sam"
+            },
+            {
+                "id": 2,
+                "name": "Tina"
+            },
+            {
+                "id": 3,
+                "name": "Mark"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been exploring holistic medicine lately. It's incredibly refreshing how it emphasizes balance.",
+                "annotation": "I've been exploring <target_01> holistic medicine </target_01>. It's <opinion_01> refreshing </opinion_01>, <rationale_01> how it emphasizes balance </rationale_01>.",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I hear you, Laura. But the approach can sometimes feel overwhelming and tedious because of its numerous components.",
+                "annotation": "I hear you, Laura. But the <aspect_02> approach </aspect_02> can sometimes feel <opinion_02> overwhelming </opinion_02>, <rationale_02> because of its numerous components </rationale_02>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "An array of herbal remedies displayed on a wooden table, representing the complexity of holistic medicine ingredients.",
+                    "id": "img_0004"
+                },
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "I used to think the same, Sam, but after trying out some therapies, I found the process actually simplifies things by addressing root causes.",
+                "annotation": "I used to think the same, Sam, but after trying out some <aspect_03> therapies </aspect_03>, I found the process actually <opinion_03> simplifies </opinion_03> things by addressing root causes.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "Exactly, there’s also a personal touch to holistic practices, which makes it more appealing. They tailor the remedies based on individual needs.",
+                "annotation": "Exactly, there’s also a <aspect_04> personal touch </aspect_04> to holistic practices, which makes it <opinion_04> appealing </opinion_04>, <rationale_04> because they tailor the remedies based on individual needs </rationale_04>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "You both have valid points. Reflecting on my experiences, I realize now that the approach can be beneficial and not just overwhelming.",
+                "annotation": "You both have valid points. Reflecting on my experiences, I realize now that the approach can be <opinion_05> beneficial </opinion_05>, <rationale_05> and not just overwhelming </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Laura",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "balance",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "refreshing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "how it emphasizes balance",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "approach",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "overwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "because of its numerous components",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Tina",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "therapies",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "simplifies",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "by addressing root causes",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Mark",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "personal touch",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "appealing",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "because they tailor the remedies based on individual needs",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "holistic medicine",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "approach",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "beneficial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "and not just overwhelming",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": {
+            "holder": "Sam",
+            "target": "holistic medicine",
+            "aspect": "approach",
+            "initial sentiment": "negative",
+            "flipped sentiment": "positive",
+            "trigger type": "Personal Experiences and Self-reflection"
+        }
+    },
+    {
+        "doc_id": "00005",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Sarah"
+            },
+            {
+                "id": 1,
+                "name": "John"
+            },
+            {
+                "id": 2,
+                "name": "Emily"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I've been reading about mental health awareness, and I think that open conversations are essential for reducing stigma.",
+                "annotation": "I've been reading about <target_01> mental health awareness </target_01>, and I think that <aspect_01> open conversations </aspect_01> are <opinion_01> essential </opinion_01> for <rationale_01> reducing stigma </rationale_01>.",
+                "modality": {
+                    "type": "img",
+                    "caption": "A community gathering focused on mental health discussions.",
+                    "id": "img_0005"
+                },
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree, Sarah. It's crucial to create a safe space for people to share their experiences without fear of judgment.",
+                "annotation": "I agree, Sarah. It's <aspect_02> crucial </aspect_02> to <opinion_02> create a safe space </opinion_02> for <rationale_02> people to share their experiences without fear of judgment </rationale_02>.",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "However, I feel that some people still struggle to be honest about their mental health challenges. It's a complicated issue.",
+                "annotation": "However, I feel that <aspect_03> honesty </aspect_03> about <target_01> mental health challenges </target_01> is <opinion_03> complicated </opinion_03>. <rationale_03> Some people still struggle to be honest </rationale_03>.",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 0,
+                "utterance": "That's true, Emily. Maybe if we start educating ourselves, we can help foster a more accepting environment.",
+                "annotation": "That's true, Emily. If we start <aspect_04> educating ourselves </aspect_04>, we can <opinion_04> help foster </opinion_04> a more accepting environment. <rationale_04> It's essential for reducing barriers to discussion.</rationale_04>",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 1,
+                "utterance": "I've been hesitant to talk about my mental health because I feared nobody would take it seriously. But fostering these conversations could really change that.",
+                "annotation": "I've been hesitant to talk about my <aspect_05> mental health </aspect_05> because I feared <opinion_05> nobody would take it seriously </opinion_05>. <rationale_05> But fostering these conversations could really change that </rationale_05>.",
+                "modality": "None",
+                "reply": 2
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "Exactly, John. It's about shifting the narrative and making mental health a priority in our discussions.",
+                "annotation": "It's about shifting the <aspect_06> narrative </aspect_06> and making <target_01> mental health </target_01> a <opinion_06> priority </opinion_06> in our discussions. <rationale_06> This can encourage more people to be open.</rationale_06>",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "open conversations",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "essential",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "reducing stigma",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "John",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_02",
+                    "value": "safe space",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "crucial",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "people to share their experiences without fear of judgment",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health challenges",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "honesty",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "complicated",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "Some people still struggle to be honest",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Sarah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health awareness",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "educating ourselves",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "help foster",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "It's essential for reducing barriers to discussion.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "John",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "mental health",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "nobody would take it seriously",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "fostering these conversations could really change that",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Emily",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "mental health",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_06",
+                    "value": "narrative",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "priority",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "This can encourage more people to be open.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": []
+    },
+    {
+        "doc_id": "00006",
+        "speakers": [
+            {
+                "id": 0,
+                "name": "Emma"
+            },
+            {
+                "id": 1,
+                "name": "Sophia"
+            },
+            {
+                "id": 2,
+                "name": "Liam"
+            },
+            {
+                "id": 3,
+                "name": "Noah"
+            },
+            {
+                "id": 4,
+                "name": "Olivia"
+            }
+        ],
+        "dialogue": [
+            {
+                "index": 0,
+                "speaker": 0,
+                "utterance": "I recently tried a new skincare line that promises radiant skin, and I have to say I find the formulation to be exceptional.",
+                "annotation": "I recently tried a new <target_01> skincare line </target_01> that promises radiant skin, and I have to say I find the <aspect_01> formulation </aspect_01> to be <opinion_01> exceptional </opinion_01>. <rationale_01> It has worked wonders on my skin texture and clarity.</rationale_01>",
+                "modality": "None",
+                "reply": -1
+            },
+            {
+                "index": 1,
+                "speaker": 1,
+                "utterance": "I agree that the formulation is important, but how do you feel about the packaging? I think it's rather underwhelming.",
+                "annotation": "I agree that the <aspect_02> formulation </aspect_02> is important, but how do you feel about the <aspect_03> packaging </aspect_03>? I think it's <opinion_02> rather underwhelming </opinion_02>. <rationale_02> It lacks a modern touch that reflects the quality of the product.</rationale_02>",
+                "modality": "None",
+                "reply": 0
+            },
+            {
+                "index": 2,
+                "speaker": 2,
+                "utterance": "While I appreciate the quality of the product, I must say the price point is quite steep, which I find concerning.",
+                "annotation": "While I appreciate the quality of the <target_01> skincare line </target_01>, I must say the <aspect_04> price point </aspect_04> is <opinion_03> quite steep </opinion_03>, <rationale_03> which I find concerning for its accessibility.</rationale_03>",
+                "modality": "None",
+                "reply": 1
+            },
+            {
+                "index": 3,
+                "speaker": 3,
+                "utterance": "I'm with Liam on the price. But have any of you seen their social media campaign? The visuals are stunning.",
+                "annotation": "I'm with Liam on the <aspect_04> price </aspect_04>. But have any of you seen their <aspect_05> social media campaign </aspect_05>? The visuals are <opinion_04> stunning </opinion_04>. <rationale_04> They really convey the aesthetic appeal of the brand.</rationale_04>",
+                "modality": {
+                    "type": "img",
+                    "caption": "Vibrant promotional visuals from the skincare line's social media campaign, showcasing product images that enhance brand aesthetic.",
+                    "id": "img_0006"
+                },
+                "reply": 2
+            },
+            {
+                "index": 4,
+                "speaker": 4,
+                "utterance": "Absolutely, Noah! The campaign makes the product feel more luxurious than it is. It’s intriguing, to say the least.",
+                "annotation": "Absolutely, Noah! The <aspect_05> campaign </aspect_05> makes the product feel <opinion_05> more luxurious </opinion_05> than it is. <rationale_05> It’s intriguing, to say the least.</rationale_05>",
+                "modality": "None",
+                "reply": 3
+            },
+            {
+                "index": 5,
+                "speaker": 2,
+                "utterance": "After reflecting on the campaign, maybe the price is justified by the overall appeal it brings to the product narrative.",
+                "annotation": "<rationale_06> After reflecting on the campaign, </rationale_06> maybe the <aspect_04> price point </aspect_04> is <opinion_06> somewhat justified </opinion_06> by the overall appeal it brings to the product narrative.",
+                "modality": "None",
+                "reply": 4
+            }
+        ],
+        "hexatuple": [
+            {
+                "holder": {
+                    "identity": "holder_01",
+                    "value": "Emma",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_01",
+                    "value": "formulation",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_01",
+                    "value": "exceptional",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_01",
+                    "value": "It has worked wonders on my skin texture and clarity.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_02",
+                    "value": "Sophia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_03",
+                    "value": "packaging",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_02",
+                    "value": "rather underwhelming",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_02",
+                    "value": "It lacks a modern touch that reflects the quality of the product.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "price point",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_03",
+                    "value": "quite steep",
+                    "manner": "explicit"
+                },
+                "sentiment": "negative",
+                "rationale": {
+                    "identity": "rationale_03",
+                    "value": "which I find concerning for its accessibility.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_04",
+                    "value": "Noah",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "social media campaign",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_04",
+                    "value": "stunning",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_04",
+                    "value": "They really convey the aesthetic appeal of the brand.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_05",
+                    "value": "Olivia",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_05",
+                    "value": "social media campaign",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_05",
+                    "value": "more luxurious",
+                    "manner": "explicit"
+                },
+                "sentiment": "positive",
+                "rationale": {
+                    "identity": "rationale_05",
+                    "value": "It’s intriguing, to say the least.",
+                    "manner": "explicit"
+                }
+            },
+            {
+                "holder": {
+                    "identity": "holder_03",
+                    "value": "Liam",
+                    "manner": "explicit"
+                },
+                "target": {
+                    "identity": "target_01",
+                    "value": "skincare line",
+                    "manner": "explicit"
+                },
+                "aspect": {
+                    "identity": "aspect_04",
+                    "value": "price point",
+                    "manner": "explicit"
+                },
+                "opinion": {
+                    "identity": "opinion_06",
+                    "value": "somewhat justified",
+                    "manner": "explicit"
+                },
+                "sentiment": "neutral",
+                "rationale": {
+                    "identity": "rationale_06",
+                    "value": "After reflecting on the campaign, maybe the price is justified by the overall appeal it brings to the product narrative.",
+                    "manner": "explicit"
+                }
+            }
+        ],
+        "sentiment flip": [
+            {
+                "holder": "Liam",
+                "target": "skincare line",
+                "aspect": "price point",
+                "initial sentiment": "negative",
+                "flipped sentiment": "neutral",
+                "trigger type": "Personal Experiences and Self-reflection"
+            }
+        ]
+    }
+]
