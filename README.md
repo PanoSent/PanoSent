@@ -1,16 +1,30 @@
-## Hi there 👋
+### 1. Code Structure 
 
-<!--
-**PanoSent/PanoSent** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+Sentica/
+├── assets/
+├── checkpoints/
+├── data/
+│   └── T-X_pair_data/
+│       ├── LLaVA/
+│       ├── miniGPT-4/
+│       └── VideoChat/
+├── sentica/
+│   ├── __init__.py
+│   ├── model/
+│   │   ├── __init__.py
+│   │   ├── imagebind_encoder.py
+│   │   ├── flant5_model.py
+│   │   └── projection_layer.py
+│   ├── utils.py
+│   └── datasets/
+│       ├── stage1_caption_dataset.py
+│       ├── stage2_sextuple_dataset.py
+│       └── stage3_entailment_dataset.py
+├── scripts/
+│   ├── train_stage1.sh
+│   ├── train_stage2.sh
+│   └── train_stage3.sh
+├── train.py
+├── requirements.txt
+```
