@@ -45,7 +45,7 @@ Sentica/
 conda create -n sentica python=3.10
 conda activate sentica
 
-git clone [https://github.com/PanoSent/PanoSent.git]
+git clone https://github.com/PanoSent/PanoSent.git
 cd sentica
 
 pip install -r requirements.txt
