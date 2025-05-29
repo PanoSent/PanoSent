@@ -54,7 +54,7 @@ git clone https://github.com/PanoSent/PanoSent.git
   Download the official `imagebind_huge.pth` checkpoint from [here](https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth), and place it at:
   
   ```
-  ./checkpoints/imagebind/imagebind_huge.pth
+  ./imagebind/imagebind_huge.pth
   ```
 - **Flan-T5**  
   We use [Flan-T5 XXL](https://huggingface.co/google/flan-t5-xxl) as the LLM backbone.  
