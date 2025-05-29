@@ -6,9 +6,7 @@ We develop a novel MLLM, Sentica, which adopts the FlanT5 (XXL) as the core LLM 
 
 ### 1. Code Structure 
 ```
-Sentica/
-├── assets/                             
-├── checkpoints/                        
+PanoSent/                     
 ├── data/
 │   ├── T-X_pair_data/                 
 │   │   ├── LLaVA/
@@ -16,7 +14,7 @@ Sentica/
 │   │   └── VideoChat/
 │   ├── PanoSent_train.json            
 │   └── PpV_train.json                 
-├── sentica/
+├── PanoSent/
 │   ├── model/
 │   │   ├── imagebind_encoder.py       
 │   │   ├── flant5_model.py          
@@ -31,7 +29,7 @@ Sentica/
 ├── scripts/
 │   ├── train_stage1.sh               
 │   ├── train_stage2.sh               
-│   └── train_stage3.sh            
+│   └── …           
 ├── train.py                           
 ├── evaluate_subtask1.py              
 ├── evaluate_subtask2.py               
