@@ -44,9 +44,6 @@ conda create -n sentica python=3.10
 conda activate sentica
 
 git clone https://github.com/PanoSent/PanoSent.git
-cd Sentica
-
-pip install -r requirements.txt
 ```
 
 <span id='Prepare Pre-trained Checkpoint'/>
