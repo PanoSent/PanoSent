@@ -115,10 +115,7 @@ bash scripts/train_stage1.sh
 bash scripts/train_stage2.sh
 ```
 
-- **Stage 3**: Paraphrase-based Verification
-```bash
-bash scripts/train_stage3.sh
-```
+…
 
 <span id='Evaluation'/>
 
